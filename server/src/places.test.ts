@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { fakeQloo, fixture } from "../test/fakes.ts";
-import { curatePlaces } from "./places.ts";
+import { curatePlaces, placeLabel } from "./places.ts";
 import { placesNear } from "./qloo/api.ts";
 
 const load = async () =>
@@ -24,5 +24,17 @@ describe("curatePlaces", () => {
     expect(curated.length).toBeLessThanOrEqual(8);
     expect(Math.max(...counts.values())).toBeLessThanOrEqual(2);
     expect(curated.map((p) => p.affinity)).toEqual([...curated.map((p) => p.affinity)].sort((a, b) => b - a));
+  });
+});
+
+describe("placeLabel", () => {
+  it("turns the primary genre into a readable label", () => {
+    expect(placeLabel({ genre: "urn:tag:genre:place:comic_book_store", categories: [] })).toBe("Comic book store");
+    expect(placeLabel({ genre: "urn:tag:genre:place:restaurant:cocktail_bar", categories: [] })).toBe("Cocktail bar");
+  });
+
+  it("falls back to the first category, then 'Place'", () => {
+    expect(placeLabel({ genre: "", categories: ["Cafe"] })).toBe("Cafe");
+    expect(placeLabel({ genre: "", categories: [] })).toBe("Place");
   });
 });

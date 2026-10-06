@@ -7,8 +7,8 @@ const hoods: RankedHood[] = [
   { id: "h1", name: "Greenpoint", lat: 0, lng: 0, score: 0.04, cellCount: 13, byType: [{ artist: 0.9, tv_show: 0.95 }], perPerson: [0.04] },
 ];
 const places = [
-  { id: "p1", name: "Desert Island", categories: ["Comic book store"], neighborhood: "Williamsburg" },
-  { id: "p2", name: "Land to Sea", categories: ["Cafe"], neighborhood: "Williamsburg" },
+  { id: "p1", name: "Desert Island", genre: "urn:tag:genre:place:comic_book_store", categories: ["Book publisher"], neighborhood: "Williamsburg" },
+  { id: "p2", name: "Land to Sea", genre: "urn:tag:genre:place:restaurant:cafe", categories: ["Cafe"], neighborhood: "Williamsburg" },
 ] as Place[];
 const base = { city: "New York City", mode: "moving" as const, people: [{ label: "You", names: ["Khruangbin"] }], hoods, places, shared: [] };
 
@@ -31,6 +31,18 @@ describe("writeStory", () => {
     expect(source).toBe("llm");
     expect(story.hoods.map((h) => h.hoodId)).toEqual(["h1"]);
     expect(story.plan.map((p) => p.placeId)).toEqual(["p1"]);
+  });
+
+  it("gives the LLM place labels and uses them in template notes", async () => {
+    const { llm, requests } = fakeLlm(() => {
+      throw new Error("down");
+    });
+
+    const { story } = await writeStory({ ...base, llm });
+
+    expect(requests[0]!.system).toMatch(/name the place/i);
+    expect(JSON.parse(requests[0]!.prompt).places[0]).toMatchObject({ placeId: "p1", label: "Comic book store" });
+    expect(story.plan[0]!.note).toBe("Comic book store");
   });
 
   it("falls back to evidence-only template copy when the LLM fails", async () => {

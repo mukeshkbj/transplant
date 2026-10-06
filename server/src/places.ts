@@ -20,3 +20,9 @@ export function curatePlaces(places: Place[], limit = 8, maxPerGenre = 2): Place
     })
     .slice(0, limit);
 }
+
+export function placeLabel(place: Pick<Place, "genre" | "categories">): string {
+  const words = (place.genre.replace("urn:tag:genre:place:", "").split(":").at(-1) ?? "").replaceAll("_", " ").trim();
+  if (words) return words[0]!.toUpperCase() + words.slice(1);
+  return place.categories[0] ?? "Place";
+}
