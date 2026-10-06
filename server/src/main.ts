@@ -30,7 +30,7 @@ const app = createApp({
   llm,
   quota,
   hoodsFor: loadHoods,
-  limits: { resolve: createRateLimiter(30, HOUR_MS), transplant: createRateLimiter(6, HOUR_MS) },
+  limits: { resolve: createRateLimiter(30, HOUR_MS), transplant: createRateLimiter(6, HOUR_MS), places: createRateLimiter(30, HOUR_MS) },
 });
 
 serve({ fetch: app.fetch, port: config.PORT }, (info) => console.log(`Transplant API listening on http://localhost:${info.port}`));

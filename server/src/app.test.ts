@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { fakeLlm, fakeQloo, fixture } from "../test/fakes.ts";
 import { createApp } from "./app.ts";
+import { CITIES } from "./cities.ts";
 import { loadHoods } from "./hoods-data.ts";
 import { createRateLimiter } from "./rate-limit.ts";
 
@@ -16,7 +17,7 @@ const deps = (limit = 10) => ({
   ).llm,
   quota: { remaining: 9000 as number | undefined },
   hoodsFor: loadHoods,
-  limits: { resolve: createRateLimiter(limit, 60_000), transplant: createRateLimiter(limit, 60_000) },
+  limits: { resolve: createRateLimiter(limit, 60_000), transplant: createRateLimiter(limit, 60_000), places: createRateLimiter(limit, 60_000) },
 });
 
 const post = (body: unknown) => ({ method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
@@ -29,8 +30,8 @@ describe("createApp", () => {
     expect(await (await app.request("/api/health")).json()).toEqual({ ok: true, qlooMonthRemaining: 9000 });
     expect(await (await app.request("/api/cities")).json()).toEqual(
       expect.arrayContaining([
-        { id: "nyc", name: "New York City", beta: false },
-        { id: "tokyo", name: "Tokyo", beta: true },
+        { id: "nyc", name: "New York City", beta: false, bbox: [40.49, -74.26, 40.92, -73.7] },
+        expect.objectContaining({ id: "tokyo", beta: true }),
       ]),
     );
   });
@@ -49,6 +50,16 @@ describe("createApp", () => {
     expect(res.headers.get("content-type")).toMatch(/text\/event-stream/);
     const text = await res.text();
     for (const event of ["hoods", "places", "story", "done"]) expect(text).toContain(`event: ${event}`);
+  });
+
+  it("returns curated places for another hood and 404s unknown hoods", async () => {
+    const app = createApp(deps());
+    const greenpoint = loadHoods(CITIES.find((c) => c.id === "nyc")!).find((h) => h.name === "Greenpoint")!;
+    const people = transplantBody.people;
+
+    const ok = await app.request("/api/places", post({ cityId: "nyc", hoodId: greenpoint.id, people }));
+    expect((await ok.json()).places.map((p: { name: string }) => p.name)).toContain("Desert Island");
+    expect((await app.request("/api/places", post({ cityId: "nyc", hoodId: "osm:nope", people }))).status).toBe(404);
   });
 
   it("rate-limits per client IP", async () => {

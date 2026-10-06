@@ -7,11 +7,18 @@ import { QlooError } from "./qloo/client.ts";
 import { QuotaLowError, type QuotaState } from "./qloo/quota.ts";
 import type { RateLimiter } from "./rate-limit.ts";
 import { resolveTaste } from "./resolve.ts";
-import { runTransplant, type TransplantDeps, type TransplantEvent, TransplantInputSchema } from "./transplant.ts";
+import {
+  hoodPlaces,
+  PlacesInputSchema,
+  runTransplant,
+  type TransplantDeps,
+  type TransplantEvent,
+  TransplantInputSchema,
+} from "./transplant.ts";
 
 export interface AppDeps extends TransplantDeps {
   quota: QuotaState;
-  limits: { resolve: RateLimiter; transplant: RateLimiter };
+  limits: { resolve: RateLimiter; transplant: RateLimiter; places: RateLimiter };
 }
 
 const ResolveInput = z.object({ text: z.string().trim().min(1).max(600) });
@@ -33,7 +40,20 @@ export function createApp(deps: AppDeps): Hono {
   const app = new Hono();
 
   app.get("/api/health", (c) => c.json({ ok: true, qlooMonthRemaining: deps.quota.remaining ?? null }));
-  app.get("/api/cities", (c) => c.json(CITIES.map(({ id, name, beta }) => ({ id, name, beta: beta === true }))));
+  app.get("/api/cities", (c) => c.json(CITIES.map(({ id, name, beta, bbox }) => ({ id, name, beta: beta === true, bbox }))));
+
+  app.post("/api/places", async (c) => {
+    if (!deps.limits.places.allow(clientIp(c))) return c.json({ code: "RATE_LIMITED" }, 429);
+    const body = PlacesInputSchema.safeParse(await c.req.json().catch(() => null));
+    if (!body.success) return c.json({ code: "BAD_REQUEST", issues: body.error.issues }, 400);
+    try {
+      const places = await hoodPlaces(body.data, deps);
+      return places ? c.json({ places }) : c.json({ code: "UNKNOWN_HOOD", message: "That neighborhood isn't in this city." }, 404);
+    } catch (error) {
+      const { status, ...publicError } = toPublicError(error);
+      return c.json(publicError, status);
+    }
+  });
 
   app.post("/api/resolve", async (c) => {
     if (!deps.limits.resolve.allow(clientIp(c))) return c.json({ code: "RATE_LIMITED" }, 429);

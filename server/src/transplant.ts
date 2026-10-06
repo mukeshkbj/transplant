@@ -28,6 +28,14 @@ export const TransplantInputSchema = z.object({
 
 export type TransplantInput = z.infer<typeof TransplantInputSchema>;
 
+export const PlacesInputSchema = z.object({
+  cityId: z.string().max(40),
+  hoodId: z.string().max(80),
+  people: TransplantInputSchema.shape.people,
+});
+
+export type PlacesInput = z.infer<typeof PlacesInputSchema>;
+
 export interface MapCell {
   lat: number;
   lng: number;
@@ -157,4 +165,11 @@ export async function runTransplant(input: TransplantInput, deps: TransplantDeps
   );
   emit({ type: "story", story, source });
   emit({ type: "done" });
+}
+
+export async function hoodPlaces(input: PlacesInput, deps: TransplantDeps): Promise<Place[] | undefined> {
+  const city = CITIES.find((c) => c.id === input.cityId);
+  const hood = city ? deps.hoodsFor(city).find((h) => h.id === input.hoodId) : undefined;
+  if (!hood) return undefined;
+  return curatePlaces(await placesNear(deps.qloo, union(input.people), hood));
 }
