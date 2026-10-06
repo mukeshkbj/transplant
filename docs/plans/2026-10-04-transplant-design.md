@@ -209,3 +209,26 @@ and Fly secrets in production. Never in the client bundle or logs.
 4. Oct 21–24: blend, refine chat, warmed demo profiles.
 5. Oct 25–27: Fly deploy, public repo (MIT), README, tests, QA.
 6. Oct 28–29: Devpost write-up and gallery; buffer day.
+
+## M4 QA (2026-10-07)
+
+API-level end-to-end through the Vite proxy (`.scratch/e2e.mjs`), after a
+fresh server start with demo warm-up (3/3 warmed; demo runs then cost 0 Qloo
+calls):
+
+| Demo | Top hoods | Notes |
+| --- | --- | --- |
+| nyc-indie | Greenpoint, Williamsburg, Red Hook (strong) | Desert Island, Beacon's Closet, Land to Sea… |
+| nyc-blend | Sunnyside, Saint George, Tompkinsville (moderate) | Shared: Blues, Drums, Jazz, Folk, Rock… Dutch Kills |
+| la-visit | Dolanco Junction, Westside Village, San Pedro (moderate) | Food-heavy spots for a visiting taste |
+
+Guide agent live: "somewhere quieter" → Quiet tag → quiet Greenpoint spots
+(2.9 s via Groq). "More nightlife, show me Williamsburg" → focus + Nightlife (0)
+→ retry "night club" → The Whiskey Annex, The Woods.
+
+Defects found and fixed: an adult venue in LA spots (genre `night_club`);
+29 duplicated shared tags (compare ignores `take`); Groq rejected tool calls
+missing optional fields; the agent hallucinated venues when Qloo returned none
+(now guarded); a weak London blend demo replaced by an NYC blend.
+
+Pending: visual pass in a real browser (automation was interrupted twice).
