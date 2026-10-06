@@ -27,6 +27,24 @@ describe("curatePlaces", () => {
   });
 });
 
+describe("curatePlaces safety", () => {
+  it("drops adult venues even when their genre is night club", () => {
+    const club = {
+      id: "x",
+      name: "Spearmint Rhino Gentlemen's Club Torrance",
+      genre: "urn:tag:genre:place:night_club",
+      categories: ["Adult entertainment club", "Night club"],
+      lat: 0,
+      lng: 0,
+      affinity: 0.9,
+      closed: false,
+    };
+    const bar = { ...club, id: "y", name: "Good Room", categories: ["Night club"] };
+
+    expect(curatePlaces([club, bar]).map((p) => p.name)).toEqual(["Good Room"]);
+  });
+});
+
 describe("placeLabel", () => {
   it("turns the primary genre into a readable label", () => {
     expect(placeLabel({ genre: "urn:tag:genre:place:comic_book_store", categories: [] })).toBe("Comic book store");

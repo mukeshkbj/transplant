@@ -161,5 +161,12 @@ export async function compareTastes(qloo: QlooClient, a: Signals, b: Signals, ta
     "/v2/analysis/compare",
     { "a.signal.interests.entities": a.entities, "b.signal.interests.entities": b.entities, take },
   );
-  return (data.results?.tags ?? []).map((t) => ({ id: t.tag_id, name: t.name, score: t.query?.score ?? 0 }));
+  const seen = new Set<string>();
+  return (data.results?.tags ?? [])
+    .filter((t) => {
+      const key = t.name.toLowerCase();
+      return !seen.has(key) && seen.add(key);
+    })
+    .slice(0, take)
+    .map((t) => ({ id: t.tag_id, name: t.name, score: t.query?.score ?? 0 }));
 }

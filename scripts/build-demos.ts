@@ -28,18 +28,19 @@ const SPECS: Spec[] = [
     ],
   },
   {
-    id: "london-blend",
-    title: "Two tastes, one London flat",
-    blurb: "Phoebe Bridgers + Severance meets Metallica + Top Gun",
-    cityId: "london",
+    id: "nyc-blend",
+    title: "Two tastes, one NYC apartment",
+    blurb: "Khruangbin + Fleabag meets Metallica + Top Gun",
+    cityId: "nyc",
     mode: "moving",
     people: [
       {
         label: "You",
         picks: [
-          ["Phoebe Bridgers", "artist"],
-          ["Severance", "tv_show"],
-          ["vintage clothing", "concept"],
+          ["Khruangbin", "artist"],
+          ["Fleabag", "tv_show"],
+          ["Aesop", "brand"],
+          ["natural wine bars", "concept"],
         ],
       },
       {

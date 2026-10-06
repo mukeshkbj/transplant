@@ -75,6 +75,15 @@ describe("Qloo domain API", () => {
     expect(calls[0]!.params).toEqual({ "filter.query": "quiet", take: 6, "filter.parents.types": "urn:entity:place" });
   });
 
+  it("compareTastes de-duplicates names and caps the list even when Qloo ignores take", async () => {
+    const tags = ["Drama", "Folk", "drama", "Blues", "Jazz", "Rock", "Soul", "Piano", "Drums", "Country"].map((name, i) => ({ tag_id: `t${i}`, name, query: { score: 1 - i / 10 } }));
+    const { client } = fakeQloo(() => ({ results: { tags } }));
+
+    const shared = await compareTastes(client, { entities: ["A"], tags: [] }, { entities: ["B"], tags: [] }, 5);
+
+    expect(shared.map((t) => t.name)).toEqual(["Drama", "Folk", "Blues", "Jazz", "Rock"]);
+  });
+
   it("compareTastes maps shared tags and skips empty groups", async () => {
     const { client, calls } = fakeQloo(() => ({ results: { tags: [{ tag_id: "urn:tag:genre:music:blues", name: "Blues", query: { score: 0.98 } }] } }));
 

@@ -50,7 +50,7 @@ describe("reducer", () => {
   it("loads a demo or shared payload as confirmed stamps", () => {
     const s = reducer(initialState(), {
       type: "loadPicks",
-      demoId: "london-blend",
+      demoId: "nyc-blend",
       payload: {
         cityId: "london",
         mode: "moving",
@@ -75,7 +75,7 @@ describe("reducer", () => {
       },
     });
 
-    expect(s).toMatchObject({ cityId: "london", blend: true, demoId: "london-blend" });
+    expect(s).toMatchObject({ cityId: "london", blend: true, demoId: "nyc-blend" });
     expect(readyToRun(s)).toBe(true);
     expect(toInput(s).people[1]).toMatchObject({ label: "Them", entities: ["d", "e", "f"] });
   });

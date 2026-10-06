@@ -43,34 +43,42 @@
     ]
   },
   {
-    "id": "london-blend",
-    "title": "Two tastes, one London flat",
-    "blurb": "Phoebe Bridgers + Severance meets Metallica + Top Gun",
-    "cityId": "london",
+    "id": "nyc-blend",
+    "title": "Two tastes, one NYC apartment",
+    "blurb": "Khruangbin + Fleabag meets Metallica + Top Gun",
+    "cityId": "nyc",
     "mode": "moving",
     "people": [
       {
         "label": "You",
         "picks": [
           {
-            "id": "AFBC71A7-9439-4AB0-AB68-D14B11AAF836",
-            "name": "Phoebe Bridgers",
+            "id": "BAF6317A-DF94-4C90-92AE-63F86560C21B",
+            "name": "Khruangbin",
             "type": "artist",
-            "image": "https://images.qloo.com/i/AFBC71A7-9439-4AB0-AB68-D14B11AAF836-420x-auto.jpg",
-            "description": "Phoebe Bridgers is an American singer-songwriter known for her emotive indie rock and folk music.",
+            "image": "https://images.qloo.com/i/BAF6317A-DF94-4C90-92AE-63F86560C21B-420x-auto.jpg",
+            "description": "Khruangbin is an American musical trio known for their eclectic blend of global musical influences and instrumental sound.",
             "kind": "entity"
           },
           {
-            "id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
-            "name": "Severance",
+            "id": "878680F2-2C8D-4D7A-8288-BEA75D38A843",
+            "name": "Fleabag",
             "type": "tv_show",
-            "image": "https://images.qloo.com/i/569F8294-72DA-4935-B9F2-4FC697AB2A1E-420x-auto.jpg",
+            "image": "https://images.qloo.com/i/878680F2-2C8D-4D7A-8288-BEA75D38A843-420x-auto.jpg",
             "kind": "entity"
           },
           {
-            "id": "urn:tag:genre:place:vintage_clothing_store",
-            "name": "Vintage clothing store",
-            "type": "urn:tag:genre:place",
+            "id": "32F867B9-E6DF-44C3-BCE4-40160C7ED5E4",
+            "name": "Aesop",
+            "type": "brand",
+            "image": "https://images.qloo.com/i/32F867B9-E6DF-44C3-BCE4-40160C7ED5E4-420x-auto.jpg",
+            "description": "Aesop is an Australian luxury brand known for its vegan, cruelty-free skincare, haircare, and fragrance products.",
+            "kind": "entity"
+          },
+          {
+            "id": "urn:tag:resy:collection:place:natural_wine",
+            "name": "Natural Wine",
+            "type": "urn:tag:resy:collection:place",
             "kind": "concept"
           }
         ]

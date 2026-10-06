@@ -82,7 +82,7 @@ describe("createApp", () => {
   it("lists demo profiles", async () => {
     const demos = await (await createApp(deps()).request("/api/demos")).json();
 
-    expect(demos.map((d: { id: string }) => d.id)).toEqual(["nyc-indie", "london-blend", "la-visit"]);
+    expect(demos.map((d: { id: string }) => d.id)).toEqual(["nyc-indie", "nyc-blend", "la-visit"]);
   });
 
   it("rate-limits per client IP", async () => {

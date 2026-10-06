@@ -5,7 +5,7 @@ describe("demos", () => {
   it("loads three resolved demo profiles", () => {
     const demos = loadDemos();
 
-    expect(demos.map((d) => d.id)).toEqual(["nyc-indie", "london-blend", "la-visit"]);
+    expect(demos.map((d) => d.id)).toEqual(["nyc-indie", "nyc-blend", "la-visit"]);
     expect(demos.every((d) => d.people.every((p) => p.picks.length >= 3 && p.picks.every((o) => o.id)))).toBe(true);
   });
 
@@ -23,6 +23,6 @@ describe("demos", () => {
 
     await warmDemos(loadDemos(), run, () => {});
 
-    expect(run.mock.calls.map(([input]) => input.cityId)).toEqual(["nyc", "london", "la"]);
+    expect(run.mock.calls.map(([input]) => input.cityId)).toEqual(["nyc", "nyc", "la"]);
   });
 });
