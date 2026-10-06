@@ -1,3 +1,6 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import { serveStatic } from "@hono/node-server/serve-static";
 import { type Context, Hono } from "hono";
 import { streamSSE } from "hono/streaming";
 import { z } from "zod";
@@ -20,6 +23,8 @@ import {
 } from "./transplant.ts";
 
 export interface AppDeps extends TransplantDeps {
+  /** Directory of the built web app (dist/web); omit in dev, where Vite serves it. */
+  staticRoot?: string;
   tools: ToolProvider[];
   quota: QuotaState;
   quotaFloor: number;
@@ -103,6 +108,24 @@ export function createApp(deps: AppDeps): Hono {
       await chain;
     });
   });
+
+  app.all("/api/*", (c) => c.json({ code: "NOT_FOUND" }, 404));
+
+  if (deps.staticRoot) {
+    const root = deps.staticRoot;
+    const indexHtml = readFileSync(join(root, "index.html"), "utf8");
+    app.use("/*", async (c, next) => {
+      await next();
+      if (c.res.ok && !c.req.path.startsWith("/api/")) {
+        c.res.headers.set("cache-control", c.req.path.startsWith("/assets/") ? "public, max-age=31536000, immutable" : "no-cache");
+      }
+    });
+    app.use("/*", serveStatic({ root }));
+    app.get("*", (c) => {
+      c.header("cache-control", "no-cache");
+      return c.html(indexHtml);
+    });
+  }
 
   return app;
 }

@@ -39,6 +39,7 @@ const app = createApp({
   tools,
   quota,
   quotaFloor: config.QUOTA_FLOOR,
+  staticRoot: config.STATIC_ROOT,
   hoodsFor: loadHoods,
   limits: {
     resolve: createRateLimiter(30, HOUR_MS),

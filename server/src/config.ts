@@ -10,6 +10,7 @@ const Env = z.object({
   PORT: z.coerce.number().int().default(8787),
   CACHE_PATH: z.string().default(".cache/qloo.sqlite"),
   QUOTA_FLOOR: z.coerce.number().int().default(1500),
+  STATIC_ROOT: z.string().optional(),
 });
 
 export type Config = z.infer<typeof Env>;

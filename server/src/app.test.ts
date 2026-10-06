@@ -1,3 +1,6 @@
+import { mkdirSync, mkdtempSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { fakeLlm, fakeQloo, fakeToolProvider, fixture } from "../test/fakes.ts";
 import { createApp } from "./app.ts";
@@ -83,6 +86,29 @@ describe("createApp", () => {
     const demos = await (await createApp(deps()).request("/api/demos")).json();
 
     expect(demos.map((d: { id: string }) => d.id)).toEqual(["nyc-indie", "nyc-blend", "la-visit"]);
+  });
+
+  it("serves the built web app with SPA fallback and keeps API 404s out of it", async () => {
+    const root = mkdtempSync(join(tmpdir(), "transplant-web-"));
+    mkdirSync(join(root, "assets"));
+    writeFileSync(join(root, "index.html"), "<!doctype html><title>Transplant</title>");
+    writeFileSync(join(root, "assets", "app-abc123.js"), "console.log(1)");
+    const app = createApp({ ...deps(), staticRoot: root });
+
+    const index = await app.request("/");
+    expect(await index.text()).toContain("<title>Transplant</title>");
+    expect(index.headers.get("cache-control")).toBe("no-cache");
+
+    const asset = await app.request("/assets/app-abc123.js");
+    expect(await asset.text()).toBe("console.log(1)");
+    expect(asset.headers.get("cache-control")).toBe("public, max-age=31536000, immutable");
+
+    expect(await (await app.request("/?demo=nyc-indie")).text()).toContain("<title>Transplant</title>");
+    expect(await (await app.request("/some/deep/link")).text()).toContain("<title>Transplant</title>");
+
+    const missingApi = await app.request("/api/nope");
+    expect(missingApi.status).toBe(404);
+    expect(await missingApi.text()).not.toContain("<title>");
   });
 
   it("rate-limits per client IP", async () => {
