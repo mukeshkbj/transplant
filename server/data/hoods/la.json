@@ -1,0 +1,2354 @@
+[
+ {
+  "id": "osm:node/26426223",
+  "name": "Marina del Rey",
+  "kind": "quarter",
+  "lat": 33.9776848,
+  "lng": -118.448647
+ },
+ {
+  "id": "osm:node/26427725",
+  "name": "Venice",
+  "kind": "suburb",
+  "lat": 33.995044,
+  "lng": -118.4668875
+ },
+ {
+  "id": "osm:node/122688639",
+  "name": "La Crescenta",
+  "kind": "suburb",
+  "lat": 34.230429,
+  "lng": -118.2350733
+ },
+ {
+  "id": "osm:node/150932683",
+  "name": "Harbor City",
+  "kind": "quarter",
+  "lat": 33.7911012,
+  "lng": -118.3012604
+ },
+ {
+  "id": "osm:node/150932767",
+  "name": "Strawberry Park",
+  "kind": "neighbourhood",
+  "lat": 33.9008485,
+  "lng": -118.3114626
+ },
+ {
+  "id": "osm:node/150932769",
+  "name": "Moneta",
+  "kind": "neighbourhood",
+  "lat": 33.8800155,
+  "lng": -118.3175735
+ },
+ {
+  "id": "osm:node/150933406",
+  "name": "Lincoln Heights",
+  "kind": "suburb",
+  "lat": 34.0726552,
+  "lng": -118.2111954
+ },
+ {
+  "id": "osm:node/150933726",
+  "name": "Wildasin",
+  "kind": "neighbourhood",
+  "lat": 33.9892608,
+  "lng": -118.2992618
+ },
+ {
+  "id": "osm:node/150933823",
+  "name": "Tujunga",
+  "kind": "suburb",
+  "lat": 34.252225,
+  "lng": -118.2884105
+ },
+ {
+  "id": "osm:node/150934130",
+  "name": "El Sereno",
+  "kind": "quarter",
+  "lat": 34.0811213,
+  "lng": -118.1778495
+ },
+ {
+  "id": "osm:node/150934179",
+  "name": "Van Ness",
+  "kind": "neighbourhood",
+  "lat": 33.9830173,
+  "lng": -118.3196032
+ },
+ {
+  "id": "osm:node/150934188",
+  "name": "Jefferson Park",
+  "kind": "quarter",
+  "lat": 34.0296173,
+  "lng": -118.3224597
+ },
+ {
+  "id": "osm:node/150934802",
+  "name": "Century City",
+  "kind": "quarter",
+  "lat": 34.057359,
+  "lng": -118.4146125
+ },
+ {
+  "id": "osm:node/150935125",
+  "name": "Ocean Park",
+  "kind": "neighbourhood",
+  "lat": 34.0022327,
+  "lng": -118.4836879
+ },
+ {
+  "id": "osm:node/150935508",
+  "name": "Palos Verdes Estates",
+  "kind": "suburb",
+  "lat": 33.7872386,
+  "lng": -118.401813
+ },
+ {
+  "id": "osm:node/150935555",
+  "name": "Rancho Dominguez",
+  "kind": "suburb",
+  "lat": 33.8595564,
+  "lng": -118.2167197
+ },
+ {
+  "id": "osm:node/150935958",
+  "name": "Watts",
+  "kind": "neighbourhood",
+  "lat": 33.9405897,
+  "lng": -118.2428984
+ },
+ {
+  "id": "osm:node/150937444",
+  "name": "Silver Lake Heights",
+  "kind": "neighbourhood",
+  "lat": 34.0994542,
+  "lng": -118.2564635
+ },
+ {
+  "id": "osm:node/150939150",
+  "name": "Shadow Hills",
+  "kind": "quarter",
+  "lat": 34.2619469,
+  "lng": -118.3517463
+ },
+ {
+  "id": "osm:node/150939174",
+  "name": "Stonehurst",
+  "kind": "neighbourhood",
+  "lat": 34.251114,
+  "lng": -118.3703581
+ },
+ {
+  "id": "osm:node/150941199",
+  "name": "Athens",
+  "kind": "suburb",
+  "lat": 33.920407,
+  "lng": -118.279049
+ },
+ {
+  "id": "osm:node/150941214",
+  "name": "Newton Park",
+  "kind": "neighbourhood",
+  "lat": 34.0908431,
+  "lng": -118.1792385
+ },
+ {
+  "id": "osm:node/150941450",
+  "name": "Mission Hills",
+  "kind": "neighbourhood",
+  "lat": 34.2572249,
+  "lng": -118.4670285
+ },
+ {
+  "id": "osm:node/150941753",
+  "name": "San Pedro",
+  "kind": "suburb",
+  "lat": 33.7358518,
+  "lng": -118.2922934
+ },
+ {
+  "id": "osm:node/150941903",
+  "name": "Granada Hills",
+  "kind": "suburb",
+  "lat": 34.2661558,
+  "lng": -118.5174342
+ },
+ {
+  "id": "osm:node/150941906",
+  "name": "Westchester",
+  "kind": "suburb",
+  "lat": 33.9597349,
+  "lng": -118.400632
+ },
+ {
+  "id": "osm:node/150943581",
+  "name": "Pacific Palisades",
+  "kind": "suburb",
+  "lat": 34.0480643,
+  "lng": -118.5264706
+ },
+ {
+  "id": "osm:node/150943727",
+  "name": "North Long Beach",
+  "kind": "suburb",
+  "lat": 33.860011,
+  "lng": -118.1856252
+ },
+ {
+  "id": "osm:node/150944258",
+  "name": "Westgate Heights",
+  "kind": "neighbourhood",
+  "lat": 34.0663976,
+  "lng": -118.4731361
+ },
+ {
+  "id": "osm:node/150945494",
+  "name": "Bandini",
+  "kind": "neighbourhood",
+  "lat": 34.00668,
+  "lng": -118.1678487
+ },
+ {
+  "id": "osm:node/150945851",
+  "name": "Willowbrook",
+  "kind": "suburb",
+  "lat": 33.9204209,
+  "lng": -118.2418543
+ },
+ {
+  "id": "osm:node/150946201",
+  "name": "Raymer",
+  "kind": "neighbourhood",
+  "lat": 34.2147263,
+  "lng": -118.4653611
+ },
+ {
+  "id": "osm:node/150946314",
+  "name": "Ironsides",
+  "kind": "neighbourhood",
+  "lat": 33.8111279,
+  "lng": -118.3061834
+ },
+ {
+  "id": "osm:node/150946719",
+  "name": "Woodland Hills",
+  "kind": "suburb",
+  "lat": 34.1684364,
+  "lng": -118.6058382
+ },
+ {
+  "id": "osm:node/150947164",
+  "name": "Atwater Village",
+  "kind": "quarter",
+  "lat": 34.1186975,
+  "lng": -118.2623924
+ },
+ {
+  "id": "osm:node/150947354",
+  "name": "Westmont",
+  "kind": "suburb",
+  "lat": 33.9414035,
+  "lng": -118.3022963
+ },
+ {
+  "id": "osm:node/150947607",
+  "name": "Garnsey",
+  "kind": "neighbourhood",
+  "lat": 34.1687712,
+  "lng": -118.402216
+ },
+ {
+  "id": "osm:node/150947999",
+  "name": "Carthay",
+  "kind": "neighbourhood",
+  "lat": 34.0611213,
+  "lng": -118.3672997
+ },
+ {
+  "id": "osm:node/150948448",
+  "name": "Trousdale Estates",
+  "kind": "neighbourhood",
+  "lat": 34.1050082,
+  "lng": -118.3953567
+ },
+ {
+  "id": "osm:node/150949523",
+  "name": "Eagle Rock",
+  "kind": "suburb",
+  "lat": 34.1390325,
+  "lng": -118.2140958
+ },
+ {
+  "id": "osm:node/150950142",
+  "name": "Hancock Park",
+  "kind": "quarter",
+  "lat": 34.0736782,
+  "lng": -118.335055
+ },
+ {
+  "id": "osm:node/150950512",
+  "name": "Sentous",
+  "kind": "neighbourhood",
+  "lat": 34.0256203,
+  "lng": -118.369573
+ },
+ {
+  "id": "osm:node/150950813",
+  "name": "City Terrace",
+  "kind": "neighbourhood",
+  "lat": 34.0500116,
+  "lng": -118.1828495
+ },
+ {
+  "id": "osm:node/150951293",
+  "name": "Dayton Avenue",
+  "kind": "neighbourhood",
+  "lat": 34.0838993,
+  "lng": -118.222573
+ },
+ {
+  "id": "osm:node/150951503",
+  "name": "Panorama City",
+  "kind": "suburb",
+  "lat": 34.2242902,
+  "lng": -118.4453745
+ },
+ {
+  "id": "osm:node/150951507",
+  "name": "Rolling Hills",
+  "kind": "suburb",
+  "lat": 33.7668041,
+  "lng": -118.3496623
+ },
+ {
+  "id": "osm:node/150951533",
+  "name": "California Heights",
+  "kind": "suburb",
+  "lat": 33.8263916,
+  "lng": -118.1766817
+ },
+ {
+  "id": "osm:node/150951910",
+  "name": "Westwood Village",
+  "kind": "neighbourhood",
+  "lat": 34.0596491,
+  "lng": -118.4446343
+ },
+ {
+  "id": "osm:node/150952186",
+  "name": "Village Green",
+  "kind": "neighbourhood",
+  "lat": 34.0198711,
+  "lng": -118.360664
+ },
+ {
+  "id": "osm:node/150952266",
+  "name": "Dolanco Junction",
+  "kind": "neighbourhood",
+  "lat": 33.846206,
+  "lng": -118.2994251
+ },
+ {
+  "id": "osm:node/150952459",
+  "name": "Lake View Terrace",
+  "kind": "neighbourhood",
+  "lat": 34.2763908,
+  "lng": -118.3611912
+ },
+ {
+  "id": "osm:node/150952705",
+  "name": "Sylmar",
+  "kind": "suburb",
+  "lat": 34.3076252,
+  "lng": -118.4492148
+ },
+ {
+  "id": "osm:node/150952736",
+  "name": "Sherman Oaks",
+  "kind": "suburb",
+  "lat": 34.1508718,
+  "lng": -118.448986
+ },
+ {
+  "id": "osm:node/150953239",
+  "name": "Bixby Knolls",
+  "kind": "suburb",
+  "lat": 33.8355676,
+  "lng": -118.1767417
+ },
+ {
+  "id": "osm:node/150953282",
+  "name": "West Athens",
+  "kind": "quarter",
+  "lat": 33.924006,
+  "lng": -118.3002792
+ },
+ {
+  "id": "osm:node/150953289",
+  "name": "Riviera",
+  "kind": "neighbourhood",
+  "lat": 34.0577625,
+  "lng": -118.5015745
+ },
+ {
+  "id": "osm:node/150953869",
+  "name": "Winnetka",
+  "kind": "suburb",
+  "lat": 34.2013207,
+  "lng": -118.5711037
+ },
+ {
+  "id": "osm:node/150954203",
+  "name": "Lakeside Park",
+  "kind": "neighbourhood",
+  "lat": 34.2259884,
+  "lng": -118.6498401
+ },
+ {
+  "id": "osm:node/150954344",
+  "name": "Reseda",
+  "kind": "suburb",
+  "lat": 34.200768,
+  "lng": -118.5356869
+ },
+ {
+  "id": "osm:node/150955122",
+  "name": "Morningside Park",
+  "kind": "quarter",
+  "lat": 33.9597361,
+  "lng": -118.326463
+ },
+ {
+  "id": "osm:node/150956150",
+  "name": "Van Nuys",
+  "kind": "suburb",
+  "lat": 34.1866193,
+  "lng": -118.4486675
+ },
+ {
+  "id": "osm:node/150956189",
+  "name": "Hollydale",
+  "kind": "neighbourhood",
+  "lat": 33.916125,
+  "lng": -118.1617005
+ },
+ {
+  "id": "osm:node/150956777",
+  "name": "Country Club Park",
+  "kind": "neighbourhood",
+  "lat": 34.050289,
+  "lng": -118.3211871
+ },
+ {
+  "id": "osm:node/150957726",
+  "name": "Cypress Park",
+  "kind": "quarter",
+  "lat": 34.0922322,
+  "lng": -118.224517
+ },
+ {
+  "id": "osm:node/150957981",
+  "name": "Northridge",
+  "kind": "suburb",
+  "lat": 34.2345615,
+  "lng": -118.5369316
+ },
+ {
+  "id": "osm:node/150958338",
+  "name": "Roosevelt",
+  "kind": "neighbourhood",
+  "lat": 33.8647381,
+  "lng": -118.3036841
+ },
+ {
+  "id": "osm:node/150958730",
+  "name": "Brentwood Park",
+  "kind": "neighbourhood",
+  "lat": 34.0550089,
+  "lng": -118.4881363
+ },
+ {
+  "id": "osm:node/150958821",
+  "name": "Dominguez",
+  "kind": "neighbourhood",
+  "lat": 33.8347392,
+  "lng": -118.2186814
+ },
+ {
+  "id": "osm:node/150958999",
+  "name": "Universal City",
+  "kind": "quarter",
+  "lat": 34.1419225,
+  "lng": -118.358411
+ },
+ {
+  "id": "osm:node/150959001",
+  "name": "Willowville",
+  "kind": "suburb",
+  "lat": 33.8055689,
+  "lng": -118.1892387
+ },
+ {
+  "id": "osm:node/150959732",
+  "name": "Boyle Heights",
+  "kind": "suburb",
+  "lat": 34.0436892,
+  "lng": -118.2097684
+ },
+ {
+  "id": "osm:node/150959930",
+  "name": "Wilmington",
+  "kind": "suburb",
+  "lat": 33.7800164,
+  "lng": -118.262509
+ },
+ {
+  "id": "osm:node/150960208",
+  "name": "Saint James Park",
+  "kind": "neighbourhood",
+  "lat": 34.0311237,
+  "lng": -118.280074
+ },
+ {
+  "id": "osm:node/150961129",
+  "name": "Mount Washington",
+  "kind": "neighbourhood",
+  "lat": 34.0988396,
+  "lng": -118.2211069
+ },
+ {
+  "id": "osm:node/150961611",
+  "name": "Sun Valley",
+  "kind": "suburb",
+  "lat": 34.2204227,
+  "lng": -118.3878945
+ },
+ {
+  "id": "osm:node/150961854",
+  "name": "Del Aire",
+  "kind": "suburb",
+  "lat": 33.9177572,
+  "lng": -118.3708478
+ },
+ {
+  "id": "osm:node/150961869",
+  "name": "Bridgedale",
+  "kind": "neighbourhood",
+  "lat": 33.8783486,
+  "lng": -118.3286848
+ },
+ {
+  "id": "osm:node/150962405",
+  "name": "Encino",
+  "kind": "suburb",
+  "lat": 34.1591324,
+  "lng": -118.5016166
+ },
+ {
+  "id": "osm:node/150963178",
+  "name": "Omaha Heights",
+  "kind": "neighbourhood",
+  "lat": 34.0813991,
+  "lng": -118.1884055
+ },
+ {
+  "id": "osm:node/150963606",
+  "name": "Highland Park",
+  "kind": "suburb",
+  "lat": 34.1099469,
+  "lng": -118.1969828
+ },
+ {
+  "id": "osm:node/150963817",
+  "name": "Montrose",
+  "kind": "suburb",
+  "lat": 34.2064181,
+  "lng": -118.2288887
+ },
+ {
+  "id": "osm:node/150964145",
+  "name": "Lincoln Village",
+  "kind": "neighbourhood",
+  "lat": 33.8277949,
+  "lng": -118.2228481
+ },
+ {
+  "id": "osm:node/150964686",
+  "name": "New Chinatown",
+  "kind": "neighbourhood",
+  "lat": 34.0625115,
+  "lng": -118.2389626
+ },
+ {
+  "id": "osm:node/150964695",
+  "name": "Adams Square",
+  "kind": "neighbourhood",
+  "lat": 34.1336193,
+  "lng": -118.241185
+ },
+ {
+  "id": "osm:node/150964813",
+  "name": "Sunland",
+  "kind": "suburb",
+  "lat": 34.2669466,
+  "lng": -118.3023
+ },
+ {
+  "id": "osm:node/150965195",
+  "name": "Baird Park",
+  "kind": "neighbourhood",
+  "lat": 34.0869544,
+  "lng": -118.1811831
+ },
+ {
+  "id": "osm:node/150965864",
+  "name": "Canoga Park",
+  "kind": "suburb",
+  "lat": 34.2011078,
+  "lng": -118.5978087
+ },
+ {
+  "id": "osm:node/150966404",
+  "name": "Nevin",
+  "kind": "neighbourhood",
+  "lat": 34.0141804,
+  "lng": -118.2461846
+ },
+ {
+  "id": "osm:node/150966677",
+  "name": "Mar Vista",
+  "kind": "suburb",
+  "lat": 34.0037605,
+  "lng": -118.4391641
+ },
+ {
+  "id": "osm:node/150966715",
+  "name": "Brentwood",
+  "kind": "suburb",
+  "lat": 34.0521403,
+  "lng": -118.4740699
+ },
+ {
+  "id": "osm:node/150967949",
+  "name": "La Fresa",
+  "kind": "suburb",
+  "lat": 33.8727931,
+  "lng": -118.3359071
+ },
+ {
+  "id": "osm:node/150968103",
+  "name": "Koreatown",
+  "kind": "suburb",
+  "lat": 34.0617936,
+  "lng": -118.305447
+ },
+ {
+  "id": "osm:node/150968308",
+  "name": "Sparr Heights",
+  "kind": "neighbourhood",
+  "lat": 34.1958386,
+  "lng": -118.2259077
+ },
+ {
+  "id": "osm:node/150968514",
+  "name": "Pacoima",
+  "kind": "suburb",
+  "lat": 34.2625025,
+  "lng": -118.427027
+ },
+ {
+  "id": "osm:node/150968634",
+  "name": "Castellammare",
+  "kind": "neighbourhood",
+  "lat": 34.0425086,
+  "lng": -118.5611935
+ },
+ {
+  "id": "osm:node/150968669",
+  "name": "Avalon Village",
+  "kind": "neighbourhood",
+  "lat": 33.812731,
+  "lng": -118.2642002
+ },
+ {
+  "id": "osm:node/150970078",
+  "name": "South Carthay",
+  "kind": "neighbourhood",
+  "lat": 34.0561214,
+  "lng": -118.3734109
+ },
+ {
+  "id": "osm:node/150970143",
+  "name": "Ladera Heights",
+  "kind": "suburb",
+  "lat": 33.9879488,
+  "lng": -118.369798
+ },
+ {
+  "id": "osm:node/150971266",
+  "name": "Park La Brea",
+  "kind": "neighbourhood",
+  "lat": 34.0674016,
+  "lng": -118.3552363
+ },
+ {
+  "id": "osm:node/150971707",
+  "name": "Keystone",
+  "kind": "suburb",
+  "lat": 33.8272039,
+  "lng": -118.27423
+ },
+ {
+  "id": "osm:node/150971893",
+  "name": "Playa del Rey",
+  "kind": "quarter",
+  "lat": 33.9541453,
+  "lng": -118.4388067
+ },
+ {
+  "id": "osm:node/150972254",
+  "name": "Brentwood Heights",
+  "kind": "neighbourhood",
+  "lat": 34.0636199,
+  "lng": -118.4748028
+ },
+ {
+  "id": "osm:node/150972678",
+  "name": "Rose Hill",
+  "kind": "neighbourhood",
+  "lat": 34.0819547,
+  "lng": -118.1967391
+ },
+ {
+  "id": "osm:node/150972833",
+  "name": "Lennox",
+  "kind": "suburb",
+  "lat": 33.9390306,
+  "lng": -118.3574427
+ },
+ {
+  "id": "osm:node/150973851",
+  "name": "El Nido",
+  "kind": "neighbourhood",
+  "lat": 33.8655706,
+  "lng": -118.3614631
+ },
+ {
+  "id": "osm:node/150974026",
+  "name": "Little Tokyo",
+  "kind": "quarter",
+  "lat": 34.0485055,
+  "lng": -118.2398899
+ },
+ {
+  "id": "osm:node/150974569",
+  "name": "Angeleno Heights",
+  "kind": "quarter",
+  "lat": 34.0702889,
+  "lng": -118.254796
+ },
+ {
+  "id": "osm:node/150976029",
+  "name": "North Glendale",
+  "kind": "neighbourhood",
+  "lat": 34.1605626,
+  "lng": -118.264519
+ },
+ {
+  "id": "osm:node/150976696",
+  "name": "Bel Air",
+  "kind": "quarter",
+  "lat": 34.0827278,
+  "lng": -118.4479802
+ },
+ {
+  "id": "osm:node/150976852",
+  "name": "East Los Angeles",
+  "kind": "suburb",
+  "lat": 34.0239015,
+  "lng": -118.172015
+ },
+ {
+  "id": "osm:node/150979023",
+  "name": "Chatsworth",
+  "kind": "suburb",
+  "lat": 34.2572499,
+  "lng": -118.6017022
+ },
+ {
+  "id": "osm:node/150979181",
+  "name": "Studio City",
+  "kind": "suburb",
+  "lat": 34.1483989,
+  "lng": -118.3961877
+ },
+ {
+  "id": "osm:node/150979956",
+  "name": "Rolling Hills Estates",
+  "kind": "suburb",
+  "lat": 33.7877943,
+  "lng": -118.3581284
+ },
+ {
+  "id": "osm:node/150980566",
+  "name": "Vista del Mar",
+  "kind": "suburb",
+  "lat": 33.8189045,
+  "lng": -118.1986801
+ },
+ {
+  "id": "osm:node/150980785",
+  "name": "Hewitt",
+  "kind": "neighbourhood",
+  "lat": 34.199727,
+  "lng": -118.3900804
+ },
+ {
+  "id": "osm:node/150981601",
+  "name": "Hyde Park",
+  "kind": "suburb",
+  "lat": 33.9854024,
+  "lng": -118.330861
+ },
+ {
+  "id": "osm:node/150981867",
+  "name": "Beverly Glen",
+  "kind": "neighbourhood",
+  "lat": 34.1077855,
+  "lng": -118.4456361
+ },
+ {
+  "id": "osm:node/150981935",
+  "name": "West Carson",
+  "kind": "suburb",
+  "lat": 33.8243814,
+  "lng": -118.2929111
+ },
+ {
+  "id": "osm:node/150981982",
+  "name": "Sawtelle",
+  "kind": "suburb",
+  "lat": 34.039893,
+  "lng": -118.4507991
+ },
+ {
+  "id": "osm:node/358779775",
+  "name": "Dogtown",
+  "kind": "neighbourhood",
+  "lat": 34.0639219,
+  "lng": -118.2305651
+ },
+ {
+  "id": "osm:node/358826357",
+  "name": "Glassell Park",
+  "kind": "neighbourhood",
+  "lat": 34.1161201,
+  "lng": -118.2289627
+ },
+ {
+  "id": "osm:node/358828800",
+  "name": "Venice Canal Historic District",
+  "kind": "neighbourhood",
+  "lat": 33.9841779,
+  "lng": -118.466189
+ },
+ {
+  "id": "osm:node/358828802",
+  "name": "Whitley Heights Historic District",
+  "kind": "neighbourhood",
+  "lat": 34.1073786,
+  "lng": -118.3336294
+ },
+ {
+  "id": "osm:node/358828804",
+  "name": "Wilton Historic District",
+  "kind": "neighbourhood",
+  "lat": 34.0722326,
+  "lng": -118.3142427
+ },
+ {
+  "id": "osm:node/1441057586",
+  "name": "West Hills",
+  "kind": "suburb",
+  "lat": 34.2032325,
+  "lng": -118.645476
+ },
+ {
+  "id": "osm:node/1510476348",
+  "name": "Warner Center",
+  "kind": "suburb",
+  "lat": 34.1797349,
+  "lng": -118.5978693
+ },
+ {
+  "id": "osm:node/1772062413",
+  "name": "Windsor Hills",
+  "kind": "neighbourhood",
+  "lat": 33.9869591,
+  "lng": -118.3541212
+ },
+ {
+  "id": "osm:node/1772062438",
+  "name": "Leimert Park",
+  "kind": "quarter",
+  "lat": 34.008441,
+  "lng": -118.3314469
+ },
+ {
+  "id": "osm:node/1773914124",
+  "name": "Culver Garden",
+  "kind": "neighbourhood",
+  "lat": 33.9938124,
+  "lng": -118.4280374
+ },
+ {
+  "id": "osm:node/1773954300",
+  "name": "Jefferson",
+  "kind": "quarter",
+  "lat": 34.0177372,
+  "lng": -118.2716002
+ },
+ {
+  "id": "osm:node/1775419732",
+  "name": "Walker",
+  "kind": "neighbourhood",
+  "lat": 33.9812407,
+  "lng": -118.173226
+ },
+ {
+  "id": "osm:node/1788029657",
+  "name": "West Glendale",
+  "kind": "quarter",
+  "lat": 34.1477457,
+  "lng": -118.2740536
+ },
+ {
+  "id": "osm:node/1796785706",
+  "name": "Walnut Park",
+  "kind": "suburb",
+  "lat": 33.9692761,
+  "lng": -118.2239906
+ },
+ {
+  "id": "osm:node/1830174596",
+  "name": "North Hollywood",
+  "kind": "suburb",
+  "lat": 34.1649502,
+  "lng": -118.374752
+ },
+ {
+  "id": "osm:node/1830179288",
+  "name": "Valley Village",
+  "kind": "quarter",
+  "lat": 34.1637147,
+  "lng": -118.3965758
+ },
+ {
+  "id": "osm:node/1830212853",
+  "name": "Hollywood Hills",
+  "kind": "quarter",
+  "lat": 34.1216903,
+  "lng": -118.3465777
+ },
+ {
+  "id": "osm:node/1830231415",
+  "name": "Hollywood",
+  "kind": "suburb",
+  "lat": 34.0980031,
+  "lng": -118.329523
+ },
+ {
+  "id": "osm:node/1830231457",
+  "name": "Little Armenia",
+  "kind": "neighbourhood",
+  "lat": 34.0981716,
+  "lng": -118.3044966
+ },
+ {
+  "id": "osm:node/2245850847",
+  "name": "Silver Lake",
+  "kind": "quarter",
+  "lat": 34.0896518,
+  "lng": -118.269373
+ },
+ {
+  "id": "osm:node/2618104668",
+  "name": "Sunset Junction",
+  "kind": "neighbourhood",
+  "lat": 34.0926493,
+  "lng": -118.280795
+ },
+ {
+  "id": "osm:node/2646082358",
+  "name": "Tarzana",
+  "kind": "suburb",
+  "lat": 34.1689262,
+  "lng": -118.5365791
+ },
+ {
+  "id": "osm:node/2664728207",
+  "name": "View Park-Windsor Hills",
+  "kind": "suburb",
+  "lat": 34.0025923,
+  "lng": -118.3356307
+ },
+ {
+  "id": "osm:node/2770492362",
+  "name": "Echo Park",
+  "kind": "suburb",
+  "lat": 34.0779819,
+  "lng": -118.2567824
+ },
+ {
+  "id": "osm:node/3254064485",
+  "name": "Bunker Hill",
+  "kind": "quarter",
+  "lat": 34.0550659,
+  "lng": -118.2512228
+ },
+ {
+  "id": "osm:node/3381399786",
+  "name": "Skid Row",
+  "kind": "quarter",
+  "lat": 34.0440571,
+  "lng": -118.2438507
+ },
+ {
+  "id": "osm:node/3833103042",
+  "name": "Westwood",
+  "kind": "suburb",
+  "lat": 34.0668947,
+  "lng": -118.439944
+ },
+ {
+  "id": "osm:node/3881079513",
+  "name": "Fox Hills",
+  "kind": "neighbourhood",
+  "lat": 33.9884024,
+  "lng": -118.3933402
+ },
+ {
+  "id": "osm:node/3958697006",
+  "name": "Porter Ranch",
+  "kind": "suburb",
+  "lat": 34.2818164,
+  "lng": -118.5612714
+ },
+ {
+  "id": "osm:node/4010398541",
+  "name": "Arts District",
+  "kind": "quarter",
+  "lat": 34.0412389,
+  "lng": -118.2344503
+ },
+ {
+  "id": "osm:node/4010398542",
+  "name": "Financial District",
+  "kind": "quarter",
+  "lat": 34.0457621,
+  "lng": -118.2593047
+ },
+ {
+  "id": "osm:node/4010398543",
+  "name": "Fashion District",
+  "kind": "quarter",
+  "lat": 34.0335453,
+  "lng": -118.2565141
+ },
+ {
+  "id": "osm:node/4010398544",
+  "name": "South Park",
+  "kind": "quarter",
+  "lat": 34.0404069,
+  "lng": -118.2665377
+ },
+ {
+  "id": "osm:node/4487849512",
+  "name": "North Hills",
+  "kind": "suburb",
+  "lat": 34.2429575,
+  "lng": -118.4854081
+ },
+ {
+  "id": "osm:node/4613230295",
+  "name": "Arleta",
+  "kind": "suburb",
+  "lat": 34.2413266,
+  "lng": -118.4322047
+ },
+ {
+  "id": "osm:node/5124313385",
+  "name": "Baldwin Hills",
+  "kind": "quarter",
+  "lat": 34.0146113,
+  "lng": -118.3603104
+ },
+ {
+  "id": "osm:node/6056157618",
+  "name": "Beverlywood",
+  "kind": "neighbourhood",
+  "lat": 34.0459334,
+  "lng": -118.39492
+ },
+ {
+  "id": "osm:node/6534258102",
+  "name": "Tree Section",
+  "kind": "quarter",
+  "lat": 33.8948492,
+  "lng": -118.4033942
+ },
+ {
+  "id": "osm:node/6597720653",
+  "name": "Rancho San Rafael",
+  "kind": "neighbourhood",
+  "lat": 34.1659244,
+  "lng": -118.2175955
+ },
+ {
+  "id": "osm:node/6597784143",
+  "name": "Emerald Isle",
+  "kind": "neighbourhood",
+  "lat": 34.1824373,
+  "lng": -118.2076908
+ },
+ {
+  "id": "osm:node/6765436682",
+  "name": "Glendale City Center",
+  "kind": "quarter",
+  "lat": 34.1538013,
+  "lng": -118.2550389
+ },
+ {
+  "id": "osm:node/6806550834",
+  "name": "Thai Town",
+  "kind": "neighbourhood",
+  "lat": 34.1018533,
+  "lng": -118.3048616
+ },
+ {
+  "id": "osm:node/6810008086",
+  "name": "Valley Glen",
+  "kind": "suburb",
+  "lat": 34.1826379,
+  "lng": -118.4138666
+ },
+ {
+  "id": "osm:node/6816391724",
+  "name": "Bicycle District",
+  "kind": "neighbourhood",
+  "lat": 34.0837112,
+  "lng": -118.2949577
+ },
+ {
+  "id": "osm:node/7021286623",
+  "name": "Beachwood Canyon",
+  "kind": "neighbourhood",
+  "lat": 34.1222919,
+  "lng": -118.3213845
+ },
+ {
+  "id": "osm:node/7261763159",
+  "name": "Victoria Park",
+  "kind": "neighbourhood",
+  "lat": 34.0466887,
+  "lng": -118.3307729
+ },
+ {
+  "id": "osm:node/7299246421",
+  "name": "Green Meadows",
+  "kind": "quarter",
+  "lat": 33.9409877,
+  "lng": -118.2629968
+ },
+ {
+  "id": "osm:node/7299246478",
+  "name": "Broadway-Manchester",
+  "kind": "quarter",
+  "lat": 33.9410149,
+  "lng": -118.2744036
+ },
+ {
+  "id": "osm:node/7299272287",
+  "name": "Vermont Vista",
+  "kind": "quarter",
+  "lat": 33.9419475,
+  "lng": -118.2858138
+ },
+ {
+  "id": "osm:node/7299272295",
+  "name": "Gramercy Park",
+  "kind": "quarter",
+  "lat": 33.9511938,
+  "lng": -118.3093275
+ },
+ {
+  "id": "osm:node/7300497587",
+  "name": "Manchester Square",
+  "kind": "quarter",
+  "lat": 33.966374,
+  "lng": -118.3133775
+ },
+ {
+  "id": "osm:node/7300497598",
+  "name": "Vermont Knolls",
+  "kind": "suburb",
+  "lat": 33.9668188,
+  "lng": -118.29167
+ },
+ {
+  "id": "osm:node/7301113051",
+  "name": "Del Rey",
+  "kind": "quarter",
+  "lat": 33.9896527,
+  "lng": -118.4243437
+ },
+ {
+  "id": "osm:node/7301120282",
+  "name": "Playa Vista",
+  "kind": "quarter",
+  "lat": 33.9760102,
+  "lng": -118.4181654
+ },
+ {
+  "id": "osm:node/7301250383",
+  "name": "West Los Angeles",
+  "kind": "quarter",
+  "lat": 34.0468546,
+  "lng": -118.430254
+ },
+ {
+  "id": "osm:node/7304587912",
+  "name": "Rancho Park",
+  "kind": "quarter",
+  "lat": 34.0341731,
+  "lng": -118.4262057
+ },
+ {
+  "id": "osm:node/7304587946",
+  "name": "Cheviot Hills",
+  "kind": "quarter",
+  "lat": 34.0405878,
+  "lng": -118.4098875
+ },
+ {
+  "id": "osm:node/7304587961",
+  "name": "Palms",
+  "kind": "suburb",
+  "lat": 34.0247328,
+  "lng": -118.4116152
+ },
+ {
+  "id": "osm:node/7304588000",
+  "name": "Pico-Robertson",
+  "kind": "suburb",
+  "lat": 34.053269,
+  "lng": -118.3869832
+ },
+ {
+  "id": "osm:node/7304675778",
+  "name": "West Adams",
+  "kind": "suburb",
+  "lat": 34.0294356,
+  "lng": -118.3524833
+ },
+ {
+  "id": "osm:node/7304744173",
+  "name": "Larchmont",
+  "kind": "neighbourhood",
+  "lat": 34.0798375,
+  "lng": -118.3178702
+ },
+ {
+  "id": "osm:node/7304762329",
+  "name": "Windsor Square",
+  "kind": "quarter",
+  "lat": 34.0689734,
+  "lng": -118.319988
+ },
+ {
+  "id": "osm:node/7307200468",
+  "name": "Beverly Grove",
+  "kind": "quarter",
+  "lat": 34.0760338,
+  "lng": -118.369972
+ },
+ {
+  "id": "osm:node/7307200482",
+  "name": "Fairfax",
+  "kind": "suburb",
+  "lat": 34.0791555,
+  "lng": -118.3522844
+ },
+ {
+  "id": "osm:node/7307239373",
+  "name": "East Hollywood",
+  "kind": "quarter",
+  "lat": 34.0904277,
+  "lng": -118.2966254
+ },
+ {
+  "id": "osm:node/7310117254",
+  "name": "Downtown",
+  "kind": "suburb",
+  "lat": 34.047996,
+  "lng": -118.2521002
+ },
+ {
+  "id": "osm:node/7310117324",
+  "name": "Chinatown",
+  "kind": "suburb",
+  "lat": 34.0638402,
+  "lng": -118.2358676
+ },
+ {
+  "id": "osm:node/7314759182",
+  "name": "Westlake",
+  "kind": "suburb",
+  "lat": 34.0629226,
+  "lng": -118.2728204
+ },
+ {
+  "id": "osm:node/7314865992",
+  "name": "Elysian Valley",
+  "kind": "quarter",
+  "lat": 34.0959128,
+  "lng": -118.2420326
+ },
+ {
+  "id": "osm:node/7317540604",
+  "name": "Harbor Gateway",
+  "kind": "suburb",
+  "lat": 33.8512597,
+  "lng": -118.3027904
+ },
+ {
+  "id": "osm:node/7345897916",
+  "name": "Alla",
+  "kind": "neighbourhood",
+  "lat": 33.9815928,
+  "lng": -118.4296807
+ },
+ {
+  "id": "osm:node/7360410719",
+  "name": "Adams-Normandie",
+  "kind": "quarter",
+  "lat": 34.0317877,
+  "lng": -118.3002466
+ },
+ {
+  "id": "osm:node/7360410739",
+  "name": "University Park",
+  "kind": "quarter",
+  "lat": 34.0271773,
+  "lng": -118.2840429
+ },
+ {
+  "id": "osm:node/7360410768",
+  "name": "Exposition Park",
+  "kind": "suburb",
+  "lat": 34.0183415,
+  "lng": -118.3002033
+ },
+ {
+  "id": "osm:node/7360410808",
+  "name": "Vermont Square",
+  "kind": "suburb",
+  "lat": 34.0019449,
+  "lng": -118.3002125
+ },
+ {
+  "id": "osm:node/7360424710",
+  "name": "Historic South-Central",
+  "kind": "suburb",
+  "lat": 34.0162304,
+  "lng": -118.2673085
+ },
+ {
+  "id": "osm:node/7360424723",
+  "name": "South Park",
+  "kind": "suburb",
+  "lat": 33.9959381,
+  "lng": -118.2697608
+ },
+ {
+  "id": "osm:node/7360541061",
+  "name": "Vermont-Slauson",
+  "kind": "quarter",
+  "lat": 33.9836914,
+  "lng": -118.2915417
+ },
+ {
+  "id": "osm:node/7360541064",
+  "name": "Harvard Park",
+  "kind": "neighbourhood",
+  "lat": 33.9839471,
+  "lng": -118.3046228
+ },
+ {
+  "id": "osm:node/7360541068",
+  "name": "Chesterfield Square",
+  "kind": "neighbourhood",
+  "lat": 33.9834737,
+  "lng": -118.3136513
+ },
+ {
+  "id": "osm:node/7360566572",
+  "name": "Florence",
+  "kind": "suburb",
+  "lat": 33.9747477,
+  "lng": -118.2695842
+ },
+ {
+  "id": "osm:node/7360566579",
+  "name": "Florence-Firestone",
+  "kind": "suburb",
+  "lat": 33.9674263,
+  "lng": -118.2433068
+ },
+ {
+  "id": "osm:node/7360901787",
+  "name": "Central-Alameda",
+  "kind": "suburb",
+  "lat": 34.004015,
+  "lng": -118.2477844
+ },
+ {
+  "id": "osm:node/7365224038",
+  "name": "Montecito Heights",
+  "kind": "suburb",
+  "lat": 34.0895404,
+  "lng": -118.1942792
+ },
+ {
+  "id": "osm:node/7365301427",
+  "name": "Pico-Union",
+  "kind": "suburb",
+  "lat": 34.0465669,
+  "lng": -118.2878942
+ },
+ {
+  "id": "osm:node/7365301435",
+  "name": "Harvard Heights",
+  "kind": "neighbourhood",
+  "lat": 34.0471105,
+  "lng": -118.3054828
+ },
+ {
+  "id": "osm:node/7365301436",
+  "name": "Arlington Heights",
+  "kind": "quarter",
+  "lat": 34.0434937,
+  "lng": -118.3213735
+ },
+ {
+  "id": "osm:node/7365301464",
+  "name": "Mid-City",
+  "kind": "suburb",
+  "lat": 34.0415271,
+  "lng": -118.3603703
+ },
+ {
+  "id": "osm:node/7365301515",
+  "name": "Mid-Wilshire",
+  "kind": "suburb",
+  "lat": 34.0568616,
+  "lng": -118.3458032
+ },
+ {
+  "id": "osm:node/7365664966",
+  "name": "Beverly Crest",
+  "kind": "quarter",
+  "lat": 34.1167701,
+  "lng": -118.4322607
+ },
+ {
+  "id": "osm:node/7384252840",
+  "name": "Hollywood Hills West",
+  "kind": "neighbourhood",
+  "lat": 34.1104847,
+  "lng": -118.3733879
+ },
+ {
+  "id": "osm:node/7391589105",
+  "name": "Los Feliz",
+  "kind": "suburb",
+  "lat": 34.1076561,
+  "lng": -118.2875062
+ },
+ {
+  "id": "osm:node/7391589112",
+  "name": "Toluca Lake",
+  "kind": "neighbourhood",
+  "lat": 34.1521688,
+  "lng": -118.357141
+ },
+ {
+  "id": "osm:node/7403397209",
+  "name": "Lopez/Kagel Canyons",
+  "kind": "suburb",
+  "lat": 34.3112356,
+  "lng": -118.3825744
+ },
+ {
+  "id": "osm:node/7797686871",
+  "name": "Lake Balboa",
+  "kind": "suburb",
+  "lat": 34.1938237,
+  "lng": -118.5010456
+ },
+ {
+  "id": "osm:node/7797686873",
+  "name": "Sherman Village",
+  "kind": "quarter",
+  "lat": 34.1575832,
+  "lng": -118.4138403
+ },
+ {
+  "id": "osm:node/7798134976",
+  "name": "Reseda Ranch",
+  "kind": "quarter",
+  "lat": 34.2156524,
+  "lng": -118.5491612
+ },
+ {
+  "id": "osm:node/8070021781",
+  "name": "Manhattan Village",
+  "kind": "quarter",
+  "lat": 33.8980268,
+  "lng": -118.3873835
+ },
+ {
+  "id": "osm:node/8551800434",
+  "name": "The Heights at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2835652,
+  "lng": -118.5674742
+ },
+ {
+  "id": "osm:node/9279732867",
+  "name": "North Hills East",
+  "kind": "neighbourhood",
+  "lat": 34.2355447,
+  "lng": -118.4676065
+ },
+ {
+  "id": "osm:node/9791528532",
+  "name": "Carey Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.290742,
+  "lng": -118.46227
+ },
+ {
+  "id": "osm:node/9791720561",
+  "name": "Sylmar Acres",
+  "kind": "neighbourhood",
+  "lat": 34.3048749,
+  "lng": -118.4733005
+ },
+ {
+  "id": "osm:node/9861837589",
+  "name": "Village Green",
+  "kind": "neighbourhood",
+  "lat": 34.2936139,
+  "lng": -118.4491444
+ },
+ {
+  "id": "osm:node/9904929305",
+  "name": "Sawtelle Japantown",
+  "kind": "neighbourhood",
+  "lat": 34.0395703,
+  "lng": -118.4424952
+ },
+ {
+  "id": "osm:node/9922913248",
+  "name": "Sunkist Park",
+  "kind": "neighbourhood",
+  "lat": 33.9932961,
+  "lng": -118.4004861
+ },
+ {
+  "id": "osm:node/9928862917",
+  "name": "Alvarado Terrace Historic District",
+  "kind": "neighbourhood",
+  "lat": 34.0451045,
+  "lng": -118.2812397
+ },
+ {
+  "id": "osm:node/9941250882",
+  "name": "Miracle Mile",
+  "kind": "neighbourhood",
+  "lat": 34.0624027,
+  "lng": -118.3515073
+ },
+ {
+  "id": "osm:node/9941735784",
+  "name": "The Flats",
+  "kind": "neighbourhood",
+  "lat": 34.076366,
+  "lng": -118.4076933
+ },
+ {
+  "id": "osm:node/9941753817",
+  "name": "Downtown Culver City",
+  "kind": "neighbourhood",
+  "lat": 34.0238639,
+  "lng": -118.3944702
+ },
+ {
+  "id": "osm:node/9980219908",
+  "name": "Castle Heights",
+  "kind": "neighbourhood",
+  "lat": 34.0338481,
+  "lng": -118.3964001
+ },
+ {
+  "id": "osm:node/9980659421",
+  "name": "Tehrangeles",
+  "kind": "neighbourhood",
+  "lat": 34.055292,
+  "lng": -118.4417931
+ },
+ {
+  "id": "osm:node/9980761141",
+  "name": "Reynier Village",
+  "kind": "neighbourhood",
+  "lat": 34.0361621,
+  "lng": -118.3861663
+ },
+ {
+  "id": "osm:node/9980765139",
+  "name": "Holmby Hills",
+  "kind": "neighbourhood",
+  "lat": 34.0744671,
+  "lng": -118.4300117
+ },
+ {
+  "id": "osm:node/9980767834",
+  "name": "Westside Village",
+  "kind": "neighbourhood",
+  "lat": 34.0274472,
+  "lng": -118.4211471
+ },
+ {
+  "id": "osm:node/9980767835",
+  "name": "Westdale",
+  "kind": "neighbourhood",
+  "lat": 34.0222722,
+  "lng": -118.434044
+ },
+ {
+  "id": "osm:node/9982480959",
+  "name": "Little Ethiopia",
+  "kind": "neighbourhood",
+  "lat": 34.0568295,
+  "lng": -118.3644199
+ },
+ {
+  "id": "osm:node/10004663957",
+  "name": "Culver City Arts District",
+  "kind": "neighbourhood",
+  "lat": 34.031372,
+  "lng": -118.3785606
+ },
+ {
+  "id": "osm:node/10120176486",
+  "name": "Crenshaw",
+  "kind": "quarter",
+  "lat": 34.0175084,
+  "lng": -118.3396649
+ },
+ {
+  "id": "osm:node/10208396400",
+  "name": "Shadow Glen Estates",
+  "kind": "neighbourhood",
+  "lat": 34.3153782,
+  "lng": -118.4581735
+ },
+ {
+  "id": "osm:node/10713317360",
+  "name": "Brentwood Glen",
+  "kind": "neighbourhood",
+  "lat": 34.0666691,
+  "lng": -118.4630509
+ },
+ {
+  "id": "osm:node/10744608092",
+  "name": "Leimert Park Village",
+  "kind": "neighbourhood",
+  "lat": 34.0042617,
+  "lng": -118.3315129
+ },
+ {
+  "id": "osm:node/10841306582",
+  "name": "Historic Filipinotown",
+  "kind": "quarter",
+  "lat": 34.0704358,
+  "lng": -118.2724143
+ },
+ {
+  "id": "osm:node/10845318621",
+  "name": "Jewelry District",
+  "kind": "neighbourhood",
+  "lat": 34.0457511,
+  "lng": -118.2544247
+ },
+ {
+  "id": "osm:node/10845318622",
+  "name": "Historic Core",
+  "kind": "quarter",
+  "lat": 34.0487926,
+  "lng": -118.2499266
+ },
+ {
+  "id": "osm:node/10845318623",
+  "name": "Gallery Row",
+  "kind": "neighbourhood",
+  "lat": 34.0465519,
+  "lng": -118.2495584
+ },
+ {
+  "id": "osm:node/10845318624",
+  "name": "Civic Center",
+  "kind": "quarter",
+  "lat": 34.0557834,
+  "lng": -118.2449854
+ },
+ {
+  "id": "osm:node/10845318625",
+  "name": "Toy District",
+  "kind": "neighbourhood",
+  "lat": 34.0465687,
+  "lng": -118.2454288
+ },
+ {
+  "id": "osm:node/10845318626",
+  "name": "Pueblo de Los Ángeles",
+  "kind": "neighbourhood",
+  "lat": 34.0566567,
+  "lng": -118.2392537
+ },
+ {
+  "id": "osm:node/10934542407",
+  "name": "California Country Club Estates",
+  "kind": "neighbourhood",
+  "lat": 34.0350944,
+  "lng": -118.4046927
+ },
+ {
+  "id": "osm:node/10940225296",
+  "name": "Virgil Village",
+  "kind": "neighbourhood",
+  "lat": 34.0861835,
+  "lng": -118.2875682
+ },
+ {
+  "id": "osm:node/11035259422",
+  "name": "Rancho Cascades",
+  "kind": "quarter",
+  "lat": 34.32127,
+  "lng": -118.4791657
+ },
+ {
+  "id": "osm:node/11035338644",
+  "name": "The Legends at Cascades",
+  "kind": "neighbourhood",
+  "lat": 34.3243072,
+  "lng": -118.4942347
+ },
+ {
+  "id": "osm:node/11214982063",
+  "name": "San Fernando Mall",
+  "kind": "neighbourhood",
+  "lat": 34.2829912,
+  "lng": -118.4417434
+ },
+ {
+  "id": "osm:node/11309127481",
+  "name": "Cagney Ranch Estates",
+  "kind": "neighbourhood",
+  "lat": 34.2958601,
+  "lng": -118.5363169
+ },
+ {
+  "id": "osm:node/11407932436",
+  "name": "Hill Section",
+  "kind": "quarter",
+  "lat": 33.8837783,
+  "lng": -118.4004283
+ },
+ {
+  "id": "osm:node/11419827225",
+  "name": "Lair Port",
+  "kind": "neighbourhood",
+  "lat": 33.923885,
+  "lng": -118.3786589
+ },
+ {
+  "id": "osm:node/11612614008",
+  "name": "El Merrie Del",
+  "kind": "neighbourhood",
+  "lat": 34.2951205,
+  "lng": -118.3782164
+ },
+ {
+  "id": "osm:node/11773258550",
+  "name": "Little Bangladesh",
+  "kind": "neighbourhood",
+  "lat": 34.0690466,
+  "lng": -118.2954277
+ },
+ {
+  "id": "osm:node/11950666695",
+  "name": "Brentwood Village",
+  "kind": "neighbourhood",
+  "lat": 34.0647246,
+  "lng": -118.4700986
+ },
+ {
+  "id": "osm:node/12046776658",
+  "name": "Downtown Santa Monica",
+  "kind": "quarter",
+  "lat": 34.0157044,
+  "lng": -118.496099
+ },
+ {
+  "id": "osm:node/12233741030",
+  "name": "Hayden Tract",
+  "kind": "neighbourhood",
+  "lat": 34.0241981,
+  "lng": -118.3802604
+ },
+ {
+  "id": "osm:node/12624561131",
+  "name": "San Fernando Gardens",
+  "kind": "neighbourhood",
+  "lat": 34.2676932,
+  "lng": -118.4160894
+ },
+ {
+  "id": "osm:node/12993828115",
+  "name": "Devonshire Country Estates",
+  "kind": "neighbourhood",
+  "lat": 34.2536888,
+  "lng": -118.5563334
+ },
+ {
+  "id": "osm:node/12993828116",
+  "name": "Devonshire Highlands",
+  "kind": "neighbourhood",
+  "lat": 34.2463735,
+  "lng": -118.5558172
+ },
+ {
+  "id": "osm:node/13110999688",
+  "name": "East Manhattan Beach",
+  "kind": "quarter",
+  "lat": 33.891422,
+  "lng": -118.3871212
+ },
+ {
+  "id": "osm:node/13788935199",
+  "name": "Parkside Industrial Center",
+  "kind": "neighbourhood",
+  "lat": 34.2806689,
+  "lng": -118.4319588
+ },
+ {
+  "id": "osm:node/13842056139",
+  "name": "Glencrest Hills",
+  "kind": "neighbourhood",
+  "lat": 34.2137792,
+  "lng": -118.3480407
+ },
+ {
+  "id": "osm:node/13991707849",
+  "name": "Mid-City Heights",
+  "kind": "neighbourhood",
+  "lat": 34.0372085,
+  "lng": -118.3444811
+ },
+ {
+  "id": "osm:way/174893052",
+  "name": "Harbor City",
+  "kind": "suburb",
+  "lat": 33.7977986,
+  "lng": -118.2951841
+ },
+ {
+  "id": "osm:way/175186764",
+  "name": "Harbor Pines",
+  "kind": "neighbourhood",
+  "lat": 33.7829586,
+  "lng": -118.3038097
+ },
+ {
+  "id": "osm:way/217172189",
+  "name": "Ramona Gardens",
+  "kind": "neighbourhood",
+  "lat": 34.0583064,
+  "lng": -118.1954186
+ },
+ {
+  "id": "osm:way/260858785",
+  "name": "Los Feliz",
+  "kind": "neighbourhood",
+  "lat": 34.1079663,
+  "lng": -118.2880824
+ },
+ {
+  "id": "osm:way/279459553",
+  "name": "Oxford Square",
+  "kind": "neighbourhood",
+  "lat": 34.0514321,
+  "lng": -118.3256118
+ },
+ {
+  "id": "osm:way/306074147",
+  "name": "Cameo Woods",
+  "kind": "neighbourhood",
+  "lat": 34.0200534,
+  "lng": -118.3741683
+ },
+ {
+  "id": "osm:way/450534589",
+  "name": "Hathaway Hills Estates",
+  "kind": "neighbourhood",
+  "lat": 34.0890738,
+  "lng": -118.2633287
+ },
+ {
+  "id": "osm:way/533012594",
+  "name": "Cambodia Town",
+  "kind": "neighbourhood",
+  "lat": 33.7828047,
+  "lng": -118.1725569
+ },
+ {
+  "id": "osm:way/550767339",
+  "name": "Park La Brea",
+  "kind": "neighbourhood",
+  "lat": 34.06783,
+  "lng": -118.3545781
+ },
+ {
+  "id": "osm:way/563962965",
+  "name": "Deerlake Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2814928,
+  "lng": -118.5994094
+ },
+ {
+  "id": "osm:way/599761670",
+  "name": "Oak Pointe",
+  "kind": "neighbourhood",
+  "lat": 34.2238085,
+  "lng": -118.4834974
+ },
+ {
+  "id": "osm:way/669685392",
+  "name": "Westlake South",
+  "kind": "neighbourhood",
+  "lat": 34.0546242,
+  "lng": -118.2719558
+ },
+ {
+  "id": "osm:way/729762217",
+  "name": "Glendale Civic Center",
+  "kind": "quarter",
+  "lat": 34.1472501,
+  "lng": -118.2476591
+ },
+ {
+  "id": "osm:way/736935483",
+  "name": "Flower District",
+  "kind": "neighbourhood",
+  "lat": 34.0409303,
+  "lng": -118.2493226
+ },
+ {
+  "id": "osm:way/778092634",
+  "name": "Lafayette Park Square",
+  "kind": "neighbourhood",
+  "lat": 34.0430791,
+  "lng": -118.3328261
+ },
+ {
+  "id": "osm:way/818300845",
+  "name": "University Hills",
+  "kind": "neighbourhood",
+  "lat": 34.0680365,
+  "lng": -118.1703375
+ },
+ {
+  "id": "osm:way/908593722",
+  "name": "Nordhurst Community",
+  "kind": "neighbourhood",
+  "lat": 34.2351418,
+  "lng": -118.4931811
+ },
+ {
+  "id": "osm:way/919002009",
+  "name": "The Canyons at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2938503,
+  "lng": -118.5857835
+ },
+ {
+  "id": "osm:way/919002010",
+  "name": "Hillcrest at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2985861,
+  "lng": -118.584572
+ },
+ {
+  "id": "osm:way/919002011",
+  "name": "Westcliffe at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2860199,
+  "lng": -118.5770219
+ },
+ {
+  "id": "osm:way/969622930",
+  "name": "The Alhambra",
+  "kind": "neighbourhood",
+  "lat": 34.0817374,
+  "lng": -118.1505569
+ },
+ {
+  "id": "osm:way/1102680834",
+  "name": "Yucca Corridor",
+  "kind": "neighbourhood",
+  "lat": 34.103402,
+  "lng": -118.3341349
+ },
+ {
+  "id": "osm:way/1145464896",
+  "name": "Woodland Park Estates",
+  "kind": "neighbourhood",
+  "lat": 34.2131783,
+  "lng": -118.6384102
+ },
+ {
+  "id": "osm:way/1149262583",
+  "name": "Highlands",
+  "kind": "neighbourhood",
+  "lat": 34.2976316,
+  "lng": -118.5599753
+ },
+ {
+  "id": "osm:way/1152568770",
+  "name": "Silver Triangle",
+  "kind": "neighbourhood",
+  "lat": 34.1409347,
+  "lng": -118.3998493
+ },
+ {
+  "id": "osm:way/1165966499",
+  "name": "Kelly Gulch",
+  "kind": "neighbourhood",
+  "lat": 34.1194061,
+  "lng": -118.5939089
+ },
+ {
+  "id": "osm:way/1185532059",
+  "name": "Cameron Woods",
+  "kind": "neighbourhood",
+  "lat": 34.1847531,
+  "lng": -118.4698556
+ },
+ {
+  "id": "osm:way/1188496764",
+  "name": "Savannah Oaks",
+  "kind": "neighbourhood",
+  "lat": 34.2803149,
+  "lng": -118.6640943
+ },
+ {
+  "id": "osm:way/1189835997",
+  "name": "Sherwood Forest",
+  "kind": "neighbourhood",
+  "lat": 34.2291281,
+  "lng": -118.512849
+ },
+ {
+  "id": "osm:way/1189993162",
+  "name": "Remington Place",
+  "kind": "neighbourhood",
+  "lat": 34.1980506,
+  "lng": -118.6320504
+ },
+ {
+  "id": "osm:way/1192690951",
+  "name": "Knollwood Country Club Estates",
+  "kind": "neighbourhood",
+  "lat": 34.2933171,
+  "lng": -118.4972795
+ },
+ {
+  "id": "osm:way/1196070895",
+  "name": "Golden Triangle",
+  "kind": "neighbourhood",
+  "lat": 33.9869341,
+  "lng": -118.4484188
+ },
+ {
+  "id": "osm:way/1198465034",
+  "name": "Tuscany at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2799857,
+  "lng": -118.5763387
+ },
+ {
+  "id": "osm:way/1198465035",
+  "name": "Ventana at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2784697,
+  "lng": -118.5779136
+ },
+ {
+  "id": "osm:way/1198465036",
+  "name": "Aldea at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2761305,
+  "lng": -118.5768935
+ },
+ {
+  "id": "osm:way/1198465038",
+  "name": "The Vineyards Apartments at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2773232,
+  "lng": -118.5734316
+ },
+ {
+  "id": "osm:way/1198465039",
+  "name": "Tesoro at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2787984,
+  "lng": -118.5734632
+ },
+ {
+  "id": "osm:way/1210099591",
+  "name": "American Gold Star Manor",
+  "kind": "neighbourhood",
+  "lat": 33.8135537,
+  "lng": -118.2171432
+ },
+ {
+  "id": "osm:way/1214442433",
+  "name": "Toluca Estates",
+  "kind": "neighbourhood",
+  "lat": 34.1451742,
+  "lng": -118.3599389
+ },
+ {
+  "id": "osm:way/1222006604",
+  "name": "Vanowen Place",
+  "kind": "neighbourhood",
+  "lat": 34.1933661,
+  "lng": -118.5111165
+ },
+ {
+  "id": "osm:way/1317154724",
+  "name": "Melrose Hill",
+  "kind": "neighbourhood",
+  "lat": 34.0871474,
+  "lng": -118.3041022
+ },
+ {
+  "id": "osm:way/1317154725",
+  "name": "Melrose Hill Historic Preservation Overlay Zone",
+  "kind": "neighbourhood",
+  "lat": 34.0849232,
+  "lng": -118.3064471
+ },
+ {
+  "id": "osm:way/1335341454",
+  "name": "San Pedro Arts and Cultural District",
+  "kind": "quarter",
+  "lat": 33.7239542,
+  "lng": -118.2847287
+ },
+ {
+  "id": "osm:way/1358965771",
+  "name": "Hollywood Dell",
+  "kind": "neighbourhood",
+  "lat": 34.112529,
+  "lng": -118.3291349
+ },
+ {
+  "id": "osm:way/1360189658",
+  "name": "Westchester Triangle",
+  "kind": "neighbourhood",
+  "lat": 33.9585558,
+  "lng": -118.3939855
+ },
+ {
+  "id": "osm:way/1385657050",
+  "name": "Little Italy",
+  "kind": "neighbourhood",
+  "lat": 33.733809,
+  "lng": -118.2861329
+ },
+ {
+  "id": "osm:way/1434528821",
+  "name": "Little Ethiopia",
+  "kind": "neighbourhood",
+  "lat": 34.0569436,
+  "lng": -118.3643655
+ },
+ {
+  "id": "osm:relation/9670944",
+  "name": "Tree Section",
+  "kind": "suburb",
+  "lat": 33.8939045,
+  "lng": -118.4042405
+ },
+ {
+  "id": "osm:relation/10953283",
+  "name": "East Los Angeles",
+  "kind": "suburb",
+  "lat": 34.035166,
+  "lng": -118.1596349
+ },
+ {
+  "id": "osm:relation/12463887",
+  "name": "The Heights at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2843364,
+  "lng": -118.567169
+ },
+ {
+  "id": "osm:relation/12480050",
+  "name": "The Heights at Porter Ranch",
+  "kind": "neighbourhood",
+  "lat": 34.2837968,
+  "lng": -118.567169
+ },
+ {
+  "id": "osm:relation/14213712",
+  "name": "Sylmar Acres",
+  "kind": "neighbourhood",
+  "lat": 34.3051615,
+  "lng": -118.4732623
+ },
+ {
+  "id": "osm:relation/14315058",
+  "name": "Village Green",
+  "kind": "neighbourhood",
+  "lat": 34.2940565,
+  "lng": -118.4493628
+ },
+ {
+  "id": "osm:relation/14418135",
+  "name": "Alvarado Terrace Historic District",
+  "kind": "neighbourhood",
+  "lat": 34.0452143,
+  "lng": -118.2813146
+ },
+ {
+  "id": "osm:relation/14919733",
+  "name": "Shadow Glen Estates",
+  "kind": "neighbourhood",
+  "lat": 34.3154002,
+  "lng": -118.4582721
+ },
+ {
+  "id": "osm:relation/15567456",
+  "name": "Reseda Ranch",
+  "kind": "quarter",
+  "lat": 34.2144944,
+  "lng": -118.553145
+ },
+ {
+  "id": "osm:relation/16070641",
+  "name": "Rancho Cascades",
+  "kind": "quarter",
+  "lat": 34.323716,
+  "lng": -118.4851461
+ },
+ {
+  "id": "osm:relation/16371842",
+  "name": "San Fernando Mall",
+  "kind": "neighbourhood",
+  "lat": 34.2828512,
+  "lng": -118.4415545
+ },
+ {
+  "id": "osm:relation/16393014",
+  "name": "Belmont Shore",
+  "kind": "neighbourhood",
+  "lat": 33.7586274,
+  "lng": -118.1404673
+ },
+ {
+  "id": "osm:relation/16640437",
+  "name": "Cagney Ranch Estates",
+  "kind": "neighbourhood",
+  "lat": 34.2954362,
+  "lng": -118.5363478
+ },
+ {
+  "id": "osm:relation/16807862",
+  "name": "Hill Section",
+  "kind": "suburb",
+  "lat": 33.8822637,
+  "lng": -118.4017245
+ },
+ {
+  "id": "osm:relation/17193423",
+  "name": "El Merrie Del",
+  "kind": "neighbourhood",
+  "lat": 34.295154,
+  "lng": -118.3784155
+ },
+ {
+  "id": "osm:relation/17303302",
+  "name": "Thai Town",
+  "kind": "neighbourhood",
+  "lat": 34.1018957,
+  "lng": -118.3049162
+ },
+ {
+  "id": "osm:relation/17307354",
+  "name": "Los Feliz Neighborhood Council District",
+  "kind": "quarter",
+  "lat": 34.1286081,
+  "lng": -118.2985312
+ },
+ {
+  "id": "osm:relation/17405687",
+  "name": "Little Bangladesh",
+  "kind": "neighbourhood",
+  "lat": 34.0690455,
+  "lng": -118.2954251
+ },
+ {
+  "id": "osm:relation/18114621",
+  "name": "Pueblo de Los Ángeles Historical Monument",
+  "kind": "neighbourhood",
+  "lat": 34.0564238,
+  "lng": -118.2391492
+ },
+ {
+  "id": "osm:relation/19343305",
+  "name": "Devonshire Country Estates",
+  "kind": "neighbourhood",
+  "lat": 34.2536228,
+  "lng": -118.5568538
+ },
+ {
+  "id": "osm:relation/19343306",
+  "name": "Devonshire Highlands",
+  "kind": "neighbourhood",
+  "lat": 34.2466307,
+  "lng": -118.5558053
+ },
+ {
+  "id": "osm:relation/19746931",
+  "name": "Braewood",
+  "kind": "neighbourhood",
+  "lat": 34.1458992,
+  "lng": -118.6118402
+ }
+]

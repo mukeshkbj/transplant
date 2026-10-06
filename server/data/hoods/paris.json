@@ -1,0 +1,1269 @@
+[
+ {
+  "id": "osm:node/148950780",
+  "name": "15e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8411228,
+  "lng": 2.2927657
+ },
+ {
+  "id": "osm:node/161608370",
+  "name": "6e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8504333,
+  "lng": 2.3329507
+ },
+ {
+  "id": "osm:node/175517170",
+  "name": "14e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8328514,
+  "lng": 2.3267231
+ },
+ {
+  "id": "osm:node/237417884",
+  "name": "5e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8459728,
+  "lng": 2.3443504
+ },
+ {
+  "id": "osm:node/237422047",
+  "name": "13e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8290105,
+  "lng": 2.3636124
+ },
+ {
+  "id": "osm:node/241092821",
+  "name": "17e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8869265,
+  "lng": 2.3065472
+ },
+ {
+  "id": "osm:node/241099674",
+  "name": "8e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8737284,
+  "lng": 2.3103932
+ },
+ {
+  "id": "osm:node/248177663",
+  "name": "7e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8564911,
+  "lng": 2.3128
+ },
+ {
+  "id": "osm:node/252815182",
+  "name": "Butte-aux-Cailles",
+  "kind": "neighbourhood",
+  "lat": 48.8277114,
+  "lng": 2.3496759
+ },
+ {
+  "id": "osm:node/253081032",
+  "name": "Croix de Chavaux",
+  "kind": "quarter",
+  "lat": 48.8578981,
+  "lng": 2.4363625
+ },
+ {
+  "id": "osm:node/253456008",
+  "name": "1er Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8646144,
+  "lng": 2.334396
+ },
+ {
+  "id": "osm:node/317476952",
+  "name": "18e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8900117,
+  "lng": 2.3464668
+ },
+ {
+  "id": "osm:node/415966655",
+  "name": "La Folie",
+  "kind": "neighbourhood",
+  "lat": 48.900442,
+  "lng": 2.4400456
+ },
+ {
+  "id": "osm:node/415971847",
+  "name": "Cité des Auteurs",
+  "kind": "neighbourhood",
+  "lat": 48.8840565,
+  "lng": 2.4126486
+ },
+ {
+  "id": "osm:node/415972911",
+  "name": "Les Sept Chemins",
+  "kind": "quarter",
+  "lat": 48.8682595,
+  "lng": 2.4485893
+ },
+ {
+  "id": "osm:node/517969463",
+  "name": "16e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8636341,
+  "lng": 2.276485
+ },
+ {
+  "id": "osm:node/837935030",
+  "name": "Vautier",
+  "kind": "neighbourhood",
+  "lat": 48.8162292,
+  "lng": 2.4698945
+ },
+ {
+  "id": "osm:node/938320028",
+  "name": "2e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.868743,
+  "lng": 2.341688
+ },
+ {
+  "id": "osm:node/938321858",
+  "name": "3e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.864212,
+  "lng": 2.360936
+ },
+ {
+  "id": "osm:node/938323516",
+  "name": "4e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8562021,
+  "lng": 2.3556193
+ },
+ {
+  "id": "osm:node/938334959",
+  "name": "9e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.876019,
+  "lng": 2.339962
+ },
+ {
+  "id": "osm:node/938336881",
+  "name": "10e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.876225,
+  "lng": 2.3595209
+ },
+ {
+  "id": "osm:node/938338196",
+  "name": "11e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.858416,
+  "lng": 2.379703
+ },
+ {
+  "id": "osm:node/938387959",
+  "name": "12e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8396154,
+  "lng": 2.3957517
+ },
+ {
+  "id": "osm:node/938394241",
+  "name": "19e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.889343,
+  "lng": 2.38436
+ },
+ {
+  "id": "osm:node/938396405",
+  "name": "20e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.865042,
+  "lng": 2.398929
+ },
+ {
+  "id": "osm:node/986924508",
+  "name": "Joinville-le-Pont",
+  "kind": "neighbourhood",
+  "lat": 48.8177065,
+  "lng": 2.465163
+ },
+ {
+  "id": "osm:node/1678472745",
+  "name": "Panoramis",
+  "kind": "neighbourhood",
+  "lat": 48.8170222,
+  "lng": 2.4615041
+ },
+ {
+  "id": "osm:node/1863573689",
+  "name": "Le Marais",
+  "kind": "suburb",
+  "lat": 48.8603823,
+  "lng": 2.360742
+ },
+ {
+  "id": "osm:node/1863664714",
+  "name": "Montmartre",
+  "kind": "suburb",
+  "lat": 48.8867054,
+  "lng": 2.3415715
+ },
+ {
+  "id": "osm:node/1863664715",
+  "name": "Montparnasse",
+  "kind": "suburb",
+  "lat": 48.8434755,
+  "lng": 2.3282995
+ },
+ {
+  "id": "osm:node/1863666222",
+  "name": "Pigalle",
+  "kind": "suburb",
+  "lat": 48.8821842,
+  "lng": 2.3370861
+ },
+ {
+  "id": "osm:node/1980084566",
+  "name": "Le Village Saint-Paul",
+  "kind": "neighbourhood",
+  "lat": 48.8533959,
+  "lng": 2.3610703
+ },
+ {
+  "id": "osm:node/2038017580",
+  "name": "Quartier latin",
+  "kind": "suburb",
+  "lat": 48.8486028,
+  "lng": 2.3425156
+ },
+ {
+  "id": "osm:node/2137503425",
+  "name": "Saint-Germain-des-Prés",
+  "kind": "quarter",
+  "lat": 48.8544286,
+  "lng": 2.3337071
+ },
+ {
+  "id": "osm:node/2140578004",
+  "name": "Belleville",
+  "kind": "quarter",
+  "lat": 48.8717265,
+  "lng": 2.385085
+ },
+ {
+  "id": "osm:node/2140595430",
+  "name": "Sentier",
+  "kind": "suburb",
+  "lat": 48.8681704,
+  "lng": 2.3486199
+ },
+ {
+  "id": "osm:node/2140597251",
+  "name": "Les Halles",
+  "kind": "quarter",
+  "lat": 48.8623728,
+  "lng": 2.3453129
+ },
+ {
+  "id": "osm:node/2141212990",
+  "name": "Bastille",
+  "kind": "suburb",
+  "lat": 48.8535713,
+  "lng": 2.3699734
+ },
+ {
+  "id": "osm:node/2141218571",
+  "name": "Champs-Elysées",
+  "kind": "quarter",
+  "lat": 48.8708299,
+  "lng": 2.3034859
+ },
+ {
+  "id": "osm:node/2141387602",
+  "name": "Batignolles",
+  "kind": "suburb",
+  "lat": 48.8863552,
+  "lng": 2.321457
+ },
+ {
+  "id": "osm:node/2142316639",
+  "name": "Opéra",
+  "kind": "suburb",
+  "lat": 48.8707492,
+  "lng": 2.3324542
+ },
+ {
+  "id": "osm:node/2142322000",
+  "name": "République",
+  "kind": "suburb",
+  "lat": 48.868001,
+  "lng": 2.3635154
+ },
+ {
+  "id": "osm:node/2142377353",
+  "name": "Bercy",
+  "kind": "quarter",
+  "lat": 48.8367988,
+  "lng": 2.380847
+ },
+ {
+  "id": "osm:node/2142387526",
+  "name": "Les Gobelins",
+  "kind": "neighbourhood",
+  "lat": 48.8336415,
+  "lng": 2.3539386
+ },
+ {
+  "id": "osm:node/2142394338",
+  "name": "Auteuil",
+  "kind": "suburb",
+  "lat": 48.8477221,
+  "lng": 2.2667376
+ },
+ {
+  "id": "osm:node/2142401571",
+  "name": "Passy",
+  "kind": "suburb",
+  "lat": 48.8575047,
+  "lng": 2.2809828
+ },
+ {
+  "id": "osm:node/2142414234",
+  "name": "La Goutte d'Or",
+  "kind": "suburb",
+  "lat": 48.8868305,
+  "lng": 2.3531436
+ },
+ {
+  "id": "osm:node/2142739937",
+  "name": "Beaubourg",
+  "kind": "neighbourhood",
+  "lat": 48.8605948,
+  "lng": 2.3516451
+ },
+ {
+  "id": "osm:node/2142769871",
+  "name": "Vaugirard",
+  "kind": "suburb",
+  "lat": 48.8405799,
+  "lng": 2.3003828
+ },
+ {
+  "id": "osm:node/2143873485",
+  "name": "Grenelle",
+  "kind": "quarter",
+  "lat": 48.8465079,
+  "lng": 2.290703
+ },
+ {
+  "id": "osm:node/2143877660",
+  "name": "Charonne",
+  "kind": "suburb",
+  "lat": 48.8551451,
+  "lng": 2.3976375
+ },
+ {
+  "id": "osm:node/2143885542",
+  "name": "La Villette",
+  "kind": "suburb",
+  "lat": 48.8904889,
+  "lng": 2.3800721
+ },
+ {
+  "id": "osm:node/2143927022",
+  "name": "Invalides",
+  "kind": "quarter",
+  "lat": 48.8583684,
+  "lng": 2.3128852
+ },
+ {
+  "id": "osm:node/2143992989",
+  "name": "Alésia",
+  "kind": "suburb",
+  "lat": 48.8279122,
+  "lng": 2.3268316
+ },
+ {
+  "id": "osm:node/2144014466",
+  "name": "Plaine de Monceau",
+  "kind": "suburb",
+  "lat": 48.8837088,
+  "lng": 2.3029849
+ },
+ {
+  "id": "osm:node/2146848454",
+  "name": "Cité Florale",
+  "kind": "neighbourhood",
+  "lat": 48.822703,
+  "lng": 2.3448195
+ },
+ {
+  "id": "osm:node/2147641769",
+  "name": "Ménilmontant",
+  "kind": "suburb",
+  "lat": 48.8686092,
+  "lng": 2.3898241
+ },
+ {
+  "id": "osm:node/2155711675",
+  "name": "Barbès",
+  "kind": "neighbourhood",
+  "lat": 48.8839388,
+  "lng": 2.3493707
+ },
+ {
+  "id": "osm:node/2311259836",
+  "name": "La Chapelle",
+  "kind": "suburb",
+  "lat": 48.8904375,
+  "lng": 2.3619391
+ },
+ {
+  "id": "osm:node/2542291567",
+  "name": "Les Groues",
+  "kind": "quarter",
+  "lat": 48.9015483,
+  "lng": 2.2252567
+ },
+ {
+  "id": "osm:node/2789976684",
+  "name": "Clignancourt",
+  "kind": "suburb",
+  "lat": 48.8940584,
+  "lng": 2.345678
+ },
+ {
+  "id": "osm:node/2789983153",
+  "name": "Montsouris",
+  "kind": "suburb",
+  "lat": 48.8227828,
+  "lng": 2.3348768
+ },
+ {
+  "id": "osm:node/2789987755",
+  "name": "Saint-Blaise",
+  "kind": "neighbourhood",
+  "lat": 48.8585673,
+  "lng": 2.4063236
+ },
+ {
+  "id": "osm:node/3234185968",
+  "name": "Campagne à Paris",
+  "kind": "neighbourhood",
+  "lat": 48.8658208,
+  "lng": 2.4076218
+ },
+ {
+  "id": "osm:node/3387854326",
+  "name": "Cité-Jardin Henri Sellier",
+  "kind": "neighbourhood",
+  "lat": 48.8835717,
+  "lng": 2.4090506
+ },
+ {
+  "id": "osm:node/3387854329",
+  "name": "Villa du Pré",
+  "kind": "neighbourhood",
+  "lat": 48.8832014,
+  "lng": 2.404802
+ },
+ {
+  "id": "osm:node/3870725355",
+  "name": "Les Buats",
+  "kind": "neighbourhood",
+  "lat": 48.8154104,
+  "lng": 2.2362135
+ },
+ {
+  "id": "osm:node/3873416060",
+  "name": "Les Pucelles",
+  "kind": "neighbourhood",
+  "lat": 48.8150482,
+  "lng": 2.2522931
+ },
+ {
+  "id": "osm:node/3873458208",
+  "name": "Les Brillants",
+  "kind": "neighbourhood",
+  "lat": 48.8161638,
+  "lng": 2.2494411
+ },
+ {
+  "id": "osm:node/3873458209",
+  "name": "Meudon-sur-Seine",
+  "kind": "suburb",
+  "lat": 48.8180748,
+  "lng": 2.2384571
+ },
+ {
+  "id": "osm:node/3873458210",
+  "name": "Les Montalets",
+  "kind": "neighbourhood",
+  "lat": 48.8178719,
+  "lng": 2.2425837
+ },
+ {
+  "id": "osm:node/3873458212",
+  "name": "Les Hautes Sorrières",
+  "kind": "neighbourhood",
+  "lat": 48.8153985,
+  "lng": 2.2434428
+ },
+ {
+  "id": "osm:node/3873458217",
+  "name": "Les Lampes",
+  "kind": "neighbourhood",
+  "lat": 48.8171753,
+  "lng": 2.2456637
+ },
+ {
+  "id": "osm:node/3873458218",
+  "name": "Les Groues",
+  "kind": "neighbourhood",
+  "lat": 48.8168488,
+  "lng": 2.2394265
+ },
+ {
+  "id": "osm:node/3873458219",
+  "name": "La Verrerie",
+  "kind": "neighbourhood",
+  "lat": 48.8206683,
+  "lng": 2.2351548
+ },
+ {
+  "id": "osm:node/3873458220",
+  "name": "Les Rivières",
+  "kind": "neighbourhood",
+  "lat": 48.8197605,
+  "lng": 2.2384218
+ },
+ {
+  "id": "osm:node/3873458221",
+  "name": "Les Renaults",
+  "kind": "neighbourhood",
+  "lat": 48.8172905,
+  "lng": 2.2359826
+ },
+ {
+  "id": "osm:node/3873492487",
+  "name": "Les Jardies",
+  "kind": "neighbourhood",
+  "lat": 48.8161283,
+  "lng": 2.2342655
+ },
+ {
+  "id": "osm:node/3873492488",
+  "name": "Pin Moisy",
+  "kind": "neighbourhood",
+  "lat": 48.8168031,
+  "lng": 2.2314331
+ },
+ {
+  "id": "osm:node/3873492489",
+  "name": "Les Balysis",
+  "kind": "neighbourhood",
+  "lat": 48.8187812,
+  "lng": 2.2275117
+ },
+ {
+  "id": "osm:node/3873492492",
+  "name": "La Côte de la Verrerie",
+  "kind": "neighbourhood",
+  "lat": 48.8219353,
+  "lng": 2.2273293
+ },
+ {
+  "id": "osm:node/3873492493",
+  "name": "Les Pierres Blanches",
+  "kind": "neighbourhood",
+  "lat": 48.8175129,
+  "lng": 2.2322055
+ },
+ {
+  "id": "osm:node/3873492494",
+  "name": "La Bourgogne des Capucins",
+  "kind": "neighbourhood",
+  "lat": 48.8162554,
+  "lng": 2.2288367
+ },
+ {
+  "id": "osm:node/3873492495",
+  "name": "Les Tybilles",
+  "kind": "neighbourhood",
+  "lat": 48.819438,
+  "lng": 2.2308805
+ },
+ {
+  "id": "osm:node/3873492497",
+  "name": "Bellevue",
+  "kind": "suburb",
+  "lat": 48.8195899,
+  "lng": 2.2250923
+ },
+ {
+  "id": "osm:node/4545578227",
+  "name": "La Défense",
+  "kind": "suburb",
+  "lat": 48.891008,
+  "lng": 2.2412078
+ },
+ {
+  "id": "osm:node/5434798119",
+  "name": "Quartier de l'Odéon",
+  "kind": "quarter",
+  "lat": 48.8505503,
+  "lng": 2.3387425
+ },
+ {
+  "id": "osm:node/5434798120",
+  "name": "Popincourt",
+  "kind": "suburb",
+  "lat": 48.8604299,
+  "lng": 2.3755351
+ },
+ {
+  "id": "osm:node/5434803821",
+  "name": "Faubourg Saint-Antoine",
+  "kind": "suburb",
+  "lat": 48.8507175,
+  "lng": 2.378531
+ },
+ {
+  "id": "osm:node/5441362236",
+  "name": "Faubourg du Temple",
+  "kind": "suburb",
+  "lat": 48.8705681,
+  "lng": 2.3728648
+ },
+ {
+  "id": "osm:node/5441362237",
+  "name": "Faubourg Saint-Denis",
+  "kind": "suburb",
+  "lat": 48.8758397,
+  "lng": 2.3560675
+ },
+ {
+  "id": "osm:node/5441362238",
+  "name": "Faubourg Saint-Martin",
+  "kind": "suburb",
+  "lat": 48.874368,
+  "lng": 2.3585812
+ },
+ {
+  "id": "osm:node/5445287714",
+  "name": "Faubourg Saint-Honoré",
+  "kind": "quarter",
+  "lat": 48.8729792,
+  "lng": 2.3080921
+ },
+ {
+  "id": "osm:node/5445762388",
+  "name": "Château Rouge",
+  "kind": "neighbourhood",
+  "lat": 48.8873865,
+  "lng": 2.3495212
+ },
+ {
+  "id": "osm:node/5445762389",
+  "name": "Faubourg Poissonnière",
+  "kind": "suburb",
+  "lat": 48.875775,
+  "lng": 2.3482224
+ },
+ {
+  "id": "osm:node/5445762390",
+  "name": "Faubourg Montmartre",
+  "kind": "suburb",
+  "lat": 48.8767743,
+  "lng": 2.3392691
+ },
+ {
+  "id": "osm:node/5445762391",
+  "name": "Quartier Saint-Georges",
+  "kind": "neighbourhood",
+  "lat": 48.8787985,
+  "lng": 2.3382801
+ },
+ {
+  "id": "osm:node/5445762392",
+  "name": "Quartier de l'Europe",
+  "kind": "suburb",
+  "lat": 48.8791535,
+  "lng": 2.3232963
+ },
+ {
+  "id": "osm:node/5451831769",
+  "name": "Faubourg Saint-Marcel",
+  "kind": "quarter",
+  "lat": 48.8368875,
+  "lng": 2.3518665
+ },
+ {
+  "id": "osm:node/5454287408",
+  "name": "Faubourg Saint-Jacques",
+  "kind": "quarter",
+  "lat": 48.8389905,
+  "lng": 2.3395936
+ },
+ {
+  "id": "osm:node/5470091861",
+  "name": "Petit-Montrouge",
+  "kind": "suburb",
+  "lat": 48.8301569,
+  "lng": 2.330965
+ },
+ {
+  "id": "osm:node/5470091863",
+  "name": "Quartier de la Glacière",
+  "kind": "neighbourhood",
+  "lat": 48.8287545,
+  "lng": 2.3429167
+ },
+ {
+  "id": "osm:node/5470091864",
+  "name": "Gros-Caillou",
+  "kind": "quarter",
+  "lat": 48.8592535,
+  "lng": 2.3051147
+ },
+ {
+  "id": "osm:node/5470091865",
+  "name": "Plaisance",
+  "kind": "suburb",
+  "lat": 48.8332851,
+  "lng": 2.3193972
+ },
+ {
+  "id": "osm:node/5522394697",
+  "name": "Les Ternes",
+  "kind": "suburb",
+  "lat": 48.8807219,
+  "lng": 2.2944263
+ },
+ {
+  "id": "osm:node/5522690122",
+  "name": "Reuilly",
+  "kind": "neighbourhood",
+  "lat": 48.8443144,
+  "lng": 2.3898419
+ },
+ {
+  "id": "osm:node/5522821334",
+  "name": "Les Épinettes",
+  "kind": "suburb",
+  "lat": 48.8932062,
+  "lng": 2.3228373
+ },
+ {
+  "id": "osm:node/5523199155",
+  "name": "Javel",
+  "kind": "suburb",
+  "lat": 48.8412483,
+  "lng": 2.2781575
+ },
+ {
+  "id": "osm:node/5617403614",
+  "name": "Hameau Boileau",
+  "kind": "neighbourhood",
+  "lat": 48.8446715,
+  "lng": 2.2623042
+ },
+ {
+  "id": "osm:node/8393557816",
+  "name": "Faubourg de l'Arche",
+  "kind": "quarter",
+  "lat": 48.897823,
+  "lng": 2.2362084
+ },
+ {
+  "id": "osm:node/8465416580",
+  "name": "Cité des Nouzeaux",
+  "kind": "neighbourhood",
+  "lat": 48.8154727,
+  "lng": 2.2870016
+ },
+ {
+  "id": "osm:node/8827155720",
+  "name": "Faubourg Saint-Germain",
+  "kind": "quarter",
+  "lat": 48.856257,
+  "lng": 2.32331
+ },
+ {
+  "id": "osm:node/8830167357",
+  "name": "Grange aux Belles",
+  "kind": "neighbourhood",
+  "lat": 48.8778014,
+  "lng": 2.3678866
+ },
+ {
+  "id": "osm:node/9189560751",
+  "name": "Cité des Sentes",
+  "kind": "neighbourhood",
+  "lat": 48.8810639,
+  "lng": 2.4253672
+ },
+ {
+  "id": "osm:node/9209977311",
+  "name": "Résidence Duclos",
+  "kind": "neighbourhood",
+  "lat": 48.8765734,
+  "lng": 2.4472044
+ },
+ {
+  "id": "osm:node/9320699266",
+  "name": "Cité de la Renardière",
+  "kind": "neighbourhood",
+  "lat": 48.8784915,
+  "lng": 2.4609127
+ },
+ {
+  "id": "osm:node/9343287138",
+  "name": "Cité Oradour",
+  "kind": "neighbourhood",
+  "lat": 48.8777251,
+  "lng": 2.4392545
+ },
+ {
+  "id": "osm:node/9396449341",
+  "name": "Cité Parat",
+  "kind": "neighbourhood",
+  "lat": 48.8913572,
+  "lng": 2.4365051
+ },
+ {
+  "id": "osm:node/9406914025",
+  "name": "Bas-Pays",
+  "kind": "quarter",
+  "lat": 48.8937952,
+  "lng": 2.4346152
+ },
+ {
+  "id": "osm:node/9409864269",
+  "name": "Le Petit Noisy",
+  "kind": "quarter",
+  "lat": 48.8989395,
+  "lng": 2.4674674
+ },
+ {
+  "id": "osm:node/9510699312",
+  "name": "Cité Maurice Thorez",
+  "kind": "neighbourhood",
+  "lat": 48.8799871,
+  "lng": 2.4461754
+ },
+ {
+  "id": "osm:node/9753986281",
+  "name": "Quartier Bruneseau",
+  "kind": "quarter",
+  "lat": 48.8254428,
+  "lng": 2.3857986
+ },
+ {
+  "id": "osm:node/9850455219",
+  "name": "Villa des Ternes",
+  "kind": "neighbourhood",
+  "lat": 48.8812821,
+  "lng": 2.2873959
+ },
+ {
+  "id": "osm:node/10213838159",
+  "name": "Quartier Boieldieu",
+  "kind": "neighbourhood",
+  "lat": 48.8885109,
+  "lng": 2.2387619
+ },
+ {
+  "id": "osm:node/10721597023",
+  "name": "Valmy",
+  "kind": "neighbourhood",
+  "lat": 48.827942,
+  "lng": 2.4018716
+ },
+ {
+  "id": "osm:node/10721597024",
+  "name": "Bercy",
+  "kind": "neighbourhood",
+  "lat": 48.824266,
+  "lng": 2.3963547
+ },
+ {
+  "id": "osm:node/10721597025",
+  "name": "Conflans",
+  "kind": "neighbourhood",
+  "lat": 48.8223206,
+  "lng": 2.40701
+ },
+ {
+  "id": "osm:node/11200819319",
+  "name": "Les Rigollots",
+  "kind": "quarter",
+  "lat": 48.8495138,
+  "lng": 2.4567018
+ },
+ {
+  "id": "osm:node/11200819320",
+  "name": "Merlan",
+  "kind": "quarter",
+  "lat": 48.8908755,
+  "lng": 2.4686858
+ },
+ {
+  "id": "osm:node/11200819321",
+  "name": "Londeau",
+  "kind": "quarter",
+  "lat": 48.8853682,
+  "lng": 2.4680103
+ },
+ {
+  "id": "osm:node/11200819324",
+  "name": "La Boissière",
+  "kind": "quarter",
+  "lat": 48.8754668,
+  "lng": 2.4568984
+ },
+ {
+  "id": "osm:node/11204368978",
+  "name": "Croulebarbe",
+  "kind": "quarter",
+  "lat": 48.8335405,
+  "lng": 2.347913
+ },
+ {
+  "id": "osm:node/12851237173",
+  "name": "Cité des Frères Voisin",
+  "kind": "neighbourhood",
+  "lat": 48.8288912,
+  "lng": 2.2737315
+ },
+ {
+  "id": "osm:node/12909749674",
+  "name": "Les Carrières",
+  "kind": "neighbourhood",
+  "lat": 48.8197411,
+  "lng": 2.4094598
+ },
+ {
+  "id": "osm:node/13062148027",
+  "name": "Le Village Anglais",
+  "kind": "neighbourhood",
+  "lat": 48.8689537,
+  "lng": 2.2285254
+ },
+ {
+  "id": "osm:node/13306769893",
+  "name": "Bel-Air",
+  "kind": "quarter",
+  "lat": 48.8409185,
+  "lng": 2.4046661
+ },
+ {
+  "id": "osm:node/13311113603",
+  "name": "Picpus",
+  "kind": "quarter",
+  "lat": 48.8396831,
+  "lng": 2.3954377
+ },
+ {
+  "id": "osm:node/13311131358",
+  "name": "Quinze-Vingts",
+  "kind": "quarter",
+  "lat": 48.8486547,
+  "lng": 2.3725462
+ },
+ {
+  "id": "osm:node/13605165126",
+  "name": "Parchamp - Albert Kahn",
+  "kind": "quarter",
+  "lat": 48.8467754,
+  "lng": 2.2333055
+ },
+ {
+  "id": "osm:node/13605165127",
+  "name": "Silly - Gallieni",
+  "kind": "quarter",
+  "lat": 48.8351814,
+  "lng": 2.2316629
+ },
+ {
+  "id": "osm:node/13605165128",
+  "name": "Billancourt - Rives de Seine",
+  "kind": "quarter",
+  "lat": 48.8290993,
+  "lng": 2.2406756
+ },
+ {
+  "id": "osm:node/13605165129",
+  "name": "République - Point-du-Jour",
+  "kind": "quarter",
+  "lat": 48.8315608,
+  "lng": 2.2510557
+ },
+ {
+  "id": "osm:node/13605165130",
+  "name": "Centre-Ville",
+  "kind": "quarter",
+  "lat": 48.8369717,
+  "lng": 2.2416516
+ },
+ {
+  "id": "osm:node/13605165131",
+  "name": "Les Princes - Marmottan",
+  "kind": "quarter",
+  "lat": 48.8429023,
+  "lng": 2.245774
+ },
+ {
+  "id": "osm:node/13607308989",
+  "name": "Écluse - Belvédère",
+  "kind": "quarter",
+  "lat": 48.8756785,
+  "lng": 2.2297791
+ },
+ {
+  "id": "osm:node/13607308990",
+  "name": "Centre Ville",
+  "kind": "quarter",
+  "lat": 48.870135,
+  "lng": 2.2277376
+ },
+ {
+  "id": "osm:node/13611728935",
+  "name": "Mairie - Hoche",
+  "kind": "quarter",
+  "lat": 48.8933741,
+  "lng": 2.4032316
+ },
+ {
+  "id": "osm:node/13611728936",
+  "name": "Église",
+  "kind": "quarter",
+  "lat": 48.8902681,
+  "lng": 2.4142896
+ },
+ {
+  "id": "osm:node/13611728937",
+  "name": "Petit Pantin - Les Limites",
+  "kind": "quarter",
+  "lat": 48.8932584,
+  "lng": 2.4212699
+ },
+ {
+  "id": "osm:node/13611728938",
+  "name": "Quatre Chemins",
+  "kind": "quarter",
+  "lat": 48.901306,
+  "lng": 2.3994266
+ },
+ {
+  "id": "osm:node/13611805072",
+  "name": "Arche Nord",
+  "kind": "quarter",
+  "lat": 48.8938568,
+  "lng": 2.2403392
+ },
+ {
+  "id": "osm:node/13611805073",
+  "name": "Arche Sud",
+  "kind": "quarter",
+  "lat": 48.889648,
+  "lng": 2.2359032
+ },
+ {
+  "id": "osm:node/13611805074",
+  "name": "Esplanade Sud",
+  "kind": "quarter",
+  "lat": 48.8877036,
+  "lng": 2.2450598
+ },
+ {
+  "id": "osm:node/13611805075",
+  "name": "Esplanade Nord",
+  "kind": "quarter",
+  "lat": 48.8903949,
+  "lng": 2.2474253
+ },
+ {
+  "id": "osm:node/13830554923",
+  "name": "Le Bourg du Pont",
+  "kind": "neighbourhood",
+  "lat": 48.8190279,
+  "lng": 2.4175896
+ },
+ {
+  "id": "osm:node/14201710340",
+  "name": "Quartier de l'Horloge",
+  "kind": "neighbourhood",
+  "lat": 48.8621488,
+  "lng": 2.3529702
+ },
+ {
+  "id": "osm:way/64223006",
+  "name": "Les Orgues de Flandre",
+  "kind": "neighbourhood",
+  "lat": 48.889782,
+  "lng": 2.3738613
+ },
+ {
+  "id": "osm:way/233418601",
+  "name": "Îlot Saint-Séverin",
+  "kind": "neighbourhood",
+  "lat": 48.8522648,
+  "lng": 2.345033
+ },
+ {
+  "id": "osm:way/385801588",
+  "name": "Cité Michelet",
+  "kind": "neighbourhood",
+  "lat": 48.8949985,
+  "lng": 2.375654
+ },
+ {
+  "id": "osm:way/588977469",
+  "name": "Quartier Liberté",
+  "kind": "neighbourhood",
+  "lat": 48.8772953,
+  "lng": 2.2232868
+ },
+ {
+  "id": "osm:way/646322132",
+  "name": "ZAC Canal de l'Ourcq",
+  "kind": "neighbourhood",
+  "lat": 48.9019251,
+  "lng": 2.4571577
+ },
+ {
+  "id": "osm:way/903570094",
+  "name": "Cité Python-Duvernois",
+  "kind": "neighbourhood",
+  "lat": 48.8627855,
+  "lng": 2.4112128
+ },
+ {
+  "id": "osm:way/1343896534",
+  "name": "Le Quartier Dupleix",
+  "kind": "neighbourhood",
+  "lat": 48.8518427,
+  "lng": 2.293811
+ },
+ {
+  "id": "osm:way/1343896535",
+  "name": "Le Quartier Dupleix",
+  "kind": "neighbourhood",
+  "lat": 48.8537672,
+  "lng": 2.2851071
+ },
+ {
+  "id": "osm:way/1493392827",
+  "name": "Le Bourg du Pont",
+  "kind": "neighbourhood",
+  "lat": 48.8189736,
+  "lng": 2.4174627
+ },
+ {
+  "id": "osm:relation/9530",
+  "name": "Paris 13e Arrondissement",
+  "kind": "suburb",
+  "lat": 48.8302527,
+  "lng": 2.365698
+ },
+ {
+  "id": "osm:relation/2172739",
+  "name": "Quartier du Palais Royal",
+  "kind": "quarter",
+  "lat": 48.8644972,
+  "lng": 2.3362595
+ },
+ {
+  "id": "osm:relation/2172740",
+  "name": "Saint-Germain-l'Auxerrois",
+  "kind": "quarter",
+  "lat": 48.8602212,
+  "lng": 2.3345586
+ },
+ {
+  "id": "osm:relation/2172743",
+  "name": "Quartier Vendôme",
+  "kind": "quarter",
+  "lat": 48.8669609,
+  "lng": 2.3285721
+ },
+ {
+  "id": "osm:relation/2189366",
+  "name": "Gaillon",
+  "kind": "quarter",
+  "lat": 48.8692249,
+  "lng": 2.3325081
+ },
+ {
+  "id": "osm:relation/2189371",
+  "name": "Vivienne",
+  "kind": "quarter",
+  "lat": 48.8688741,
+  "lng": 2.3394721
+ },
+ {
+  "id": "osm:relation/2189380",
+  "name": "Quartier du Mail",
+  "kind": "quarter",
+  "lat": 48.8679553,
+  "lng": 2.3444711
+ },
+ {
+  "id": "osm:relation/2189386",
+  "name": "Bonne-Nouvelle",
+  "kind": "quarter",
+  "lat": 48.8670411,
+  "lng": 2.3504688
+ },
+ {
+  "id": "osm:relation/2191005",
+  "name": "Chaillot",
+  "kind": "suburb",
+  "lat": 48.8687026,
+  "lng": 2.2924705
+ },
+ {
+  "id": "osm:relation/2191497",
+  "name": "Quartier de Croulebarbe",
+  "kind": "quarter",
+  "lat": 48.8339591,
+  "lng": 2.3483584
+ },
+ {
+  "id": "osm:relation/2191498",
+  "name": "Quartier de la Gare",
+  "kind": "quarter",
+  "lat": 48.8276554,
+  "lng": 2.3732013
+ },
+ {
+  "id": "osm:relation/2191499",
+  "name": "Maison-Blanche",
+  "kind": "quarter",
+  "lat": 48.8236825,
+  "lng": 2.3540659
+ },
+ {
+  "id": "osm:relation/2191500",
+  "name": "Quartier de la Salpêtrière",
+  "kind": "quarter",
+  "lat": 48.8379483,
+  "lng": 2.3633258
+ },
+ {
+  "id": "osm:relation/7981217",
+  "name": "Nouvelle Athènes",
+  "kind": "neighbourhood",
+  "lat": 48.8783808,
+  "lng": 2.3353142
+ },
+ {
+  "id": "osm:relation/15537328",
+  "name": "Le Marais",
+  "kind": "suburb",
+  "lat": 48.8591928,
+  "lng": 2.3598823
+ }
+]

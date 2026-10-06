@@ -1,0 +1,1983 @@
+[
+ {
+  "id": "osm:node/510827933",
+  "name": "la Fontsanta",
+  "kind": "neighbourhood",
+  "lat": 41.3598918,
+  "lng": 2.0602434
+ },
+ {
+  "id": "osm:node/590933915",
+  "name": "Vallcarca",
+  "kind": "neighbourhood",
+  "lat": 41.4155257,
+  "lng": 2.1422431
+ },
+ {
+  "id": "osm:node/626780868",
+  "name": "la Pau",
+  "kind": "neighbourhood",
+  "lat": 41.4505152,
+  "lng": 2.2232432
+ },
+ {
+  "id": "osm:node/626780911",
+  "name": "la Salut",
+  "kind": "neighbourhood",
+  "lat": 41.4434061,
+  "lng": 2.2258826
+ },
+ {
+  "id": "osm:node/626780916",
+  "name": "Sant Roc",
+  "kind": "neighbourhood",
+  "lat": 41.4346553,
+  "lng": 2.2242733
+ },
+ {
+  "id": "osm:node/626780921",
+  "name": "Artigues",
+  "kind": "neighbourhood",
+  "lat": 41.4339314,
+  "lng": 2.2202393
+ },
+ {
+  "id": "osm:node/626780926",
+  "name": "Sistrells",
+  "kind": "neighbourhood",
+  "lat": 41.4476523,
+  "lng": 2.2288652
+ },
+ {
+  "id": "osm:node/630958263",
+  "name": "Congrés",
+  "kind": "neighbourhood",
+  "lat": 41.4382382,
+  "lng": 2.2289374
+ },
+ {
+  "id": "osm:node/638387675",
+  "name": "Lloreda",
+  "kind": "neighbourhood",
+  "lat": 41.4522095,
+  "lng": 2.226981
+ },
+ {
+  "id": "osm:node/641310196",
+  "name": "Sant Antoni de Llefià",
+  "kind": "neighbourhood",
+  "lat": 41.4394076,
+  "lng": 2.2167636
+ },
+ {
+  "id": "osm:node/641310198",
+  "name": "Sant Joan de Llefià",
+  "kind": "neighbourhood",
+  "lat": 41.4426609,
+  "lng": 2.220921
+ },
+ {
+  "id": "osm:node/641310199",
+  "name": "Sant Mori de Llefià",
+  "kind": "neighbourhood",
+  "lat": 41.43761,
+  "lng": 2.2214897
+ },
+ {
+  "id": "osm:node/968354827",
+  "name": "la Torrassa",
+  "kind": "neighbourhood",
+  "lat": 41.3708284,
+  "lng": 2.123622
+ },
+ {
+  "id": "osm:node/968355141",
+  "name": "Collblanc",
+  "kind": "neighbourhood",
+  "lat": 41.3732036,
+  "lng": 2.1173563
+ },
+ {
+  "id": "osm:node/968355477",
+  "name": "la Florida",
+  "kind": "neighbourhood",
+  "lat": 41.3717221,
+  "lng": 2.1103398
+ },
+ {
+  "id": "osm:node/968355478",
+  "name": "les Planes",
+  "kind": "neighbourhood",
+  "lat": 41.3679378,
+  "lng": 2.1081082
+ },
+ {
+  "id": "osm:node/968355544",
+  "name": "Pubilla Cases",
+  "kind": "neighbourhood",
+  "lat": 41.3727044,
+  "lng": 2.1031619
+ },
+ {
+  "id": "osm:node/968355545",
+  "name": "Can Serra",
+  "kind": "neighbourhood",
+  "lat": 41.3665047,
+  "lng": 2.1000187
+ },
+ {
+  "id": "osm:node/968355657",
+  "name": "Sanfeliu",
+  "kind": "neighbourhood",
+  "lat": 41.3652808,
+  "lng": 2.0910279
+ },
+ {
+  "id": "osm:node/968355661",
+  "name": "Sant Josep",
+  "kind": "neighbourhood",
+  "lat": 41.3638797,
+  "lng": 2.1108547
+ },
+ {
+  "id": "osm:node/968356247",
+  "name": "Centre",
+  "kind": "neighbourhood",
+  "lat": 41.3606748,
+  "lng": 2.1005122
+ },
+ {
+  "id": "osm:node/968356248",
+  "name": "Bellvitge",
+  "kind": "neighbourhood",
+  "lat": 41.3509388,
+  "lng": 2.1076003
+ },
+ {
+  "id": "osm:node/968356669",
+  "name": "Granvia Sud",
+  "kind": "neighbourhood",
+  "lat": 41.3499315,
+  "lng": 2.1254244
+ },
+ {
+  "id": "osm:node/968356710",
+  "name": "el Gornal",
+  "kind": "neighbourhood",
+  "lat": 41.3568463,
+  "lng": 2.1176503
+ },
+ {
+  "id": "osm:node/968357042",
+  "name": "Santa Eulàlia",
+  "kind": "neighbourhood",
+  "lat": 41.3655223,
+  "lng": 2.1287718
+ },
+ {
+  "id": "osm:node/1241562053",
+  "name": "Can Trabal",
+  "kind": "neighbourhood",
+  "lat": 41.456156,
+  "lng": 2.0785186
+ },
+ {
+  "id": "osm:node/1375988897",
+  "name": "la Salut",
+  "kind": "quarter",
+  "lat": 41.411866,
+  "lng": 2.1539614
+ },
+ {
+  "id": "osm:node/1375988900",
+  "name": "la Teixonera",
+  "kind": "quarter",
+  "lat": 41.423173,
+  "lng": 2.1459698
+ },
+ {
+  "id": "osm:node/1375988902",
+  "name": "el Carmel",
+  "kind": "quarter",
+  "lat": 41.4215706,
+  "lng": 2.1557995
+ },
+ {
+  "id": "osm:node/1375988904",
+  "name": "el Coll",
+  "kind": "quarter",
+  "lat": 41.4179072,
+  "lng": 2.1480753
+ },
+ {
+  "id": "osm:node/1375988907",
+  "name": "la Vila de Gràcia",
+  "kind": "quarter",
+  "lat": 41.4031783,
+  "lng": 2.1571662
+ },
+ {
+  "id": "osm:node/1433944928",
+  "name": "la Barceloneta",
+  "kind": "quarter",
+  "lat": 41.3806533,
+  "lng": 2.1899274
+ },
+ {
+  "id": "osm:node/1433947776",
+  "name": "el Gòtic",
+  "kind": "quarter",
+  "lat": 41.38384,
+  "lng": 2.1745119
+ },
+ {
+  "id": "osm:node/1433947858",
+  "name": "el Raval",
+  "kind": "quarter",
+  "lat": 41.3798479,
+  "lng": 2.1686823
+ },
+ {
+  "id": "osm:node/1433950832",
+  "name": "Sant Genís dels Agudells",
+  "kind": "quarter",
+  "lat": 41.4264567,
+  "lng": 2.1374905
+ },
+ {
+  "id": "osm:node/1620534920",
+  "name": "l'Antiga Esquerra de l'Eixample",
+  "kind": "quarter",
+  "lat": 41.39,
+  "lng": 2.155
+ },
+ {
+  "id": "osm:node/1620538384",
+  "name": "la Nova Esquerra de l'Eixample",
+  "kind": "quarter",
+  "lat": 41.383389,
+  "lng": 2.149
+ },
+ {
+  "id": "osm:node/1710349115",
+  "name": "Hostafrancs",
+  "kind": "quarter",
+  "lat": 41.3750877,
+  "lng": 2.1429334
+ },
+ {
+  "id": "osm:node/1710349118",
+  "name": "la Bordeta",
+  "kind": "quarter",
+  "lat": 41.3694117,
+  "lng": 2.1373499
+ },
+ {
+  "id": "osm:node/1710349120",
+  "name": "Montjuïc",
+  "kind": "quarter",
+  "lat": 41.3647625,
+  "lng": 2.154233
+ },
+ {
+  "id": "osm:node/1710349123",
+  "name": "el Poble-sec",
+  "kind": "quarter",
+  "lat": 41.3728061,
+  "lng": 2.1619718
+ },
+ {
+  "id": "osm:node/1710349124",
+  "name": "Sant Antoni",
+  "kind": "quarter",
+  "lat": 41.3784116,
+  "lng": 2.1617677
+ },
+ {
+  "id": "osm:node/1710349125",
+  "name": "Sants",
+  "kind": "quarter",
+  "lat": 41.3753288,
+  "lng": 2.1349117
+ },
+ {
+  "id": "osm:node/1710383398",
+  "name": "la Font de la Guatlla",
+  "kind": "quarter",
+  "lat": 41.3707824,
+  "lng": 2.1446756
+ },
+ {
+  "id": "osm:node/1710383403",
+  "name": "la Marina de Port",
+  "kind": "quarter",
+  "lat": 41.3602964,
+  "lng": 2.1375842
+ },
+ {
+  "id": "osm:node/1710383406",
+  "name": "la Marina del Prat Vermell",
+  "kind": "quarter",
+  "lat": 41.3538419,
+  "lng": 2.1423184
+ },
+ {
+  "id": "osm:node/1710383408",
+  "name": "Zona Franca-Port",
+  "kind": "quarter",
+  "lat": 41.3328765,
+  "lng": 2.1268143
+ },
+ {
+  "id": "osm:node/1710758988",
+  "name": "Diagonal Mar i el Front Marítim del Poblenou",
+  "kind": "quarter",
+  "lat": 41.4052285,
+  "lng": 2.2133522
+ },
+ {
+  "id": "osm:node/1711539774",
+  "name": "la Ribera",
+  "kind": "neighbourhood",
+  "lat": 41.3848426,
+  "lng": 2.1828745
+ },
+ {
+  "id": "osm:node/1711539787",
+  "name": "Santa Caterina",
+  "kind": "neighbourhood",
+  "lat": 41.3858609,
+  "lng": 2.1786654
+ },
+ {
+  "id": "osm:node/1711549185",
+  "name": "l'Eixample",
+  "kind": "suburb",
+  "lat": 41.3936885,
+  "lng": 2.1636552
+ },
+ {
+  "id": "osm:node/1711549186",
+  "name": "el Fort Pienc",
+  "kind": "quarter",
+  "lat": 41.3959246,
+  "lng": 2.1823245
+ },
+ {
+  "id": "osm:node/1711551976",
+  "name": "la Sagrada Família",
+  "kind": "quarter",
+  "lat": 41.4044407,
+  "lng": 2.1748611
+ },
+ {
+  "id": "osm:node/1711578889",
+  "name": "la Vila Olímpica del Poblenou",
+  "kind": "quarter",
+  "lat": 41.3898682,
+  "lng": 2.1968459
+ },
+ {
+  "id": "osm:node/1711593053",
+  "name": "el Poblenou",
+  "kind": "quarter",
+  "lat": 41.400527,
+  "lng": 2.2017292
+ },
+ {
+  "id": "osm:node/1711753778",
+  "name": "el Parc i la Llacuna del Poblenou",
+  "kind": "quarter",
+  "lat": 41.4007334,
+  "lng": 2.191342
+ },
+ {
+  "id": "osm:node/1711759440",
+  "name": "el Besòs i el Maresme",
+  "kind": "quarter",
+  "lat": 41.4150848,
+  "lng": 2.2123028
+ },
+ {
+  "id": "osm:node/1711762971",
+  "name": "Provençals del Poblenou",
+  "kind": "quarter",
+  "lat": 41.4119484,
+  "lng": 2.2041249
+ },
+ {
+  "id": "osm:node/1711772437",
+  "name": "el Clot",
+  "kind": "quarter",
+  "lat": 41.4099525,
+  "lng": 2.1908234
+ },
+ {
+  "id": "osm:node/1711777314",
+  "name": "el Camp de l'Arpa del Clot",
+  "kind": "quarter",
+  "lat": 41.4107542,
+  "lng": 2.1828156
+ },
+ {
+  "id": "osm:node/1711783688",
+  "name": "Sant Martí de Provençals",
+  "kind": "quarter",
+  "lat": 41.4165186,
+  "lng": 2.1989683
+ },
+ {
+  "id": "osm:node/1711795080",
+  "name": "Sarrià",
+  "kind": "quarter",
+  "lat": 41.3993851,
+  "lng": 2.1183797
+ },
+ {
+  "id": "osm:node/1711838540",
+  "name": "les Corts",
+  "kind": "suburb",
+  "lat": 41.3872483,
+  "lng": 2.1205352
+ },
+ {
+  "id": "osm:node/1711844725",
+  "name": "la Maternitat i Sant Ramon",
+  "kind": "quarter",
+  "lat": 41.3812615,
+  "lng": 2.1208537
+ },
+ {
+  "id": "osm:node/1711851640",
+  "name": "Pedralbes",
+  "kind": "quarter",
+  "lat": 41.3901401,
+  "lng": 2.112218
+ },
+ {
+  "id": "osm:node/1712858070",
+  "name": "Vallvidrera",
+  "kind": "neighbourhood",
+  "lat": 41.4147395,
+  "lng": 2.1065108
+ },
+ {
+  "id": "osm:node/1712865944",
+  "name": "les Planes",
+  "kind": "neighbourhood",
+  "lat": 41.4279686,
+  "lng": 2.0929422
+ },
+ {
+  "id": "osm:node/1712867645",
+  "name": "el Tibidabo",
+  "kind": "neighbourhood",
+  "lat": 41.4223722,
+  "lng": 2.1192598
+ },
+ {
+  "id": "osm:node/1712880493",
+  "name": "les Tres Torres",
+  "kind": "quarter",
+  "lat": 41.3970481,
+  "lng": 2.1299628
+ },
+ {
+  "id": "osm:node/1713218961",
+  "name": "la Bonanova",
+  "kind": "neighbourhood",
+  "lat": 41.4089486,
+  "lng": 2.1301908
+ },
+ {
+  "id": "osm:node/1713235698",
+  "name": "Galvany",
+  "kind": "neighbourhood",
+  "lat": 41.3965997,
+  "lng": 2.1440129
+ },
+ {
+  "id": "osm:node/1713235702",
+  "name": "Sant Gervasi",
+  "kind": "neighbourhood",
+  "lat": 41.4029792,
+  "lng": 2.1381975
+ },
+ {
+  "id": "osm:node/1713281580",
+  "name": "el Camp d'en Grassot",
+  "kind": "neighbourhood",
+  "lat": 41.4045889,
+  "lng": 2.1667806
+ },
+ {
+  "id": "osm:node/2120270665",
+  "name": "Puigfred",
+  "kind": "neighbourhood",
+  "lat": 41.4549663,
+  "lng": 2.2215989
+ },
+ {
+  "id": "osm:node/2120270666",
+  "name": "el Remei",
+  "kind": "neighbourhood",
+  "lat": 41.4315659,
+  "lng": 2.2276285
+ },
+ {
+  "id": "osm:node/2621394345",
+  "name": "Navas",
+  "kind": "quarter",
+  "lat": 41.4161436,
+  "lng": 2.1863806
+ },
+ {
+  "id": "osm:node/2621419058",
+  "name": "Nou Barris",
+  "kind": "suburb",
+  "lat": 41.4458153,
+  "lng": 2.1798006
+ },
+ {
+  "id": "osm:node/2710166277",
+  "name": "Sant Ildefons",
+  "kind": "neighbourhood",
+  "lat": 41.3632004,
+  "lng": 2.0833386
+ },
+ {
+  "id": "osm:node/2875927736",
+  "name": "la Sagrera",
+  "kind": "quarter",
+  "lat": 41.4237499,
+  "lng": 2.189582
+ },
+ {
+  "id": "osm:node/2881211429",
+  "name": "el Bon Pastor",
+  "kind": "quarter",
+  "lat": 41.4359841,
+  "lng": 2.2051289
+ },
+ {
+  "id": "osm:node/2920017039",
+  "name": "Sant Andreu de Palomar",
+  "kind": "quarter",
+  "lat": 41.4340722,
+  "lng": 2.188966
+ },
+ {
+  "id": "osm:node/2920136631",
+  "name": "el Guinardó",
+  "kind": "quarter",
+  "lat": 41.4177335,
+  "lng": 2.1736316
+ },
+ {
+  "id": "osm:node/2920136632",
+  "name": "Horta",
+  "kind": "quarter",
+  "lat": 41.4330206,
+  "lng": 2.1590883
+ },
+ {
+  "id": "osm:node/2992255133",
+  "name": "les Cases de la Seda",
+  "kind": "neighbourhood",
+  "lat": 41.3202969,
+  "lng": 2.0948576
+ },
+ {
+  "id": "osm:node/2992255134",
+  "name": "la Barceloneta",
+  "kind": "neighbourhood",
+  "lat": 41.320157,
+  "lng": 2.1006353
+ },
+ {
+  "id": "osm:node/2992255136",
+  "name": "Sant Jordi-Ribera Baixa",
+  "kind": "neighbourhood",
+  "lat": 41.3221947,
+  "lng": 2.0866168
+ },
+ {
+  "id": "osm:node/3152208671",
+  "name": "el Putxet",
+  "kind": "neighbourhood",
+  "lat": 41.4074307,
+  "lng": 2.1443937
+ },
+ {
+  "id": "osm:node/3152208672",
+  "name": "el Farró",
+  "kind": "neighbourhood",
+  "lat": 41.4036927,
+  "lng": 2.1472841
+ },
+ {
+  "id": "osm:node/3153962957",
+  "name": "la Vall d'Hebron",
+  "kind": "quarter",
+  "lat": 41.4303788,
+  "lng": 2.1486244
+ },
+ {
+  "id": "osm:node/3170159038",
+  "name": "la Dreta de l'Eixample",
+  "kind": "quarter",
+  "lat": 41.3968401,
+  "lng": 2.1687519
+ },
+ {
+  "id": "osm:node/3170159040",
+  "name": "el Congrés",
+  "kind": "neighbourhood",
+  "lat": 41.4264848,
+  "lng": 2.1806779
+ },
+ {
+  "id": "osm:node/3170159041",
+  "name": "els Indians",
+  "kind": "neighbourhood",
+  "lat": 41.4228372,
+  "lng": 2.1823463
+ },
+ {
+  "id": "osm:node/3170159042",
+  "name": "Baró de Viver",
+  "kind": "quarter",
+  "lat": 41.446445,
+  "lng": 2.1993607
+ },
+ {
+  "id": "osm:node/3170159043",
+  "name": "la Verneda",
+  "kind": "neighbourhood",
+  "lat": 41.4258269,
+  "lng": 2.2013604
+ },
+ {
+  "id": "osm:node/3170159044",
+  "name": "la Pau",
+  "kind": "neighbourhood",
+  "lat": 41.4218989,
+  "lng": 2.2071909
+ },
+ {
+  "id": "osm:node/3170159045",
+  "name": "els Penitents",
+  "kind": "neighbourhood",
+  "lat": 41.4187378,
+  "lng": 2.1383481
+ },
+ {
+  "id": "osm:node/3170159046",
+  "name": "Gràcia Nova",
+  "kind": "neighbourhood",
+  "lat": 41.4093317,
+  "lng": 2.1623227
+ },
+ {
+  "id": "osm:node/3170159047",
+  "name": "Sant Ramon",
+  "kind": "neighbourhood",
+  "lat": 41.3773964,
+  "lng": 2.116117
+ },
+ {
+  "id": "osm:node/3170159048",
+  "name": "el Baix Guinardó",
+  "kind": "quarter",
+  "lat": 41.4114374,
+  "lng": 2.1686512
+ },
+ {
+  "id": "osm:node/3170159049",
+  "name": "Can Baró",
+  "kind": "quarter",
+  "lat": 41.4160925,
+  "lng": 2.1624018
+ },
+ {
+  "id": "osm:node/3170159050",
+  "name": "la Font d'en Fargues",
+  "kind": "quarter",
+  "lat": 41.425788,
+  "lng": 2.1659152
+ },
+ {
+  "id": "osm:node/3170159051",
+  "name": "la Clota",
+  "kind": "quarter",
+  "lat": 41.4291434,
+  "lng": 2.1532057
+ },
+ {
+  "id": "osm:node/3170159053",
+  "name": "Montbau",
+  "kind": "quarter",
+  "lat": 41.4319032,
+  "lng": 2.1416084
+ },
+ {
+  "id": "osm:node/3170270245",
+  "name": "Vilapicina",
+  "kind": "neighbourhood",
+  "lat": 41.4300186,
+  "lng": 2.1760694
+ },
+ {
+  "id": "osm:node/3170270246",
+  "name": "la Torre Llobeta",
+  "kind": "neighbourhood",
+  "lat": 41.4267784,
+  "lng": 2.1733333
+ },
+ {
+  "id": "osm:node/3170270251",
+  "name": "el Turó de la Peira",
+  "kind": "quarter",
+  "lat": 41.4323672,
+  "lng": 2.1690681
+ },
+ {
+  "id": "osm:node/3170270252",
+  "name": "Can Peguera",
+  "kind": "quarter",
+  "lat": 41.4348568,
+  "lng": 2.1657848
+ },
+ {
+  "id": "osm:node/3170270253",
+  "name": "la Guineueta",
+  "kind": "quarter",
+  "lat": 41.4403026,
+  "lng": 2.1704023
+ },
+ {
+  "id": "osm:node/3170270254",
+  "name": "Canyelles",
+  "kind": "quarter",
+  "lat": 41.4428353,
+  "lng": 2.1652279
+ },
+ {
+  "id": "osm:node/3170270255",
+  "name": "les Roquetes",
+  "kind": "quarter",
+  "lat": 41.4477984,
+  "lng": 2.1762713
+ },
+ {
+  "id": "osm:node/3170270257",
+  "name": "Verdun",
+  "kind": "quarter",
+  "lat": 41.4429839,
+  "lng": 2.175724
+ },
+ {
+  "id": "osm:node/3170270258",
+  "name": "Porta",
+  "kind": "quarter",
+  "lat": 41.4347969,
+  "lng": 2.1785227
+ },
+ {
+  "id": "osm:node/3170270465",
+  "name": "la Prosperitat",
+  "kind": "quarter",
+  "lat": 41.4432285,
+  "lng": 2.182058
+ },
+ {
+  "id": "osm:node/3170270466",
+  "name": "la Trinitat Nova",
+  "kind": "quarter",
+  "lat": 41.4497136,
+  "lng": 2.1838414
+ },
+ {
+  "id": "osm:node/3170270467",
+  "name": "la Trinitat Vella",
+  "kind": "quarter",
+  "lat": 41.4501759,
+  "lng": 2.1913441
+ },
+ {
+  "id": "osm:node/3170270468",
+  "name": "Torre Baró",
+  "kind": "quarter",
+  "lat": 41.4580108,
+  "lng": 2.1839863
+ },
+ {
+  "id": "osm:node/3170270469",
+  "name": "Ciutat Meridiana",
+  "kind": "quarter",
+  "lat": 41.4620341,
+  "lng": 2.1783979
+ },
+ {
+  "id": "osm:node/3170270488",
+  "name": "Vallbona",
+  "kind": "quarter",
+  "lat": 41.463372,
+  "lng": 2.1840515
+ },
+ {
+  "id": "osm:node/4399865499",
+  "name": "Finestrelles",
+  "kind": "neighbourhood",
+  "lat": 41.3834513,
+  "lng": 2.0970008
+ },
+ {
+  "id": "osm:node/4419123049",
+  "name": "Can Cervera",
+  "kind": "neighbourhood",
+  "lat": 41.3698278,
+  "lng": 2.0946231
+ },
+ {
+  "id": "osm:node/4419123051",
+  "name": "Ca n'Oliveres",
+  "kind": "neighbourhood",
+  "lat": 41.3781496,
+  "lng": 2.1007697
+ },
+ {
+  "id": "osm:node/4419123960",
+  "name": "Sant Pere Màrtir",
+  "kind": "neighbourhood",
+  "lat": 41.3885717,
+  "lng": 2.0944607
+ },
+ {
+  "id": "osm:node/4419141852",
+  "name": "Ciutat Diagonal",
+  "kind": "neighbourhood",
+  "lat": 41.3842722,
+  "lng": 2.0883583
+ },
+ {
+  "id": "osm:node/4419141853",
+  "name": "la Miranda",
+  "kind": "neighbourhood",
+  "lat": 41.3875081,
+  "lng": 2.0860838
+ },
+ {
+  "id": "osm:node/4419141854",
+  "name": "la Mallola",
+  "kind": "neighbourhood",
+  "lat": 41.3816962,
+  "lng": 2.0840667
+ },
+ {
+  "id": "osm:node/4419141855",
+  "name": "Centre",
+  "kind": "neighbourhood",
+  "lat": 41.3780655,
+  "lng": 2.0871057
+ },
+ {
+  "id": "osm:node/4419141856",
+  "name": "Can Clota",
+  "kind": "neighbourhood",
+  "lat": 41.3752294,
+  "lng": 2.0925823
+ },
+ {
+  "id": "osm:node/4419141857",
+  "name": "la Plana",
+  "kind": "neighbourhood",
+  "lat": 41.3728504,
+  "lng": 2.0866726
+ },
+ {
+  "id": "osm:node/4419141858",
+  "name": "Montesa",
+  "kind": "neighbourhood",
+  "lat": 41.3693914,
+  "lng": 2.0826299
+ },
+ {
+  "id": "osm:node/4419141859",
+  "name": "el Gall",
+  "kind": "neighbourhood",
+  "lat": 41.3757672,
+  "lng": 2.0824724
+ },
+ {
+  "id": "osm:node/4448937264",
+  "name": "Sol i Aire",
+  "kind": "neighbourhood",
+  "lat": 41.4440861,
+  "lng": 2.1073833
+ },
+ {
+  "id": "osm:node/4525236262",
+  "name": "Parc Comercial Sant Boi",
+  "kind": "neighbourhood",
+  "lat": 41.3299653,
+  "lng": 2.0514697
+ },
+ {
+  "id": "osm:node/4675281089",
+  "name": "Sant Pere",
+  "kind": "neighbourhood",
+  "lat": 41.3883219,
+  "lng": 2.1774107
+ },
+ {
+  "id": "osm:node/4675623720",
+  "name": "Sants-Badal",
+  "kind": "quarter",
+  "lat": 41.375466,
+  "lng": 2.1277096
+ },
+ {
+  "id": "osm:node/5469692359",
+  "name": "la Verneda",
+  "kind": "neighbourhood",
+  "lat": 41.4308426,
+  "lng": 2.2096482
+ },
+ {
+  "id": "osm:node/5469692360",
+  "name": "la Catalana",
+  "kind": "neighbourhood",
+  "lat": 41.4239747,
+  "lng": 2.2206881
+ },
+ {
+  "id": "osm:node/5469692361",
+  "name": "el Besòs",
+  "kind": "neighbourhood",
+  "lat": 41.4229107,
+  "lng": 2.2146371
+ },
+ {
+  "id": "osm:node/5469692362",
+  "name": "la Mina",
+  "kind": "neighbourhood",
+  "lat": 41.4183372,
+  "lng": 2.2214931
+ },
+ {
+  "id": "osm:node/6312331921",
+  "name": "Mira-sol",
+  "kind": "neighbourhood",
+  "lat": 41.4672122,
+  "lng": 2.0510163
+ },
+ {
+  "id": "osm:node/6312331922",
+  "name": "la Floresta",
+  "kind": "quarter",
+  "lat": 41.4478853,
+  "lng": 2.0731251
+ },
+ {
+  "id": "osm:node/7378471438",
+  "name": "Pla del Vent - Torreblanca",
+  "kind": "neighbourhood",
+  "lat": 41.3768469,
+  "lng": 2.0586817
+ },
+ {
+  "id": "osm:node/7378471440",
+  "name": "Residencial Sant Joan",
+  "kind": "neighbourhood",
+  "lat": 41.3726127,
+  "lng": 2.0698946
+ },
+ {
+  "id": "osm:node/7378471441",
+  "name": "les Planes",
+  "kind": "neighbourhood",
+  "lat": 41.3671859,
+  "lng": 2.0730109
+ },
+ {
+  "id": "osm:node/7378471442",
+  "name": "Centre",
+  "kind": "neighbourhood",
+  "lat": 41.3656958,
+  "lng": 2.0568895
+ },
+ {
+  "id": "osm:node/7395734498",
+  "name": "Riera",
+  "kind": "neighbourhood",
+  "lat": 41.3505631,
+  "lng": 2.0747338
+ },
+ {
+  "id": "osm:node/7395734499",
+  "name": "el Pedró",
+  "kind": "neighbourhood",
+  "lat": 41.3642452,
+  "lng": 2.0741073
+ },
+ {
+  "id": "osm:node/7395734500",
+  "name": "Almeda",
+  "kind": "quarter",
+  "lat": 41.3528061,
+  "lng": 2.0875999
+ },
+ {
+  "id": "osm:node/7395734501",
+  "name": "Can Fatjó",
+  "kind": "neighbourhood",
+  "lat": 41.3612346,
+  "lng": 2.0640576
+ },
+ {
+  "id": "osm:node/7395734502",
+  "name": "la Gavarra",
+  "kind": "neighbourhood",
+  "lat": 41.3608705,
+  "lng": 2.074722
+ },
+ {
+  "id": "osm:node/7395734503",
+  "name": "Centre",
+  "kind": "neighbourhood",
+  "lat": 41.3536258,
+  "lng": 2.0701895
+ },
+ {
+  "id": "osm:node/9447036760",
+  "name": "Sant Joan Baptista",
+  "kind": "neighbourhood",
+  "lat": 41.4267274,
+  "lng": 2.2246096
+ },
+ {
+  "id": "osm:node/9447036761",
+  "name": "Sant Adrià Nord",
+  "kind": "neighbourhood",
+  "lat": 41.4327654,
+  "lng": 2.2153871
+ },
+ {
+  "id": "osm:node/9507566946",
+  "name": "Mas Lluí",
+  "kind": "neighbourhood",
+  "lat": 41.3867494,
+  "lng": 2.055254
+ },
+ {
+  "id": "osm:node/10921904365",
+  "name": "Gràcia",
+  "kind": "suburb",
+  "lat": 41.4065767,
+  "lng": 2.1582812
+ },
+ {
+  "id": "osm:node/10925234224",
+  "name": "Ciutat Vella",
+  "kind": "suburb",
+  "lat": 41.3819793,
+  "lng": 2.1804154
+ },
+ {
+  "id": "osm:node/10937094653",
+  "name": "Sant Martí",
+  "kind": "suburb",
+  "lat": 41.4084102,
+  "lng": 2.2031889
+ },
+ {
+  "id": "osm:node/11022086174",
+  "name": "Sant Andreu",
+  "kind": "suburb",
+  "lat": 41.4372495,
+  "lng": 2.1954872
+ },
+ {
+  "id": "osm:node/11022239709",
+  "name": "Horta-Guinardó",
+  "kind": "suburb",
+  "lat": 41.4258761,
+  "lng": 2.1532797
+ },
+ {
+  "id": "osm:node/11022309564",
+  "name": "Sants-Montjuïc",
+  "kind": "suburb",
+  "lat": 41.3672708,
+  "lng": 2.1437553
+ },
+ {
+  "id": "osm:node/11022315595",
+  "name": "Sarrià - Sant Gervasi",
+  "kind": "suburb",
+  "lat": 41.4022603,
+  "lng": 2.1304579
+ },
+ {
+  "id": "osm:node/11912218296",
+  "name": "Vallpineda",
+  "kind": "neighbourhood",
+  "lat": 41.4420185,
+  "lng": 2.0547911
+ },
+ {
+  "id": "osm:node/12657216084",
+  "name": "Femades",
+  "kind": "neighbourhood",
+  "lat": 41.3573349,
+  "lng": 2.0930138
+ },
+ {
+  "id": "osm:node/12660384274",
+  "name": "Can Cuiàs",
+  "kind": "neighbourhood",
+  "lat": 41.4633361,
+  "lng": 2.1700787
+ },
+ {
+  "id": "osm:node/13288173250",
+  "name": "Mas Fortuny",
+  "kind": "neighbourhood",
+  "lat": 41.4239543,
+  "lng": 2.0779401
+ },
+ {
+  "id": "osm:node/13288173251",
+  "name": "Can Borrull",
+  "kind": "neighbourhood",
+  "lat": 41.4320811,
+  "lng": 2.0802414
+ },
+ {
+  "id": "osm:node/13288173252",
+  "name": "les Planes",
+  "kind": "quarter",
+  "lat": 41.4328796,
+  "lng": 2.0927754
+ },
+ {
+  "id": "osm:node/13288173253",
+  "name": "Can Cortés",
+  "kind": "neighbourhood",
+  "lat": 41.4312333,
+  "lng": 2.1027332
+ },
+ {
+  "id": "osm:node/13288173254",
+  "name": "Sant Medir",
+  "kind": "neighbourhood",
+  "lat": 41.441633,
+  "lng": 2.1269377
+ },
+ {
+  "id": "osm:node/13288173255",
+  "name": "Buscarons",
+  "kind": "neighbourhood",
+  "lat": 41.4467068,
+  "lng": 2.0917337
+ },
+ {
+  "id": "osm:node/13288173256",
+  "name": "Turó del Fumet",
+  "kind": "neighbourhood",
+  "lat": 41.4435163,
+  "lng": 2.085423
+ },
+ {
+  "id": "osm:node/13288173257",
+  "name": "Casino",
+  "kind": "neighbourhood",
+  "lat": 41.445322,
+  "lng": 2.0761713
+ },
+ {
+  "id": "osm:node/13288173258",
+  "name": "la Serreta",
+  "kind": "neighbourhood",
+  "lat": 41.4517914,
+  "lng": 2.0747672
+ },
+ {
+  "id": "osm:node/13288173259",
+  "name": "Can Llobet",
+  "kind": "neighbourhood",
+  "lat": 41.4487008,
+  "lng": 2.0703483
+ },
+ {
+  "id": "osm:node/13288173260",
+  "name": "la Muntanyesa",
+  "kind": "neighbourhood",
+  "lat": 41.4448235,
+  "lng": 2.064747
+ },
+ {
+  "id": "osm:node/13288173261",
+  "name": "la Barceloneta",
+  "kind": "neighbourhood",
+  "lat": 41.4569451,
+  "lng": 2.072604
+ },
+ {
+  "id": "osm:node/13288173262",
+  "name": "Sant Jaume",
+  "kind": "neighbourhood",
+  "lat": 41.4566681,
+  "lng": 2.0698847
+ },
+ {
+  "id": "osm:node/13288173263",
+  "name": "Golf",
+  "kind": "neighbourhood",
+  "lat": 41.461165,
+  "lng": 2.0748505
+ },
+ {
+  "id": "osm:node/13288173264",
+  "name": "Costa del Golf",
+  "kind": "neighbourhood",
+  "lat": 41.4599245,
+  "lng": 2.0876788
+ },
+ {
+  "id": "osm:node/13288173265",
+  "name": "Can Bell",
+  "kind": "neighbourhood",
+  "lat": 41.4583296,
+  "lng": 2.0916987
+ },
+ {
+  "id": "osm:node/13288173266",
+  "name": "Calado",
+  "kind": "neighbourhood",
+  "lat": 41.4624719,
+  "lng": 2.0973591
+ },
+ {
+  "id": "osm:node/13288173267",
+  "name": "Can Gordi",
+  "kind": "neighbourhood",
+  "lat": 41.4610653,
+  "lng": 2.1005662
+ },
+ {
+  "id": "osm:node/13288173268",
+  "name": "Torre Negra",
+  "kind": "neighbourhood",
+  "lat": 41.4647423,
+  "lng": 2.0963394
+ },
+ {
+  "id": "osm:node/13288173270",
+  "name": "Eixample Sud",
+  "kind": "neighbourhood",
+  "lat": 41.4663764,
+  "lng": 2.0848145
+ },
+ {
+  "id": "osm:node/13288173272",
+  "name": "Pla de la Pagesa",
+  "kind": "neighbourhood",
+  "lat": 41.4679116,
+  "lng": 2.075288
+ },
+ {
+  "id": "osm:node/13288173273",
+  "name": "Arxiu",
+  "kind": "neighbourhood",
+  "lat": 41.4641159,
+  "lng": 2.0696535
+ },
+ {
+  "id": "osm:node/13288173274",
+  "name": "Can Gatxet",
+  "kind": "neighbourhood",
+  "lat": 41.4675538,
+  "lng": 2.0669252
+ },
+ {
+  "id": "osm:node/13288173276",
+  "name": "Colònia Oller",
+  "kind": "neighbourhood",
+  "lat": 41.4698274,
+  "lng": 2.0674867
+ },
+ {
+  "id": "osm:node/13288173280",
+  "name": "Can Cadena",
+  "kind": "neighbourhood",
+  "lat": 41.4600545,
+  "lng": 2.0587274
+ },
+ {
+  "id": "osm:node/13288173281",
+  "name": "Ca n'Enric-la Miranda",
+  "kind": "neighbourhood",
+  "lat": 41.4553471,
+  "lng": 2.0600372
+ },
+ {
+  "id": "osm:node/13288173282",
+  "name": "Aqualonga",
+  "kind": "neighbourhood",
+  "lat": 41.4570892,
+  "lng": 2.0502079
+ },
+ {
+  "id": "osm:node/13288173283",
+  "name": "Mas Fuster",
+  "kind": "neighbourhood",
+  "lat": 41.4529477,
+  "lng": 2.0525543
+ },
+ {
+  "id": "osm:node/13695499508",
+  "name": "Fontsanta-Fatjó",
+  "kind": "quarter",
+  "lat": 41.3597489,
+  "lng": 2.0624224
+ },
+ {
+  "id": "osm:node/13705862667",
+  "name": "el Congrés i els Indians",
+  "kind": "quarter",
+  "lat": 41.4245021,
+  "lng": 2.1813519
+ },
+ {
+  "id": "osm:node/13705862668",
+  "name": "Vilapicina i la Torre Llobeta",
+  "kind": "quarter",
+  "lat": 41.4283539,
+  "lng": 2.1745875
+ },
+ {
+  "id": "osm:node/13705862669",
+  "name": "Vallvidrera, el Tibidabo i les Planes",
+  "kind": "quarter",
+  "lat": 41.4243914,
+  "lng": 2.1078164
+ },
+ {
+  "id": "osm:node/13705862670",
+  "name": "Vallcarca i els Penitents",
+  "kind": "quarter",
+  "lat": 41.417044,
+  "lng": 2.1400688
+ },
+ {
+  "id": "osm:node/13705862671",
+  "name": "la Plata",
+  "kind": "neighbourhood",
+  "lat": 41.3956162,
+  "lng": 2.199456
+ },
+ {
+  "id": "osm:node/13705862672",
+  "name": "Sant Gervasi - la Bonanova",
+  "kind": "quarter",
+  "lat": 41.4061387,
+  "lng": 2.132914
+ },
+ {
+  "id": "osm:node/13705862673",
+  "name": "Sant Gervasi - Galvany",
+  "kind": "quarter",
+  "lat": 41.3991857,
+  "lng": 2.1419477
+ },
+ {
+  "id": "osm:node/13705862674",
+  "name": "el Putxet i el Farró",
+  "kind": "quarter",
+  "lat": 41.4053662,
+  "lng": 2.1461534
+ },
+ {
+  "id": "osm:node/13705862675",
+  "name": "les Corts",
+  "kind": "quarter",
+  "lat": 41.3867585,
+  "lng": 2.1342873
+ },
+ {
+  "id": "osm:node/13705862676",
+  "name": "la Maternitat",
+  "kind": "neighbourhood",
+  "lat": 41.3851442,
+  "lng": 2.1245826
+ },
+ {
+  "id": "osm:node/13705862677",
+  "name": "el Camp d'en Grassot i Gràcia Nova",
+  "kind": "quarter",
+  "lat": 41.4068912,
+  "lng": 2.1649611
+ },
+ {
+  "id": "osm:node/13705862678",
+  "name": "el Maresme",
+  "kind": "neighbourhood",
+  "lat": 41.4126726,
+  "lng": 2.2147321
+ },
+ {
+  "id": "osm:node/13705862679",
+  "name": "el Besòs",
+  "kind": "neighbourhood",
+  "lat": 41.4171462,
+  "lng": 2.2091531
+ },
+ {
+  "id": "osm:node/13705862680",
+  "name": "la Verneda i la Pau",
+  "kind": "quarter",
+  "lat": 41.4240309,
+  "lng": 2.2040926
+ },
+ {
+  "id": "osm:node/13705862681",
+  "name": "Sant Pere, Santa Caterina i la Ribera",
+  "kind": "quarter",
+  "lat": 41.3869092,
+  "lng": 2.1806086
+ },
+ {
+  "id": "osm:node/13723846991",
+  "name": "les Planes",
+  "kind": "neighbourhood",
+  "lat": 41.4335573,
+  "lng": 2.0898913
+ },
+ {
+  "id": "osm:node/13732517332",
+  "name": "Singuerlín",
+  "kind": "neighbourhood",
+  "lat": 41.4572244,
+  "lng": 2.2028795
+ },
+ {
+  "id": "osm:node/13732517333",
+  "name": "Serra de Marina",
+  "kind": "neighbourhood",
+  "lat": 41.4634848,
+  "lng": 2.2074057
+ },
+ {
+  "id": "osm:node/13732517334",
+  "name": "Santa Rosa",
+  "kind": "neighbourhood",
+  "lat": 41.4464208,
+  "lng": 2.2155744
+ },
+ {
+  "id": "osm:node/13732517335",
+  "name": "Safaretjos",
+  "kind": "neighbourhood",
+  "lat": 41.435542,
+  "lng": 2.2118957
+ },
+ {
+  "id": "osm:node/13732517336",
+  "name": "Riu Sud",
+  "kind": "neighbourhood",
+  "lat": 41.4473477,
+  "lng": 2.2072662
+ },
+ {
+  "id": "osm:node/13732517337",
+  "name": "Riu Nord",
+  "kind": "neighbourhood",
+  "lat": 41.4516751,
+  "lng": 2.2041441
+ },
+ {
+  "id": "osm:node/13732517338",
+  "name": "Riera Alta",
+  "kind": "neighbourhood",
+  "lat": 41.4569882,
+  "lng": 2.2135533
+ },
+ {
+  "id": "osm:node/13732517339",
+  "name": "Raval",
+  "kind": "neighbourhood",
+  "lat": 41.4412998,
+  "lng": 2.2115377
+ },
+ {
+  "id": "osm:node/13732517340",
+  "name": "Llatí",
+  "kind": "neighbourhood",
+  "lat": 41.4548835,
+  "lng": 2.2167867
+ },
+ {
+  "id": "osm:node/13732517341",
+  "name": "les Oliveres",
+  "kind": "neighbourhood",
+  "lat": 41.4589863,
+  "lng": 2.1952701
+ },
+ {
+  "id": "osm:node/13732517342",
+  "name": "Guinardera",
+  "kind": "neighbourhood",
+  "lat": 41.4624698,
+  "lng": 2.203837
+ },
+ {
+  "id": "osm:node/13732517343",
+  "name": "Centre",
+  "kind": "neighbourhood",
+  "lat": 41.4521626,
+  "lng": 2.2112869
+ },
+ {
+  "id": "osm:node/13732517344",
+  "name": "Cementiri Vell",
+  "kind": "neighbourhood",
+  "lat": 41.4557324,
+  "lng": 2.2101396
+ },
+ {
+  "id": "osm:node/13732517345",
+  "name": "Can Mariner",
+  "kind": "neighbourhood",
+  "lat": 41.4487218,
+  "lng": 2.2136003
+ },
+ {
+  "id": "osm:node/13732517346",
+  "name": "Can Franquesa",
+  "kind": "neighbourhood",
+  "lat": 41.4648275,
+  "lng": 2.2013318
+ },
+ {
+  "id": "osm:node/13732517347",
+  "name": "Can Calvet",
+  "kind": "neighbourhood",
+  "lat": 41.46072,
+  "lng": 2.2093637
+ },
+ {
+  "id": "osm:node/13732517349",
+  "name": "Fondo",
+  "kind": "neighbourhood",
+  "lat": 41.4497914,
+  "lng": 2.2190076
+ },
+ {
+  "id": "osm:node/13734369184",
+  "name": "Can Vidalet",
+  "kind": "neighbourhood",
+  "lat": 41.3738036,
+  "lng": 2.0977718
+ },
+ {
+  "id": "osm:node/13753609827",
+  "name": "els Quinze",
+  "kind": "neighbourhood",
+  "lat": 41.4254326,
+  "lng": 2.1763015
+ },
+ {
+  "id": "osm:node/13753609828",
+  "name": "Zona Universitària",
+  "kind": "neighbourhood",
+  "lat": 41.3847058,
+  "lng": 2.1127801
+ },
+ {
+  "id": "osm:node/13753609829",
+  "name": "Foment",
+  "kind": "neighbourhood",
+  "lat": 41.3597084,
+  "lng": 2.1400916
+ },
+ {
+  "id": "osm:node/13753609830",
+  "name": "Ciutat Groga",
+  "kind": "neighbourhood",
+  "lat": 41.3632045,
+  "lng": 2.136413
+ },
+ {
+  "id": "osm:node/13753609831",
+  "name": "Estrelles Altes",
+  "kind": "neighbourhood",
+  "lat": 41.3657616,
+  "lng": 2.138719
+ },
+ {
+  "id": "osm:node/13753609832",
+  "name": "el Port",
+  "kind": "neighbourhood",
+  "lat": 41.3569143,
+  "lng": 2.143195
+ },
+ {
+  "id": "osm:node/13753609833",
+  "name": "Mas Falcó",
+  "kind": "neighbourhood",
+  "lat": 41.418357,
+  "lng": 2.1436778
+ },
+ {
+  "id": "osm:node/13753609834",
+  "name": "Barriada Nova de Port",
+  "kind": "neighbourhood",
+  "lat": 41.3526304,
+  "lng": 2.1478003
+ },
+ {
+  "id": "osm:node/13753609835",
+  "name": "la Vinya",
+  "kind": "neighbourhood",
+  "lat": 41.3600179,
+  "lng": 2.1428305
+ },
+ {
+  "id": "osm:node/13753609836",
+  "name": "Sant Cristòfol",
+  "kind": "neighbourhood",
+  "lat": 41.3585662,
+  "lng": 2.1368918
+ },
+ {
+  "id": "osm:node/13753609837",
+  "name": "el Palau",
+  "kind": "neighbourhood",
+  "lat": 41.3817113,
+  "lng": 2.1775353
+ },
+ {
+  "id": "osm:node/13753609838",
+  "name": "Santa Anna",
+  "kind": "neighbourhood",
+  "lat": 41.3857301,
+  "lng": 2.1716183
+ },
+ {
+  "id": "osm:node/13753609839",
+  "name": "la Catedral",
+  "kind": "neighbourhood",
+  "lat": 41.3843798,
+  "lng": 2.1762237
+ },
+ {
+  "id": "osm:node/13753609840",
+  "name": "Santa Maria del Pi",
+  "kind": "neighbourhood",
+  "lat": 41.3823382,
+  "lng": 2.1735455
+ },
+ {
+  "id": "osm:node/13753609841",
+  "name": "Sant Just i Pastor",
+  "kind": "neighbourhood",
+  "lat": 41.3829389,
+  "lng": 2.1784016
+ },
+ {
+  "id": "osm:node/13753609842",
+  "name": "els Periodistes",
+  "kind": "neighbourhood",
+  "lat": 41.4148762,
+  "lng": 2.1597898
+ },
+ {
+  "id": "osm:node/13753609843",
+  "name": "Can Clos",
+  "kind": "neighbourhood",
+  "lat": 41.3613212,
+  "lng": 2.1466792
+ },
+ {
+  "id": "osm:node/13753609844",
+  "name": "Cases Barates",
+  "kind": "neighbourhood",
+  "lat": 41.3519463,
+  "lng": 2.1413295
+ },
+ {
+  "id": "osm:node/13753609845",
+  "name": "el Polvorí",
+  "kind": "neighbourhood",
+  "lat": 41.3642246,
+  "lng": 2.1418874
+ },
+ {
+  "id": "osm:node/13753609873",
+  "name": "la Budellera",
+  "kind": "neighbourhood",
+  "lat": 41.4169731,
+  "lng": 2.1088225
+ },
+ {
+  "id": "osm:node/13753609874",
+  "name": "Plus Ultra",
+  "kind": "neighbourhood",
+  "lat": 41.3608431,
+  "lng": 2.1413027
+ },
+ {
+  "id": "osm:node/13753609875",
+  "name": "Santa Madrona",
+  "kind": "neighbourhood",
+  "lat": 41.3743143,
+  "lng": 2.1639553
+ },
+ {
+  "id": "osm:node/13753609876",
+  "name": "França Xica",
+  "kind": "neighbourhood",
+  "lat": 41.3721954,
+  "lng": 2.1568032
+ },
+ {
+  "id": "osm:node/13753609880",
+  "name": "Mas Sauró",
+  "kind": "neighbourhood",
+  "lat": 41.4154726,
+  "lng": 2.0950681
+ },
+ {
+  "id": "osm:node/13753609881",
+  "name": "Font del Mont",
+  "kind": "neighbourhood",
+  "lat": 41.4140404,
+  "lng": 2.1119982
+ },
+ {
+  "id": "osm:node/13753609882",
+  "name": "el Maduixer",
+  "kind": "neighbourhood",
+  "lat": 41.4187251,
+  "lng": 2.1320544
+ },
+ {
+  "id": "osm:node/13753609883",
+  "name": "Font del Gos",
+  "kind": "neighbourhood",
+  "lat": 41.4405991,
+  "lng": 2.1479452
+ },
+ {
+  "id": "osm:node/13753609885",
+  "name": "Mas Guimbau",
+  "kind": "neighbourhood",
+  "lat": 41.4239866,
+  "lng": 2.089642
+ },
+ {
+  "id": "osm:node/13753609886",
+  "name": "Can Rectoret",
+  "kind": "neighbourhood",
+  "lat": 41.4288093,
+  "lng": 2.096377
+ },
+ {
+  "id": "osm:node/13753609887",
+  "name": "Can Caralleu",
+  "kind": "neighbourhood",
+  "lat": 41.402617,
+  "lng": 2.1090183
+ },
+ {
+  "id": "osm:node/13753609888",
+  "name": "el Call",
+  "kind": "neighbourhood",
+  "lat": 41.3828966,
+  "lng": 2.1757919
+ },
+ {
+  "id": "osm:node/13753609889",
+  "name": "les Hortes de Sant Bertran",
+  "kind": "neighbourhood",
+  "lat": 41.3720987,
+  "lng": 2.1731204
+ },
+ {
+  "id": "osm:node/13753609890",
+  "name": "Magòria",
+  "kind": "neighbourhood",
+  "lat": 41.3681052,
+  "lng": 2.1407005
+ },
+ {
+  "id": "osm:node/13753609891",
+  "name": "Satalia",
+  "kind": "neighbourhood",
+  "lat": 41.3710501,
+  "lng": 2.1622306
+ },
+ {
+  "id": "osm:node/13753609892",
+  "name": "la Mercè",
+  "kind": "neighbourhood",
+  "lat": 41.3791191,
+  "lng": 2.1791714
+ },
+ {
+  "id": "osm:node/13753609893",
+  "name": "la Mercè",
+  "kind": "neighbourhood",
+  "lat": 41.3890465,
+  "lng": 2.1053329
+ },
+ {
+  "id": "osm:node/13755560310",
+  "name": "les Basses de Sant Pere",
+  "kind": "neighbourhood",
+  "lat": 41.377839,
+  "lng": 2.0768398
+ },
+ {
+  "id": "osm:node/13755560311",
+  "name": "Sud",
+  "kind": "neighbourhood",
+  "lat": 41.3817233,
+  "lng": 2.0717812
+ },
+ {
+  "id": "osm:node/13755560312",
+  "name": "Nord",
+  "kind": "neighbourhood",
+  "lat": 41.3835869,
+  "lng": 2.0806003
+ },
+ {
+  "id": "osm:node/13755560313",
+  "name": "Centre",
+  "kind": "neighbourhood",
+  "lat": 41.384086,
+  "lng": 2.0757052
+ },
+ {
+  "id": "osm:node/13755560314",
+  "name": "Mas Lluí",
+  "kind": "neighbourhood",
+  "lat": 41.3877365,
+  "lng": 2.0601189
+ },
+ {
+  "id": "osm:node/13755560315",
+  "name": "Can Sagrera",
+  "kind": "neighbourhood",
+  "lat": 41.3853297,
+  "lng": 2.0708129
+ },
+ {
+  "id": "osm:node/13755560316",
+  "name": "la Miranda-Canigó",
+  "kind": "neighbourhood",
+  "lat": 41.388157,
+  "lng": 2.0797446
+ },
+ {
+  "id": "osm:node/13755560317",
+  "name": "la Plana-Bellsoleig",
+  "kind": "neighbourhood",
+  "lat": 41.3931051,
+  "lng": 2.0741039
+ },
+ {
+  "id": "osm:node/13816210148",
+  "name": "Centre",
+  "kind": "neighbourhood",
+  "lat": 41.3238409,
+  "lng": 2.096204
+ },
+ {
+  "id": "osm:node/13816210149",
+  "name": "Nucli Antic",
+  "kind": "neighbourhood",
+  "lat": 41.3291126,
+  "lng": 2.0960581
+ },
+ {
+  "id": "osm:node/13816210150",
+  "name": "Llevant-Marina",
+  "kind": "neighbourhood",
+  "lat": 41.3273379,
+  "lng": 2.1029337
+ },
+ {
+  "id": "osm:node/13959868665",
+  "name": "Roses-Castellbell",
+  "kind": "neighbourhood",
+  "lat": 41.3825485,
+  "lng": 2.0527589
+ },
+ {
+  "id": "osm:node/14017241911",
+  "name": "Can Cerdà",
+  "kind": "neighbourhood",
+  "lat": 41.4596597,
+  "lng": 2.1246099
+ },
+ {
+  "id": "osm:node/14017241912",
+  "name": "Sol i Pins",
+  "kind": "neighbourhood",
+  "lat": 41.4607673,
+  "lng": 2.123411
+ },
+ {
+  "id": "osm:node/14029336032",
+  "name": "el Coll Blau",
+  "kind": "neighbourhood",
+  "lat": 41.4320511,
+  "lng": 2.0934212
+ },
+ {
+  "id": "osm:node/14086497545",
+  "name": "Vallparc",
+  "kind": "neighbourhood",
+  "lat": 41.4223635,
+  "lng": 2.131986
+ },
+ {
+  "id": "osm:node/14086497546",
+  "name": "la Vall de la Font del Caçador",
+  "kind": "neighbourhood",
+  "lat": 41.4245601,
+  "lng": 2.098446
+ },
+ {
+  "id": "osm:way/218722696",
+  "name": "Illa del Cel",
+  "kind": "neighbourhood",
+  "lat": 41.408093,
+  "lng": 2.2124774
+ },
+ {
+  "id": "osm:relation/6743577",
+  "name": "Polígon Les Salines",
+  "kind": "neighbourhood",
+  "lat": 41.3358729,
+  "lng": 2.0481531
+ },
+ {
+  "id": "osm:relation/6743578",
+  "name": "Parc Comercial Sant Boi",
+  "kind": "neighbourhood",
+  "lat": 41.3302879,
+  "lng": 2.0505398
+ },
+ {
+  "id": "osm:relation/6744128",
+  "name": "Vinyets i Molí Vell",
+  "kind": "neighbourhood",
+  "lat": 41.3181673,
+  "lng": 2.0565369
+ }
+]

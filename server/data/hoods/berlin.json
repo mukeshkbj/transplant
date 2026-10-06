@@ -1,0 +1,5553 @@
+[
+ {
+  "id": "osm:node/21484050",
+  "name": "Karlshorst",
+  "kind": "suburb",
+  "lat": 52.4843399,
+  "lng": 13.5235848
+ },
+ {
+  "id": "osm:node/21484076",
+  "name": "Schmöckwitz",
+  "kind": "suburb",
+  "lat": 52.3756651,
+  "lng": 13.6488551
+ },
+ {
+  "id": "osm:node/21484102",
+  "name": "Adlershof",
+  "kind": "suburb",
+  "lat": 52.4378932,
+  "lng": 13.5475496
+ },
+ {
+  "id": "osm:node/27380127",
+  "name": "Bohnsdorf",
+  "kind": "suburb",
+  "lat": 52.4022426,
+  "lng": 13.5706649
+ },
+ {
+  "id": "osm:node/28094136",
+  "name": "Schöneberg",
+  "kind": "suburb",
+  "lat": 52.482157,
+  "lng": 13.3551901
+ },
+ {
+  "id": "osm:node/28795490",
+  "name": "Niederschöneweide",
+  "kind": "suburb",
+  "lat": 52.4548197,
+  "lng": 13.5178766
+ },
+ {
+  "id": "osm:node/28795831",
+  "name": "Oberschöneweide",
+  "kind": "suburb",
+  "lat": 52.4624563,
+  "lng": 13.5234762
+ },
+ {
+  "id": "osm:node/28891708",
+  "name": "Wilmersdorf",
+  "kind": "suburb",
+  "lat": 52.4871152,
+  "lng": 13.3203298
+ },
+ {
+  "id": "osm:node/29334080",
+  "name": "Schmargendorf",
+  "kind": "suburb",
+  "lat": 52.4789022,
+  "lng": 13.2929962
+ },
+ {
+  "id": "osm:node/29336704",
+  "name": "Charlottenburg",
+  "kind": "suburb",
+  "lat": 52.515747,
+  "lng": 13.3096834
+ },
+ {
+  "id": "osm:node/29336705",
+  "name": "Westend",
+  "kind": "suburb",
+  "lat": 52.5133213,
+  "lng": 13.2556663
+ },
+ {
+  "id": "osm:node/29336992",
+  "name": "Halensee",
+  "kind": "suburb",
+  "lat": 52.4972262,
+  "lng": 13.2929986
+ },
+ {
+  "id": "osm:node/29337165",
+  "name": "Grunewald",
+  "kind": "suburb",
+  "lat": 52.4873475,
+  "lng": 13.2637538
+ },
+ {
+  "id": "osm:node/29421338",
+  "name": "Wartenberg",
+  "kind": "suburb",
+  "lat": 52.5753945,
+  "lng": 13.5175821
+ },
+ {
+  "id": "osm:node/29621202",
+  "name": "Mahlsdorf",
+  "kind": "suburb",
+  "lat": 52.5086995,
+  "lng": 13.6131624
+ },
+ {
+  "id": "osm:node/29768691",
+  "name": "Blankenburg",
+  "kind": "suburb",
+  "lat": 52.5938917,
+  "lng": 13.4533829
+ },
+ {
+  "id": "osm:node/29885013",
+  "name": "Biesdorf-Nord",
+  "kind": "quarter",
+  "lat": 52.5236213,
+  "lng": 13.5554059
+ },
+ {
+  "id": "osm:node/30822888",
+  "name": "Blankenfelde",
+  "kind": "suburb",
+  "lat": 52.6186272,
+  "lng": 13.3884468
+ },
+ {
+  "id": "osm:node/31222216",
+  "name": "Friedrichshagen",
+  "kind": "suburb",
+  "lat": 52.4493804,
+  "lng": 13.6262724
+ },
+ {
+  "id": "osm:node/31451386",
+  "name": "Zehlendorf",
+  "kind": "suburb",
+  "lat": 52.4343217,
+  "lng": 13.2589298
+ },
+ {
+  "id": "osm:node/31901450",
+  "name": "Gatow",
+  "kind": "suburb",
+  "lat": 52.4856409,
+  "lng": 13.1801341
+ },
+ {
+  "id": "osm:node/31901451",
+  "name": "Dahlem",
+  "kind": "suburb",
+  "lat": 52.4573805,
+  "lng": 13.2810976
+ },
+ {
+  "id": "osm:node/31901452",
+  "name": "Friedenau",
+  "kind": "suburb",
+  "lat": 52.472075,
+  "lng": 13.3296424
+ },
+ {
+  "id": "osm:node/31901454",
+  "name": "Steglitz",
+  "kind": "suburb",
+  "lat": 52.4572569,
+  "lng": 13.3222865
+ },
+ {
+  "id": "osm:node/31928978",
+  "name": "Kladow",
+  "kind": "suburb",
+  "lat": 52.4602925,
+  "lng": 13.1400517
+ },
+ {
+  "id": "osm:node/33784937",
+  "name": "Tegelort",
+  "kind": "quarter",
+  "lat": 52.5722155,
+  "lng": 13.2295251
+ },
+ {
+  "id": "osm:node/33790061",
+  "name": "Tegel",
+  "kind": "suburb",
+  "lat": 52.5873891,
+  "lng": 13.2790461
+ },
+ {
+  "id": "osm:node/35115775",
+  "name": "Buckow",
+  "kind": "suburb",
+  "lat": 52.4186619,
+  "lng": 13.4289504
+ },
+ {
+  "id": "osm:node/59979916",
+  "name": "Staaken",
+  "kind": "suburb",
+  "lat": 52.5322705,
+  "lng": 13.1433666
+ },
+ {
+  "id": "osm:node/61885789",
+  "name": "Heiligensee",
+  "kind": "suburb",
+  "lat": 52.6122549,
+  "lng": 13.2295789
+ },
+ {
+  "id": "osm:node/78165700",
+  "name": "Frohnau",
+  "kind": "suburb",
+  "lat": 52.6323917,
+  "lng": 13.2878663
+ },
+ {
+  "id": "osm:node/89988920",
+  "name": "Zepernick",
+  "kind": "suburb",
+  "lat": 52.6568601,
+  "lng": 13.5418787
+ },
+ {
+  "id": "osm:node/92149644",
+  "name": "Wernsdorf",
+  "kind": "suburb",
+  "lat": 52.3693401,
+  "lng": 13.7003804
+ },
+ {
+  "id": "osm:node/129648004",
+  "name": "Lichterfelde",
+  "kind": "suburb",
+  "lat": 52.437293,
+  "lng": 13.3138645
+ },
+ {
+  "id": "osm:node/129875262",
+  "name": "Neukölln",
+  "kind": "suburb",
+  "lat": 52.4811497,
+  "lng": 13.4353501
+ },
+ {
+  "id": "osm:node/145749229",
+  "name": "Hermsdorf",
+  "kind": "suburb",
+  "lat": 52.6183341,
+  "lng": 13.3110313
+ },
+ {
+  "id": "osm:node/145752097",
+  "name": "Lübars",
+  "kind": "suburb",
+  "lat": 52.6146467,
+  "lng": 13.3530197
+ },
+ {
+  "id": "osm:node/145785609",
+  "name": "Wittenau",
+  "kind": "suburb",
+  "lat": 52.5912366,
+  "lng": 13.3233195
+ },
+ {
+  "id": "osm:node/150545069",
+  "name": "Charlottenburg-Nord",
+  "kind": "suburb",
+  "lat": 52.5405253,
+  "lng": 13.2962663
+ },
+ {
+  "id": "osm:node/150545071",
+  "name": "Siemensstadt",
+  "kind": "suburb",
+  "lat": 52.5398082,
+  "lng": 13.2568934
+ },
+ {
+  "id": "osm:node/151013210",
+  "name": "Biesdorf-Süd",
+  "kind": "quarter",
+  "lat": 52.4985344,
+  "lng": 13.5606634
+ },
+ {
+  "id": "osm:node/151013231",
+  "name": "Marzahn",
+  "kind": "suburb",
+  "lat": 52.5429481,
+  "lng": 13.563142
+ },
+ {
+  "id": "osm:node/151013576",
+  "name": "Friedrichsfelde Ost",
+  "kind": "neighbourhood",
+  "lat": 52.5205784,
+  "lng": 13.5308651
+ },
+ {
+  "id": "osm:node/151014537",
+  "name": "Friedrichsfelde",
+  "kind": "suburb",
+  "lat": 52.5029358,
+  "lng": 13.5205456
+ },
+ {
+  "id": "osm:node/159561548",
+  "name": "Reinickendorf",
+  "kind": "suburb",
+  "lat": 52.5711856,
+  "lng": 13.3455963
+ },
+ {
+  "id": "osm:node/159563028",
+  "name": "Borsigwalde",
+  "kind": "suburb",
+  "lat": 52.5840624,
+  "lng": 13.3022741
+ },
+ {
+  "id": "osm:node/159571458",
+  "name": "Waidmannslust",
+  "kind": "suburb",
+  "lat": 52.6080354,
+  "lng": 13.3225327
+ },
+ {
+  "id": "osm:node/159750674",
+  "name": "Schönholz",
+  "kind": "quarter",
+  "lat": 52.5748176,
+  "lng": 13.3806375
+ },
+ {
+  "id": "osm:node/159769182",
+  "name": "Wedding",
+  "kind": "suburb",
+  "lat": 52.548949,
+  "lng": 13.3481653
+ },
+ {
+  "id": "osm:node/159770854",
+  "name": "Märkisches Viertel",
+  "kind": "suburb",
+  "lat": 52.5993123,
+  "lng": 13.3565324
+ },
+ {
+  "id": "osm:node/159775126",
+  "name": "Konradshöhe",
+  "kind": "suburb",
+  "lat": 52.5856837,
+  "lng": 13.2231978
+ },
+ {
+  "id": "osm:node/160281417",
+  "name": "Saatwinkel",
+  "kind": "neighbourhood",
+  "lat": 52.5620127,
+  "lng": 13.2464
+ },
+ {
+  "id": "osm:node/160330614",
+  "name": "Tiergarten",
+  "kind": "suburb",
+  "lat": 52.5097776,
+  "lng": 13.3572597
+ },
+ {
+  "id": "osm:node/160332579",
+  "name": "Hansaviertel",
+  "kind": "suburb",
+  "lat": 52.5191234,
+  "lng": 13.3418725
+ },
+ {
+  "id": "osm:node/161548665",
+  "name": "Falkenhagener Feld",
+  "kind": "suburb",
+  "lat": 52.5524034,
+  "lng": 13.1668941
+ },
+ {
+  "id": "osm:node/161557666",
+  "name": "Haselhorst",
+  "kind": "suburb",
+  "lat": 52.5413233,
+  "lng": 13.231156
+ },
+ {
+  "id": "osm:node/161585770",
+  "name": "Wilhelmsruh",
+  "kind": "suburb",
+  "lat": 52.5880115,
+  "lng": 13.3622059
+ },
+ {
+  "id": "osm:node/161588149",
+  "name": "Schulzendorf",
+  "kind": "neighbourhood",
+  "lat": 52.6081216,
+  "lng": 13.2563041
+ },
+ {
+  "id": "osm:node/161603501",
+  "name": "Buch",
+  "kind": "suburb",
+  "lat": 52.6366724,
+  "lng": 13.4999292
+ },
+ {
+  "id": "osm:node/161618720",
+  "name": "Altglienicke",
+  "kind": "suburb",
+  "lat": 52.4118651,
+  "lng": 13.5425859
+ },
+ {
+  "id": "osm:node/161876290",
+  "name": "Rosenthal",
+  "kind": "suburb",
+  "lat": 52.5983189,
+  "lng": 13.3755194
+ },
+ {
+  "id": "osm:node/161879644",
+  "name": "Niederschönhausen",
+  "kind": "suburb",
+  "lat": 52.5858062,
+  "lng": 13.401397
+ },
+ {
+  "id": "osm:node/162010487",
+  "name": "Gropiusstadt",
+  "kind": "suburb",
+  "lat": 52.4249493,
+  "lng": 13.466183
+ },
+ {
+  "id": "osm:node/162012321",
+  "name": "Mitte",
+  "kind": "suburb",
+  "lat": 52.5178855,
+  "lng": 13.4040601
+ },
+ {
+  "id": "osm:node/163830590",
+  "name": "Gesundbrunnen",
+  "kind": "suburb",
+  "lat": 52.5509201,
+  "lng": 13.384846
+ },
+ {
+  "id": "osm:node/163852973",
+  "name": "Prenzlauer Berg",
+  "kind": "suburb",
+  "lat": 52.5398466,
+  "lng": 13.4285652
+ },
+ {
+  "id": "osm:node/163861801",
+  "name": "Französisch Buchholz",
+  "kind": "suburb",
+  "lat": 52.6105131,
+  "lng": 13.4281104
+ },
+ {
+  "id": "osm:node/163871381",
+  "name": "Wilhelmstadt",
+  "kind": "suburb",
+  "lat": 52.5189172,
+  "lng": 13.1973459
+ },
+ {
+  "id": "osm:node/163886348",
+  "name": "Britz",
+  "kind": "suburb",
+  "lat": 52.4483324,
+  "lng": 13.4423401
+ },
+ {
+  "id": "osm:node/164030102",
+  "name": "Schönow",
+  "kind": "quarter",
+  "lat": 52.410827,
+  "lng": 13.2707131
+ },
+ {
+  "id": "osm:node/240053511",
+  "name": "Glienicke/Nordbahn",
+  "kind": "suburb",
+  "lat": 52.63227,
+  "lng": 13.3307308
+ },
+ {
+  "id": "osm:node/240075065",
+  "name": "Schönwalde-Dorf",
+  "kind": "suburb",
+  "lat": 52.6199305,
+  "lng": 13.1276087
+ },
+ {
+  "id": "osm:node/240075203",
+  "name": "Wansdorf",
+  "kind": "suburb",
+  "lat": 52.639941,
+  "lng": 13.0895843
+ },
+ {
+  "id": "osm:node/240115676",
+  "name": "Bötzow",
+  "kind": "suburb",
+  "lat": 52.6563383,
+  "lng": 13.1443774
+ },
+ {
+  "id": "osm:node/241645295",
+  "name": "Schlaatz",
+  "kind": "suburb",
+  "lat": 52.3766144,
+  "lng": 13.0973015
+ },
+ {
+  "id": "osm:node/241645689",
+  "name": "Waldstadt II",
+  "kind": "suburb",
+  "lat": 52.3638511,
+  "lng": 13.0905627
+ },
+ {
+  "id": "osm:node/241649489",
+  "name": "Babelsberg Nord",
+  "kind": "suburb",
+  "lat": 52.3968055,
+  "lng": 13.1022775
+ },
+ {
+  "id": "osm:node/241650112",
+  "name": "Neubabelsberg",
+  "kind": "neighbourhood",
+  "lat": 52.402093,
+  "lng": 13.112648
+ },
+ {
+  "id": "osm:node/241650755",
+  "name": "Stern",
+  "kind": "suburb",
+  "lat": 52.3770721,
+  "lng": 13.1349092
+ },
+ {
+  "id": "osm:node/241651425",
+  "name": "Neu-Drewitz",
+  "kind": "neighbourhood",
+  "lat": 52.3674088,
+  "lng": 13.1387958
+ },
+ {
+  "id": "osm:node/241652005",
+  "name": "Kirchsteigfeld",
+  "kind": "suburb",
+  "lat": 52.3604238,
+  "lng": 13.1351268
+ },
+ {
+  "id": "osm:node/241652625",
+  "name": "Drewitz",
+  "kind": "suburb",
+  "lat": 52.3640235,
+  "lng": 13.1269517
+ },
+ {
+  "id": "osm:node/257096971",
+  "name": "Lankwitz",
+  "kind": "suburb",
+  "lat": 52.4336977,
+  "lng": 13.3454858
+ },
+ {
+  "id": "osm:node/257097215",
+  "name": "Nikolassee",
+  "kind": "suburb",
+  "lat": 52.4262495,
+  "lng": 13.1981446
+ },
+ {
+  "id": "osm:node/261670146",
+  "name": "Grünau",
+  "kind": "suburb",
+  "lat": 52.4154272,
+  "lng": 13.5805633
+ },
+ {
+  "id": "osm:node/261713255",
+  "name": "Alt-Treptow",
+  "kind": "suburb",
+  "lat": 52.4925634,
+  "lng": 13.4598743
+ },
+ {
+  "id": "osm:node/261713413",
+  "name": "Plänterwald",
+  "kind": "suburb",
+  "lat": 52.4795439,
+  "lng": 13.4788076
+ },
+ {
+  "id": "osm:node/262328057",
+  "name": "Friedrichshain",
+  "kind": "suburb",
+  "lat": 52.5122154,
+  "lng": 13.4502904
+ },
+ {
+  "id": "osm:node/262328235",
+  "name": "Kreuzberg",
+  "kind": "suburb",
+  "lat": 52.4976443,
+  "lng": 13.411914
+ },
+ {
+  "id": "osm:node/262329281",
+  "name": "Baumschulenweg",
+  "kind": "suburb",
+  "lat": 52.4616938,
+  "lng": 13.4815479
+ },
+ {
+  "id": "osm:node/262434255",
+  "name": "Fredersdorf-Süd",
+  "kind": "suburb",
+  "lat": 52.5183602,
+  "lng": 13.7431171
+ },
+ {
+  "id": "osm:node/262962412",
+  "name": "Neu Buchhorst",
+  "kind": "neighbourhood",
+  "lat": 52.4153374,
+  "lng": 13.7534389
+ },
+ {
+  "id": "osm:node/263015550",
+  "name": "Neuseeland",
+  "kind": "neighbourhood",
+  "lat": 52.4176381,
+  "lng": 13.7394289
+ },
+ {
+  "id": "osm:node/263026875",
+  "name": "Bahnhofsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4369592,
+  "lng": 13.7491287
+ },
+ {
+  "id": "osm:node/263238363",
+  "name": "Klein Glienicke",
+  "kind": "suburb",
+  "lat": 52.4094418,
+  "lng": 13.1025652
+ },
+ {
+  "id": "osm:node/288659908",
+  "name": "Köpenick",
+  "kind": "suburb",
+  "lat": 52.4450491,
+  "lng": 13.5754153
+ },
+ {
+  "id": "osm:node/288784639",
+  "name": "Rummelsburg",
+  "kind": "suburb",
+  "lat": 52.5013696,
+  "lng": 13.4835143
+ },
+ {
+  "id": "osm:node/299214435",
+  "name": "Seehof",
+  "kind": "suburb",
+  "lat": 52.4082089,
+  "lng": 13.2885987
+ },
+ {
+  "id": "osm:node/300558435",
+  "name": "Falkenhagen",
+  "kind": "suburb",
+  "lat": 52.5719248,
+  "lng": 13.1124882
+ },
+ {
+  "id": "osm:node/300558960",
+  "name": "Falkenhöh",
+  "kind": "suburb",
+  "lat": 52.5695382,
+  "lng": 13.141735
+ },
+ {
+  "id": "osm:node/309148584",
+  "name": "Elisenau",
+  "kind": "neighbourhood",
+  "lat": 52.6447424,
+  "lng": 13.6165064
+ },
+ {
+  "id": "osm:node/310314491",
+  "name": "Schönschornstein",
+  "kind": "neighbourhood",
+  "lat": 52.4007487,
+  "lng": 13.7459987
+ },
+ {
+  "id": "osm:node/331138541",
+  "name": "Johannisthal",
+  "kind": "suburb",
+  "lat": 52.4459114,
+  "lng": 13.504547
+ },
+ {
+  "id": "osm:node/331139102",
+  "name": "Lichtenberg",
+  "kind": "suburb",
+  "lat": 52.5196723,
+  "lng": 13.4950457
+ },
+ {
+  "id": "osm:node/331147926",
+  "name": "Weißensee",
+  "kind": "suburb",
+  "lat": 52.5546193,
+  "lng": 13.4630018
+ },
+ {
+  "id": "osm:node/345150326",
+  "name": "Schönwalde-Siedlung",
+  "kind": "suburb",
+  "lat": 52.6002583,
+  "lng": 13.1241283
+ },
+ {
+  "id": "osm:node/429587386",
+  "name": "Die Hufen im Seefelde",
+  "kind": "neighbourhood",
+  "lat": 52.3916763,
+  "lng": 13.5425827
+ },
+ {
+  "id": "osm:node/472670288",
+  "name": "Babelsberg Süd",
+  "kind": "suburb",
+  "lat": 52.3871697,
+  "lng": 13.1034648
+ },
+ {
+  "id": "osm:node/489546048",
+  "name": "Sacrow",
+  "kind": "suburb",
+  "lat": 52.4325571,
+  "lng": 13.1011746
+ },
+ {
+  "id": "osm:node/492310838",
+  "name": "Alt-Hohenschönhausen",
+  "kind": "suburb",
+  "lat": 52.5504091,
+  "lng": 13.5025491
+ },
+ {
+  "id": "osm:node/507915758",
+  "name": "Stadtrandsiedlung Malchow",
+  "kind": "suburb",
+  "lat": 52.5710194,
+  "lng": 13.4632849
+ },
+ {
+  "id": "osm:node/529808088",
+  "name": "Biesdorf",
+  "kind": "suburb",
+  "lat": 52.5109922,
+  "lng": 13.5550131
+ },
+ {
+  "id": "osm:node/539359809",
+  "name": "Friedrichswerder",
+  "kind": "neighbourhood",
+  "lat": 52.5144976,
+  "lng": 13.3981483
+ },
+ {
+  "id": "osm:node/539360863",
+  "name": "Dorotheenstadt",
+  "kind": "quarter",
+  "lat": 52.5186609,
+  "lng": 13.3884475
+ },
+ {
+  "id": "osm:node/539362369",
+  "name": "Friedrichstadt",
+  "kind": "quarter",
+  "lat": 52.5097492,
+  "lng": 13.3899039
+ },
+ {
+  "id": "osm:node/539362678",
+  "name": "Luisenstadt",
+  "kind": "quarter",
+  "lat": 52.5071836,
+  "lng": 13.4158801
+ },
+ {
+  "id": "osm:node/539368274",
+  "name": "Spandauer Vorstadt",
+  "kind": "quarter",
+  "lat": 52.5257512,
+  "lng": 13.3995437
+ },
+ {
+  "id": "osm:node/539369165",
+  "name": "Scheunenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5258075,
+  "lng": 13.4078674
+ },
+ {
+  "id": "osm:node/560483804",
+  "name": "Wannsee",
+  "kind": "suburb",
+  "lat": 52.4211482,
+  "lng": 13.1589374
+ },
+ {
+  "id": "osm:node/560483805",
+  "name": "Hakenfelde",
+  "kind": "suburb",
+  "lat": 52.5609908,
+  "lng": 13.1967693
+ },
+ {
+  "id": "osm:node/560483807",
+  "name": "Fennpfuhl",
+  "kind": "suburb",
+  "lat": 52.5287849,
+  "lng": 13.4734687
+ },
+ {
+  "id": "osm:node/560483808",
+  "name": "Hellersdorf",
+  "kind": "suburb",
+  "lat": 52.5366956,
+  "lng": 13.6048728
+ },
+ {
+  "id": "osm:node/560483809",
+  "name": "Malchow",
+  "kind": "suburb",
+  "lat": 52.5798667,
+  "lng": 13.4820928
+ },
+ {
+  "id": "osm:node/560483810",
+  "name": "Neu-Hohenschönhausen",
+  "kind": "suburb",
+  "lat": 52.5663309,
+  "lng": 13.514065
+ },
+ {
+  "id": "osm:node/560483811",
+  "name": "Falkenberg",
+  "kind": "suburb",
+  "lat": 52.5692998,
+  "lng": 13.5400296
+ },
+ {
+  "id": "osm:node/599873093",
+  "name": "Rixdorf",
+  "kind": "neighbourhood",
+  "lat": 52.4740949,
+  "lng": 13.4456092
+ },
+ {
+  "id": "osm:node/634105666",
+  "name": "Giesensdorf",
+  "kind": "quarter",
+  "lat": 52.4210907,
+  "lng": 13.3111947
+ },
+ {
+  "id": "osm:node/715794795",
+  "name": "Altlandsberg-West",
+  "kind": "neighbourhood",
+  "lat": 52.5624342,
+  "lng": 13.7133468
+ },
+ {
+  "id": "osm:node/1554875830",
+  "name": "Heinersdorf",
+  "kind": "suburb",
+  "lat": 52.5728248,
+  "lng": 13.4370149
+ },
+ {
+  "id": "osm:node/1583388419",
+  "name": "Pankow",
+  "kind": "suburb",
+  "lat": 52.5671778,
+  "lng": 13.4063334
+ },
+ {
+  "id": "osm:node/1588982756",
+  "name": "Karow",
+  "kind": "suburb",
+  "lat": 52.6132388,
+  "lng": 13.4836984
+ },
+ {
+  "id": "osm:node/1665054453",
+  "name": "Müggelheim",
+  "kind": "suburb",
+  "lat": 52.4129665,
+  "lng": 13.6643488
+ },
+ {
+  "id": "osm:node/1673625993",
+  "name": "Kaulsdorf",
+  "kind": "suburb",
+  "lat": 52.5101316,
+  "lng": 13.5809901
+ },
+ {
+  "id": "osm:node/1676561729",
+  "name": "Lichtenrade",
+  "kind": "suburb",
+  "lat": 52.3960834,
+  "lng": 13.4057912
+ },
+ {
+  "id": "osm:node/1676561739",
+  "name": "Mariendorf",
+  "kind": "suburb",
+  "lat": 52.44008,
+  "lng": 13.3900277
+ },
+ {
+  "id": "osm:node/1676561741",
+  "name": "Marienfelde",
+  "kind": "suburb",
+  "lat": 52.4125766,
+  "lng": 13.3665916
+ },
+ {
+  "id": "osm:node/1676562755",
+  "name": "Moabit",
+  "kind": "suburb",
+  "lat": 52.5301017,
+  "lng": 13.3425422
+ },
+ {
+  "id": "osm:node/1676563639",
+  "name": "Rahnsdorf",
+  "kind": "suburb",
+  "lat": 52.4358729,
+  "lng": 13.7018024
+ },
+ {
+  "id": "osm:node/1696655982",
+  "name": "Postsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4112289,
+  "lng": 13.4755021
+ },
+ {
+  "id": "osm:node/1773347994",
+  "name": "Nordisches Viertel",
+  "kind": "quarter",
+  "lat": 52.5523653,
+  "lng": 13.4072901
+ },
+ {
+  "id": "osm:node/1774925945",
+  "name": "Rudow",
+  "kind": "suburb",
+  "lat": 52.4146801,
+  "lng": 13.4986183
+ },
+ {
+  "id": "osm:node/1775453665",
+  "name": "Spandau",
+  "kind": "suburb",
+  "lat": 52.535788,
+  "lng": 13.1977924
+ },
+ {
+  "id": "osm:node/1804865341",
+  "name": "Donaukiez",
+  "kind": "quarter",
+  "lat": 52.4835032,
+  "lng": 13.4338689
+ },
+ {
+  "id": "osm:node/1804865347",
+  "name": "Flughafenkiez",
+  "kind": "quarter",
+  "lat": 52.4816604,
+  "lng": 13.4299452
+ },
+ {
+  "id": "osm:node/1804865359",
+  "name": "Kungerkiez",
+  "kind": "quarter",
+  "lat": 52.4901999,
+  "lng": 13.4473739
+ },
+ {
+  "id": "osm:node/1804865368",
+  "name": "Reuterkiez",
+  "kind": "quarter",
+  "lat": 52.4894373,
+  "lng": 13.4296256
+ },
+ {
+  "id": "osm:node/1804865381",
+  "name": "Rollbergsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4768683,
+  "lng": 13.4330137
+ },
+ {
+  "id": "osm:node/1922499184",
+  "name": "Komponistenviertel",
+  "kind": "quarter",
+  "lat": 52.5483207,
+  "lng": 13.4576533
+ },
+ {
+  "id": "osm:node/2404911227",
+  "name": "Eiche Süd",
+  "kind": "neighbourhood",
+  "lat": 52.5501619,
+  "lng": 13.5934855
+ },
+ {
+  "id": "osm:node/2404911233",
+  "name": "Hoheneiche",
+  "kind": "neighbourhood",
+  "lat": 52.5689688,
+  "lng": 13.5904513
+ },
+ {
+  "id": "osm:node/2404913317",
+  "name": "Trappenfelde",
+  "kind": "neighbourhood",
+  "lat": 52.5769754,
+  "lng": 13.6588775
+ },
+ {
+  "id": "osm:node/2404944148",
+  "name": "Dahlwitz",
+  "kind": "neighbourhood",
+  "lat": 52.5008247,
+  "lng": 13.6464165
+ },
+ {
+  "id": "osm:node/2404944660",
+  "name": "Mahlsdorf Nord",
+  "kind": "quarter",
+  "lat": 52.5229728,
+  "lng": 13.6316579
+ },
+ {
+  "id": "osm:node/2404950642",
+  "name": "Mahlsdorf Süd",
+  "kind": "quarter",
+  "lat": 52.4876545,
+  "lng": 13.611831
+ },
+ {
+  "id": "osm:node/2404955192",
+  "name": "Fredersdorf Nord",
+  "kind": "suburb",
+  "lat": 52.535352,
+  "lng": 13.7538707
+ },
+ {
+  "id": "osm:node/2404967266",
+  "name": "Friedrichslust",
+  "kind": "neighbourhood",
+  "lat": 52.5559486,
+  "lng": 13.7261753
+ },
+ {
+  "id": "osm:node/2725431234",
+  "name": "Sigridshorst",
+  "kind": "suburb",
+  "lat": 52.3972943,
+  "lng": 13.3076909
+ },
+ {
+  "id": "osm:node/2752426709",
+  "name": "Sprengelkiez",
+  "kind": "quarter",
+  "lat": 52.542215,
+  "lng": 13.3569798
+ },
+ {
+  "id": "osm:node/2784877702",
+  "name": "Gartenstadt Falkenberg",
+  "kind": "neighbourhood",
+  "lat": 52.4109647,
+  "lng": 13.5656912
+ },
+ {
+  "id": "osm:node/2790779996",
+  "name": "Siedlung Grüneck",
+  "kind": "neighbourhood",
+  "lat": 52.4139012,
+  "lng": 13.5270877
+ },
+ {
+  "id": "osm:node/2811745617",
+  "name": "Bergfelde",
+  "kind": "suburb",
+  "lat": 52.6734211,
+  "lng": 13.3187323
+ },
+ {
+  "id": "osm:node/2844785826",
+  "name": "Alte Hausstelle",
+  "kind": "neighbourhood",
+  "lat": 52.3970408,
+  "lng": 13.7583986
+ },
+ {
+  "id": "osm:node/3101857107",
+  "name": "Stadtquartier Friesenstraße",
+  "kind": "neighbourhood",
+  "lat": 52.4854071,
+  "lng": 13.3927488
+ },
+ {
+  "id": "osm:node/3123699877",
+  "name": "Kollwitzkiez",
+  "kind": "quarter",
+  "lat": 52.5345764,
+  "lng": 13.4189248
+ },
+ {
+  "id": "osm:node/3331339884",
+  "name": "Cité Pasteur",
+  "kind": "neighbourhood",
+  "lat": 52.5564963,
+  "lng": 13.3044836
+ },
+ {
+  "id": "osm:node/3332512702",
+  "name": "Städtlersiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.3778555,
+  "lng": 13.2908604
+ },
+ {
+  "id": "osm:node/3348072112",
+  "name": "Waldstadt I",
+  "kind": "neighbourhood",
+  "lat": 52.3690936,
+  "lng": 13.0978367
+ },
+ {
+  "id": "osm:node/3652643275",
+  "name": "Afrikanisches Viertel",
+  "kind": "quarter",
+  "lat": 52.5542841,
+  "lng": 13.3393266
+ },
+ {
+  "id": "osm:node/3652643276",
+  "name": "Brüsseler Kiez",
+  "kind": "quarter",
+  "lat": 52.5463445,
+  "lng": 13.3519756
+ },
+ {
+  "id": "osm:node/3652643277",
+  "name": "Leopoldkiez",
+  "kind": "quarter",
+  "lat": 52.5515133,
+  "lng": 13.3609173
+ },
+ {
+  "id": "osm:node/3797582176",
+  "name": "Kaulsdorf Süd",
+  "kind": "quarter",
+  "lat": 52.4935443,
+  "lng": 13.5770594
+ },
+ {
+  "id": "osm:node/3802565522",
+  "name": "Müggelhort",
+  "kind": "neighbourhood",
+  "lat": 52.4311831,
+  "lng": 13.675855
+ },
+ {
+  "id": "osm:node/4063357889",
+  "name": "Gensinger Viertel",
+  "kind": "neighbourhood",
+  "lat": 52.5124106,
+  "lng": 13.5302775
+ },
+ {
+  "id": "osm:node/4387465357",
+  "name": "Richardkiez",
+  "kind": "neighbourhood",
+  "lat": 52.4737043,
+  "lng": 13.4454067
+ },
+ {
+  "id": "osm:node/4561528346",
+  "name": "Schildower Gärten",
+  "kind": "neighbourhood",
+  "lat": 52.6437548,
+  "lng": 13.3730486
+ },
+ {
+  "id": "osm:node/4561533359",
+  "name": "Katharinensee",
+  "kind": "neighbourhood",
+  "lat": 52.6440721,
+  "lng": 13.3555668
+ },
+ {
+  "id": "osm:node/4561541610",
+  "name": "Musikerviertel",
+  "kind": "neighbourhood",
+  "lat": 52.6457838,
+  "lng": 13.3812011
+ },
+ {
+  "id": "osm:node/4794919616",
+  "name": "Schillerkiez",
+  "kind": "quarter",
+  "lat": 52.4764958,
+  "lng": 13.4222776
+ },
+ {
+  "id": "osm:node/4907027145",
+  "name": "Bötzow Ausbau",
+  "kind": "neighbourhood",
+  "lat": 52.6363636,
+  "lng": 13.1471249
+ },
+ {
+  "id": "osm:node/4954405525",
+  "name": "Fischerinsel",
+  "kind": "neighbourhood",
+  "lat": 52.5134456,
+  "lng": 13.4073396
+ },
+ {
+  "id": "osm:node/5005526654",
+  "name": "Reihenhäuser Kalinka",
+  "kind": "neighbourhood",
+  "lat": 52.5110548,
+  "lng": 13.5277503
+ },
+ {
+  "id": "osm:node/5083782195",
+  "name": "Friedenstal",
+  "kind": "suburb",
+  "lat": 52.6733642,
+  "lng": 13.5567567
+ },
+ {
+  "id": "osm:node/5085901687",
+  "name": "Bernau Süd",
+  "kind": "suburb",
+  "lat": 52.6721972,
+  "lng": 13.6013806
+ },
+ {
+  "id": "osm:node/5086021175",
+  "name": "Viehtrift",
+  "kind": "suburb",
+  "lat": 52.6729353,
+  "lng": 13.5761219
+ },
+ {
+  "id": "osm:node/5165045389",
+  "name": "Kolonie Alpenberge",
+  "kind": "neighbourhood",
+  "lat": 52.6384105,
+  "lng": 13.5242574
+ },
+ {
+  "id": "osm:node/5165049577",
+  "name": "Kolonie Gehrenberge",
+  "kind": "neighbourhood",
+  "lat": 52.6432127,
+  "lng": 13.5456906
+ },
+ {
+  "id": "osm:node/5165056411",
+  "name": "Neu Buch",
+  "kind": "neighbourhood",
+  "lat": 52.6261747,
+  "lng": 13.5201863
+ },
+ {
+  "id": "osm:node/5165063725",
+  "name": "Röntgental",
+  "kind": "neighbourhood",
+  "lat": 52.6443323,
+  "lng": 13.5291044
+ },
+ {
+  "id": "osm:node/5165068338",
+  "name": "Schwanebeck West",
+  "kind": "neighbourhood",
+  "lat": 52.6313301,
+  "lng": 13.522983
+ },
+ {
+  "id": "osm:node/5217773042",
+  "name": "Südende",
+  "kind": "quarter",
+  "lat": 52.4495757,
+  "lng": 13.3536673
+ },
+ {
+  "id": "osm:node/5295940417",
+  "name": "Spindlersfeld",
+  "kind": "neighbourhood",
+  "lat": 52.4484638,
+  "lng": 13.5644851
+ },
+ {
+  "id": "osm:node/5403335362",
+  "name": "Weiße Siedlung",
+  "kind": "quarter",
+  "lat": 52.4740602,
+  "lng": 13.4656548
+ },
+ {
+  "id": "osm:node/5517068913",
+  "name": "Böhmisches Dorf",
+  "kind": "neighbourhood",
+  "lat": 52.475977,
+  "lng": 13.4446226
+ },
+ {
+  "id": "osm:node/5606397795",
+  "name": "Kienwerder",
+  "kind": "suburb",
+  "lat": 52.378016,
+  "lng": 13.1883011
+ },
+ {
+  "id": "osm:node/5705470791",
+  "name": "Altes Dorf Kleinmachnow",
+  "kind": "neighbourhood",
+  "lat": 52.3944121,
+  "lng": 13.2243864
+ },
+ {
+  "id": "osm:node/5762288485",
+  "name": "Cité Guynemer",
+  "kind": "neighbourhood",
+  "lat": 52.5676349,
+  "lng": 13.2988904
+ },
+ {
+  "id": "osm:node/5762288486",
+  "name": "Cité Joffre",
+  "kind": "neighbourhood",
+  "lat": 52.5531416,
+  "lng": 13.3094542
+ },
+ {
+  "id": "osm:node/5934640636",
+  "name": "Altstadt Köpenick",
+  "kind": "neighbourhood",
+  "lat": 52.4466938,
+  "lng": 13.5769665
+ },
+ {
+  "id": "osm:node/5981543142",
+  "name": "Schweizer Viertel",
+  "kind": "quarter",
+  "lat": 52.4257147,
+  "lng": 13.2967283
+ },
+ {
+  "id": "osm:node/6024474058",
+  "name": "Amtsfreiheit",
+  "kind": "neighbourhood",
+  "lat": 52.5697536,
+  "lng": 13.7283794
+ },
+ {
+  "id": "osm:node/6033605691",
+  "name": "Gartenstadt Neu-Tempelhof",
+  "kind": "quarter",
+  "lat": 52.476357,
+  "lng": 13.3813229
+ },
+ {
+  "id": "osm:node/6313592834",
+  "name": "Stralau",
+  "kind": "quarter",
+  "lat": 52.4950522,
+  "lng": 13.4711809
+ },
+ {
+  "id": "osm:node/6385803071",
+  "name": "Holzhauser Markt",
+  "kind": "neighbourhood",
+  "lat": 52.5823373,
+  "lng": 13.311516
+ },
+ {
+  "id": "osm:node/6610516354",
+  "name": "Dammvorstadt",
+  "kind": "quarter",
+  "lat": 52.4549323,
+  "lng": 13.5766447
+ },
+ {
+  "id": "osm:node/6783018598",
+  "name": "Botschaftsviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5079104,
+  "lng": 13.3547881
+ },
+ {
+  "id": "osm:node/7242252124",
+  "name": "Heim Gottesschutz",
+  "kind": "neighbourhood",
+  "lat": 52.4000459,
+  "lng": 13.7583768
+ },
+ {
+  "id": "osm:node/7342844217",
+  "name": "Grüne Stadt",
+  "kind": "quarter",
+  "lat": 52.535497,
+  "lng": 13.4391909
+ },
+ {
+  "id": "osm:node/7342844218",
+  "name": "Winsviertel",
+  "kind": "quarter",
+  "lat": 52.5344232,
+  "lng": 13.4257148
+ },
+ {
+  "id": "osm:node/7342844219",
+  "name": "Blumenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.534166,
+  "lng": 13.4581585
+ },
+ {
+  "id": "osm:node/7342877854",
+  "name": "Bötzowkiez",
+  "kind": "quarter",
+  "lat": 52.5319119,
+  "lng": 13.4343307
+ },
+ {
+  "id": "osm:node/7342896739",
+  "name": "Barnimkiez",
+  "kind": "neighbourhood",
+  "lat": 52.5256199,
+  "lng": 13.4250661
+ },
+ {
+  "id": "osm:node/7342896740",
+  "name": "Hausburgviertel",
+  "kind": "quarter",
+  "lat": 52.5235608,
+  "lng": 13.4528422
+ },
+ {
+  "id": "osm:node/7342896741",
+  "name": "Samariterviertel",
+  "kind": "quarter",
+  "lat": 52.5172826,
+  "lng": 13.4655019
+ },
+ {
+  "id": "osm:node/7712816592",
+  "name": "Albrechts Teerofen",
+  "kind": "neighbourhood",
+  "lat": 52.3957673,
+  "lng": 13.1616268
+ },
+ {
+  "id": "osm:node/7713197641",
+  "name": "Stolpe (Wannsee)",
+  "kind": "quarter",
+  "lat": 52.4125,
+  "lng": 13.1413889
+ },
+ {
+  "id": "osm:node/7713878547",
+  "name": "Nikolskoe",
+  "kind": "neighbourhood",
+  "lat": 52.4242833,
+  "lng": 13.117115
+ },
+ {
+  "id": "osm:node/7726378081",
+  "name": "Blumenwinkel",
+  "kind": "neighbourhood",
+  "lat": 52.5674055,
+  "lng": 13.4487836
+ },
+ {
+  "id": "osm:node/7728505225",
+  "name": "Gleimviertel",
+  "kind": "quarter",
+  "lat": 52.5472703,
+  "lng": 13.4076092
+ },
+ {
+  "id": "osm:node/7746787408",
+  "name": "Klein-Afrika",
+  "kind": "neighbourhood",
+  "lat": 52.4144262,
+  "lng": 13.7393811
+ },
+ {
+  "id": "osm:node/7775729029",
+  "name": "Rote Insel",
+  "kind": "quarter",
+  "lat": 52.4830737,
+  "lng": 13.3617755
+ },
+ {
+  "id": "osm:node/8093538975",
+  "name": "Spreeeck",
+  "kind": "neighbourhood",
+  "lat": 52.4164762,
+  "lng": 13.7323404
+ },
+ {
+  "id": "osm:node/8254186959",
+  "name": "Schlachtensee",
+  "kind": "suburb",
+  "lat": 52.43846,
+  "lng": 13.2140996
+ },
+ {
+  "id": "osm:node/9276123822",
+  "name": "Siedlung Obstallee",
+  "kind": "neighbourhood",
+  "lat": 52.5207675,
+  "lng": 13.1677445
+ },
+ {
+  "id": "osm:node/9276123823",
+  "name": "Rudolf-Wissell-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5227223,
+  "lng": 13.159768
+ },
+ {
+  "id": "osm:node/9276123824",
+  "name": "Heerstraße Nord",
+  "kind": "quarter",
+  "lat": 52.5216282,
+  "lng": 13.1630709
+ },
+ {
+  "id": "osm:node/9422289198",
+  "name": "Englisches Viertel",
+  "kind": "quarter",
+  "lat": 52.5577014,
+  "lng": 13.3453191
+ },
+ {
+  "id": "osm:node/9735752813",
+  "name": "Helmholtzkiez",
+  "kind": "quarter",
+  "lat": 52.5430391,
+  "lng": 13.4190319
+ },
+ {
+  "id": "osm:node/10138129189",
+  "name": "Mühlendorf",
+  "kind": "neighbourhood",
+  "lat": 52.3932722,
+  "lng": 13.269932
+ },
+ {
+  "id": "osm:node/10208392242",
+  "name": "Invalidensiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.6579168,
+  "lng": 13.2842019
+ },
+ {
+  "id": "osm:node/10637130773",
+  "name": "Heimatviertel",
+  "kind": "neighbourhood",
+  "lat": 52.4827165,
+  "lng": 13.5240009
+ },
+ {
+  "id": "osm:node/10753377757",
+  "name": "Parkstadt Karlshorst",
+  "kind": "neighbourhood",
+  "lat": 52.482156,
+  "lng": 13.5095258
+ },
+ {
+  "id": "osm:node/10783728185",
+  "name": "Bismarckviertel",
+  "kind": "quarter",
+  "lat": 52.4624215,
+  "lng": 13.3383753
+ },
+ {
+  "id": "osm:node/11033146684",
+  "name": "Europacity",
+  "kind": "quarter",
+  "lat": 52.5288986,
+  "lng": 13.3691898
+ },
+ {
+  "id": "osm:node/11054629556",
+  "name": "Buch III Nord",
+  "kind": "neighbourhood",
+  "lat": 52.6347458,
+  "lng": 13.5011684
+ },
+ {
+  "id": "osm:node/11054629557",
+  "name": "Buch II",
+  "kind": "neighbourhood",
+  "lat": 52.6298322,
+  "lng": 13.5004605
+ },
+ {
+  "id": "osm:node/11054629558",
+  "name": "Buch I",
+  "kind": "neighbourhood",
+  "lat": 52.625373,
+  "lng": 13.497364
+ },
+ {
+  "id": "osm:node/11054629559",
+  "name": "Buch IV",
+  "kind": "neighbourhood",
+  "lat": 52.6274937,
+  "lng": 13.4926106
+ },
+ {
+  "id": "osm:node/11054629560",
+  "name": "Buch III Süd",
+  "kind": "neighbourhood",
+  "lat": 52.6322243,
+  "lng": 13.4950798
+ },
+ {
+  "id": "osm:node/11116741996",
+  "name": "Nordbahnkiez",
+  "kind": "neighbourhood",
+  "lat": 52.5647667,
+  "lng": 13.389963
+ },
+ {
+  "id": "osm:node/11139437503",
+  "name": "Tiroler Viertel",
+  "kind": "quarter",
+  "lat": 52.5602654,
+  "lng": 13.4071237
+ },
+ {
+  "id": "osm:node/11139487334",
+  "name": "Mühlenviertel",
+  "kind": "quarter",
+  "lat": 52.5422576,
+  "lng": 13.447215
+ },
+ {
+  "id": "osm:node/11148286030",
+  "name": "Getreideviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5197454,
+  "lng": 13.5598507
+ },
+ {
+  "id": "osm:node/11250376268",
+  "name": "Havelufer-Quartier",
+  "kind": "neighbourhood",
+  "lat": 52.5571239,
+  "lng": 13.2104409
+ },
+ {
+  "id": "osm:node/11271416889",
+  "name": "Gartenstadt Atlantic",
+  "kind": "neighbourhood",
+  "lat": 52.5509336,
+  "lng": 13.3884134
+ },
+ {
+  "id": "osm:node/11271428129",
+  "name": "Bremer Höhe",
+  "kind": "neighbourhood",
+  "lat": 52.5446141,
+  "lng": 13.4143726
+ },
+ {
+  "id": "osm:node/11278915489",
+  "name": "Komponistenviertel",
+  "kind": "quarter",
+  "lat": 52.4385662,
+  "lng": 13.3340991
+ },
+ {
+  "id": "osm:node/11331294668",
+  "name": "Maxgärten",
+  "kind": "neighbourhood",
+  "lat": 52.549632,
+  "lng": 13.3665641
+ },
+ {
+  "id": "osm:node/11766478993",
+  "name": "Neu-Buckow",
+  "kind": "neighbourhood",
+  "lat": 52.4209807,
+  "lng": 13.4107536
+ },
+ {
+  "id": "osm:node/11766491555",
+  "name": "Buckow-Nord",
+  "kind": "neighbourhood",
+  "lat": 52.4345646,
+  "lng": 13.467525
+ },
+ {
+  "id": "osm:node/11766600159",
+  "name": "Berlin-Ahrensfelde",
+  "kind": "quarter",
+  "lat": 52.5690808,
+  "lng": 13.5671866
+ },
+ {
+  "id": "osm:node/12056152863",
+  "name": "Siedlung Wendenheide",
+  "kind": "neighbourhood",
+  "lat": 52.4465436,
+  "lng": 13.5552713
+ },
+ {
+  "id": "osm:node/12064564262",
+  "name": "Wasserstadt Spindlersfeld",
+  "kind": "neighbourhood",
+  "lat": 52.4510217,
+  "lng": 13.5648385
+ },
+ {
+  "id": "osm:node/12064656295",
+  "name": "Kietzer Vorstadt",
+  "kind": "neighbourhood",
+  "lat": 52.4405248,
+  "lng": 13.5796823
+ },
+ {
+  "id": "osm:node/12064750482",
+  "name": "Siedlung Kämmereiheide",
+  "kind": "neighbourhood",
+  "lat": 52.4438363,
+  "lng": 13.5992859
+ },
+ {
+  "id": "osm:node/12064869617",
+  "name": "Salvador-Allende-Viertel II",
+  "kind": "quarter",
+  "lat": 52.4399712,
+  "lng": 13.6014895
+ },
+ {
+  "id": "osm:node/12065129606",
+  "name": "Kietzer Feld",
+  "kind": "quarter",
+  "lat": 52.4325579,
+  "lng": 13.5892053
+ },
+ {
+  "id": "osm:node/12066173019",
+  "name": "Dammfeld",
+  "kind": "quarter",
+  "lat": 52.4629224,
+  "lng": 13.5777159
+ },
+ {
+  "id": "osm:node/12066173098",
+  "name": "Piepertswinkel",
+  "kind": "neighbourhood",
+  "lat": 52.4702814,
+  "lng": 13.5702617
+ },
+ {
+  "id": "osm:node/12066355907",
+  "name": "Rudolfkiez",
+  "kind": "quarter",
+  "lat": 52.5007995,
+  "lng": 13.4578935
+ },
+ {
+  "id": "osm:node/12066591653",
+  "name": "Wolfsgarten",
+  "kind": "neighbourhood",
+  "lat": 52.4658054,
+  "lng": 13.5908426
+ },
+ {
+  "id": "osm:node/12072381241",
+  "name": "Falkenberg",
+  "kind": "neighbourhood",
+  "lat": 52.4031148,
+  "lng": 13.5648414
+ },
+ {
+  "id": "osm:node/12076941363",
+  "name": "Kosmosviertel",
+  "kind": "quarter",
+  "lat": 52.4029568,
+  "lng": 13.525709
+ },
+ {
+  "id": "osm:node/12090104294",
+  "name": "Hirschgarten",
+  "kind": "neighbourhood",
+  "lat": 52.4535375,
+  "lng": 13.6052365
+ },
+ {
+  "id": "osm:node/12090799681",
+  "name": "Siedlung Müggeleck",
+  "kind": "neighbourhood",
+  "lat": 52.4381542,
+  "lng": 13.6806493
+ },
+ {
+  "id": "osm:node/12094173615",
+  "name": "Ilse-Kiez",
+  "kind": "neighbourhood",
+  "lat": 52.4894755,
+  "lng": 13.5179508
+ },
+ {
+  "id": "osm:node/12094173616",
+  "name": "Heimatviertel",
+  "kind": "neighbourhood",
+  "lat": 52.4875596,
+  "lng": 13.5221358
+ },
+ {
+  "id": "osm:node/12095712104",
+  "name": "Prinzenviertel",
+  "kind": "quarter",
+  "lat": 52.4810623,
+  "lng": 13.5193414
+ },
+ {
+  "id": "osm:node/12095976198",
+  "name": "Weitlingkiez",
+  "kind": "quarter",
+  "lat": 52.5054591,
+  "lng": 13.4999573
+ },
+ {
+  "id": "osm:node/12166825713",
+  "name": "Waldstadt I und Industriegelände",
+  "kind": "suburb",
+  "lat": 52.3648497,
+  "lng": 13.1045973
+ },
+ {
+  "id": "osm:node/12387904998",
+  "name": "Landstadt Gatow",
+  "kind": "quarter",
+  "lat": 52.4729959,
+  "lng": 13.1290927
+ },
+ {
+  "id": "osm:node/12496255352",
+  "name": "Harzer Kiez",
+  "kind": "neighbourhood",
+  "lat": 52.4806656,
+  "lng": 13.4517349
+ },
+ {
+  "id": "osm:node/12529309682",
+  "name": "Campus Efeuweg",
+  "kind": "neighbourhood",
+  "lat": 52.4279496,
+  "lng": 13.4718627
+ },
+ {
+  "id": "osm:node/12529405567",
+  "name": "Neuland II",
+  "kind": "neighbourhood",
+  "lat": 52.4313097,
+  "lng": 13.4376055
+ },
+ {
+  "id": "osm:node/12529405568",
+  "name": "Neuland I",
+  "kind": "neighbourhood",
+  "lat": 52.4283134,
+  "lng": 13.4430463
+ },
+ {
+  "id": "osm:node/12535154660",
+  "name": "Buckow 1",
+  "kind": "quarter",
+  "lat": 52.420239,
+  "lng": 13.426441
+ },
+ {
+  "id": "osm:node/12535154661",
+  "name": "Buckow 2",
+  "kind": "quarter",
+  "lat": 52.4380435,
+  "lng": 13.463626
+ },
+ {
+  "id": "osm:node/12535239744",
+  "name": "Siedlung Marienwerder",
+  "kind": "neighbourhood",
+  "lat": 52.4204223,
+  "lng": 13.4225319
+ },
+ {
+  "id": "osm:node/12535247709",
+  "name": "Gartenheimsiedlung Grenzland",
+  "kind": "neighbourhood",
+  "lat": 52.4143928,
+  "lng": 13.3951358
+ },
+ {
+  "id": "osm:node/12833712668",
+  "name": "Arkenberge",
+  "kind": "neighbourhood",
+  "lat": 52.6409283,
+  "lng": 13.4016358
+ },
+ {
+  "id": "osm:node/12833819148",
+  "name": "Steinstücken",
+  "kind": "neighbourhood",
+  "lat": 52.3895026,
+  "lng": 13.1297026
+ },
+ {
+  "id": "osm:node/12833942147",
+  "name": "Wohngebiet Landsberger Tor",
+  "kind": "neighbourhood",
+  "lat": 52.5426736,
+  "lng": 13.5735566
+ },
+ {
+  "id": "osm:node/13037629548",
+  "name": "Weiße Taube",
+  "kind": "neighbourhood",
+  "lat": 52.536722,
+  "lng": 13.5103736
+ },
+ {
+  "id": "osm:node/13043935674",
+  "name": "Quartier HUGOS",
+  "kind": "neighbourhood",
+  "lat": 52.4404064,
+  "lng": 13.4100722
+ },
+ {
+  "id": "osm:node/13051031078",
+  "name": "Grünau-Ost",
+  "kind": "neighbourhood",
+  "lat": 52.4096771,
+  "lng": 13.5881031
+ },
+ {
+  "id": "osm:node/13051031079",
+  "name": "Wohnstadt Carl Legien",
+  "kind": "neighbourhood",
+  "lat": 52.546565,
+  "lng": 13.4327982
+ },
+ {
+  "id": "osm:node/13051130396",
+  "name": "Siedlung am Schillerpark",
+  "kind": "neighbourhood",
+  "lat": 52.5601341,
+  "lng": 13.3495391
+ },
+ {
+  "id": "osm:node/13051135004",
+  "name": "Hufeisensiedlung",
+  "kind": "quarter",
+  "lat": 52.4482318,
+  "lng": 13.4473518
+ },
+ {
+  "id": "osm:node/13051135005",
+  "name": "Krugpfuhlsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4488897,
+  "lng": 13.4522074
+ },
+ {
+  "id": "osm:node/13051135006",
+  "name": "Thermometersiedlung",
+  "kind": "quarter",
+  "lat": 52.4134761,
+  "lng": 13.3151507
+ },
+ {
+  "id": "osm:node/13051143101",
+  "name": "Weiße Stadt",
+  "kind": "neighbourhood",
+  "lat": 52.5687272,
+  "lng": 13.3517335
+ },
+ {
+  "id": "osm:node/13051150568",
+  "name": "Schwarzwaldsiedlung",
+  "kind": "quarter",
+  "lat": 52.6084729,
+  "lng": 13.3334566
+ },
+ {
+  "id": "osm:node/13052316463",
+  "name": "Siedlung Daheim",
+  "kind": "neighbourhood",
+  "lat": 52.4282471,
+  "lng": 13.398696
+ },
+ {
+  "id": "osm:node/13052317302",
+  "name": "Stadtrandsiedlung Marienfelde I",
+  "kind": "neighbourhood",
+  "lat": 52.4050763,
+  "lng": 13.3511026
+ },
+ {
+  "id": "osm:node/13052325621",
+  "name": "Großwohnsiedlung Waldsassener Straße",
+  "kind": "quarter",
+  "lat": 52.410952,
+  "lng": 13.3524828
+ },
+ {
+  "id": "osm:node/13052335103",
+  "name": "Wohnpark Mariendorf",
+  "kind": "neighbourhood",
+  "lat": 52.4435396,
+  "lng": 13.3777639
+ },
+ {
+  "id": "osm:node/13055915624",
+  "name": "Zentrum",
+  "kind": "neighbourhood",
+  "lat": 52.4221472,
+  "lng": 13.7525801
+ },
+ {
+  "id": "osm:node/13057785340",
+  "name": "John-Locke-Siedlung",
+  "kind": "quarter",
+  "lat": 52.3928648,
+  "lng": 13.4006301
+ },
+ {
+  "id": "osm:node/13057792132",
+  "name": "Volksparksiedlung Lichtenrade",
+  "kind": "quarter",
+  "lat": 52.3921062,
+  "lng": 13.4201692
+ },
+ {
+  "id": "osm:node/13058175797",
+  "name": "Großsiedlung Kamenzer Damm",
+  "kind": "quarter",
+  "lat": 52.4319355,
+  "lng": 13.3589278
+ },
+ {
+  "id": "osm:node/13061029886",
+  "name": "Buckower Felder",
+  "kind": "neighbourhood",
+  "lat": 52.4152399,
+  "lng": 13.4357164
+ },
+ {
+  "id": "osm:node/13061036592",
+  "name": "Hans-Martin-Helbich-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4180206,
+  "lng": 13.4338129
+ },
+ {
+  "id": "osm:node/13061046878",
+  "name": "Neues Gartenfeld",
+  "kind": "quarter",
+  "lat": 52.5514038,
+  "lng": 13.2426784
+ },
+ {
+  "id": "osm:node/13061046892",
+  "name": "Paul-Hertz-Siedlung",
+  "kind": "quarter",
+  "lat": 52.5375033,
+  "lng": 13.2989068
+ },
+ {
+  "id": "osm:node/13061052448",
+  "name": "Buckower Höfe",
+  "kind": "neighbourhood",
+  "lat": 52.4188236,
+  "lng": 13.4441774
+ },
+ {
+  "id": "osm:node/13061067359",
+  "name": "Waterkant",
+  "kind": "neighbourhood",
+  "lat": 52.5574805,
+  "lng": 13.2257444
+ },
+ {
+  "id": "osm:node/13061067360",
+  "name": "Oberspree",
+  "kind": "quarter",
+  "lat": 52.4511384,
+  "lng": 13.5354247
+ },
+ {
+  "id": "osm:node/13061097025",
+  "name": "Salvador-Allende-Viertel I",
+  "kind": "quarter",
+  "lat": 52.4437867,
+  "lng": 13.5906056
+ },
+ {
+  "id": "osm:node/13061106737",
+  "name": "Köllnische Vorstadt",
+  "kind": "quarter",
+  "lat": 52.4437948,
+  "lng": 13.5671174
+ },
+ {
+  "id": "osm:node/13061120217",
+  "name": "Louise-Schröder-Siedlung",
+  "kind": "quarter",
+  "lat": 52.5320048,
+  "lng": 13.1525018
+ },
+ {
+  "id": "osm:node/13061128921",
+  "name": "Schillerhöhe",
+  "kind": "quarter",
+  "lat": 52.5587348,
+  "lng": 13.3591367
+ },
+ {
+  "id": "osm:node/13061139772",
+  "name": "High-Deck-Siedlung",
+  "kind": "quarter",
+  "lat": 52.4640817,
+  "lng": 13.4744466
+ },
+ {
+  "id": "osm:node/13061154659",
+  "name": "Pfarrland-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4172553,
+  "lng": 13.5147768
+ },
+ {
+  "id": "osm:node/13082774937",
+  "name": "Spring-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5009525,
+  "lng": 13.3995407
+ },
+ {
+  "id": "osm:node/13084847286",
+  "name": "Eichenring",
+  "kind": "neighbourhood",
+  "lat": 52.6231353,
+  "lng": 13.5097175
+ },
+ {
+  "id": "osm:node/13084952411",
+  "name": "Kietz",
+  "kind": "neighbourhood",
+  "lat": 52.442595,
+  "lng": 13.5768298
+ },
+ {
+  "id": "osm:node/13087271601",
+  "name": "Siedlung an der Waßmannsdorfer Chaussee",
+  "kind": "neighbourhood",
+  "lat": 52.4065804,
+  "lng": 13.4942952
+ },
+ {
+  "id": "osm:node/13087272822",
+  "name": "Wendenschloß",
+  "kind": "quarter",
+  "lat": 52.4202852,
+  "lng": 13.5906225
+ },
+ {
+  "id": "osm:node/13087304309",
+  "name": "Kölner Viertel",
+  "kind": "quarter",
+  "lat": 52.4032355,
+  "lng": 13.5419154
+ },
+ {
+  "id": "osm:node/13087625569",
+  "name": "Waldsiedlung Krumme Lanke",
+  "kind": "quarter",
+  "lat": 52.4489445,
+  "lng": 13.2402301
+ },
+ {
+  "id": "osm:node/13087807350",
+  "name": "Gartenstadt Zehlendorf",
+  "kind": "neighbourhood",
+  "lat": 52.4269127,
+  "lng": 13.25059
+ },
+ {
+  "id": "osm:node/13087887035",
+  "name": "Freie Scholle",
+  "kind": "quarter",
+  "lat": 52.6017164,
+  "lng": 13.3011804
+ },
+ {
+  "id": "osm:node/13087910759",
+  "name": "Tiefwerder",
+  "kind": "quarter",
+  "lat": 52.51971,
+  "lng": 13.2098148
+ },
+ {
+  "id": "osm:node/13087913821",
+  "name": "Friedrich-Wilhelm-Stadt",
+  "kind": "quarter",
+  "lat": 52.5227061,
+  "lng": 13.3794347
+ },
+ {
+  "id": "osm:node/13087925288",
+  "name": "Alt-Kladow",
+  "kind": "neighbourhood",
+  "lat": 52.4531995,
+  "lng": 13.1440792
+ },
+ {
+  "id": "osm:node/13087941325",
+  "name": "Alt-Staaken",
+  "kind": "neighbourhood",
+  "lat": 52.5304549,
+  "lng": 13.140413
+ },
+ {
+  "id": "osm:node/13087966629",
+  "name": "Alt-Marzahn",
+  "kind": "neighbourhood",
+  "lat": 52.5435784,
+  "lng": 13.5598677
+ },
+ {
+  "id": "osm:node/13087976528",
+  "name": "Kissingenviertel",
+  "kind": "quarter",
+  "lat": 52.5672151,
+  "lng": 13.4227326
+ },
+ {
+  "id": "osm:node/13087983980",
+  "name": "Alt-Buckow",
+  "kind": "neighbourhood",
+  "lat": 52.4225014,
+  "lng": 13.432637
+ },
+ {
+  "id": "osm:node/13087984392",
+  "name": "Göhrener Ei",
+  "kind": "neighbourhood",
+  "lat": 52.5409692,
+  "lng": 13.4213227
+ },
+ {
+  "id": "osm:node/13087992941",
+  "name": "Große Lettekolonie",
+  "kind": "neighbourhood",
+  "lat": 52.5632729,
+  "lng": 13.3701951
+ },
+ {
+  "id": "osm:node/13087992942",
+  "name": "Kleine Lettekolonie",
+  "kind": "neighbourhood",
+  "lat": 52.5620003,
+  "lng": 13.3738055
+ },
+ {
+  "id": "osm:node/13087992952",
+  "name": "Nikolaiviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5167871,
+  "lng": 13.4067728
+ },
+ {
+  "id": "osm:node/13087994148",
+  "name": "Alt-Biesdorf",
+  "kind": "neighbourhood",
+  "lat": 52.5090739,
+  "lng": 13.5549965
+ },
+ {
+  "id": "osm:node/13087994183",
+  "name": "Onkel Toms Hütte",
+  "kind": "quarter",
+  "lat": 52.4503306,
+  "lng": 13.2568322
+ },
+ {
+  "id": "osm:node/13088003536",
+  "name": "Alt-Kaulsdorf",
+  "kind": "neighbourhood",
+  "lat": 52.5079676,
+  "lng": 13.5810703
+ },
+ {
+  "id": "osm:node/13088008865",
+  "name": "Alt-Lichtenrade",
+  "kind": "neighbourhood",
+  "lat": 52.3913628,
+  "lng": 13.4099669
+ },
+ {
+  "id": "osm:node/13088009187",
+  "name": "Alt-Mariendorf",
+  "kind": "neighbourhood",
+  "lat": 52.4393213,
+  "lng": 13.3871622
+ },
+ {
+  "id": "osm:node/13088017509",
+  "name": "Alt-Heinersdorf",
+  "kind": "neighbourhood",
+  "lat": 52.5672764,
+  "lng": 13.4402682
+ },
+ {
+  "id": "osm:node/13088017954",
+  "name": "Alt-Bohnsdorf",
+  "kind": "neighbourhood",
+  "lat": 52.3994812,
+  "lng": 13.5555943
+ },
+ {
+  "id": "osm:node/13088018968",
+  "name": "Alt-Buch",
+  "kind": "neighbourhood",
+  "lat": 52.6354886,
+  "lng": 13.4990323
+ },
+ {
+  "id": "osm:node/13088027155",
+  "name": "Alt-Karow",
+  "kind": "neighbourhood",
+  "lat": 52.6119866,
+  "lng": 13.482979
+ },
+ {
+  "id": "osm:node/13088028092",
+  "name": "Alt-Reinickendorf",
+  "kind": "neighbourhood",
+  "lat": 52.5751278,
+  "lng": 13.3523261
+ },
+ {
+  "id": "osm:node/13088029998",
+  "name": "City West",
+  "kind": "neighbourhood",
+  "lat": 52.5042441,
+  "lng": 13.3353152
+ },
+ {
+  "id": "osm:node/13088030271",
+  "name": "Rheinisches Viertel",
+  "kind": "quarter",
+  "lat": 52.4833531,
+  "lng": 13.5307452
+ },
+ {
+  "id": "osm:node/13088030836",
+  "name": "Alt-Blankenburg",
+  "kind": "neighbourhood",
+  "lat": 52.5931966,
+  "lng": 13.4561212
+ },
+ {
+  "id": "osm:node/13088032060",
+  "name": "Alt-Lübars",
+  "kind": "neighbourhood",
+  "lat": 52.6206185,
+  "lng": 13.3567626
+ },
+ {
+  "id": "osm:node/13088035045",
+  "name": "Alt-Marienfelde",
+  "kind": "neighbourhood",
+  "lat": 52.4123017,
+  "lng": 13.3672659
+ },
+ {
+  "id": "osm:node/13088149479",
+  "name": "Siedlung Paddenpuhl",
+  "kind": "neighbourhood",
+  "lat": 52.5734697,
+  "lng": 13.3639744
+ },
+ {
+  "id": "osm:node/13088153124",
+  "name": "Alt-Wittenau",
+  "kind": "neighbourhood",
+  "lat": 52.5923988,
+  "lng": 13.3249411
+ },
+ {
+  "id": "osm:node/13088158267",
+  "name": "Alt-Tegel",
+  "kind": "neighbourhood",
+  "lat": 52.5882817,
+  "lng": 13.2779916
+ },
+ {
+  "id": "osm:node/13088159906",
+  "name": "Alt-Heiligensee",
+  "kind": "neighbourhood",
+  "lat": 52.607513,
+  "lng": 13.2125104
+ },
+ {
+  "id": "osm:node/13088193850",
+  "name": "Stadtrandsiedlung Marienfelde II",
+  "kind": "neighbourhood",
+  "lat": 52.4013355,
+  "lng": 13.3581239
+ },
+ {
+  "id": "osm:node/13088193851",
+  "name": "Stadtrandsiedlung Marienfelde III",
+  "kind": "neighbourhood",
+  "lat": 52.4040906,
+  "lng": 13.3581849
+ },
+ {
+  "id": "osm:node/13089029323",
+  "name": "Lilienthal Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4158127,
+  "lng": 13.3271667
+ },
+ {
+  "id": "osm:node/13089051898",
+  "name": "Kleinhaussiedlung am Steinberg",
+  "kind": "neighbourhood",
+  "lat": 52.5932707,
+  "lng": 13.2990679
+ },
+ {
+  "id": "osm:node/13089257686",
+  "name": "Rosenthaler Vorstadt",
+  "kind": "quarter",
+  "lat": 52.5312541,
+  "lng": 13.4024541
+ },
+ {
+  "id": "osm:node/13089268207",
+  "name": "Florakiez",
+  "kind": "quarter",
+  "lat": 52.565786,
+  "lng": 13.4009953
+ },
+ {
+  "id": "osm:node/13089268208",
+  "name": "Alt-Pankow",
+  "kind": "neighbourhood",
+  "lat": 52.5704936,
+  "lng": 13.4080663
+ },
+ {
+  "id": "osm:node/13089313371",
+  "name": "Stralauer Vorstadt",
+  "kind": "neighbourhood",
+  "lat": 52.5182175,
+  "lng": 13.4239788
+ },
+ {
+  "id": "osm:node/13089313413",
+  "name": "Neu-Cölln am Wasser",
+  "kind": "neighbourhood",
+  "lat": 52.5128099,
+  "lng": 13.4114021
+ },
+ {
+  "id": "osm:node/13089315989",
+  "name": "Königsstadt",
+  "kind": "neighbourhood",
+  "lat": 52.5254098,
+  "lng": 13.4202287
+ },
+ {
+  "id": "osm:node/13089332817",
+  "name": "Oranienburger Vorstadt",
+  "kind": "quarter",
+  "lat": 52.5320896,
+  "lng": 13.3884823
+ },
+ {
+  "id": "osm:node/13089349308",
+  "name": "Boxhagener Kiez",
+  "kind": "quarter",
+  "lat": 52.5105879,
+  "lng": 13.4604008
+ },
+ {
+  "id": "osm:node/13089364833",
+  "name": "Kaulsdorf-Nord",
+  "kind": "quarter",
+  "lat": 52.5219118,
+  "lng": 13.5834005
+ },
+ {
+  "id": "osm:node/13089364932",
+  "name": "Rummelsburger Ufer",
+  "kind": "neighbourhood",
+  "lat": 52.4985244,
+  "lng": 13.4797821
+ },
+ {
+  "id": "osm:node/13089380765",
+  "name": "Streusiedlung Mahlsdorf II",
+  "kind": "neighbourhood",
+  "lat": 52.5087021,
+  "lng": 13.6024719
+ },
+ {
+  "id": "osm:node/13089395855",
+  "name": "Lichtenberger Gartenheim",
+  "kind": "neighbourhood",
+  "lat": 52.5184655,
+  "lng": 13.6118194
+ },
+ {
+  "id": "osm:node/13089398487",
+  "name": "Ostseeviertel",
+  "kind": "quarter",
+  "lat": 52.5687864,
+  "lng": 13.4990861
+ },
+ {
+  "id": "osm:node/13089398488",
+  "name": "Mühlengrund",
+  "kind": "quarter",
+  "lat": 52.5617715,
+  "lng": 13.5116541
+ },
+ {
+  "id": "osm:node/13089398489",
+  "name": "Vincent-van-Gogh-Straße",
+  "kind": "quarter",
+  "lat": 52.5654772,
+  "lng": 13.5241583
+ },
+ {
+  "id": "osm:node/13089398490",
+  "name": "Krummer Pfuhl",
+  "kind": "quarter",
+  "lat": 52.5720498,
+  "lng": 13.5121708
+ },
+ {
+  "id": "osm:node/13089399714",
+  "name": "TheodorPark",
+  "kind": "neighbourhood",
+  "lat": 52.501982,
+  "lng": 13.6182994
+ },
+ {
+  "id": "osm:node/13089408452",
+  "name": "Hohenschönhausen II",
+  "kind": "neighbourhood",
+  "lat": 52.5491473,
+  "lng": 13.4973138
+ },
+ {
+  "id": "osm:node/13089414551",
+  "name": "Hohenschönhausen I",
+  "kind": "neighbourhood",
+  "lat": 52.5476667,
+  "lng": 13.5076512
+ },
+ {
+  "id": "osm:node/13089415576",
+  "name": "Flusspferdhofsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5383267,
+  "lng": 13.490245
+ },
+ {
+  "id": "osm:node/13089431081",
+  "name": "Villenviertel am Orankesee",
+  "kind": "neighbourhood",
+  "lat": 52.5482834,
+  "lng": 13.4851152
+ },
+ {
+  "id": "osm:node/13089447773",
+  "name": "Märkisches Viertel",
+  "kind": "quarter",
+  "lat": 52.5398785,
+  "lng": 13.4922888
+ },
+ {
+  "id": "osm:node/13089459334",
+  "name": "Gartenstadt Karlshorst",
+  "kind": "neighbourhood",
+  "lat": 52.4906201,
+  "lng": 13.5409523
+ },
+ {
+  "id": "osm:node/13089468803",
+  "name": "Wilhelmsberg",
+  "kind": "neighbourhood",
+  "lat": 52.5354851,
+  "lng": 13.4751867
+ },
+ {
+  "id": "osm:node/13089480871",
+  "name": "Wohnsiedlung Dingelstädter Straße",
+  "kind": "neighbourhood",
+  "lat": 52.538554,
+  "lng": 13.5201682
+ },
+ {
+  "id": "osm:node/13089497723",
+  "name": "Gartenstadt",
+  "kind": "neighbourhood",
+  "lat": 52.5548545,
+  "lng": 13.5206561
+ },
+ {
+  "id": "osm:node/13089510813",
+  "name": "Bruno-Taut-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5525229,
+  "lng": 13.5061881
+ },
+ {
+  "id": "osm:node/13091844039",
+  "name": "Finnenhaussiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4567955,
+  "lng": 13.1465895
+ },
+ {
+  "id": "osm:node/13093217922",
+  "name": "Niles-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5713262,
+  "lng": 13.4910335
+ },
+ {
+  "id": "osm:node/13093245232",
+  "name": "Märchenviertel",
+  "kind": "quarter",
+  "lat": 52.4638777,
+  "lng": 13.5898604
+ },
+ {
+  "id": "osm:node/13093245299",
+  "name": "Alt-Müggelheim",
+  "kind": "neighbourhood",
+  "lat": 52.411879,
+  "lng": 13.6625941
+ },
+ {
+  "id": "osm:node/13093245300",
+  "name": "Wohnpark Ludwigshöhe",
+  "kind": "neighbourhood",
+  "lat": 52.4148389,
+  "lng": 13.6511469
+ },
+ {
+  "id": "osm:node/13093247537",
+  "name": "Margaretenhöhe",
+  "kind": "neighbourhood",
+  "lat": 52.5847306,
+  "lng": 13.4963289
+ },
+ {
+  "id": "osm:node/13093249130",
+  "name": "Stadtrandsiedlung Mittelheide",
+  "kind": "neighbourhood",
+  "lat": 52.4623229,
+  "lng": 13.5907256
+ },
+ {
+  "id": "osm:node/13093250593",
+  "name": "Graefekiez",
+  "kind": "quarter",
+  "lat": 52.4910072,
+  "lng": 13.4160489
+ },
+ {
+  "id": "osm:node/13093252062",
+  "name": "Uhlenhorst",
+  "kind": "neighbourhood",
+  "lat": 52.4721879,
+  "lng": 13.5865244
+ },
+ {
+  "id": "osm:node/13093254405",
+  "name": "Siedlung Elsengrund",
+  "kind": "neighbourhood",
+  "lat": 52.460301,
+  "lng": 13.5909464
+ },
+ {
+  "id": "osm:node/13093263665",
+  "name": "Krampenburg",
+  "kind": "neighbourhood",
+  "lat": 52.3866767,
+  "lng": 13.6491665
+ },
+ {
+  "id": "osm:node/13093276664",
+  "name": "Zeitungsviertel",
+  "kind": "quarter",
+  "lat": 52.5029618,
+  "lng": 13.3910599
+ },
+ {
+  "id": "osm:node/13093278101",
+  "name": "Siedlung Schönhorst",
+  "kind": "neighbourhood",
+  "lat": 52.4244439,
+  "lng": 13.7054668
+ },
+ {
+  "id": "osm:node/13093292192",
+  "name": "Bergmannkiez",
+  "kind": "quarter",
+  "lat": 52.489989,
+  "lng": 13.3922299
+ },
+ {
+  "id": "osm:node/13093294885",
+  "name": "An der Regattastrecke",
+  "kind": "neighbourhood",
+  "lat": 52.4105478,
+  "lng": 13.5939448
+ },
+ {
+  "id": "osm:node/13093298413",
+  "name": "Wrangelkiez",
+  "kind": "quarter",
+  "lat": 52.4986659,
+  "lng": 13.4435948
+ },
+ {
+  "id": "osm:node/13093321501",
+  "name": "Frauenviertel",
+  "kind": "quarter",
+  "lat": 52.4028383,
+  "lng": 13.5062478
+ },
+ {
+  "id": "osm:node/13094581146",
+  "name": "Frankfurter Allee Süd",
+  "kind": "neighbourhood",
+  "lat": 52.5107628,
+  "lng": 13.4808074
+ },
+ {
+  "id": "osm:node/13094603991",
+  "name": "Wohngebiet am Landschaftspark Herzberge",
+  "kind": "neighbourhood",
+  "lat": 52.5234594,
+  "lng": 13.5106595
+ },
+ {
+  "id": "osm:node/13094643897",
+  "name": "Victoriastadt",
+  "kind": "quarter",
+  "lat": 52.504859,
+  "lng": 13.4766102
+ },
+ {
+  "id": "osm:node/13094644685",
+  "name": "Bornitz-Viertel",
+  "kind": "neighbourhood",
+  "lat": 52.5197665,
+  "lng": 13.4904415
+ },
+ {
+  "id": "osm:node/13094661644",
+  "name": "Rosenfelder Ring",
+  "kind": "neighbourhood",
+  "lat": 52.5122089,
+  "lng": 13.5125016
+ },
+ {
+  "id": "osm:node/13094673004",
+  "name": "Alt-Friedrichsfelde",
+  "kind": "neighbourhood",
+  "lat": 52.5058044,
+  "lng": 13.5181434
+ },
+ {
+  "id": "osm:node/13094676857",
+  "name": "Sewanviertel",
+  "kind": "quarter",
+  "lat": 52.4975141,
+  "lng": 13.5093194
+ },
+ {
+  "id": "osm:node/13094677800",
+  "name": "Splanemannsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4941918,
+  "lng": 13.520852
+ },
+ {
+  "id": "osm:node/13094683853",
+  "name": "Waldsiedlung Wuhlheide",
+  "kind": "neighbourhood",
+  "lat": 52.4775004,
+  "lng": 13.509697
+ },
+ {
+  "id": "osm:node/13094684047",
+  "name": "Schorfheideviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5681958,
+  "lng": 13.5780822
+ },
+ {
+  "id": "osm:node/13094709217",
+  "name": "Carlsgarten",
+  "kind": "quarter",
+  "lat": 52.4757784,
+  "lng": 13.5328923
+ },
+ {
+  "id": "osm:node/13094711420",
+  "name": "Quartier Oberweißbacher Straße",
+  "kind": "neighbourhood",
+  "lat": 52.5586439,
+  "lng": 13.5719861
+ },
+ {
+  "id": "osm:node/13094713492",
+  "name": "Marzahn-Ost",
+  "kind": "quarter",
+  "lat": 52.5512765,
+  "lng": 13.5788065
+ },
+ {
+  "id": "osm:node/13094724141",
+  "name": "Marzahn-Mitte",
+  "kind": "quarter",
+  "lat": 52.5541104,
+  "lng": 13.5541084
+ },
+ {
+  "id": "osm:node/13094728679",
+  "name": "Springpfuhl",
+  "kind": "quarter",
+  "lat": 52.5305247,
+  "lng": 13.5433423
+ },
+ {
+  "id": "osm:node/13094732555",
+  "name": "Stadtrandsiedlung Falkenberg",
+  "kind": "neighbourhood",
+  "lat": 52.5696238,
+  "lng": 13.5557178
+ },
+ {
+  "id": "osm:node/13094732952",
+  "name": "Marzahn-Süd",
+  "kind": "quarter",
+  "lat": 52.5384504,
+  "lng": 13.559108
+ },
+ {
+  "id": "osm:node/13095159157",
+  "name": "Schleipfuhl",
+  "kind": "neighbourhood",
+  "lat": 52.5307547,
+  "lng": 13.6118141
+ },
+ {
+  "id": "osm:node/13095173299",
+  "name": "Alte Hellersdorfer Straße",
+  "kind": "quarter",
+  "lat": 52.5433349,
+  "lng": 13.5914371
+ },
+ {
+  "id": "osm:node/13095195184",
+  "name": "Gelbes Viertel",
+  "kind": "quarter",
+  "lat": 52.5289645,
+  "lng": 13.5933686
+ },
+ {
+  "id": "osm:node/13095224256",
+  "name": "Leipziger Tor",
+  "kind": "quarter",
+  "lat": 52.5408274,
+  "lng": 13.6210905
+ },
+ {
+  "id": "osm:node/13095244050",
+  "name": "Kienberg-Viertel",
+  "kind": "quarter",
+  "lat": 52.5380183,
+  "lng": 13.5882208
+ },
+ {
+  "id": "osm:node/13095244051",
+  "name": "Rotes Viertel",
+  "kind": "quarter",
+  "lat": 52.5213147,
+  "lng": 13.5907531
+ },
+ {
+  "id": "osm:node/13095246545",
+  "name": "Branitzer Karree",
+  "kind": "quarter",
+  "lat": 52.5351095,
+  "lng": 13.6211049
+ },
+ {
+  "id": "osm:node/13095248011",
+  "name": "Grabenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5347652,
+  "lng": 13.5954527
+ },
+ {
+  "id": "osm:node/13095260411",
+  "name": "Rathaus-Viertel",
+  "kind": "quarter",
+  "lat": 52.5328021,
+  "lng": 13.610841
+ },
+ {
+  "id": "osm:node/13095262866",
+  "name": "Siedlung Daheim",
+  "kind": "neighbourhood",
+  "lat": 52.4235138,
+  "lng": 13.3954886
+ },
+ {
+  "id": "osm:node/13095264080",
+  "name": "Wohnpark St. Marien",
+  "kind": "neighbourhood",
+  "lat": 52.4642352,
+  "lng": 13.4233993
+ },
+ {
+  "id": "osm:node/13095264081",
+  "name": "Bärensiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4629556,
+  "lng": 13.4148215
+ },
+ {
+  "id": "osm:node/13095269357",
+  "name": "Kastanienallee",
+  "kind": "quarter",
+  "lat": 52.5322921,
+  "lng": 13.6046286
+ },
+ {
+  "id": "osm:node/13095271643",
+  "name": "Hellersdorfer Graben",
+  "kind": "quarter",
+  "lat": 52.5351471,
+  "lng": 13.6107515
+ },
+ {
+  "id": "osm:node/13095294792",
+  "name": "Siedlung am Schlierbacher Weg",
+  "kind": "neighbourhood",
+  "lat": 52.4176317,
+  "lng": 13.4030303
+ },
+ {
+  "id": "osm:node/13095296467",
+  "name": "Neu-Britz",
+  "kind": "quarter",
+  "lat": 52.4637283,
+  "lng": 13.4388596
+ },
+ {
+  "id": "osm:node/13095303894",
+  "name": "Neue Heimstatt",
+  "kind": "neighbourhood",
+  "lat": 52.4195608,
+  "lng": 13.409162
+ },
+ {
+  "id": "osm:node/13095306464",
+  "name": "Töpchiner Dreieck",
+  "kind": "neighbourhood",
+  "lat": 52.4117094,
+  "lng": 13.4200301
+ },
+ {
+  "id": "osm:node/13095318904",
+  "name": "Körnerkiez",
+  "kind": "quarter",
+  "lat": 52.4705678,
+  "lng": 13.4361664
+ },
+ {
+  "id": "osm:node/13095322710",
+  "name": "Ideal-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4556522,
+  "lng": 13.4435887
+ },
+ {
+  "id": "osm:node/13095322836",
+  "name": "Siedlung der Düfte",
+  "kind": "neighbourhood",
+  "lat": 52.4561904,
+  "lng": 13.4326289
+ },
+ {
+  "id": "osm:node/13095326441",
+  "name": "Parksiedlung Spruch",
+  "kind": "neighbourhood",
+  "lat": 52.4220964,
+  "lng": 13.4073973
+ },
+ {
+  "id": "osm:node/13095335196",
+  "name": "Neue Scholle",
+  "kind": "neighbourhood",
+  "lat": 52.4195161,
+  "lng": 13.4158729
+ },
+ {
+  "id": "osm:node/13099226132",
+  "name": "Majakowskiring",
+  "kind": "neighbourhood",
+  "lat": 52.5749094,
+  "lng": 13.4028105
+ },
+ {
+  "id": "osm:node/13099247411",
+  "name": "Nordend",
+  "kind": "quarter",
+  "lat": 52.5931587,
+  "lng": 13.4023177
+ },
+ {
+  "id": "osm:node/13099254096",
+  "name": "Ludwig-Hoffmann-Quartier",
+  "kind": "quarter",
+  "lat": 52.641436,
+  "lng": 13.4905751
+ },
+ {
+  "id": "osm:node/13099257115",
+  "name": "Karow-Nord",
+  "kind": "quarter",
+  "lat": 52.6183358,
+  "lng": 13.4879227
+ },
+ {
+  "id": "osm:node/13099260207",
+  "name": "Buchholz-West",
+  "kind": "quarter",
+  "lat": 52.6066911,
+  "lng": 13.421591
+ },
+ {
+  "id": "osm:node/13102235754",
+  "name": "Eldenaer Viertel",
+  "kind": "quarter",
+  "lat": 52.520967,
+  "lng": 13.4650011
+ },
+ {
+  "id": "osm:node/13102305037",
+  "name": "Cité Berthezène",
+  "kind": "neighbourhood",
+  "lat": 52.5616564,
+  "lng": 13.324415
+ },
+ {
+  "id": "osm:node/13102371738",
+  "name": "Cité Foch",
+  "kind": "quarter",
+  "lat": 52.6012071,
+  "lng": 13.3201114
+ },
+ {
+  "id": "osm:node/13102377740",
+  "name": "Kriegsheimstätten-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.6148514,
+  "lng": 13.3465686
+ },
+ {
+  "id": "osm:node/13102479881",
+  "name": "AEG-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.6109715,
+  "lng": 13.3456637
+ },
+ {
+  "id": "osm:node/13102528230",
+  "name": "Vogtland",
+  "kind": "neighbourhood",
+  "lat": 52.6157944,
+  "lng": 13.3520256
+ },
+ {
+  "id": "osm:node/13102534562",
+  "name": "Lindenhof",
+  "kind": "neighbourhood",
+  "lat": 52.4575361,
+  "lng": 13.3618838
+ },
+ {
+  "id": "osm:node/13102605643",
+  "name": "Alt-Hermsdorf",
+  "kind": "neighbourhood",
+  "lat": 52.6151703,
+  "lng": 13.3185168
+ },
+ {
+  "id": "osm:node/13102666218",
+  "name": "Borsigsiedlung",
+  "kind": "quarter",
+  "lat": 52.6233838,
+  "lng": 13.2397108
+ },
+ {
+  "id": "osm:node/13102671299",
+  "name": "Seebadviertel",
+  "kind": "neighbourhood",
+  "lat": 52.6148565,
+  "lng": 13.3250819
+ },
+ {
+  "id": "osm:node/13102709783",
+  "name": "Kurviertel",
+  "kind": "neighbourhood",
+  "lat": 52.6205612,
+  "lng": 13.2981854
+ },
+ {
+  "id": "osm:node/13102713518",
+  "name": "Waldseeviertel",
+  "kind": "neighbourhood",
+  "lat": 52.6237796,
+  "lng": 13.3195497
+ },
+ {
+  "id": "osm:node/13102715375",
+  "name": "Akazienkiez",
+  "kind": "quarter",
+  "lat": 52.4873874,
+  "lng": 13.3500605
+ },
+ {
+  "id": "osm:node/13102718788",
+  "name": "Bayerisches Viertel",
+  "kind": "quarter",
+  "lat": 52.4899521,
+  "lng": 13.339562
+ },
+ {
+  "id": "osm:node/13102724025",
+  "name": "Ceciliengärten",
+  "kind": "neighbourhood",
+  "lat": 52.4740517,
+  "lng": 13.3417722
+ },
+ {
+  "id": "osm:node/13102726250",
+  "name": "Kielgan-Viertel",
+  "kind": "neighbourhood",
+  "lat": 52.5019368,
+  "lng": 13.3543221
+ },
+ {
+  "id": "osm:node/13102732793",
+  "name": "Winterfeldtkiez",
+  "kind": "neighbourhood",
+  "lat": 52.4958613,
+  "lng": 13.3544784
+ },
+ {
+  "id": "osm:node/13102733839",
+  "name": "Nollendorfkiez",
+  "kind": "quarter",
+  "lat": 52.497797,
+  "lng": 13.3517244
+ },
+ {
+  "id": "osm:node/13102741709",
+  "name": "Friedenauer Höhe",
+  "kind": "neighbourhood",
+  "lat": 52.4774981,
+  "lng": 13.3383751
+ },
+ {
+  "id": "osm:node/13103776103",
+  "name": "Stresow",
+  "kind": "quarter",
+  "lat": 52.5308998,
+  "lng": 13.2057753
+ },
+ {
+  "id": "osm:node/13103780421",
+  "name": "Klosterfelde",
+  "kind": "quarter",
+  "lat": 52.533855,
+  "lng": 13.1885826
+ },
+ {
+  "id": "osm:node/13103780640",
+  "name": "Spandau-West",
+  "kind": "quarter",
+  "lat": 52.5381785,
+  "lng": 13.1870161
+ },
+ {
+  "id": "osm:node/13103783603",
+  "name": "Kolk",
+  "kind": "neighbourhood",
+  "lat": 52.5397216,
+  "lng": 13.207849
+ },
+ {
+  "id": "osm:node/13103862261",
+  "name": "Quartier Havelspitze",
+  "kind": "neighbourhood",
+  "lat": 52.5573727,
+  "lng": 13.2186666
+ },
+ {
+  "id": "osm:node/13103867989",
+  "name": "Georg-Ramin-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5376632,
+  "lng": 13.1923755
+ },
+ {
+  "id": "osm:node/13103881578",
+  "name": "Bocksfelde",
+  "kind": "quarter",
+  "lat": 52.5131053,
+  "lng": 13.1870006
+ },
+ {
+  "id": "osm:node/13103882302",
+  "name": "Altstadt",
+  "kind": "quarter",
+  "lat": 52.537245,
+  "lng": 13.2044802
+ },
+ {
+  "id": "osm:node/13103886818",
+  "name": "Quartier Schultheiss",
+  "kind": "neighbourhood",
+  "lat": 52.5465896,
+  "lng": 13.2105872
+ },
+ {
+  "id": "osm:node/13103886819",
+  "name": "Neustadt",
+  "kind": "quarter",
+  "lat": 52.5470985,
+  "lng": 13.2019773
+ },
+ {
+  "id": "osm:node/13103896542",
+  "name": "Pichelsdorf",
+  "kind": "quarter",
+  "lat": 52.5109715,
+  "lng": 13.1989819
+ },
+ {
+  "id": "osm:node/13103899052",
+  "name": "Pichelswerder",
+  "kind": "neighbourhood",
+  "lat": 52.5081702,
+  "lng": 13.2064085
+ },
+ {
+  "id": "osm:node/13103908745",
+  "name": "Wasserstadt Spandau",
+  "kind": "quarter",
+  "lat": 52.5561238,
+  "lng": 13.2187203
+ },
+ {
+  "id": "osm:node/13103913622",
+  "name": "Quartier Nordhafen",
+  "kind": "neighbourhood",
+  "lat": 52.5536415,
+  "lng": 13.2124759
+ },
+ {
+  "id": "osm:node/13103918353",
+  "name": "Gartenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5496675,
+  "lng": 13.2309268
+ },
+ {
+  "id": "osm:node/13103918413",
+  "name": "Weinmeisterhöhe",
+  "kind": "quarter",
+  "lat": 52.5053925,
+  "lng": 13.1834331
+ },
+ {
+  "id": "osm:node/13103921795",
+  "name": "Reichsforschungssiedlung Haselhorst",
+  "kind": "quarter",
+  "lat": 52.5446414,
+  "lng": 13.2365678
+ },
+ {
+  "id": "osm:node/13103938279",
+  "name": "Quartier Haveleck",
+  "kind": "quarter",
+  "lat": 52.5561691,
+  "lng": 13.2283413
+ },
+ {
+  "id": "osm:node/13103951441",
+  "name": "Halske Sonnengärten",
+  "kind": "neighbourhood",
+  "lat": 52.5464066,
+  "lng": 13.2520757
+ },
+ {
+  "id": "osm:node/13103951898",
+  "name": "Siemenssiedlung am Hohenzollernkanal IV",
+  "kind": "neighbourhood",
+  "lat": 52.554837,
+  "lng": 13.245534
+ },
+ {
+  "id": "osm:node/13103951899",
+  "name": "Siemenssiedlung am Hohenzollernkanal III",
+  "kind": "neighbourhood",
+  "lat": 52.5504612,
+  "lng": 13.2585899
+ },
+ {
+  "id": "osm:node/13103958862",
+  "name": "Quartier Pulvermühle",
+  "kind": "neighbourhood",
+  "lat": 52.5454277,
+  "lng": 13.2268578
+ },
+ {
+  "id": "osm:node/13103969998",
+  "name": "Quartier Parkstraße",
+  "kind": "neighbourhood",
+  "lat": 52.5484588,
+  "lng": 13.2116333
+ },
+ {
+  "id": "osm:node/13103976684",
+  "name": "Quartier Eiswerder",
+  "kind": "neighbourhood",
+  "lat": 52.5487439,
+  "lng": 13.2187068
+ },
+ {
+  "id": "osm:node/13103977237",
+  "name": "Quartier Am Salzhof",
+  "kind": "neighbourhood",
+  "lat": 52.5509294,
+  "lng": 13.2288653
+ },
+ {
+  "id": "osm:node/13103992773",
+  "name": "Speicherballett",
+  "kind": "neighbourhood",
+  "lat": 52.5505286,
+  "lng": 13.2139508
+ },
+ {
+  "id": "osm:node/13103999244",
+  "name": "Falkenhagen-Ost",
+  "kind": "neighbourhood",
+  "lat": 52.5629071,
+  "lng": 13.1173005
+ },
+ {
+  "id": "osm:node/13104009960",
+  "name": "Maselake-Zentrum",
+  "kind": "quarter",
+  "lat": 52.5581028,
+  "lng": 13.209386
+ },
+ {
+  "id": "osm:node/13104010124",
+  "name": "Alt-Siemensstadt",
+  "kind": "quarter",
+  "lat": 52.5366523,
+  "lng": 13.2689499
+ },
+ {
+  "id": "osm:node/13104022381",
+  "name": "Großsiedlung Siemensstadt",
+  "kind": "quarter",
+  "lat": 52.5392189,
+  "lng": 13.2754252
+ },
+ {
+  "id": "osm:node/13104023112",
+  "name": "Siedlung Heimat",
+  "kind": "neighbourhood",
+  "lat": 52.5409414,
+  "lng": 13.2692079
+ },
+ {
+  "id": "osm:node/13104023487",
+  "name": "Maselake Nord",
+  "kind": "quarter",
+  "lat": 52.5629971,
+  "lng": 13.2139509
+ },
+ {
+  "id": "osm:node/13104023488",
+  "name": "Pepitahöfe",
+  "kind": "neighbourhood",
+  "lat": 52.5639901,
+  "lng": 13.211891
+ },
+ {
+  "id": "osm:node/13104029155",
+  "name": "Siedlung Siemensstadt",
+  "kind": "quarter",
+  "lat": 52.5451081,
+  "lng": 13.2631042
+ },
+ {
+  "id": "osm:node/13104033322",
+  "name": "Gartenstadt Falkenhöh",
+  "kind": "quarter",
+  "lat": 52.5598481,
+  "lng": 13.1365795
+ },
+ {
+  "id": "osm:node/13104050088",
+  "name": "Siedlung Saatwinkler Damm",
+  "kind": "neighbourhood",
+  "lat": 52.5477405,
+  "lng": 13.2624242
+ },
+ {
+  "id": "osm:node/13104050096",
+  "name": "Mühlenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5334737,
+  "lng": 13.1398197
+ },
+ {
+  "id": "osm:node/13104050103",
+  "name": "Siedlung Rohrdamm-West",
+  "kind": "neighbourhood",
+  "lat": 52.5434591,
+  "lng": 13.2593988
+ },
+ {
+  "id": "osm:node/13104051120",
+  "name": "Siedlung Havelblick",
+  "kind": "neighbourhood",
+  "lat": 52.4921911,
+  "lng": 13.1787578
+ },
+ {
+  "id": "osm:node/13104052194",
+  "name": "Siemens-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5424621,
+  "lng": 13.1390689
+ },
+ {
+  "id": "osm:node/13104052790",
+  "name": "Siedlung Neu-Jerusalem",
+  "kind": "neighbourhood",
+  "lat": 52.5277003,
+  "lng": 13.1265728
+ },
+ {
+  "id": "osm:node/13104054127",
+  "name": "Albrechtshof",
+  "kind": "quarter",
+  "lat": 52.5504617,
+  "lng": 13.1372178
+ },
+ {
+  "id": "osm:node/13104054128",
+  "name": "Wohnpark Hohenlohe",
+  "kind": "neighbourhood",
+  "lat": 52.5510892,
+  "lng": 13.1303805
+ },
+ {
+  "id": "osm:node/13104060593",
+  "name": "Siedlung Hahneberg",
+  "kind": "quarter",
+  "lat": 52.521287,
+  "lng": 13.1312626
+ },
+ {
+  "id": "osm:node/13104062559",
+  "name": "Siedlung Seegefeld Ost",
+  "kind": "quarter",
+  "lat": 52.5533759,
+  "lng": 13.1261237
+ },
+ {
+  "id": "osm:node/13104065410",
+  "name": "Gartenstadt Staaken",
+  "kind": "quarter",
+  "lat": 52.5412924,
+  "lng": 13.1470075
+ },
+ {
+  "id": "osm:node/13104073078",
+  "name": "Hohengatow",
+  "kind": "quarter",
+  "lat": 52.4728833,
+  "lng": 13.1777396
+ },
+ {
+  "id": "osm:node/13104093899",
+  "name": "Siedlung Windmühlenberg",
+  "kind": "neighbourhood",
+  "lat": 52.4853427,
+  "lng": 13.1754798
+ },
+ {
+  "id": "osm:node/13104098690",
+  "name": "Eigenheimsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5431276,
+  "lng": 13.1326099
+ },
+ {
+  "id": "osm:node/13104108507",
+  "name": "Siedlung Habichtswald",
+  "kind": "neighbourhood",
+  "lat": 52.481114,
+  "lng": 13.1417136
+ },
+ {
+  "id": "osm:node/13104108508",
+  "name": "Fliegerhorstsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4792811,
+  "lng": 13.1441705
+ },
+ {
+  "id": "osm:node/13104109817",
+  "name": "Alt-Gatow",
+  "kind": "neighbourhood",
+  "lat": 52.4864797,
+  "lng": 13.1822151
+ },
+ {
+  "id": "osm:node/13104560469",
+  "name": "Alt-Lichterfelde",
+  "kind": "neighbourhood",
+  "lat": 52.4373821,
+  "lng": 13.3150756
+ },
+ {
+  "id": "osm:node/13104577000",
+  "name": "Weinviertel",
+  "kind": "quarter",
+  "lat": 52.4389211,
+  "lng": 13.3481392
+ },
+ {
+  "id": "osm:node/13104604010",
+  "name": "Zietenmannsche Viertel",
+  "kind": "neighbourhood",
+  "lat": 52.4269023,
+  "lng": 13.3388219
+ },
+ {
+  "id": "osm:node/13104612576",
+  "name": "Thüringer Viertel",
+  "kind": "quarter",
+  "lat": 52.4193364,
+  "lng": 13.3417661
+ },
+ {
+  "id": "osm:node/13104621258",
+  "name": "Späthsfelde",
+  "kind": "quarter",
+  "lat": 52.4492851,
+  "lng": 13.4807991
+ },
+ {
+  "id": "osm:node/13104628397",
+  "name": "Westfälisches Viertel",
+  "kind": "quarter",
+  "lat": 52.5235316,
+  "lng": 13.3379977
+ },
+ {
+  "id": "osm:node/13104629500",
+  "name": "Beusselkiez",
+  "kind": "quarter",
+  "lat": 52.5293987,
+  "lng": 13.3280819
+ },
+ {
+  "id": "osm:node/13104630040",
+  "name": "Lichterfelde West",
+  "kind": "quarter",
+  "lat": 52.4402636,
+  "lng": 13.3016029
+ },
+ {
+  "id": "osm:node/13104633028",
+  "name": "Alt-Lankwitz",
+  "kind": "neighbourhood",
+  "lat": 52.4387495,
+  "lng": 13.3544179
+ },
+ {
+  "id": "osm:node/13104633993",
+  "name": "Manfred-von-Richthofen-Kiez",
+  "kind": "neighbourhood",
+  "lat": 52.4841327,
+  "lng": 13.3834186
+ },
+ {
+  "id": "osm:node/13104641229",
+  "name": "Johannisthal-Süd",
+  "kind": "quarter",
+  "lat": 52.4384437,
+  "lng": 13.4975518
+ },
+ {
+  "id": "osm:node/13104642121",
+  "name": "Lützowviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5040752,
+  "lng": 13.3577013
+ },
+ {
+  "id": "osm:node/13104645901",
+  "name": "Lichterfelde Ost",
+  "kind": "quarter",
+  "lat": 52.4266447,
+  "lng": 13.3254747
+ },
+ {
+  "id": "osm:node/13104651049",
+  "name": "Alt-Tempelhof",
+  "kind": "neighbourhood",
+  "lat": 52.4659138,
+  "lng": 13.3855858
+ },
+ {
+  "id": "osm:node/13104652169",
+  "name": "Alt-Moabit",
+  "kind": "neighbourhood",
+  "lat": 52.5260718,
+  "lng": 13.3389825
+ },
+ {
+  "id": "osm:node/13104652944",
+  "name": "Petruswerk-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.388864,
+  "lng": 13.4145803
+ },
+ {
+  "id": "osm:node/13104663781",
+  "name": "Stephankiez",
+  "kind": "quarter",
+  "lat": 52.5329647,
+  "lng": 13.3465997
+ },
+ {
+  "id": "osm:node/13104668747",
+  "name": "Eisenbahnsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.450422,
+  "lng": 13.5125886
+ },
+ {
+  "id": "osm:node/13104670949",
+  "name": "Adlershof-Süd",
+  "kind": "quarter",
+  "lat": 52.4358114,
+  "lng": 13.5534324
+ },
+ {
+  "id": "osm:node/13104674992",
+  "name": "Adlershof-Nord",
+  "kind": "quarter",
+  "lat": 52.4413327,
+  "lng": 13.5492134
+ },
+ {
+  "id": "osm:node/13104677763",
+  "name": "Huttenkiez",
+  "kind": "quarter",
+  "lat": 52.5284606,
+  "lng": 13.3180735
+ },
+ {
+  "id": "osm:node/13104682690",
+  "name": "Gagfah-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4409945,
+  "lng": 13.5399573
+ },
+ {
+  "id": "osm:node/13104682699",
+  "name": "Siedlung Sachsenberg",
+  "kind": "neighbourhood",
+  "lat": 52.4126944,
+  "lng": 13.5500264
+ },
+ {
+  "id": "osm:node/13104685567",
+  "name": "Waldsiedlung Adlershof",
+  "kind": "neighbourhood",
+  "lat": 52.4424817,
+  "lng": 13.5431009
+ },
+ {
+  "id": "osm:node/13104691034",
+  "name": "Siedlung X",
+  "kind": "neighbourhood",
+  "lat": 52.4540922,
+  "lng": 13.4705528
+ },
+ {
+  "id": "osm:node/13104691035",
+  "name": "Siedlung Daheim",
+  "kind": "neighbourhood",
+  "lat": 52.4504365,
+  "lng": 13.4670962
+ },
+ {
+  "id": "osm:node/13104694948",
+  "name": "Kolonialbeamtensiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4512028,
+  "lng": 13.5052335
+ },
+ {
+  "id": "osm:node/13104696061",
+  "name": "Alt-Johannisthal",
+  "kind": "neighbourhood",
+  "lat": 52.4425212,
+  "lng": 13.5061775
+ },
+ {
+  "id": "osm:node/13104696437",
+  "name": "Schliemann-Siedlung",
+  "kind": "quarter",
+  "lat": 52.433078,
+  "lng": 13.5053488
+ },
+ {
+  "id": "osm:node/13104700478",
+  "name": "Komponisten-Viertel",
+  "kind": "neighbourhood",
+  "lat": 52.444101,
+  "lng": 13.5007526
+ },
+ {
+  "id": "osm:node/13104716173",
+  "name": "Altglienicker Höhe",
+  "kind": "neighbourhood",
+  "lat": 52.4159416,
+  "lng": 13.5275602
+ },
+ {
+  "id": "osm:node/13104716178",
+  "name": "Siedlung Eigenheim II",
+  "kind": "neighbourhood",
+  "lat": 52.40058,
+  "lng": 13.5299313
+ },
+ {
+  "id": "osm:node/13104724638",
+  "name": "Altglienicker Grund",
+  "kind": "neighbourhood",
+  "lat": 52.4088478,
+  "lng": 13.5293407
+ },
+ {
+  "id": "osm:node/13104731215",
+  "name": "Werner-Berndt-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4348714,
+  "lng": 13.5485971
+ },
+ {
+  "id": "osm:node/13104733743",
+  "name": "Spreetal",
+  "kind": "neighbourhood",
+  "lat": 52.4230143,
+  "lng": 13.550243
+ },
+ {
+  "id": "osm:node/13104742424",
+  "name": "Siedlung Wegedorn",
+  "kind": "neighbourhood",
+  "lat": 52.4125183,
+  "lng": 13.53978
+ },
+ {
+  "id": "osm:node/13107937289",
+  "name": "Siedlung Eigene Scholle",
+  "kind": "neighbourhood",
+  "lat": 52.5952981,
+  "lng": 13.384231
+ },
+ {
+  "id": "osm:node/13107939060",
+  "name": "Die Winkelwiesen",
+  "kind": "neighbourhood",
+  "lat": 52.5921853,
+  "lng": 13.377654
+ },
+ {
+  "id": "osm:node/13107939061",
+  "name": "Am Kappgraben",
+  "kind": "neighbourhood",
+  "lat": 52.6164082,
+  "lng": 13.4991662
+ },
+ {
+  "id": "osm:node/13107950195",
+  "name": "Soldiner Kiez",
+  "kind": "quarter",
+  "lat": 52.558528,
+  "lng": 13.3833141
+ },
+ {
+  "id": "osm:node/13107954169",
+  "name": "Friedrich-Ebert-Siedlung",
+  "kind": "quarter",
+  "lat": 52.5585439,
+  "lng": 13.3322369
+ },
+ {
+  "id": "osm:node/13107970251",
+  "name": "Munizipalviertel",
+  "kind": "quarter",
+  "lat": 52.5524651,
+  "lng": 13.452424
+ },
+ {
+  "id": "osm:node/13107971211",
+  "name": "Gründerviertel",
+  "kind": "quarter",
+  "lat": 52.5509066,
+  "lng": 13.4443982
+ },
+ {
+  "id": "osm:node/13107972538",
+  "name": "Stadtrandsiedlung Buch",
+  "kind": "neighbourhood",
+  "lat": 52.6195654,
+  "lng": 13.493454
+ },
+ {
+  "id": "osm:node/13107975208",
+  "name": "Bruno-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.553527,
+  "lng": 13.4738091
+ },
+ {
+  "id": "osm:node/13107975209",
+  "name": "Siedlung Elisabeth-Aue",
+  "kind": "neighbourhood",
+  "lat": 52.6142247,
+  "lng": 13.4058198
+ },
+ {
+  "id": "osm:node/13107975210",
+  "name": "Wilke-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.6162376,
+  "lng": 13.4105298
+ },
+ {
+  "id": "osm:node/13107975211",
+  "name": "Siedlung Martha-Aue",
+  "kind": "neighbourhood",
+  "lat": 52.6147784,
+  "lng": 13.4070831
+ },
+ {
+  "id": "osm:node/13107980681",
+  "name": "Röntgental",
+  "kind": "quarter",
+  "lat": 52.6524462,
+  "lng": 13.5195777
+ },
+ {
+  "id": "osm:node/13107996115",
+  "name": "Stadtrandsiedlung Blankenfelde",
+  "kind": "neighbourhood",
+  "lat": 52.6312707,
+  "lng": 13.3850516
+ },
+ {
+  "id": "osm:node/13107996116",
+  "name": "Kolonie Mariental",
+  "kind": "neighbourhood",
+  "lat": 52.6341005,
+  "lng": 13.3822756
+ },
+ {
+  "id": "osm:node/13108000662",
+  "name": "Bergwalde",
+  "kind": "neighbourhood",
+  "lat": 52.6415988,
+  "lng": 13.5344591
+ },
+ {
+  "id": "osm:node/13108008055",
+  "name": "Kaulsdorf-Nord II",
+  "kind": "neighbourhood",
+  "lat": 52.5260693,
+  "lng": 13.5853187
+ },
+ {
+  "id": "osm:node/13108008056",
+  "name": "Kaulsdorf-Nord I",
+  "kind": "neighbourhood",
+  "lat": 52.5193325,
+  "lng": 13.5829315
+ },
+ {
+  "id": "osm:node/13111094935",
+  "name": "Wonnegauviertel",
+  "kind": "neighbourhood",
+  "lat": 52.4285449,
+  "lng": 13.2092223
+ },
+ {
+  "id": "osm:node/13111095608",
+  "name": "Gartenstadt",
+  "kind": "quarter",
+  "lat": 52.4696917,
+  "lng": 13.3156759
+ },
+ {
+  "id": "osm:node/13111103411",
+  "name": "Rheingauviertel",
+  "kind": "quarter",
+  "lat": 52.473055,
+  "lng": 13.3158271
+ },
+ {
+  "id": "osm:node/13111114838",
+  "name": "Fünf Morgen",
+  "kind": "neighbourhood",
+  "lat": 52.4528841,
+  "lng": 13.2695663
+ },
+ {
+  "id": "osm:node/13111117564",
+  "name": "Oskar Helene Park",
+  "kind": "neighbourhood",
+  "lat": 52.448286,
+  "lng": 13.2670505
+ },
+ {
+  "id": "osm:node/13111123852",
+  "name": "Siedlung Am Mühlenberg",
+  "kind": "neighbourhood",
+  "lat": 52.4377165,
+  "lng": 13.2734679
+ },
+ {
+  "id": "osm:node/13111123853",
+  "name": "Öko-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4395399,
+  "lng": 13.278919
+ },
+ {
+  "id": "osm:node/13111125456",
+  "name": "Bürgerhaussiedlung",
+  "kind": "quarter",
+  "lat": 52.4147751,
+  "lng": 13.2143323
+ },
+ {
+  "id": "osm:node/13111125457",
+  "name": "Gérard’sche Siedlung",
+  "kind": "quarter",
+  "lat": 52.4167383,
+  "lng": 13.2338158
+ },
+ {
+  "id": "osm:node/13111125458",
+  "name": "Stolper Weg Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.3982289,
+  "lng": 13.2016722
+ },
+ {
+  "id": "osm:node/13111126032",
+  "name": "Siedlung am Fischtalgrund",
+  "kind": "neighbourhood",
+  "lat": 52.4480609,
+  "lng": 13.2600292
+ },
+ {
+  "id": "osm:node/13111130803",
+  "name": "Am Petersberg",
+  "kind": "neighbourhood",
+  "lat": 52.457605,
+  "lng": 13.261407
+ },
+ {
+  "id": "osm:node/13111148874",
+  "name": "Gartenstadt Düppel",
+  "kind": "neighbourhood",
+  "lat": 52.4251645,
+  "lng": 13.2206616
+ },
+ {
+  "id": "osm:node/13111152004",
+  "name": "Siedlung Schlachtensee I",
+  "kind": "neighbourhood",
+  "lat": 52.4325765,
+  "lng": 13.2145407
+ },
+ {
+  "id": "osm:node/13111152005",
+  "name": "Siedlung Schlachtensee II",
+  "kind": "neighbourhood",
+  "lat": 52.4335358,
+  "lng": 13.2169384
+ },
+ {
+  "id": "osm:node/13111152006",
+  "name": "Siedlung Eichkamp",
+  "kind": "neighbourhood",
+  "lat": 52.4947581,
+  "lng": 13.2642102
+ },
+ {
+  "id": "osm:node/13111152484",
+  "name": "Neubauernsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.3798922,
+  "lng": 13.2219386
+ },
+ {
+  "id": "osm:node/13111156827",
+  "name": "Studentendorf Schlachtensee",
+  "kind": "neighbourhood",
+  "lat": 52.428995,
+  "lng": 13.2154743
+ },
+ {
+  "id": "osm:node/13111156899",
+  "name": "Osramsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.6596854,
+  "lng": 13.2759997
+ },
+ {
+  "id": "osm:node/13111157566",
+  "name": "BerlinCampus",
+  "kind": "neighbourhood",
+  "lat": 52.4947245,
+  "lng": 13.485594
+ },
+ {
+  "id": "osm:node/13111159217",
+  "name": "Siedlung Heerstraße",
+  "kind": "neighbourhood",
+  "lat": 52.5046142,
+  "lng": 13.2607069
+ },
+ {
+  "id": "osm:node/13111165899",
+  "name": "Kiekemal",
+  "kind": "neighbourhood",
+  "lat": 52.4758853,
+  "lng": 13.6060646
+ },
+ {
+  "id": "osm:node/13111168022",
+  "name": "Bergstücken",
+  "kind": "quarter",
+  "lat": 52.3841395,
+  "lng": 13.1312367
+ },
+ {
+  "id": "osm:node/13111169030",
+  "name": "Stadtrandsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5063874,
+  "lng": 13.5441788
+ },
+ {
+  "id": "osm:node/13111170073",
+  "name": "Crellekiez",
+  "kind": "quarter",
+  "lat": 52.4900422,
+  "lng": 13.3610566
+ },
+ {
+  "id": "osm:node/13111170247",
+  "name": "Kolonie Bergstücken",
+  "kind": "neighbourhood",
+  "lat": 52.3840868,
+  "lng": 13.1410326
+ },
+ {
+  "id": "osm:node/13111171610",
+  "name": "Stadtrandsiedlung Marienfelde",
+  "kind": "quarter",
+  "lat": 52.4043499,
+  "lng": 13.3546438
+ },
+ {
+  "id": "osm:node/13111185550",
+  "name": "Siedlung Eisengrund",
+  "kind": "neighbourhood",
+  "lat": 52.5001569,
+  "lng": 13.5984193
+ },
+ {
+  "id": "osm:node/13111191359",
+  "name": "Siedlung Meier",
+  "kind": "neighbourhood",
+  "lat": 52.4203542,
+  "lng": 13.5289605
+ },
+ {
+  "id": "osm:node/13111194007",
+  "name": "Andreasviertel",
+  "kind": "quarter",
+  "lat": 52.5151063,
+  "lng": 13.4325539
+ },
+ {
+  "id": "osm:node/13111200812",
+  "name": "Richard-Sorge-Viertel",
+  "kind": "quarter",
+  "lat": 52.521266,
+  "lng": 13.4475445
+ },
+ {
+  "id": "osm:node/13111205394",
+  "name": "Charitéviertel",
+  "kind": "quarter",
+  "lat": 52.5280599,
+  "lng": 13.3785049
+ },
+ {
+  "id": "osm:node/13111229253",
+  "name": "Tempelhofer Vorstadt",
+  "kind": "quarter",
+  "lat": 52.4951294,
+  "lng": 13.3906572
+ },
+ {
+  "id": "osm:node/13111235715",
+  "name": "Chamissokiez",
+  "kind": "neighbourhood",
+  "lat": 52.4879987,
+  "lng": 13.3910976
+ },
+ {
+  "id": "osm:node/13111239016",
+  "name": "Heine-Viertel",
+  "kind": "neighbourhood",
+  "lat": 52.5084063,
+  "lng": 13.4130244
+ },
+ {
+  "id": "osm:node/13111275664",
+  "name": "Mediaspree",
+  "kind": "quarter",
+  "lat": 52.5040801,
+  "lng": 13.4449801
+ },
+ {
+  "id": "osm:node/13111281120",
+  "name": "Marinesiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4387804,
+  "lng": 13.2066663
+ },
+ {
+  "id": "osm:node/13112320692",
+  "name": "Alt-Hellersdorf",
+  "kind": "neighbourhood",
+  "lat": 52.5390918,
+  "lng": 13.5938397
+ },
+ {
+  "id": "osm:node/13112320693",
+  "name": "Stadtgut Hellersdorf",
+  "kind": "neighbourhood",
+  "lat": 52.5417218,
+  "lng": 13.5960643
+ },
+ {
+  "id": "osm:node/13112344082",
+  "name": "Cecilienstraße",
+  "kind": "neighbourhood",
+  "lat": 52.5257904,
+  "lng": 13.5711474
+ },
+ {
+  "id": "osm:node/13112348938",
+  "name": "Ringelnatz-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5289189,
+  "lng": 13.5759961
+ },
+ {
+  "id": "osm:node/13112433607",
+  "name": "Landhaussiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4160296,
+  "lng": 13.5058625
+ },
+ {
+  "id": "osm:node/13112434480",
+  "name": "Blumenviertel",
+  "kind": "quarter",
+  "lat": 52.4256407,
+  "lng": 13.4974848
+ },
+ {
+  "id": "osm:node/13112537236",
+  "name": "Mariengarten",
+  "kind": "neighbourhood",
+  "lat": 52.4262821,
+  "lng": 13.3680034
+ },
+ {
+  "id": "osm:node/13113252239",
+  "name": "Telefunkensiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4118276,
+  "lng": 13.2580519
+ },
+ {
+  "id": "osm:node/13137201780",
+  "name": "Ruhleben",
+  "kind": "quarter",
+  "lat": 52.5236798,
+  "lng": 13.2375697
+ },
+ {
+  "id": "osm:node/13140901190",
+  "name": "Arkonakiez",
+  "kind": "quarter",
+  "lat": 52.5374964,
+  "lng": 13.4017754
+ },
+ {
+  "id": "osm:node/13143330063",
+  "name": "Schwyzer Kiez",
+  "kind": "neighbourhood",
+  "lat": 52.5604222,
+  "lng": 13.357371
+ },
+ {
+  "id": "osm:node/13163338874",
+  "name": "Falkenhorst",
+  "kind": "neighbourhood",
+  "lat": 52.3954014,
+  "lng": 13.589079
+ },
+ {
+  "id": "osm:node/13163386971",
+  "name": "Wehrmathen",
+  "kind": "quarter",
+  "lat": 52.3978143,
+  "lng": 13.5219686
+ },
+ {
+  "id": "osm:node/13163683405",
+  "name": "Thiekesiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.3991492,
+  "lng": 13.515029
+ },
+ {
+  "id": "osm:node/13163683930",
+  "name": "Siedlung an der Schönefelder Straße",
+  "kind": "neighbourhood",
+  "lat": 52.401677,
+  "lng": 13.4983412
+ },
+ {
+  "id": "osm:node/13163684665",
+  "name": "Siedlung Rehpfuhl",
+  "kind": "neighbourhood",
+  "lat": 52.4077745,
+  "lng": 13.5238181
+ },
+ {
+  "id": "osm:node/13163702405",
+  "name": "Waldrandsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.406655,
+  "lng": 13.4771729
+ },
+ {
+  "id": "osm:node/13163710665",
+  "name": "Preußensiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4129695,
+  "lng": 13.5555817
+ },
+ {
+  "id": "osm:node/13163712006",
+  "name": "Siedlung am Zwickauer Damm",
+  "kind": "neighbourhood",
+  "lat": 52.4161052,
+  "lng": 13.4718405
+ },
+ {
+  "id": "osm:node/13163720017",
+  "name": "Siedlung an der Groß-Ziethener Chaussee",
+  "kind": "neighbourhood",
+  "lat": 52.4137097,
+  "lng": 13.4839478
+ },
+ {
+  "id": "osm:node/13163723178",
+  "name": "Falkenhöhe",
+  "kind": "neighbourhood",
+  "lat": 52.4040841,
+  "lng": 13.5352602
+ },
+ {
+  "id": "osm:node/13163730146",
+  "name": "Ärztinnenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.4060944,
+  "lng": 13.5406816
+ },
+ {
+  "id": "osm:node/13163734505",
+  "name": "Siedlung Weiß",
+  "kind": "neighbourhood",
+  "lat": 52.4250409,
+  "lng": 13.5263249
+ },
+ {
+  "id": "osm:node/13163845365",
+  "name": "Siedlung am Adlergestell",
+  "kind": "neighbourhood",
+  "lat": 52.4388956,
+  "lng": 13.5397469
+ },
+ {
+  "id": "osm:node/13163846974",
+  "name": "Kleinsiedlung am Malchower Weg",
+  "kind": "neighbourhood",
+  "lat": 52.5584979,
+  "lng": 13.5047941
+ },
+ {
+  "id": "osm:node/13163862022",
+  "name": "Siedlung Boba II",
+  "kind": "neighbourhood",
+  "lat": 52.4179463,
+  "lng": 13.5318785
+ },
+ {
+  "id": "osm:node/13163875818",
+  "name": "Wohnanlage Zinsgutstraße",
+  "kind": "neighbourhood",
+  "lat": 52.4363624,
+  "lng": 13.5590812
+ },
+ {
+  "id": "osm:node/13163958644",
+  "name": "Siedlung Genossenschaftsstraße I",
+  "kind": "neighbourhood",
+  "lat": 52.4392168,
+  "lng": 13.545925
+ },
+ {
+  "id": "osm:node/13163959682",
+  "name": "Siedlung Gemeinschaftsstraße I",
+  "kind": "neighbourhood",
+  "lat": 52.4402963,
+  "lng": 13.5426878
+ },
+ {
+  "id": "osm:node/13163960755",
+  "name": "WISTA",
+  "kind": "quarter",
+  "lat": 52.4322605,
+  "lng": 13.5317126
+ },
+ {
+  "id": "osm:node/13163960757",
+  "name": "Gut Champignon",
+  "kind": "neighbourhood",
+  "lat": 52.5045064,
+  "lng": 13.5546022
+ },
+ {
+  "id": "osm:node/13164002631",
+  "name": "Biesenhorst I",
+  "kind": "quarter",
+  "lat": 52.486202,
+  "lng": 13.555355
+ },
+ {
+  "id": "osm:node/13164116194",
+  "name": "Grüne Aue",
+  "kind": "quarter",
+  "lat": 52.5035472,
+  "lng": 13.5741008
+ },
+ {
+  "id": "osm:node/13164116195",
+  "name": "Habichtshorst",
+  "kind": "quarter",
+  "lat": 52.5014363,
+  "lng": 13.5648059
+ },
+ {
+  "id": "osm:node/13164139124",
+  "name": "Paradiessiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5118171,
+  "lng": 13.5668435
+ },
+ {
+  "id": "osm:node/13164169060",
+  "name": "Anlage Blankenburg",
+  "kind": "quarter",
+  "lat": 52.5866646,
+  "lng": 13.4446957
+ },
+ {
+  "id": "osm:node/13164738699",
+  "name": "Witzleben",
+  "kind": "quarter",
+  "lat": 52.5071477,
+  "lng": 13.2901739
+ },
+ {
+  "id": "osm:node/13164767592",
+  "name": "Güntzelkiez",
+  "kind": "quarter",
+  "lat": 52.4899719,
+  "lng": 13.3247822
+ },
+ {
+  "id": "osm:node/13164777866",
+  "name": "Danckelmannkiez",
+  "kind": "quarter",
+  "lat": 52.5172088,
+  "lng": 13.2919367
+ },
+ {
+  "id": "osm:node/13164799547",
+  "name": "Alt-Lietzow",
+  "kind": "quarter",
+  "lat": 52.5180943,
+  "lng": 13.3121275
+ },
+ {
+  "id": "osm:node/13164825620",
+  "name": "Fasanenkiez",
+  "kind": "quarter",
+  "lat": 52.4976812,
+  "lng": 13.3212689
+ },
+ {
+  "id": "osm:node/13164834908",
+  "name": "Wilhelmsaue",
+  "kind": "neighbourhood",
+  "lat": 52.4852694,
+  "lng": 13.3257615
+ },
+ {
+  "id": "osm:node/13165758446",
+  "name": "Siedlungs- und Gartenanlage Frohsinn",
+  "kind": "neighbourhood",
+  "lat": 52.6031615,
+  "lng": 13.412302
+ },
+ {
+  "id": "osm:node/13165759711",
+  "name": "Siedlung Schildow Waldeck",
+  "kind": "neighbourhood",
+  "lat": 52.6292503,
+  "lng": 13.3804869
+ },
+ {
+  "id": "osm:node/13166559592",
+  "name": "Neuland III-IV",
+  "kind": "neighbourhood",
+  "lat": 52.4336011,
+  "lng": 13.4409314
+ },
+ {
+  "id": "osm:node/13166559593",
+  "name": "Neuland",
+  "kind": "quarter",
+  "lat": 52.4307728,
+  "lng": 13.441141
+ },
+ {
+  "id": "osm:node/13166602309",
+  "name": "Westfalenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5468214,
+  "lng": 13.1731383
+ },
+ {
+  "id": "osm:node/13166602310",
+  "name": "Siegener Viertel",
+  "kind": "quarter",
+  "lat": 52.5454444,
+  "lng": 13.1806621
+ },
+ {
+  "id": "osm:node/13166627840",
+  "name": "Siedlung Rathenow",
+  "kind": "neighbourhood",
+  "lat": 52.6148422,
+  "lng": 13.367797
+ },
+ {
+  "id": "osm:node/13166630179",
+  "name": "Stadtrandsiedlung im Falkenhagener Feld",
+  "kind": "neighbourhood",
+  "lat": 52.5573014,
+  "lng": 13.1537195
+ },
+ {
+  "id": "osm:node/13166639205",
+  "name": "Siemens-Siedlung Spekte",
+  "kind": "neighbourhood",
+  "lat": 52.55083,
+  "lng": 13.1496044
+ },
+ {
+  "id": "osm:node/13166651712",
+  "name": "Andreas-Rabe-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.6144975,
+  "lng": 13.357551
+ },
+ {
+  "id": "osm:node/13168450397",
+  "name": "Siedlung Charlottenburg-Nord",
+  "kind": "quarter",
+  "lat": 52.5375439,
+  "lng": 13.2859817
+ },
+ {
+  "id": "osm:node/13168470742",
+  "name": "Wagnerviertel",
+  "kind": "neighbourhood",
+  "lat": 52.475699,
+  "lng": 13.3306083
+ },
+ {
+  "id": "osm:node/13168472416",
+  "name": "Spreestadt Charlottenburg",
+  "kind": "quarter",
+  "lat": 52.5184751,
+  "lng": 13.3261075
+ },
+ {
+  "id": "osm:node/13168473257",
+  "name": "Anlage Gravenstein",
+  "kind": "neighbourhood",
+  "lat": 52.6067448,
+  "lng": 13.4455701
+ },
+ {
+  "id": "osm:node/13168476800",
+  "name": "Thielecksiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4427835,
+  "lng": 13.2803571
+ },
+ {
+  "id": "osm:node/13168477705",
+  "name": "Instrumentenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5919418,
+  "lng": 13.4250351
+ },
+ {
+  "id": "osm:node/13168480264",
+  "name": "Siedlung am Gehrensee",
+  "kind": "neighbourhood",
+  "lat": 52.5737194,
+  "lng": 13.5584115
+ },
+ {
+  "id": "osm:node/13168509320",
+  "name": "Malerviertel",
+  "kind": "quarter",
+  "lat": 52.468673,
+  "lng": 13.3429331
+ },
+ {
+  "id": "osm:node/13172093917",
+  "name": "Am PoloTeich",
+  "kind": "neighbourhood",
+  "lat": 52.6444631,
+  "lng": 13.2861449
+ },
+ {
+  "id": "osm:node/13172115512",
+  "name": "Siedlung Barbarossahöhe",
+  "kind": "neighbourhood",
+  "lat": 52.6261114,
+  "lng": 13.2773051
+ },
+ {
+  "id": "osm:node/13172123797",
+  "name": "Ernst-Reuter-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5367004,
+  "lng": 13.3869856
+ },
+ {
+  "id": "osm:node/13172162251",
+  "name": "Weiter Blick",
+  "kind": "neighbourhood",
+  "lat": 52.4833761,
+  "lng": 13.1773025
+ },
+ {
+  "id": "osm:node/13172163584",
+  "name": "Brunnenviertel",
+  "kind": "quarter",
+  "lat": 52.5425095,
+  "lng": 13.3905121
+ },
+ {
+  "id": "osm:node/13174345944",
+  "name": "Wohnsiedlung Hakenfelde",
+  "kind": "neighbourhood",
+  "lat": 52.569573,
+  "lng": 13.2155192
+ },
+ {
+  "id": "osm:node/13174368881",
+  "name": "Gartensiedlung Grünau",
+  "kind": "quarter",
+  "lat": 52.4256737,
+  "lng": 13.5649609
+ },
+ {
+  "id": "osm:node/13174385281",
+  "name": "Siedlung an der Bohnsdorfer Straße",
+  "kind": "neighbourhood",
+  "lat": 52.4168122,
+  "lng": 13.5762729
+ },
+ {
+  "id": "osm:node/13174388399",
+  "name": "Siedlung am Wansdorfer Platz",
+  "kind": "neighbourhood",
+  "lat": 52.5585734,
+  "lng": 13.2058832
+ },
+ {
+  "id": "osm:node/13174399158",
+  "name": "Waldsiedlung Hakenfelde",
+  "kind": "quarter",
+  "lat": 52.5701119,
+  "lng": 13.2072879
+ },
+ {
+  "id": "osm:node/13174486258",
+  "name": "Wohnsiedlung Havelmarina",
+  "kind": "neighbourhood",
+  "lat": 52.5773669,
+  "lng": 13.2144119
+ },
+ {
+  "id": "osm:node/13235175600",
+  "name": "Quartier WIR",
+  "kind": "neighbourhood",
+  "lat": 52.5588145,
+  "lng": 13.4769334
+ },
+ {
+  "id": "osm:node/13237955165",
+  "name": "Grüne Freiheit",
+  "kind": "neighbourhood",
+  "lat": 52.5328956,
+  "lng": 13.1367433
+ },
+ {
+  "id": "osm:node/13237955172",
+  "name": "Metropolitan Park",
+  "kind": "quarter",
+  "lat": 52.5334096,
+  "lng": 13.1343882
+ },
+ {
+  "id": "osm:node/13315447171",
+  "name": "Schöneberger Dreieck",
+  "kind": "neighbourhood",
+  "lat": 52.4798198,
+  "lng": 13.3485423
+ },
+ {
+  "id": "osm:node/13315455973",
+  "name": "Ostpreußenviertel",
+  "kind": "quarter",
+  "lat": 52.5079773,
+  "lng": 13.2424323
+ },
+ {
+  "id": "osm:node/13315504749",
+  "name": "Villenkolonie Westend",
+  "kind": "quarter",
+  "lat": 52.5166712,
+  "lng": 13.2698969
+ },
+ {
+  "id": "osm:node/13315511765",
+  "name": "Tegel-Süd",
+  "kind": "quarter",
+  "lat": 52.574544,
+  "lng": 13.2785546
+ },
+ {
+  "id": "osm:node/13315512466",
+  "name": "Pichelsberg",
+  "kind": "neighbourhood",
+  "lat": 52.5104292,
+  "lng": 13.2214453
+ },
+ {
+  "id": "osm:node/13315522990",
+  "name": "Neu-Westend",
+  "kind": "quarter",
+  "lat": 52.5188816,
+  "lng": 13.2583121
+ },
+ {
+  "id": "osm:node/13320377596",
+  "name": "Greenpark",
+  "kind": "neighbourhood",
+  "lat": 52.4580384,
+  "lng": 13.4450183
+ },
+ {
+  "id": "osm:node/13375187243",
+  "name": "Kolonistensiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5387208,
+  "lng": 13.5494158
+ },
+ {
+  "id": "osm:node/13516761451",
+  "name": "Parkviertel",
+  "kind": "quarter",
+  "lat": 52.4648438,
+  "lng": 13.1561047
+ },
+ {
+  "id": "osm:node/13530305827",
+  "name": "Südlicher Dorfanger",
+  "kind": "neighbourhood",
+  "lat": 52.5082025,
+  "lng": 13.5554119
+ },
+ {
+  "id": "osm:node/13539068085",
+  "name": "Jesselkiez",
+  "kind": "neighbourhood",
+  "lat": 52.4898348,
+  "lng": 13.3188007
+ },
+ {
+  "id": "osm:node/13539094457",
+  "name": "Reichenberger kiez",
+  "kind": "quarter",
+  "lat": 52.4958271,
+  "lng": 13.4298976
+ },
+ {
+  "id": "osm:node/13539105263",
+  "name": "Lehrter Kiez",
+  "kind": "neighbourhood",
+  "lat": 52.5267147,
+  "lng": 13.3611027
+ },
+ {
+  "id": "osm:node/13539128005",
+  "name": "Travekiez",
+  "kind": "quarter",
+  "lat": 52.5113733,
+  "lng": 13.4708722
+ },
+ {
+  "id": "osm:node/13539131763",
+  "name": "Laskerkiez",
+  "kind": "neighbourhood",
+  "lat": 52.4999047,
+  "lng": 13.4629443
+ },
+ {
+  "id": "osm:node/13539138428",
+  "name": "Weserkiez",
+  "kind": "quarter",
+  "lat": 52.4833467,
+  "lng": 13.4431701
+ },
+ {
+  "id": "osm:node/13539143042",
+  "name": "Gierkekiez",
+  "kind": "neighbourhood",
+  "lat": 52.5149784,
+  "lng": 13.3009722
+ },
+ {
+  "id": "osm:node/13539144110",
+  "name": "Möckernkiez",
+  "kind": "neighbourhood",
+  "lat": 52.4962981,
+  "lng": 13.3830264
+ },
+ {
+  "id": "osm:node/13539159937",
+  "name": "Ritterkiez",
+  "kind": "neighbourhood",
+  "lat": 52.5030764,
+  "lng": 13.4045973
+ },
+ {
+  "id": "osm:node/13539161774",
+  "name": "Vinetakiez",
+  "kind": "quarter",
+  "lat": 52.5590918,
+  "lng": 13.42164
+ },
+ {
+  "id": "osm:node/13539165836",
+  "name": "Antonkiez",
+  "kind": "quarter",
+  "lat": 52.5467652,
+  "lng": 13.365501
+ },
+ {
+  "id": "osm:node/13539171598",
+  "name": "Humann-Kiez",
+  "kind": "quarter",
+  "lat": 52.5499236,
+  "lng": 13.422128
+ },
+ {
+  "id": "osm:node/13539176080",
+  "name": "Hausotter-Kiez",
+  "kind": "quarter",
+  "lat": 52.5681622,
+  "lng": 13.3720188
+ },
+ {
+  "id": "osm:node/13539181372",
+  "name": "Arminiuskiez",
+  "kind": "quarter",
+  "lat": 52.5288427,
+  "lng": 13.3354628
+ },
+ {
+  "id": "osm:node/13539184370",
+  "name": "Lettekiez",
+  "kind": "quarter",
+  "lat": 52.5607339,
+  "lng": 13.371086
+ },
+ {
+  "id": "osm:node/13582998301",
+  "name": "Monumentenkiez",
+  "kind": "neighbourhood",
+  "lat": 52.4882401,
+  "lng": 13.369103
+ },
+ {
+  "id": "osm:node/13883710971",
+  "name": "Pandion Midtown",
+  "kind": "neighbourhood",
+  "lat": 52.5225618,
+  "lng": 13.4381129
+ },
+ {
+  "id": "osm:node/13957278579",
+  "name": "Waldpanorama",
+  "kind": "neighbourhood",
+  "lat": 52.6439487,
+  "lng": 13.4882283
+ },
+ {
+  "id": "osm:way/23815837",
+  "name": "Waldsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5697269,
+  "lng": 13.20727
+ },
+ {
+  "id": "osm:way/26734716",
+  "name": "Wiesengrund",
+  "kind": "suburb",
+  "lat": 52.5373723,
+  "lng": 13.7211364
+ },
+ {
+  "id": "osm:way/34298834",
+  "name": "Siedlung Schönhorst",
+  "kind": "neighbourhood",
+  "lat": 52.4244586,
+  "lng": 13.7060507
+ },
+ {
+  "id": "osm:way/48898768",
+  "name": "Tiefwerder",
+  "kind": "neighbourhood",
+  "lat": 52.5205372,
+  "lng": 13.2097279
+ },
+ {
+  "id": "osm:way/51832224",
+  "name": "Siedlung Elchdamm 195",
+  "kind": "neighbourhood",
+  "lat": 52.6008375,
+  "lng": 13.2176445
+ },
+ {
+  "id": "osm:way/54063948",
+  "name": "Siedlung Ruhleben",
+  "kind": "neighbourhood",
+  "lat": 52.522794,
+  "lng": 13.2382311
+ },
+ {
+  "id": "osm:way/59207903",
+  "name": "Wilkesiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.6162209,
+  "lng": 13.4107095
+ },
+ {
+  "id": "osm:way/98328281",
+  "name": "High-Deck-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.463487,
+  "lng": 13.4738843
+ },
+ {
+  "id": "osm:way/120910591",
+  "name": "Rheinisches Viertel",
+  "kind": "neighbourhood",
+  "lat": 52.4830898,
+  "lng": 13.531611
+ },
+ {
+  "id": "osm:way/120910719",
+  "name": "Waldsiedlung Wuhlheide",
+  "kind": "neighbourhood",
+  "lat": 52.477197,
+  "lng": 13.5098773
+ },
+ {
+  "id": "osm:way/148670296",
+  "name": "Salvador-Allende-Viertel I",
+  "kind": "quarter",
+  "lat": 52.4442086,
+  "lng": 13.5897907
+ },
+ {
+  "id": "osm:way/148822171",
+  "name": "Viktoria-Quartier",
+  "kind": "neighbourhood",
+  "lat": 52.4865554,
+  "lng": 13.3817687
+ },
+ {
+  "id": "osm:way/149125749",
+  "name": "Stolper Weg Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.3972721,
+  "lng": 13.2022003
+ },
+ {
+  "id": "osm:way/197860250",
+  "name": "Sewanviertel",
+  "kind": "neighbourhood",
+  "lat": 52.4983089,
+  "lng": 13.5091793
+ },
+ {
+  "id": "osm:way/206449905",
+  "name": "Kolonie Seebad",
+  "kind": "neighbourhood",
+  "lat": 52.6021008,
+  "lng": 13.217706
+ },
+ {
+  "id": "osm:way/225982095",
+  "name": "Soldiner Kiez",
+  "kind": "neighbourhood",
+  "lat": 52.5597565,
+  "lng": 13.3867149
+ },
+ {
+  "id": "osm:way/256541563",
+  "name": "Großsiedlung Britz (Hufeisensiedlung)",
+  "kind": "neighbourhood",
+  "lat": 52.4472481,
+  "lng": 13.4513791
+ },
+ {
+  "id": "osm:way/266834988",
+  "name": "Möckernkiez",
+  "kind": "neighbourhood",
+  "lat": 52.4927623,
+  "lng": 13.3777594
+ },
+ {
+  "id": "osm:way/287142081",
+  "name": "Quartier Hugos",
+  "kind": "neighbourhood",
+  "lat": 52.4402984,
+  "lng": 13.410005
+ },
+ {
+  "id": "osm:way/310847591",
+  "name": "Riehmers Hofgarten",
+  "kind": "neighbourhood",
+  "lat": 52.4924786,
+  "lng": 13.3842007
+ },
+ {
+  "id": "osm:way/347014858",
+  "name": "Uhlenhorst",
+  "kind": "neighbourhood",
+  "lat": 52.47224,
+  "lng": 13.586849
+ },
+ {
+  "id": "osm:way/353643647",
+  "name": "Borsig-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.6228173,
+  "lng": 13.2377358
+ },
+ {
+  "id": "osm:way/353643648",
+  "name": "Waldsiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.6242817,
+  "lng": 13.2431005
+ },
+ {
+  "id": "osm:way/386840362",
+  "name": "Bürgerhaussiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4159144,
+  "lng": 13.2190887
+ },
+ {
+  "id": "osm:way/421306009",
+  "name": "Grünau-Ost",
+  "kind": "neighbourhood",
+  "lat": 52.409345,
+  "lng": 13.5880551
+ },
+ {
+  "id": "osm:way/421504176",
+  "name": "Paradu",
+  "kind": "neighbourhood",
+  "lat": 52.405265,
+  "lng": 13.5655718
+ },
+ {
+  "id": "osm:way/437672226",
+  "name": "Komponistenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5481648,
+  "lng": 13.4579595
+ },
+ {
+  "id": "osm:way/448139815",
+  "name": "Cité Foch",
+  "kind": "neighbourhood",
+  "lat": 52.6013197,
+  "lng": 13.3184891
+ },
+ {
+  "id": "osm:way/459590968",
+  "name": "Potsdamer Arkadien",
+  "kind": "neighbourhood",
+  "lat": 52.4114235,
+  "lng": 13.0863641
+ },
+ {
+  "id": "osm:way/509454955",
+  "name": "Ludwig-Hoffmann-Quartier",
+  "kind": "neighbourhood",
+  "lat": 52.6414494,
+  "lng": 13.4910094
+ },
+ {
+  "id": "osm:way/513231836",
+  "name": "Theodor-Fontane-Höfe",
+  "kind": "neighbourhood",
+  "lat": 52.3939917,
+  "lng": 13.4999099
+ },
+ {
+  "id": "osm:way/572868369",
+  "name": "Heinrich-Zille-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5253809,
+  "lng": 13.3598632
+ },
+ {
+  "id": "osm:way/668198533",
+  "name": "Kleinhaussiedlung Altglienicke",
+  "kind": "neighbourhood",
+  "lat": 52.4130104,
+  "lng": 13.5556534
+ },
+ {
+  "id": "osm:way/676848100",
+  "name": "Buwog Hygge-Höfe",
+  "kind": "neighbourhood",
+  "lat": 52.5088531,
+  "lng": 13.5946069
+ },
+ {
+  "id": "osm:way/683642590",
+  "name": "Siedlung Bocksfelde",
+  "kind": "neighbourhood",
+  "lat": 52.5132593,
+  "lng": 13.1881397
+ },
+ {
+  "id": "osm:way/690813504",
+  "name": "Gartenstadt Rudow – Frauenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.4030824,
+  "lng": 13.5070819
+ },
+ {
+  "id": "osm:way/709013970",
+  "name": "Kohlhasenbrück",
+  "kind": "neighbourhood",
+  "lat": 52.3974481,
+  "lng": 13.1532674
+ },
+ {
+  "id": "osm:way/759067198",
+  "name": "Westfälisches Viertel",
+  "kind": "neighbourhood",
+  "lat": 52.522734,
+  "lng": 13.338712
+ },
+ {
+  "id": "osm:way/797800843",
+  "name": "Stolper Weg Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.3989614,
+  "lng": 13.2021772
+ },
+ {
+  "id": "osm:way/806155225",
+  "name": "Wohnpark Königsheide",
+  "kind": "neighbourhood",
+  "lat": 52.455152,
+  "lng": 13.500172
+ },
+ {
+  "id": "osm:way/813283680",
+  "name": "Siedlung Klosterbüsche",
+  "kind": "neighbourhood",
+  "lat": 52.5396979,
+  "lng": 13.1607668
+ },
+ {
+  "id": "osm:way/860568700",
+  "name": "Thermometersiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4143347,
+  "lng": 13.3152718
+ },
+ {
+  "id": "osm:way/954779655",
+  "name": "Wohnpark Frohe Aue",
+  "kind": "neighbourhood",
+  "lat": 52.6435585,
+  "lng": 13.3193364
+ },
+ {
+  "id": "osm:way/975729590",
+  "name": "Gleislinse Schöneweide",
+  "kind": "quarter",
+  "lat": 52.4423935,
+  "lng": 13.5275899
+ },
+ {
+  "id": "osm:way/1011041821",
+  "name": "Louise-Schroeder-Siedlung",
+  "kind": "quarter",
+  "lat": 52.5322203,
+  "lng": 13.1533587
+ },
+ {
+  "id": "osm:way/1072648524",
+  "name": "Siedlung Rathenow e.V.",
+  "kind": "neighbourhood",
+  "lat": 52.6148311,
+  "lng": 13.3679025
+ },
+ {
+  "id": "osm:way/1148512141",
+  "name": "Wohnsiedlung Lübarser Aue",
+  "kind": "neighbourhood",
+  "lat": 52.6081313,
+  "lng": 13.3596926
+ },
+ {
+  "id": "osm:way/1149289463",
+  "name": "Splanemann-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4944008,
+  "lng": 13.5222054
+ },
+ {
+  "id": "osm:way/1152658167",
+  "name": "Carlsgarten",
+  "kind": "neighbourhood",
+  "lat": 52.4757242,
+  "lng": 13.5317742
+ },
+ {
+  "id": "osm:way/1164130793",
+  "name": "Bisamkiez",
+  "kind": "neighbourhood",
+  "lat": 52.5182444,
+  "lng": 13.6377556
+ },
+ {
+  "id": "osm:way/1173511850",
+  "name": "Block 1",
+  "kind": "neighbourhood",
+  "lat": 52.6011735,
+  "lng": 13.2167082
+ },
+ {
+  "id": "osm:way/1178758421",
+  "name": "Maximilians Quartier",
+  "kind": "neighbourhood",
+  "lat": 52.4789297,
+  "lng": 13.2980142
+ },
+ {
+  "id": "osm:way/1185496624",
+  "name": "Brunnenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.541026,
+  "lng": 13.3906295
+ },
+ {
+  "id": "osm:way/1284893812",
+  "name": "Stadtrandsiedlung Marienfelde I",
+  "kind": "neighbourhood",
+  "lat": 52.4047056,
+  "lng": 13.3504928
+ },
+ {
+  "id": "osm:way/1284893818",
+  "name": "Stadtrandsiedlung Marienfelde II",
+  "kind": "neighbourhood",
+  "lat": 52.4010715,
+  "lng": 13.3570189
+ },
+ {
+  "id": "osm:way/1284893819",
+  "name": "Stadtrandsiedlung Marienfelde III",
+  "kind": "neighbourhood",
+  "lat": 52.4040456,
+  "lng": 13.358114
+ },
+ {
+  "id": "osm:way/1340318718",
+  "name": "Rotes Viertel",
+  "kind": "neighbourhood",
+  "lat": 52.5211217,
+  "lng": 13.5930975
+ },
+ {
+  "id": "osm:way/1363462601",
+  "name": "Paradiessiedlung",
+  "kind": "neighbourhood",
+  "lat": 52.5113046,
+  "lng": 13.566908
+ },
+ {
+  "id": "osm:way/1395984827",
+  "name": "Lichtenrader Revier",
+  "kind": "quarter",
+  "lat": 52.3877916,
+  "lng": 13.397236
+ },
+ {
+  "id": "osm:way/1421272560",
+  "name": "Buckower Felder",
+  "kind": "neighbourhood",
+  "lat": 52.4152808,
+  "lng": 13.4354477
+ },
+ {
+  "id": "osm:way/1421273079",
+  "name": "Hans-Martin-Helbich-Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4182207,
+  "lng": 13.4350065
+ },
+ {
+  "id": "osm:way/1424487744",
+  "name": "Märchenviertel",
+  "kind": "quarter",
+  "lat": 52.464376,
+  "lng": 13.5900126
+ },
+ {
+  "id": "osm:way/1426290467",
+  "name": "Gartenstadt Düppel",
+  "kind": "neighbourhood",
+  "lat": 52.4248116,
+  "lng": 13.2201176
+ },
+ {
+  "id": "osm:way/1445246996",
+  "name": "Parkstadt Karlshorst",
+  "kind": "neighbourhood",
+  "lat": 52.4819648,
+  "lng": 13.5098553
+ },
+ {
+  "id": "osm:way/1446902297",
+  "name": "Künstlerkolonie",
+  "kind": "neighbourhood",
+  "lat": 52.4682037,
+  "lng": 13.3142042
+ },
+ {
+  "id": "osm:way/1510459881",
+  "name": "Moabiter Werder",
+  "kind": "quarter",
+  "lat": 52.5201195,
+  "lng": 13.3598172
+ },
+ {
+  "id": "osm:way/1534491144",
+  "name": "Hausotter-Kiez",
+  "kind": "quarter",
+  "lat": 52.5677273,
+  "lng": 13.3712332
+ },
+ {
+  "id": "osm:way/1534816638",
+  "name": "Helmholtzkiez",
+  "kind": "quarter",
+  "lat": 52.5434885,
+  "lng": 13.4198087
+ },
+ {
+  "id": "osm:relation/407926",
+  "name": "Malchow",
+  "kind": "suburb",
+  "lat": 52.5777898,
+  "lng": 13.4891841
+ },
+ {
+  "id": "osm:relation/409207",
+  "name": "Karlshorst",
+  "kind": "suburb",
+  "lat": 52.4830649,
+  "lng": 13.5270706
+ },
+ {
+  "id": "osm:relation/2630277",
+  "name": "Gelbes Viertel",
+  "kind": "neighbourhood",
+  "lat": 52.5294035,
+  "lng": 13.5952356
+ },
+ {
+  "id": "osm:relation/6125544",
+  "name": "Holländerviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5548841,
+  "lng": 13.4544555
+ },
+ {
+  "id": "osm:relation/7378121",
+  "name": "Fischerinsel",
+  "kind": "neighbourhood",
+  "lat": 52.5131407,
+  "lng": 13.407061
+ },
+ {
+  "id": "osm:relation/7670015",
+  "name": "Scheunenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.5261586,
+  "lng": 13.4084676
+ },
+ {
+  "id": "osm:relation/10129372",
+  "name": "Großsiedlung Siemensstadt",
+  "kind": "neighbourhood",
+  "lat": 52.5394092,
+  "lng": 13.2749268
+ },
+ {
+  "id": "osm:relation/14686857",
+  "name": "Entenschnabel",
+  "kind": "neighbourhood",
+  "lat": 52.6289053,
+  "lng": 13.3068589
+ },
+ {
+  "id": "osm:relation/14687142",
+  "name": "Steinstücken",
+  "kind": "neighbourhood",
+  "lat": 52.3895308,
+  "lng": 13.1303551
+ },
+ {
+  "id": "osm:relation/17353696",
+  "name": "Neuland I",
+  "kind": "neighbourhood",
+  "lat": 52.4290202,
+  "lng": 13.4428434
+ },
+ {
+  "id": "osm:relation/17914101",
+  "name": "Prinzenviertel",
+  "kind": "neighbourhood",
+  "lat": 52.4853765,
+  "lng": 13.5133506
+ },
+ {
+  "id": "osm:relation/18377885",
+  "name": "Anlage Gravenstein",
+  "kind": "neighbourhood",
+  "lat": 52.6062329,
+  "lng": 13.4461002
+ },
+ {
+  "id": "osm:relation/18607624",
+  "name": "Campus Efeuweg",
+  "kind": "neighbourhood",
+  "lat": 52.4281716,
+  "lng": 13.4725358
+ },
+ {
+  "id": "osm:relation/18607702",
+  "name": "Neuland II",
+  "kind": "neighbourhood",
+  "lat": 52.4323381,
+  "lng": 13.4388767
+ },
+ {
+  "id": "osm:relation/18765698",
+  "name": "Hirschgarten",
+  "kind": "neighbourhood",
+  "lat": 52.4554482,
+  "lng": 13.6002044
+ },
+ {
+  "id": "osm:relation/19667049",
+  "name": "Gérard’sche Siedlung",
+  "kind": "neighbourhood",
+  "lat": 52.4174597,
+  "lng": 13.2363465
+ },
+ {
+  "id": "osm:relation/20611899",
+  "name": "Siedlung Marienwerder",
+  "kind": "neighbourhood",
+  "lat": 52.4202688,
+  "lng": 13.4225935
+ }
+]

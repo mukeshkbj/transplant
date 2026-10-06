@@ -1,0 +1,3614 @@
+[
+ {
+  "id": "osm:node/20510417",
+  "name": "Hogg's Hollow",
+  "kind": "neighbourhood",
+  "lat": 43.7415342,
+  "lng": -79.4028781
+ },
+ {
+  "id": "osm:node/20510419",
+  "name": "The Bridle Path",
+  "kind": "neighbourhood",
+  "lat": 43.7353996,
+  "lng": -79.370883
+ },
+ {
+  "id": "osm:node/139339178",
+  "name": "West Hill",
+  "kind": "neighbourhood",
+  "lat": 43.7689144,
+  "lng": -79.1872905
+ },
+ {
+  "id": "osm:node/139344429",
+  "name": "Centennial",
+  "kind": "neighbourhood",
+  "lat": 43.7874759,
+  "lng": -79.1507373
+ },
+ {
+  "id": "osm:node/139347757",
+  "name": "Morningside",
+  "kind": "neighbourhood",
+  "lat": 43.7826012,
+  "lng": -79.2049579
+ },
+ {
+  "id": "osm:node/139354747",
+  "name": "Highland Creek",
+  "kind": "neighbourhood",
+  "lat": 43.7901172,
+  "lng": -79.1733344
+ },
+ {
+  "id": "osm:node/239164261",
+  "name": "Chinatown",
+  "kind": "neighbourhood",
+  "lat": 43.6529237,
+  "lng": -79.3980316
+ },
+ {
+  "id": "osm:node/252362084",
+  "name": "North York",
+  "kind": "suburb",
+  "lat": 43.7708175,
+  "lng": -79.4132998
+ },
+ {
+  "id": "osm:node/252362115",
+  "name": "Scarborough",
+  "kind": "suburb",
+  "lat": 43.7729744,
+  "lng": -79.2576479
+ },
+ {
+  "id": "osm:node/254215326",
+  "name": "Kensington Market",
+  "kind": "neighbourhood",
+  "lat": 43.6552136,
+  "lng": -79.4022604
+ },
+ {
+  "id": "osm:node/276094107",
+  "name": "Upper Riverdale",
+  "kind": "neighbourhood",
+  "lat": 43.6723543,
+  "lng": -79.3515147
+ },
+ {
+  "id": "osm:node/281361505",
+  "name": "Cabbagetown",
+  "kind": "neighbourhood",
+  "lat": 43.6644734,
+  "lng": -79.3669861
+ },
+ {
+  "id": "osm:node/304901116",
+  "name": "St. James Town",
+  "kind": "neighbourhood",
+  "lat": 43.6694032,
+  "lng": -79.3727041
+ },
+ {
+  "id": "osm:node/305258778",
+  "name": "Hillcrest Village",
+  "kind": "neighbourhood",
+  "lat": 43.7996637,
+  "lng": -79.3650189
+ },
+ {
+  "id": "osm:node/305258780",
+  "name": "The Peanut",
+  "kind": "neighbourhood",
+  "lat": 43.7840717,
+  "lng": -79.3515711
+ },
+ {
+  "id": "osm:node/308713609",
+  "name": "Parkview Hills",
+  "kind": "neighbourhood",
+  "lat": 43.7062977,
+  "lng": -79.3219073
+ },
+ {
+  "id": "osm:node/308859117",
+  "name": "Pleasant View",
+  "kind": "neighbourhood",
+  "lat": 43.787048,
+  "lng": -79.3337137
+ },
+ {
+  "id": "osm:node/311895715",
+  "name": "East York",
+  "kind": "suburb",
+  "lat": 43.6914234,
+  "lng": -79.3278714
+ },
+ {
+  "id": "osm:node/318853538",
+  "name": "Thornhill",
+  "kind": "suburb",
+  "lat": 43.8161477,
+  "lng": -79.4245925
+ },
+ {
+  "id": "osm:node/318977116",
+  "name": "German Mills",
+  "kind": "neighbourhood",
+  "lat": 43.81708,
+  "lng": -79.3668303
+ },
+ {
+  "id": "osm:node/319104195",
+  "name": "Concord",
+  "kind": "suburb",
+  "lat": 43.8003622,
+  "lng": -79.4993876
+ },
+ {
+  "id": "osm:node/326247750",
+  "name": "The Beaches",
+  "kind": "neighbourhood",
+  "lat": 43.6710244,
+  "lng": -79.296712
+ },
+ {
+  "id": "osm:node/326247755",
+  "name": "Leaside",
+  "kind": "neighbourhood",
+  "lat": 43.7048034,
+  "lng": -79.3681101
+ },
+ {
+  "id": "osm:node/326247765",
+  "name": "Thorncliffe Park",
+  "kind": "neighbourhood",
+  "lat": 43.704553,
+  "lng": -79.3454074
+ },
+ {
+  "id": "osm:node/343036901",
+  "name": "Fashion District",
+  "kind": "neighbourhood",
+  "lat": 43.6454561,
+  "lng": -79.3949942
+ },
+ {
+  "id": "osm:node/344209877",
+  "name": "Jane and Finch",
+  "kind": "neighbourhood",
+  "lat": 43.7572632,
+  "lng": -79.5176734
+ },
+ {
+  "id": "osm:node/349333994",
+  "name": "Victoria Village",
+  "kind": "neighbourhood",
+  "lat": 43.732658,
+  "lng": -79.3111892
+ },
+ {
+  "id": "osm:node/349354234",
+  "name": "Willowdale",
+  "kind": "quarter",
+  "lat": 43.7615095,
+  "lng": -79.4109234
+ },
+ {
+  "id": "osm:node/353733381",
+  "name": "Corktown",
+  "kind": "neighbourhood",
+  "lat": 43.6555594,
+  "lng": -79.358487
+ },
+ {
+  "id": "osm:node/356616766",
+  "name": "West Rouge",
+  "kind": "neighbourhood",
+  "lat": 43.7859631,
+  "lng": -79.1307556
+ },
+ {
+  "id": "osm:node/360484343",
+  "name": "Mount Dennis",
+  "kind": "neighbourhood",
+  "lat": 43.6869597,
+  "lng": -79.4895513
+ },
+ {
+  "id": "osm:node/361021480",
+  "name": "Weston",
+  "kind": "neighbourhood",
+  "lat": 43.7001711,
+  "lng": -79.5162093
+ },
+ {
+  "id": "osm:node/364258946",
+  "name": "Beaumonde Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7414168,
+  "lng": -79.5707267
+ },
+ {
+  "id": "osm:node/364869962",
+  "name": "The Annex",
+  "kind": "neighbourhood",
+  "lat": 43.6703045,
+  "lng": -79.4052888
+ },
+ {
+  "id": "osm:node/364870023",
+  "name": "Discovery District",
+  "kind": "neighbourhood",
+  "lat": 43.6575555,
+  "lng": -79.3894803
+ },
+ {
+  "id": "osm:node/366151969",
+  "name": "Mirvish Village",
+  "kind": "neighbourhood",
+  "lat": 43.6651321,
+  "lng": -79.411205
+ },
+ {
+  "id": "osm:node/366652885",
+  "name": "Henry Farm",
+  "kind": "neighbourhood",
+  "lat": 43.7695089,
+  "lng": -79.354296
+ },
+ {
+  "id": "osm:node/370705700",
+  "name": "Flemingdon Park",
+  "kind": "neighbourhood",
+  "lat": 43.7184315,
+  "lng": -79.333204
+ },
+ {
+  "id": "osm:node/372509132",
+  "name": "Olde East York Village",
+  "kind": "neighbourhood",
+  "lat": 43.6968049,
+  "lng": -79.3290994
+ },
+ {
+  "id": "osm:node/378989092",
+  "name": "Leslieville",
+  "kind": "neighbourhood",
+  "lat": 43.6627,
+  "lng": -79.3328148
+ },
+ {
+  "id": "osm:node/383433075",
+  "name": "Vaughan Metropolitan Centre",
+  "kind": "neighbourhood",
+  "lat": 43.7896399,
+  "lng": -79.5293855
+ },
+ {
+  "id": "osm:node/393163918",
+  "name": "East End",
+  "kind": "neighbourhood",
+  "lat": 43.6684402,
+  "lng": -79.33067
+ },
+ {
+  "id": "osm:node/394557444",
+  "name": "Forest Hill",
+  "kind": "neighbourhood",
+  "lat": 43.6935586,
+  "lng": -79.4139023
+ },
+ {
+  "id": "osm:node/402289284",
+  "name": "Bloor West Village",
+  "kind": "neighbourhood",
+  "lat": 43.6501846,
+  "lng": -79.4805189
+ },
+ {
+  "id": "osm:node/402289322",
+  "name": "Corso Italia",
+  "kind": "neighbourhood",
+  "lat": 43.677954,
+  "lng": -79.4430828
+ },
+ {
+  "id": "osm:node/402289671",
+  "name": "Little Italy",
+  "kind": "neighbourhood",
+  "lat": 43.6552079,
+  "lng": -79.4148769
+ },
+ {
+  "id": "osm:node/410375782",
+  "name": "Downsview",
+  "kind": "neighbourhood",
+  "lat": 43.7266659,
+  "lng": -79.4820065
+ },
+ {
+  "id": "osm:node/411195160",
+  "name": "Mimico",
+  "kind": "neighbourhood",
+  "lat": 43.6036604,
+  "lng": -79.4932037
+ },
+ {
+  "id": "osm:node/411195374",
+  "name": "Long Branch",
+  "kind": "neighbourhood",
+  "lat": 43.5930751,
+  "lng": -79.541212
+ },
+ {
+  "id": "osm:node/413632180",
+  "name": "Lakeview",
+  "kind": "suburb",
+  "lat": 43.5826574,
+  "lng": -79.5706488
+ },
+ {
+  "id": "osm:node/429660322",
+  "name": "Morningside Heights",
+  "kind": "neighbourhood",
+  "lat": 43.8237001,
+  "lng": -79.2241521
+ },
+ {
+  "id": "osm:node/430535636",
+  "name": "Woodbridge",
+  "kind": "suburb",
+  "lat": 43.7848982,
+  "lng": -79.5923855
+ },
+ {
+  "id": "osm:node/430535740",
+  "name": "Maple",
+  "kind": "suburb",
+  "lat": 43.854853,
+  "lng": -79.5123386
+ },
+ {
+  "id": "osm:node/450129752",
+  "name": "Cooksville",
+  "kind": "suburb",
+  "lat": 43.5802334,
+  "lng": -79.6164078
+ },
+ {
+  "id": "osm:node/451008901",
+  "name": "Gerrard India Bazaar",
+  "kind": "neighbourhood",
+  "lat": 43.6720507,
+  "lng": -79.3234683
+ },
+ {
+  "id": "osm:node/456977905",
+  "name": "Don Mills",
+  "kind": "neighbourhood",
+  "lat": 43.7371795,
+  "lng": -79.3434305
+ },
+ {
+  "id": "osm:node/530715668",
+  "name": "Little Malta",
+  "kind": "neighbourhood",
+  "lat": 43.6655405,
+  "lng": -79.4789387
+ },
+ {
+  "id": "osm:node/534783654",
+  "name": "The Junction",
+  "kind": "neighbourhood",
+  "lat": 43.6654775,
+  "lng": -79.470352
+ },
+ {
+  "id": "osm:node/555446311",
+  "name": "Old Mill",
+  "kind": "neighbourhood",
+  "lat": 43.6513012,
+  "lng": -79.4954753
+ },
+ {
+  "id": "osm:node/555446321",
+  "name": "Runnymede",
+  "kind": "neighbourhood",
+  "lat": 43.6629697,
+  "lng": -79.4842889
+ },
+ {
+  "id": "osm:node/555446327",
+  "name": "Humbercrest",
+  "kind": "neighbourhood",
+  "lat": 43.6615983,
+  "lng": -79.4920879
+ },
+ {
+  "id": "osm:node/555446339",
+  "name": "Swansea",
+  "kind": "neighbourhood",
+  "lat": 43.64494,
+  "lng": -79.478313
+ },
+ {
+  "id": "osm:node/555446350",
+  "name": "High Park North",
+  "kind": "neighbourhood",
+  "lat": 43.6573833,
+  "lng": -79.470961
+ },
+ {
+  "id": "osm:node/555446358",
+  "name": "Humber Bay",
+  "kind": "neighbourhood",
+  "lat": 43.6333441,
+  "lng": -79.4904188
+ },
+ {
+  "id": "osm:node/555446404",
+  "name": "Keelesdale",
+  "kind": "neighbourhood",
+  "lat": 43.6879754,
+  "lng": -79.4760261
+ },
+ {
+  "id": "osm:node/555446409",
+  "name": "North Park",
+  "kind": "neighbourhood",
+  "lat": 43.7186899,
+  "lng": -79.4775337
+ },
+ {
+  "id": "osm:node/555446562",
+  "name": "Yorkville",
+  "kind": "neighbourhood",
+  "lat": 43.6713861,
+  "lng": -79.3901677
+ },
+ {
+  "id": "osm:node/555446767",
+  "name": "Moore Park",
+  "kind": "neighbourhood",
+  "lat": 43.6903876,
+  "lng": -79.3832965
+ },
+ {
+  "id": "osm:node/555446771",
+  "name": "Lawrence Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7227784,
+  "lng": -79.4509332
+ },
+ {
+  "id": "osm:node/555446794",
+  "name": "Bennington Heights",
+  "kind": "neighbourhood",
+  "lat": 43.6950078,
+  "lng": -79.3710353
+ },
+ {
+  "id": "osm:node/555446808",
+  "name": "Cedarvale",
+  "kind": "neighbourhood",
+  "lat": 43.6944044,
+  "lng": -79.4263047
+ },
+ {
+  "id": "osm:node/555446814",
+  "name": "Lawrence Manor",
+  "kind": "neighbourhood",
+  "lat": 43.7220788,
+  "lng": -79.4375067
+ },
+ {
+  "id": "osm:node/555446824",
+  "name": "Davisville",
+  "kind": "neighbourhood",
+  "lat": 43.7043123,
+  "lng": -79.3885169
+ },
+ {
+  "id": "osm:node/555446841",
+  "name": "Lawrence Park",
+  "kind": "neighbourhood",
+  "lat": 43.729199,
+  "lng": -79.4032525
+ },
+ {
+  "id": "osm:node/555446845",
+  "name": "Winston Park",
+  "kind": "neighbourhood",
+  "lat": 43.729231,
+  "lng": -79.4651065
+ },
+ {
+  "id": "osm:node/555446862",
+  "name": "Bedford Park",
+  "kind": "neighbourhood",
+  "lat": 43.7308297,
+  "lng": -79.4115705
+ },
+ {
+  "id": "osm:node/555446867",
+  "name": "York Mills",
+  "kind": "neighbourhood",
+  "lat": 43.7441367,
+  "lng": -79.4066752
+ },
+ {
+  "id": "osm:node/555446871",
+  "name": "Wilson Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7345844,
+  "lng": -79.4472241
+ },
+ {
+  "id": "osm:node/555446877",
+  "name": "Armour Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7439436,
+  "lng": -79.4308512
+ },
+ {
+  "id": "osm:node/555446887",
+  "name": "Upper Beach Estates",
+  "kind": "neighbourhood",
+  "lat": 43.6864103,
+  "lng": -79.2957899
+ },
+ {
+  "id": "osm:node/555446910",
+  "name": "Woodbine Heights",
+  "kind": "neighbourhood",
+  "lat": 43.69992,
+  "lng": -79.319279
+ },
+ {
+  "id": "osm:node/555446915",
+  "name": "Crescent Town",
+  "kind": "neighbourhood",
+  "lat": 43.695403,
+  "lng": -79.293099
+ },
+ {
+  "id": "osm:node/555446921",
+  "name": "Clairlea",
+  "kind": "neighbourhood",
+  "lat": 43.7135981,
+  "lng": -79.2928317
+ },
+ {
+  "id": "osm:node/555446926",
+  "name": "Woodbine Gardens",
+  "kind": "neighbourhood",
+  "lat": 43.7034665,
+  "lng": -79.3000526
+ },
+ {
+  "id": "osm:node/555446937",
+  "name": "Wexford Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7432421,
+  "lng": -79.304641
+ },
+ {
+  "id": "osm:node/555446955",
+  "name": "Wexford",
+  "kind": "neighbourhood",
+  "lat": 43.7453767,
+  "lng": -79.2947155
+ },
+ {
+  "id": "osm:node/555446967",
+  "name": "Birchmount Park",
+  "kind": "neighbourhood",
+  "lat": 43.7141672,
+  "lng": -79.271109
+ },
+ {
+  "id": "osm:node/555446972",
+  "name": "Cliffside",
+  "kind": "neighbourhood",
+  "lat": 43.7111699,
+  "lng": -79.2481769
+ },
+ {
+  "id": "osm:node/555446979",
+  "name": "Oakridge",
+  "kind": "neighbourhood",
+  "lat": 43.6971751,
+  "lng": -79.2748168
+ },
+ {
+  "id": "osm:node/555447014",
+  "name": "Birchcliff",
+  "kind": "neighbourhood",
+  "lat": 43.697007,
+  "lng": -79.2638957
+ },
+ {
+  "id": "osm:node/555447018",
+  "name": "Kennedy Park",
+  "kind": "neighbourhood",
+  "lat": 43.7160528,
+  "lng": -79.2606869
+ },
+ {
+  "id": "osm:node/555447021",
+  "name": "Golden Mile",
+  "kind": "neighbourhood",
+  "lat": 43.7278414,
+  "lng": -79.2876217
+ },
+ {
+  "id": "osm:node/555447025",
+  "name": "Ionview",
+  "kind": "neighbourhood",
+  "lat": 43.7359904,
+  "lng": -79.2765146
+ },
+ {
+  "id": "osm:node/555447031",
+  "name": "Cliffcrest",
+  "kind": "neighbourhood",
+  "lat": 43.7218363,
+  "lng": -79.2362138
+ },
+ {
+  "id": "osm:node/558610452",
+  "name": "Fairview",
+  "kind": "suburb",
+  "lat": 43.585842,
+  "lng": -79.6327983
+ },
+ {
+  "id": "osm:node/558610540",
+  "name": "Ridgewood",
+  "kind": "neighbourhood",
+  "lat": 43.7143484,
+  "lng": -79.6399087
+ },
+ {
+  "id": "osm:node/558610544",
+  "name": "Mississauga Valleys",
+  "kind": "suburb",
+  "lat": 43.5943679,
+  "lng": -79.6237667
+ },
+ {
+  "id": "osm:node/558610545",
+  "name": "Applewood Heights",
+  "kind": "neighbourhood",
+  "lat": 43.6088604,
+  "lng": -79.5967879
+ },
+ {
+  "id": "osm:node/558610546",
+  "name": "Burnhamthorpe",
+  "kind": "neighbourhood",
+  "lat": 43.6225398,
+  "lng": -79.6025323
+ },
+ {
+  "id": "osm:node/558610547",
+  "name": "Orchard Heights",
+  "kind": "neighbourhood",
+  "lat": 43.599811,
+  "lng": -79.5606358
+ },
+ {
+  "id": "osm:node/558610549",
+  "name": "Markland Woods",
+  "kind": "neighbourhood",
+  "lat": 43.6320792,
+  "lng": -79.5751832
+ },
+ {
+  "id": "osm:node/558610550",
+  "name": "Applewood Hills",
+  "kind": "neighbourhood",
+  "lat": 43.6173266,
+  "lng": -79.6020065
+ },
+ {
+  "id": "osm:node/558610551",
+  "name": "Applewood Acres",
+  "kind": "neighbourhood",
+  "lat": 43.5942633,
+  "lng": -79.5773939
+ },
+ {
+  "id": "osm:node/558610552",
+  "name": "Summerville",
+  "kind": "neighbourhood",
+  "lat": 43.6241828,
+  "lng": -79.5679158
+ },
+ {
+  "id": "osm:node/558610553",
+  "name": "Dixie",
+  "kind": "suburb",
+  "lat": 43.6031021,
+  "lng": -79.5747123
+ },
+ {
+  "id": "osm:node/558610555",
+  "name": "Islington",
+  "kind": "neighbourhood",
+  "lat": 43.6487953,
+  "lng": -79.5490002
+ },
+ {
+  "id": "osm:node/558610556",
+  "name": "Eringate",
+  "kind": "neighbourhood",
+  "lat": 43.6622732,
+  "lng": -79.5765162
+ },
+ {
+  "id": "osm:node/558610557",
+  "name": "West Deane Park",
+  "kind": "neighbourhood",
+  "lat": 43.6631995,
+  "lng": -79.5685684
+ },
+ {
+  "id": "osm:node/558610558",
+  "name": "Bloordale Gardens",
+  "kind": "neighbourhood",
+  "lat": 43.6353169,
+  "lng": -79.5636744
+ },
+ {
+  "id": "osm:node/558610562",
+  "name": "Princess Margaret",
+  "kind": "neighbourhood",
+  "lat": 43.6728194,
+  "lng": -79.5550377
+ },
+ {
+  "id": "osm:node/558610564",
+  "name": "Glen Agar",
+  "kind": "neighbourhood",
+  "lat": 43.6630826,
+  "lng": -79.5526575
+ },
+ {
+  "id": "osm:node/558610566",
+  "name": "Princess Anne Manor",
+  "kind": "neighbourhood",
+  "lat": 43.671988,
+  "lng": -79.5434824
+ },
+ {
+  "id": "osm:node/558610567",
+  "name": "Alderwood",
+  "kind": "neighbourhood",
+  "lat": 43.6017173,
+  "lng": -79.5452325
+ },
+ {
+  "id": "osm:node/558610571",
+  "name": "New Toronto",
+  "kind": "neighbourhood",
+  "lat": 43.6007625,
+  "lng": -79.505264
+ },
+ {
+  "id": "osm:node/558610575",
+  "name": "Lambton Mills",
+  "kind": "neighbourhood",
+  "lat": 43.661852,
+  "lng": -79.5072474
+ },
+ {
+  "id": "osm:node/558610576",
+  "name": "Chestnut Hills",
+  "kind": "neighbourhood",
+  "lat": 43.6575312,
+  "lng": -79.522415
+ },
+ {
+  "id": "osm:node/558610577",
+  "name": "Humber Valley Village",
+  "kind": "neighbourhood",
+  "lat": 43.6664717,
+  "lng": -79.5243136
+ },
+ {
+  "id": "osm:node/558610578",
+  "name": "Thorncrest Village",
+  "kind": "neighbourhood",
+  "lat": 43.662913,
+  "lng": -79.5377085
+ },
+ {
+  "id": "osm:node/558610579",
+  "name": "The Kingsway",
+  "kind": "neighbourhood",
+  "lat": 43.6485297,
+  "lng": -79.509784
+ },
+ {
+  "id": "osm:node/558610583",
+  "name": "Kingsview Village",
+  "kind": "neighbourhood",
+  "lat": 43.6995391,
+  "lng": -79.5563459
+ },
+ {
+  "id": "osm:node/558610584",
+  "name": "St. Phillips",
+  "kind": "neighbourhood",
+  "lat": 43.7000483,
+  "lng": -79.5437651
+ },
+ {
+  "id": "osm:node/558610585",
+  "name": "Richview Gardens",
+  "kind": "neighbourhood",
+  "lat": 43.6848335,
+  "lng": -79.5482883
+ },
+ {
+  "id": "osm:node/558610586",
+  "name": "Highfield",
+  "kind": "neighbourhood",
+  "lat": 43.7138691,
+  "lng": -79.5811019
+ },
+ {
+  "id": "osm:node/558610587",
+  "name": "Pine Point",
+  "kind": "neighbourhood",
+  "lat": 43.7149479,
+  "lng": -79.5527943
+ },
+ {
+  "id": "osm:node/558610591",
+  "name": "Rexdale",
+  "kind": "neighbourhood",
+  "lat": 43.7213619,
+  "lng": -79.5655129
+ },
+ {
+  "id": "osm:node/558610592",
+  "name": "West Humber Estates",
+  "kind": "neighbourhood",
+  "lat": 43.7228033,
+  "lng": -79.5810665
+ },
+ {
+  "id": "osm:node/558610593",
+  "name": "Martin Grove Gardens",
+  "kind": "neighbourhood",
+  "lat": 43.6873105,
+  "lng": -79.561967
+ },
+ {
+  "id": "osm:node/558610594",
+  "name": "Kipling Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7302773,
+  "lng": -79.571187
+ },
+ {
+  "id": "osm:node/558610595",
+  "name": "Beaumonde Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7417506,
+  "lng": -79.5737544
+ },
+ {
+  "id": "osm:node/558610599",
+  "name": "Thistletown",
+  "kind": "neighbourhood",
+  "lat": 43.7372656,
+  "lng": -79.5653169
+ },
+ {
+  "id": "osm:node/558610600",
+  "name": "Fairhaven",
+  "kind": "neighbourhood",
+  "lat": 43.7018496,
+  "lng": -79.5314281
+ },
+ {
+  "id": "osm:node/558610601",
+  "name": "Humberlea",
+  "kind": "neighbourhood",
+  "lat": 43.7213166,
+  "lng": -79.5331605
+ },
+ {
+  "id": "osm:node/558610605",
+  "name": "Westmount",
+  "kind": "neighbourhood",
+  "lat": 43.6936399,
+  "lng": -79.5210426
+ },
+ {
+  "id": "osm:node/558610609",
+  "name": "York",
+  "kind": "suburb",
+  "lat": 43.6896191,
+  "lng": -79.479188
+ },
+ {
+  "id": "osm:node/558715460",
+  "name": "Fisherville",
+  "kind": "neighbourhood",
+  "lat": 43.7875624,
+  "lng": -79.459323
+ },
+ {
+  "id": "osm:node/558715484",
+  "name": "Carrville",
+  "kind": "neighbourhood",
+  "lat": 43.8476473,
+  "lng": -79.4586638
+ },
+ {
+  "id": "osm:node/558715519",
+  "name": "Ellesmere",
+  "kind": "neighbourhood",
+  "lat": 43.7670808,
+  "lng": -79.2846823
+ },
+ {
+  "id": "osm:node/558715520",
+  "name": "Parkway West",
+  "kind": "neighbourhood",
+  "lat": 43.7531765,
+  "lng": -79.3390635
+ },
+ {
+  "id": "osm:node/558715521",
+  "name": "York Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7590452,
+  "lng": -79.3416691
+ },
+ {
+  "id": "osm:node/558715524",
+  "name": "Maryvale",
+  "kind": "neighbourhood",
+  "lat": 43.7590508,
+  "lng": -79.3102297
+ },
+ {
+  "id": "osm:node/558715528",
+  "name": "Dorset Park",
+  "kind": "neighbourhood",
+  "lat": 43.7528467,
+  "lng": -79.282067
+ },
+ {
+  "id": "osm:node/558715530",
+  "name": "Parkway East",
+  "kind": "neighbourhood",
+  "lat": 43.7553381,
+  "lng": -79.327245
+ },
+ {
+  "id": "osm:node/558715532",
+  "name": "Silver Hills",
+  "kind": "neighbourhood",
+  "lat": 43.7612224,
+  "lng": -79.3683818
+ },
+ {
+  "id": "osm:node/558715537",
+  "name": "Guildwood Village",
+  "kind": "neighbourhood",
+  "lat": 43.7523702,
+  "lng": -79.1924888
+ },
+ {
+  "id": "osm:node/558715541",
+  "name": "Bendale",
+  "kind": "neighbourhood",
+  "lat": 43.7535196,
+  "lng": -79.2553355
+ },
+ {
+  "id": "osm:node/558715550",
+  "name": "Steeles Corners",
+  "kind": "neighbourhood",
+  "lat": 43.7980486,
+  "lng": -79.4200241
+ },
+ {
+  "id": "osm:node/558715553",
+  "name": "Newtonbrook",
+  "kind": "neighbourhood",
+  "lat": 43.795986,
+  "lng": -79.4130896
+ },
+ {
+  "id": "osm:node/558715557",
+  "name": "Richvale",
+  "kind": "neighbourhood",
+  "lat": 43.8417308,
+  "lng": -79.4436176
+ },
+ {
+  "id": "osm:node/558715559",
+  "name": "Thornlea",
+  "kind": "neighbourhood",
+  "lat": 43.8282849,
+  "lng": -79.4014679
+ },
+ {
+  "id": "osm:node/558715560",
+  "name": "Langstaff",
+  "kind": "neighbourhood",
+  "lat": 43.8263025,
+  "lng": -79.4216637
+ },
+ {
+  "id": "osm:node/558715563",
+  "name": "Agincourt",
+  "kind": "neighbourhood",
+  "lat": 43.7853531,
+  "lng": -79.2785494
+ },
+ {
+  "id": "osm:node/558715564",
+  "name": "Tam O'Shanter",
+  "kind": "neighbourhood",
+  "lat": 43.7810454,
+  "lng": -79.2980941
+ },
+ {
+  "id": "osm:node/558715565",
+  "name": "Sullivan",
+  "kind": "neighbourhood",
+  "lat": 43.7731741,
+  "lng": -79.3127571
+ },
+ {
+  "id": "osm:node/558715567",
+  "name": "Clarks Corners",
+  "kind": "neighbourhood",
+  "lat": 43.7964095,
+  "lng": -79.2977951
+ },
+ {
+  "id": "osm:node/558715570",
+  "name": "Underwood",
+  "kind": "neighbourhood",
+  "lat": 43.8346727,
+  "lng": -79.3112133
+ },
+ {
+  "id": "osm:node/558715572",
+  "name": "Hagerman's Corners",
+  "kind": "neighbourhood",
+  "lat": 43.8434177,
+  "lng": -79.3049001
+ },
+ {
+  "id": "osm:node/558715573",
+  "name": "Brown's Corners",
+  "kind": "neighbourhood",
+  "lat": 43.849885,
+  "lng": -79.3580334
+ },
+ {
+  "id": "osm:node/558715574",
+  "name": "Steeles",
+  "kind": "neighbourhood",
+  "lat": 43.8161778,
+  "lng": -79.3145378
+ },
+ {
+  "id": "osm:node/558715577",
+  "name": "Milliken",
+  "kind": "neighbourhood",
+  "lat": 43.823705,
+  "lng": -79.3070726
+ },
+ {
+  "id": "osm:node/558715610",
+  "name": "Malvern West",
+  "kind": "neighbourhood",
+  "lat": 43.790679,
+  "lng": -79.248491
+ },
+ {
+  "id": "osm:node/558715612",
+  "name": "Browns Corners",
+  "kind": "neighbourhood",
+  "lat": 43.8129594,
+  "lng": -79.2430506
+ },
+ {
+  "id": "osm:node/558715615",
+  "name": "Agincourt North",
+  "kind": "neighbourhood",
+  "lat": 43.8080383,
+  "lng": -79.2664391
+ },
+ {
+  "id": "osm:node/558715616",
+  "name": "Malvern",
+  "kind": "neighbourhood",
+  "lat": 43.8091955,
+  "lng": -79.2217008
+ },
+ {
+  "id": "osm:node/558715617",
+  "name": "Woburn",
+  "kind": "neighbourhood",
+  "lat": 43.7598243,
+  "lng": -79.2252908
+ },
+ {
+  "id": "osm:node/558715619",
+  "name": "Armadale",
+  "kind": "neighbourhood",
+  "lat": 43.8365868,
+  "lng": -79.2511551
+ },
+ {
+  "id": "osm:node/558715620",
+  "name": "Cedar Grove",
+  "kind": "neighbourhood",
+  "lat": 43.855178,
+  "lng": -79.203419
+ },
+ {
+  "id": "osm:node/558715622",
+  "name": "Rosebank",
+  "kind": "neighbourhood",
+  "lat": 43.8040128,
+  "lng": -79.1232065
+ },
+ {
+  "id": "osm:node/558715623",
+  "name": "Rouge Park",
+  "kind": "neighbourhood",
+  "lat": 43.8045003,
+  "lng": -79.1580323
+ },
+ {
+  "id": "osm:node/558715625",
+  "name": "Rosebank Station",
+  "kind": "neighbourhood",
+  "lat": 43.7968845,
+  "lng": -79.1150278
+ },
+ {
+  "id": "osm:node/558715629",
+  "name": "Rouge Hill",
+  "kind": "neighbourhood",
+  "lat": 43.795019,
+  "lng": -79.1351039
+ },
+ {
+  "id": "osm:node/558715636",
+  "name": "Rouge",
+  "kind": "neighbourhood",
+  "lat": 43.8049304,
+  "lng": -79.1658374
+ },
+ {
+  "id": "osm:node/558715637",
+  "name": "Port Union",
+  "kind": "neighbourhood",
+  "lat": 43.7755039,
+  "lng": -79.1349765
+ },
+ {
+  "id": "osm:node/558715644",
+  "name": "Cherrywood Station",
+  "kind": "neighbourhood",
+  "lat": 43.8479737,
+  "lng": -79.1283905
+ },
+ {
+  "id": "osm:node/558715645",
+  "name": "Cherrywood",
+  "kind": "neighbourhood",
+  "lat": 43.8539138,
+  "lng": -79.1418533
+ },
+ {
+  "id": "osm:node/558715647",
+  "name": "Dunbarton",
+  "kind": "neighbourhood",
+  "lat": 43.8318497,
+  "lng": -79.1144059
+ },
+ {
+  "id": "osm:node/558715652",
+  "name": "Dixie",
+  "kind": "neighbourhood",
+  "lat": 43.8586157,
+  "lng": -79.1220579
+ },
+ {
+  "id": "osm:node/558715653",
+  "name": "Box Grove",
+  "kind": "neighbourhood",
+  "lat": 43.8596669,
+  "lng": -79.2300633
+ },
+ {
+  "id": "osm:node/558723914",
+  "name": "Humber Summit",
+  "kind": "neighbourhood",
+  "lat": 43.7600778,
+  "lng": -79.5717598
+ },
+ {
+  "id": "osm:node/558723921",
+  "name": "Emery",
+  "kind": "neighbourhood",
+  "lat": 43.74406,
+  "lng": -79.5341987
+ },
+ {
+  "id": "osm:node/558723922",
+  "name": "Claireville",
+  "kind": "neighbourhood",
+  "lat": 43.7498558,
+  "lng": -79.6392753
+ },
+ {
+  "id": "osm:node/558723924",
+  "name": "Northwood Park",
+  "kind": "neighbourhood",
+  "lat": 43.7516676,
+  "lng": -79.4956195
+ },
+ {
+  "id": "osm:node/558723929",
+  "name": "Elder Mills",
+  "kind": "neighbourhood",
+  "lat": 43.8110961,
+  "lng": -79.6289925
+ },
+ {
+  "id": "osm:node/558723933",
+  "name": "Elder Station",
+  "kind": "neighbourhood",
+  "lat": 43.8089267,
+  "lng": -79.6336312
+ },
+ {
+  "id": "osm:node/558723954",
+  "name": "Vellore",
+  "kind": "neighbourhood",
+  "lat": 43.8334161,
+  "lng": -79.5579775
+ },
+ {
+  "id": "osm:node/558723955",
+  "name": "Pine Grove",
+  "kind": "neighbourhood",
+  "lat": 43.8063305,
+  "lng": -79.5910318
+ },
+ {
+  "id": "osm:node/558723957",
+  "name": "Edgeley",
+  "kind": "neighbourhood",
+  "lat": 43.7940894,
+  "lng": -79.5243563
+ },
+ {
+  "id": "osm:node/558723960",
+  "name": "Purpleville",
+  "kind": "neighbourhood",
+  "lat": 43.8575976,
+  "lng": -79.5905022
+ },
+ {
+  "id": "osm:node/581882125",
+  "name": "Regent Park",
+  "kind": "neighbourhood",
+  "lat": 43.6607056,
+  "lng": -79.3604569
+ },
+ {
+  "id": "osm:node/581882677",
+  "name": "Parkdale",
+  "kind": "neighbourhood",
+  "lat": 43.639191,
+  "lng": -79.4330341
+ },
+ {
+  "id": "osm:node/622094543",
+  "name": "Brockton",
+  "kind": "neighbourhood",
+  "lat": 43.6509173,
+  "lng": -79.4400216
+ },
+ {
+  "id": "osm:node/622098824",
+  "name": "Liberty Village",
+  "kind": "neighbourhood",
+  "lat": 43.6388951,
+  "lng": -79.4179531
+ },
+ {
+  "id": "osm:node/622108347",
+  "name": "Koreatown",
+  "kind": "neighbourhood",
+  "lat": 43.6635564,
+  "lng": -79.4184157
+ },
+ {
+  "id": "osm:node/622110393",
+  "name": "Seaton Village",
+  "kind": "neighbourhood",
+  "lat": 43.6688366,
+  "lng": -79.416572
+ },
+ {
+  "id": "osm:node/622115907",
+  "name": "Dovercourt",
+  "kind": "neighbourhood",
+  "lat": 43.6653069,
+  "lng": -79.4326362
+ },
+ {
+  "id": "osm:node/622116284",
+  "name": "Christie Pits",
+  "kind": "neighbourhood",
+  "lat": 43.6671699,
+  "lng": -79.4234844
+ },
+ {
+  "id": "osm:node/622118022",
+  "name": "Wallace Emerson",
+  "kind": "neighbourhood",
+  "lat": 43.6628998,
+  "lng": -79.4423906
+ },
+ {
+  "id": "osm:node/622205241",
+  "name": "Humewood",
+  "kind": "neighbourhood",
+  "lat": 43.6857205,
+  "lng": -79.4251158
+ },
+ {
+  "id": "osm:node/622205418",
+  "name": "Oakwood Village",
+  "kind": "neighbourhood",
+  "lat": 43.6871426,
+  "lng": -79.4386859
+ },
+ {
+  "id": "osm:node/622205543",
+  "name": "Earlscourt",
+  "kind": "neighbourhood",
+  "lat": 43.6762773,
+  "lng": -79.4505723
+ },
+ {
+  "id": "osm:node/622228495",
+  "name": "Carleton Village",
+  "kind": "neighbourhood",
+  "lat": 43.6707031,
+  "lng": -79.4533003
+ },
+ {
+  "id": "osm:node/622685519",
+  "name": "Church-Wellesley Village",
+  "kind": "neighbourhood",
+  "lat": 43.6656646,
+  "lng": -79.380936
+ },
+ {
+  "id": "osm:node/622688964",
+  "name": "Baby Point",
+  "kind": "neighbourhood",
+  "lat": 43.6558741,
+  "lng": -79.4964941
+ },
+ {
+  "id": "osm:node/622689901",
+  "name": "Warren Park",
+  "kind": "neighbourhood",
+  "lat": 43.6625629,
+  "lng": -79.4986389
+ },
+ {
+  "id": "osm:node/622693436",
+  "name": "Harwood",
+  "kind": "neighbourhood",
+  "lat": 43.677044,
+  "lng": -79.4761512
+ },
+ {
+  "id": "osm:node/902650105",
+  "name": "Rathwood",
+  "kind": "suburb",
+  "lat": 43.6165503,
+  "lng": -79.615765
+ },
+ {
+  "id": "osm:node/1306348568",
+  "name": "CityPlace",
+  "kind": "neighbourhood",
+  "lat": 43.6392482,
+  "lng": -79.3963865
+ },
+ {
+  "id": "osm:node/1979666316",
+  "name": "Etobicoke",
+  "kind": "suburb",
+  "lat": 43.6435559,
+  "lng": -79.5656326
+ },
+ {
+  "id": "osm:node/2029276317",
+  "name": "William Baker",
+  "kind": "neighbourhood",
+  "lat": 43.7447969,
+  "lng": -79.4863983
+ },
+ {
+  "id": "osm:node/2049328066",
+  "name": "Airport Corporate Centre",
+  "kind": "neighbourhood",
+  "lat": 43.6566749,
+  "lng": -79.6034622
+ },
+ {
+  "id": "osm:node/2062630311",
+  "name": "Yonge & Eglinton",
+  "kind": "neighbourhood",
+  "lat": 43.7067479,
+  "lng": -79.3983271
+ },
+ {
+  "id": "osm:node/2062630340",
+  "name": "Chaplin Estates",
+  "kind": "neighbourhood",
+  "lat": 43.7025981,
+  "lng": -79.4032704
+ },
+ {
+  "id": "osm:node/2076871934",
+  "name": "Parkway Forest",
+  "kind": "neighbourhood",
+  "lat": 43.77166,
+  "lng": -79.3426631
+ },
+ {
+  "id": "osm:node/2291404537",
+  "name": "Leaside Business Park",
+  "kind": "neighbourhood",
+  "lat": 43.7115236,
+  "lng": -79.3615115
+ },
+ {
+  "id": "osm:node/2313753407",
+  "name": "Upper Guild",
+  "kind": "neighbourhood",
+  "lat": 43.7516581,
+  "lng": -79.2074246
+ },
+ {
+  "id": "osm:node/2526946501",
+  "name": "Bayview Village",
+  "kind": "neighbourhood",
+  "lat": 43.7666288,
+  "lng": -79.3880087
+ },
+ {
+  "id": "osm:node/2526948622",
+  "name": "Concord Park Place",
+  "kind": "neighbourhood",
+  "lat": 43.7676015,
+  "lng": -79.3722824
+ },
+ {
+  "id": "osm:node/2532541917",
+  "name": "Deer Park",
+  "kind": "neighbourhood",
+  "lat": 43.68809,
+  "lng": -79.3940935
+ },
+ {
+  "id": "osm:node/3022537906",
+  "name": "Canary District",
+  "kind": "neighbourhood",
+  "lat": 43.6532274,
+  "lng": -79.3553642
+ },
+ {
+  "id": "osm:node/3054664917",
+  "name": "South Core",
+  "kind": "neighbourhood",
+  "lat": 43.6421064,
+  "lng": -79.3774455
+ },
+ {
+  "id": "osm:node/3060121400",
+  "name": "St. Lawrence",
+  "kind": "neighbourhood",
+  "lat": 43.6494107,
+  "lng": -79.3714551
+ },
+ {
+  "id": "osm:node/3060121401",
+  "name": "Financial District",
+  "kind": "neighbourhood",
+  "lat": 43.6486382,
+  "lng": -79.3802817
+ },
+ {
+  "id": "osm:node/3711372505",
+  "name": "Cloverdale",
+  "kind": "neighbourhood",
+  "lat": 43.633637,
+  "lng": -79.5497447
+ },
+ {
+  "id": "osm:node/4316536825",
+  "name": "Six Points",
+  "kind": "neighbourhood",
+  "lat": 43.6413055,
+  "lng": -79.5350947
+ },
+ {
+  "id": "osm:node/4597147483",
+  "name": "The Lakeshore Grounds",
+  "kind": "neighbourhood",
+  "lat": 43.5947531,
+  "lng": -79.5158947
+ },
+ {
+  "id": "osm:node/4951829815",
+  "name": "Port Lands",
+  "kind": "neighbourhood",
+  "lat": 43.6430648,
+  "lng": -79.3506012
+ },
+ {
+  "id": "osm:node/4957168598",
+  "name": "Trefann Court",
+  "kind": "neighbourhood",
+  "lat": 43.6564893,
+  "lng": -79.3628297
+ },
+ {
+  "id": "osm:node/4958758120",
+  "name": "Fort York",
+  "kind": "neighbourhood",
+  "lat": 43.6374362,
+  "lng": -79.402538
+ },
+ {
+  "id": "osm:node/4960791254",
+  "name": "Moss Park",
+  "kind": "neighbourhood",
+  "lat": 43.6546438,
+  "lng": -79.3697278
+ },
+ {
+  "id": "osm:node/4967086487",
+  "name": "Alexandra Park",
+  "kind": "neighbourhood",
+  "lat": 43.6503798,
+  "lng": -79.40162
+ },
+ {
+  "id": "osm:node/4972273098",
+  "name": "Maple Leaf",
+  "kind": "neighbourhood",
+  "lat": 43.7122767,
+  "lng": -79.4901977
+ },
+ {
+  "id": "osm:node/4974276421",
+  "name": "South Hill",
+  "kind": "neighbourhood",
+  "lat": 43.6821446,
+  "lng": -79.4044814
+ },
+ {
+  "id": "osm:node/5227318175",
+  "name": "Tiny Town",
+  "kind": "neighbourhood",
+  "lat": 43.6667316,
+  "lng": -79.3186968
+ },
+ {
+  "id": "osm:node/5231911655",
+  "name": "Linkwood Village",
+  "kind": "neighbourhood",
+  "lat": 43.7122937,
+  "lng": -79.3244547
+ },
+ {
+  "id": "osm:node/5235821678",
+  "name": "Wynford",
+  "kind": "neighbourhood",
+  "lat": 43.7273592,
+  "lng": -79.327619
+ },
+ {
+  "id": "osm:node/5238068751",
+  "name": "Lakeshore Village",
+  "kind": "neighbourhood",
+  "lat": 43.6009682,
+  "lng": -79.5098003
+ },
+ {
+  "id": "osm:node/5243606326",
+  "name": "Islington Village",
+  "kind": "neighbourhood",
+  "lat": 43.6487442,
+  "lng": -79.5286854
+ },
+ {
+  "id": "osm:node/5249567066",
+  "name": "Eglinton Way",
+  "kind": "neighbourhood",
+  "lat": 43.7027027,
+  "lng": -79.4171638
+ },
+ {
+  "id": "osm:node/5251371947",
+  "name": "Old Burnhamthorpe",
+  "kind": "neighbourhood",
+  "lat": 43.6393732,
+  "lng": -79.5843869
+ },
+ {
+  "id": "osm:node/5253393312",
+  "name": "Bracondale Hill",
+  "kind": "neighbourhood",
+  "lat": 43.6771485,
+  "lng": -79.4270225
+ },
+ {
+  "id": "osm:node/5254949873",
+  "name": "Tarragon Village",
+  "kind": "neighbourhood",
+  "lat": 43.6755104,
+  "lng": -79.4098681
+ },
+ {
+  "id": "osm:node/5256743295",
+  "name": "Pape Village",
+  "kind": "neighbourhood",
+  "lat": 43.6893775,
+  "lng": -79.3488243
+ },
+ {
+  "id": "osm:node/5261287521",
+  "name": "Roncesvalles",
+  "kind": "neighbourhood",
+  "lat": 43.6474601,
+  "lng": -79.4494931
+ },
+ {
+  "id": "osm:node/5262810858",
+  "name": "Bathurst Quay",
+  "kind": "neighbourhood",
+  "lat": 43.6357905,
+  "lng": -79.398329
+ },
+ {
+  "id": "osm:node/5268980623",
+  "name": "Scarborough Junction",
+  "kind": "neighbourhood",
+  "lat": 43.7248972,
+  "lng": -79.2539806
+ },
+ {
+  "id": "osm:node/5271066259",
+  "name": "Scarborough Village",
+  "kind": "neighbourhood",
+  "lat": 43.7437422,
+  "lng": -79.2116324
+ },
+ {
+  "id": "osm:node/5281057480",
+  "name": "The Queensway",
+  "kind": "neighbourhood",
+  "lat": 43.6236182,
+  "lng": -79.5147637
+ },
+ {
+  "id": "osm:node/5283125930",
+  "name": "Danforth Village",
+  "kind": "neighbourhood",
+  "lat": 43.6833573,
+  "lng": -79.3235744
+ },
+ {
+  "id": "osm:node/5285058421",
+  "name": "Humber Heights",
+  "kind": "neighbourhood",
+  "lat": 43.6981503,
+  "lng": -79.5232733
+ },
+ {
+  "id": "osm:node/5288771064",
+  "name": "St. Andrew",
+  "kind": "neighbourhood",
+  "lat": 43.7480761,
+  "lng": -79.3841596
+ },
+ {
+  "id": "osm:node/5292699407",
+  "name": "Mimico Village",
+  "kind": "neighbourhood",
+  "lat": 43.6162033,
+  "lng": -79.4983678
+ },
+ {
+  "id": "osm:node/5292699408",
+  "name": "Mimico By-The-Lake",
+  "kind": "neighbourhood",
+  "lat": 43.6157701,
+  "lng": -79.4882274
+ },
+ {
+  "id": "osm:node/5300193852",
+  "name": "Lytton Park",
+  "kind": "neighbourhood",
+  "lat": 43.7159986,
+  "lng": -79.412291
+ },
+ {
+  "id": "osm:node/5305800889",
+  "name": "Bloorcourt Village",
+  "kind": "neighbourhood",
+  "lat": 43.6619526,
+  "lng": -79.4256014
+ },
+ {
+  "id": "osm:node/5309657743",
+  "name": "Agincourt Centre",
+  "kind": "neighbourhood",
+  "lat": 43.783285,
+  "lng": -79.2882576
+ },
+ {
+  "id": "osm:node/5312730334",
+  "name": "Eglinton",
+  "kind": "neighbourhood",
+  "lat": 43.7363589,
+  "lng": -79.2472595
+ },
+ {
+  "id": "osm:node/5314274113",
+  "name": "L'Amoreaux",
+  "kind": "neighbourhood",
+  "lat": 43.799003,
+  "lng": -79.3059669
+ },
+ {
+  "id": "osm:node/5317475171",
+  "name": "Sherwood Park",
+  "kind": "neighbourhood",
+  "lat": 43.7178862,
+  "lng": -79.3941574
+ },
+ {
+  "id": "osm:node/5319195225",
+  "name": "Kennedy",
+  "kind": "neighbourhood",
+  "lat": 43.7658499,
+  "lng": -79.2810728
+ },
+ {
+  "id": "osm:node/5321113029",
+  "name": "Harbourfront",
+  "kind": "neighbourhood",
+  "lat": 43.6400801,
+  "lng": -79.3801495
+ },
+ {
+  "id": "osm:node/5339956622",
+  "name": "South Rosedale",
+  "kind": "neighbourhood",
+  "lat": 43.6783556,
+  "lng": -79.3807457
+ },
+ {
+  "id": "osm:node/5348279776",
+  "name": "Dufferin Grove",
+  "kind": "neighbourhood",
+  "lat": 43.6536319,
+  "lng": -79.4264389
+ },
+ {
+  "id": "osm:node/5353721638",
+  "name": "Ward's Island",
+  "kind": "neighbourhood",
+  "lat": 43.631356,
+  "lng": -79.3559976
+ },
+ {
+  "id": "osm:node/5355329143",
+  "name": "Little Jamaica",
+  "kind": "neighbourhood",
+  "lat": 43.6972812,
+  "lng": -79.4427602
+ },
+ {
+  "id": "osm:node/5355329144",
+  "name": "Fairbank",
+  "kind": "neighbourhood",
+  "lat": 43.695689,
+  "lng": -79.4503097
+ },
+ {
+  "id": "osm:node/5359771730",
+  "name": "Algonquin Island",
+  "kind": "neighbourhood",
+  "lat": 43.6278854,
+  "lng": -79.3588205
+ },
+ {
+  "id": "osm:node/5362623105",
+  "name": "Castlefield Design District",
+  "kind": "neighbourhood",
+  "lat": 43.7041065,
+  "lng": -79.4601586
+ },
+ {
+  "id": "osm:node/5365037129",
+  "name": "Harbord Village",
+  "kind": "neighbourhood",
+  "lat": 43.6615225,
+  "lng": -79.4097446
+ },
+ {
+  "id": "osm:node/5368999301",
+  "name": "Queen West",
+  "kind": "neighbourhood",
+  "lat": 43.6487476,
+  "lng": -79.3963638
+ },
+ {
+  "id": "osm:node/5373728710",
+  "name": "Ossington",
+  "kind": "neighbourhood",
+  "lat": 43.6469189,
+  "lng": -79.4198189
+ },
+ {
+  "id": "osm:node/5378482977",
+  "name": "Entertainment District",
+  "kind": "neighbourhood",
+  "lat": 43.6465862,
+  "lng": -79.389723
+ },
+ {
+  "id": "osm:node/5381991208",
+  "name": "Bloordale Village",
+  "kind": "neighbourhood",
+  "lat": 43.6583477,
+  "lng": -79.4427428
+ },
+ {
+  "id": "osm:node/5384400710",
+  "name": "King West",
+  "kind": "neighbourhood",
+  "lat": 43.6439095,
+  "lng": -79.4026719
+ },
+ {
+  "id": "osm:node/5387292010",
+  "name": "King East",
+  "kind": "neighbourhood",
+  "lat": 43.6499078,
+  "lng": -79.3743821
+ },
+ {
+  "id": "osm:node/5408726247",
+  "name": "Danforth East",
+  "kind": "neighbourhood",
+  "lat": 43.6881713,
+  "lng": -79.3018156
+ },
+ {
+  "id": "osm:node/5411236116",
+  "name": "Little Tibet",
+  "kind": "neighbourhood",
+  "lat": 43.6406934,
+  "lng": -79.4359982
+ },
+ {
+  "id": "osm:node/5415321286",
+  "name": "Broadview North",
+  "kind": "neighbourhood",
+  "lat": 43.6839216,
+  "lng": -79.3569421
+ },
+ {
+  "id": "osm:node/5417567097",
+  "name": "Todmorden Village",
+  "kind": "neighbourhood",
+  "lat": 43.6961701,
+  "lng": -79.3435842
+ },
+ {
+  "id": "osm:node/5421532232",
+  "name": "Glen Park",
+  "kind": "neighbourhood",
+  "lat": 43.7090016,
+  "lng": -79.4437983
+ },
+ {
+  "id": "osm:node/5423119853",
+  "name": "Garden District",
+  "kind": "neighbourhood",
+  "lat": 43.6564995,
+  "lng": -79.3771141
+ },
+ {
+  "id": "osm:node/5425810819",
+  "name": "Richview",
+  "kind": "neighbourhood",
+  "lat": 43.6886301,
+  "lng": -79.5428768
+ },
+ {
+  "id": "osm:node/5427858182",
+  "name": "Silverthorn",
+  "kind": "neighbourhood",
+  "lat": 43.6850997,
+  "lng": -79.4697904
+ },
+ {
+  "id": "osm:node/5430214594",
+  "name": "Little Tokyo",
+  "kind": "neighbourhood",
+  "lat": 43.6557242,
+  "lng": -79.3837023
+ },
+ {
+  "id": "osm:node/5473659193",
+  "name": "Bloor Street Culture Corridor",
+  "kind": "neighbourhood",
+  "lat": 43.6687015,
+  "lng": -79.3941295
+ },
+ {
+  "id": "osm:node/5479086691",
+  "name": "Downtown Yonge",
+  "kind": "neighbourhood",
+  "lat": 43.6563221,
+  "lng": -79.3809161
+ },
+ {
+  "id": "osm:node/5483348333",
+  "name": "Eatonville",
+  "kind": "neighbourhood",
+  "lat": 43.6462843,
+  "lng": -79.5600005
+ },
+ {
+  "id": "osm:node/5485540377",
+  "name": "West Queen West",
+  "kind": "neighbourhood",
+  "lat": 43.6448843,
+  "lng": -79.4151702
+ },
+ {
+  "id": "osm:node/5492356189",
+  "name": "Lansing",
+  "kind": "neighbourhood",
+  "lat": 43.7589503,
+  "lng": -79.4225555
+ },
+ {
+  "id": "osm:node/5536843085",
+  "name": "Port Union Village",
+  "kind": "neighbourhood",
+  "lat": 43.7795951,
+  "lng": -79.1366496
+ },
+ {
+  "id": "osm:node/5538898137",
+  "name": "Don Valley Village",
+  "kind": "neighbourhood",
+  "lat": 43.7926732,
+  "lng": -79.3547219
+ },
+ {
+  "id": "osm:node/6251776503",
+  "name": "Rogers Road",
+  "kind": "neighbourhood",
+  "lat": 43.6818864,
+  "lng": -79.4676672
+ },
+ {
+  "id": "osm:node/6258997036",
+  "name": "Spadina–Fort York",
+  "kind": "quarter",
+  "lat": 43.6416049,
+  "lng": -79.3962675
+ },
+ {
+  "id": "osm:node/6258997038",
+  "name": "Toronto Centre",
+  "kind": "quarter",
+  "lat": 43.6604085,
+  "lng": -79.3685708
+ },
+ {
+  "id": "osm:node/6258997039",
+  "name": "Davenport",
+  "kind": "quarter",
+  "lat": 43.6715454,
+  "lng": -79.4483222
+ },
+ {
+  "id": "osm:node/6258997040",
+  "name": "University–Rosedale",
+  "kind": "quarter",
+  "lat": 43.663336,
+  "lng": -79.3918111
+ },
+ {
+  "id": "osm:node/6258997041",
+  "name": "Don Valley West",
+  "kind": "quarter",
+  "lat": 43.7275183,
+  "lng": -79.3818798
+ },
+ {
+  "id": "osm:node/6258997042",
+  "name": "Don Valley East",
+  "kind": "quarter",
+  "lat": 43.7305734,
+  "lng": -79.3342029
+ },
+ {
+  "id": "osm:node/6261105945",
+  "name": "York Centre",
+  "kind": "quarter",
+  "lat": 43.750241,
+  "lng": -79.463352
+ },
+ {
+  "id": "osm:node/6263064033",
+  "name": "Eglinton–Lawrence",
+  "kind": "quarter",
+  "lat": 43.7192647,
+  "lng": -79.429765
+ },
+ {
+  "id": "osm:node/6263064035",
+  "name": "Humber River–Black Creek",
+  "kind": "quarter",
+  "lat": 43.7337368,
+  "lng": -79.5382285
+ },
+ {
+  "id": "osm:node/6263064036",
+  "name": "Don Valley North",
+  "kind": "quarter",
+  "lat": 43.7750911,
+  "lng": -79.3470385
+ },
+ {
+  "id": "osm:node/6265132562",
+  "name": "Etobicoke North",
+  "kind": "quarter",
+  "lat": 43.7410925,
+  "lng": -79.5892249
+ },
+ {
+  "id": "osm:node/6265132563",
+  "name": "Etobicoke–Lakeshore",
+  "kind": "quarter",
+  "lat": 43.6046194,
+  "lng": -79.4981677
+ },
+ {
+  "id": "osm:node/6265132564",
+  "name": "York South–Weston",
+  "kind": "quarter",
+  "lat": 43.6844658,
+  "lng": -79.4988181
+ },
+ {
+  "id": "osm:node/6267154684",
+  "name": "Scarborough North",
+  "kind": "quarter",
+  "lat": 43.8099025,
+  "lng": -79.2576834
+ },
+ {
+  "id": "osm:node/6267158285",
+  "name": "Scarborough Southwest",
+  "kind": "quarter",
+  "lat": 43.7010356,
+  "lng": -79.2549582
+ },
+ {
+  "id": "osm:node/6269087402",
+  "name": "Toronto–St. Paul's",
+  "kind": "quarter",
+  "lat": 43.687689,
+  "lng": -79.4169647
+ },
+ {
+  "id": "osm:node/6269087403",
+  "name": "Etobicoke Centre",
+  "kind": "quarter",
+  "lat": 43.6798579,
+  "lng": -79.538988
+ },
+ {
+  "id": "osm:node/6269087404",
+  "name": "Beaches–East York",
+  "kind": "quarter",
+  "lat": 43.6814698,
+  "lng": -79.3060214
+ },
+ {
+  "id": "osm:node/6270793084",
+  "name": "Toronto–Danforth",
+  "kind": "quarter",
+  "lat": 43.6789439,
+  "lng": -79.3448597
+ },
+ {
+  "id": "osm:node/6270793185",
+  "name": "Scarborough–Rouge Park",
+  "kind": "quarter",
+  "lat": 43.8083627,
+  "lng": -79.1708032
+ },
+ {
+  "id": "osm:node/6270793186",
+  "name": "Scarborough Centre",
+  "kind": "quarter",
+  "lat": 43.7475018,
+  "lng": -79.284828
+ },
+ {
+  "id": "osm:node/6273495780",
+  "name": "Scarborough–Guildwood",
+  "kind": "quarter",
+  "lat": 43.7618571,
+  "lng": -79.2158124
+ },
+ {
+  "id": "osm:node/6273495781",
+  "name": "Scarborough–Agincourt",
+  "kind": "quarter",
+  "lat": 43.7967785,
+  "lng": -79.315759
+ },
+ {
+  "id": "osm:node/6743958322",
+  "name": "Greektown",
+  "kind": "neighbourhood",
+  "lat": 43.6779017,
+  "lng": -79.3489337
+ },
+ {
+  "id": "osm:node/7527143919",
+  "name": "Niagara",
+  "kind": "neighbourhood",
+  "lat": 43.6440753,
+  "lng": -79.4086982
+ },
+ {
+  "id": "osm:node/7527143920",
+  "name": "Bellwoods",
+  "kind": "neighbourhood",
+  "lat": 43.6481391,
+  "lng": -79.4110371
+ },
+ {
+  "id": "osm:node/7761505733",
+  "name": "The Valleys of Thornhill",
+  "kind": "neighbourhood",
+  "lat": 43.8549821,
+  "lng": -79.4690336
+ },
+ {
+  "id": "osm:node/7761505735",
+  "name": "Thornhill Woods",
+  "kind": "neighbourhood",
+  "lat": 43.8358389,
+  "lng": -79.4681394
+ },
+ {
+  "id": "osm:node/7761505736",
+  "name": "Carrville Corners",
+  "kind": "neighbourhood",
+  "lat": 43.8514322,
+  "lng": -79.494538
+ },
+ {
+  "id": "osm:node/7761505737",
+  "name": "Dufferin Hill",
+  "kind": "neighbourhood",
+  "lat": 43.8366153,
+  "lng": -79.4894091
+ },
+ {
+  "id": "osm:node/7761505738",
+  "name": "Crossroads",
+  "kind": "neighbourhood",
+  "lat": 43.8234723,
+  "lng": -79.475572
+ },
+ {
+  "id": "osm:node/7761505739",
+  "name": "Beverley Glen",
+  "kind": "neighbourhood",
+  "lat": 43.8138657,
+  "lng": -79.4627112
+ },
+ {
+  "id": "osm:node/7841430066",
+  "name": "The Estates of Rainbow Creek",
+  "kind": "neighbourhood",
+  "lat": 43.7947241,
+  "lng": -79.618372
+ },
+ {
+  "id": "osm:node/7841430067",
+  "name": "Woodbridge Meadows",
+  "kind": "neighbourhood",
+  "lat": 43.8002455,
+  "lng": -79.6227812
+ },
+ {
+  "id": "osm:node/7841430091",
+  "name": "The Ravines of Rainbow Creek",
+  "kind": "neighbourhood",
+  "lat": 43.7963727,
+  "lng": -79.6115493
+ },
+ {
+  "id": "osm:node/7857710319",
+  "name": "Playter Estates",
+  "kind": "neighbourhood",
+  "lat": 43.6789325,
+  "lng": -79.3554539
+ },
+ {
+  "id": "osm:node/9270257330",
+  "name": "The Pocket",
+  "kind": "neighbourhood",
+  "lat": 43.6775011,
+  "lng": -79.3349534
+ },
+ {
+  "id": "osm:node/10772405686",
+  "name": "Ledbury Park",
+  "kind": "neighbourhood",
+  "lat": 43.7289102,
+  "lng": -79.4245096
+ },
+ {
+  "id": "osm:node/10772405697",
+  "name": "South Riverdale",
+  "kind": "neighbourhood",
+  "lat": 43.6624452,
+  "lng": -79.3513464
+ },
+ {
+  "id": "osm:node/10772418711",
+  "name": "North Riverdale",
+  "kind": "neighbourhood",
+  "lat": 43.6743543,
+  "lng": -79.3539116
+ },
+ {
+  "id": "osm:node/10772418729",
+  "name": "Blake-Jones",
+  "kind": "neighbourhood",
+  "lat": 43.6751574,
+  "lng": -79.3405447
+ },
+ {
+  "id": "osm:node/10772418775",
+  "name": "Northcliffe Village",
+  "kind": "neighbourhood",
+  "lat": 43.6826816,
+  "lng": -79.4431344
+ },
+ {
+  "id": "osm:node/10772418809",
+  "name": "Badgerow",
+  "kind": "neighbourhood",
+  "lat": 43.6681452,
+  "lng": -79.3404085
+ },
+ {
+  "id": "osm:node/10772419061",
+  "name": "North Bridlewood",
+  "kind": "neighbourhood",
+  "lat": 43.789712,
+  "lng": -79.3183051
+ },
+ {
+  "id": "osm:node/10772419095",
+  "name": "Bridlewood",
+  "kind": "neighbourhood",
+  "lat": 43.7809327,
+  "lng": -79.3144587
+ },
+ {
+  "id": "osm:node/10772419150",
+  "name": "Consumers Road Business Park",
+  "kind": "neighbourhood",
+  "lat": 43.7719818,
+  "lng": -79.330354
+ },
+ {
+  "id": "osm:node/10772419164",
+  "name": "Graydon Hall",
+  "kind": "neighbourhood",
+  "lat": 43.7648299,
+  "lng": -79.3438172
+ },
+ {
+  "id": "osm:node/10772419232",
+  "name": "East Chinatown",
+  "kind": "neighbourhood",
+  "lat": 43.6654806,
+  "lng": -79.3526248
+ },
+ {
+  "id": "osm:node/10772419234",
+  "name": "Five Points",
+  "kind": "neighbourhood",
+  "lat": 43.692615,
+  "lng": -79.4408274
+ },
+ {
+  "id": "osm:node/10772419355",
+  "name": "Corinthian",
+  "kind": "neighbourhood",
+  "lat": 43.7840815,
+  "lng": -79.3239318
+ },
+ {
+  "id": "osm:node/10772419367",
+  "name": "Banbury",
+  "kind": "neighbourhood",
+  "lat": 43.7453969,
+  "lng": -79.3636892
+ },
+ {
+  "id": "osm:node/10772419424",
+  "name": "Governor's Bridge",
+  "kind": "neighbourhood",
+  "lat": 43.6916475,
+  "lng": -79.3673714
+ },
+ {
+  "id": "osm:node/10772419429",
+  "name": "Lower Don Lands",
+  "kind": "neighbourhood",
+  "lat": 43.6499672,
+  "lng": -79.3522251
+ },
+ {
+  "id": "osm:node/10772419441",
+  "name": "Windfields",
+  "kind": "neighbourhood",
+  "lat": 43.7566949,
+  "lng": -79.375795
+ },
+ {
+  "id": "osm:node/10772419526",
+  "name": "Fifeshire",
+  "kind": "neighbourhood",
+  "lat": 43.7569753,
+  "lng": -79.3882616
+ },
+ {
+  "id": "osm:node/10772419546",
+  "name": "Cricket Club",
+  "kind": "neighbourhood",
+  "lat": 43.7373763,
+  "lng": -79.4109594
+ },
+ {
+  "id": "osm:node/10772419588",
+  "name": "Riverside District",
+  "kind": "neighbourhood",
+  "lat": 43.6588768,
+  "lng": -79.3498344
+ },
+ {
+  "id": "osm:node/10772419784",
+  "name": "Lower Riverdale",
+  "kind": "neighbourhood",
+  "lat": 43.6683828,
+  "lng": -79.3483694
+ },
+ {
+  "id": "osm:node/10772419926",
+  "name": "East Bayfront Precinct",
+  "kind": "neighbourhood",
+  "lat": 43.6452406,
+  "lng": -79.3651396
+ },
+ {
+  "id": "osm:node/10772420055",
+  "name": "The Danforth",
+  "kind": "neighbourhood",
+  "lat": 43.6762177,
+  "lng": -79.3588495
+ },
+ {
+  "id": "osm:node/10772420104",
+  "name": "Riverdale",
+  "kind": "neighbourhood",
+  "lat": 43.6705594,
+  "lng": -79.3508527
+ },
+ {
+  "id": "osm:node/10772420187",
+  "name": "Northlea",
+  "kind": "neighbourhood",
+  "lat": 43.7153951,
+  "lng": -79.3694666
+ },
+ {
+  "id": "osm:node/10772420342",
+  "name": "North York City Centre",
+  "kind": "neighbourhood",
+  "lat": 43.766622,
+  "lng": -79.4122208
+ },
+ {
+  "id": "osm:node/10772420426",
+  "name": "Studio District",
+  "kind": "neighbourhood",
+  "lat": 43.6583727,
+  "lng": -79.3389117
+ },
+ {
+  "id": "osm:node/10772420470",
+  "name": "Upper Village",
+  "kind": "neighbourhood",
+  "lat": 43.6987303,
+  "lng": -79.4358815
+ },
+ {
+  "id": "osm:node/10772420479",
+  "name": "Brian Village",
+  "kind": "neighbourhood",
+  "lat": 43.7776886,
+  "lng": -79.3301518
+ },
+ {
+  "id": "osm:node/11565123860",
+  "name": "Sunnyside",
+  "kind": "neighbourhood",
+  "lat": 43.6431262,
+  "lng": -79.4513869
+ },
+ {
+  "id": "osm:node/11702642698",
+  "name": "Fenside",
+  "kind": "neighbourhood",
+  "lat": 43.7640953,
+  "lng": -79.3286796
+ },
+ {
+  "id": "osm:node/11702642702",
+  "name": "Rathnelly",
+  "kind": "neighbourhood",
+  "lat": 43.6784477,
+  "lng": -79.4008411
+ },
+ {
+  "id": "osm:node/11702642716",
+  "name": "Belgravia",
+  "kind": "neighbourhood",
+  "lat": 43.6988506,
+  "lng": -79.4451671
+ },
+ {
+  "id": "osm:node/11702642721",
+  "name": "Englemount",
+  "kind": "neighbourhood",
+  "lat": 43.7123465,
+  "lng": -79.434661
+ },
+ {
+  "id": "osm:node/11702642727",
+  "name": "Regal Heights",
+  "kind": "neighbourhood",
+  "lat": 43.676947,
+  "lng": -79.4347934
+ },
+ {
+  "id": "osm:node/11702642729",
+  "name": "O'Connor Hills",
+  "kind": "neighbourhood",
+  "lat": 43.7457098,
+  "lng": -79.3215435
+ },
+ {
+  "id": "osm:node/11702642754",
+  "name": "Junction Triangle",
+  "kind": "neighbourhood",
+  "lat": 43.6619143,
+  "lng": -79.4502765
+ },
+ {
+  "id": "osm:node/11702642765",
+  "name": "Briar Hill",
+  "kind": "neighbourhood",
+  "lat": 43.7034798,
+  "lng": -79.4456146
+ },
+ {
+  "id": "osm:node/11702642774",
+  "name": "Humbermede",
+  "kind": "neighbourhood",
+  "lat": 43.7477297,
+  "lng": -79.5479358
+ },
+ {
+  "id": "osm:node/11702642819",
+  "name": "Forest Hill North",
+  "kind": "neighbourhood",
+  "lat": 43.7040939,
+  "lng": -79.4328647
+ },
+ {
+  "id": "osm:node/11702642834",
+  "name": "West Bend",
+  "kind": "neighbourhood",
+  "lat": 43.6608677,
+  "lng": -79.4583322
+ },
+ {
+  "id": "osm:node/11702642973",
+  "name": "North Fairbank",
+  "kind": "neighbourhood",
+  "lat": 43.6972386,
+  "lng": -79.4568015
+ },
+ {
+  "id": "osm:node/11702643145",
+  "name": "Yorkdale Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7209635,
+  "lng": -79.4624437
+ },
+ {
+  "id": "osm:node/11702643776",
+  "name": "Wanless Park",
+  "kind": "neighbourhood",
+  "lat": 43.7294586,
+  "lng": -79.3921832
+ },
+ {
+  "id": "osm:node/11702643785",
+  "name": "Casa Loma",
+  "kind": "neighbourhood",
+  "lat": 43.6790107,
+  "lng": -79.4096419
+ },
+ {
+  "id": "osm:node/11702643803",
+  "name": "North Rosedale",
+  "kind": "neighbourhood",
+  "lat": 43.6843184,
+  "lng": -79.3748193
+ },
+ {
+  "id": "osm:node/11702643819",
+  "name": "Parkwoods",
+  "kind": "neighbourhood",
+  "lat": 43.7604387,
+  "lng": -79.3188696
+ },
+ {
+  "id": "osm:node/11702643857",
+  "name": "York University Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7648127,
+  "lng": -79.5012796
+ },
+ {
+  "id": "osm:node/11702643862",
+  "name": "Summerhill",
+  "kind": "neighbourhood",
+  "lat": 43.6830768,
+  "lng": -79.3920255
+ },
+ {
+  "id": "osm:node/11702644094",
+  "name": "Caledonia",
+  "kind": "neighbourhood",
+  "lat": 43.683133,
+  "lng": -79.457977
+ },
+ {
+  "id": "osm:node/11702644117",
+  "name": "Baycrest",
+  "kind": "neighbourhood",
+  "lat": 43.7285227,
+  "lng": -79.4373895
+ },
+ {
+  "id": "osm:node/11702645529",
+  "name": "The Stockyards",
+  "kind": "neighbourhood",
+  "lat": 43.6692625,
+  "lng": -79.4721617
+ },
+ {
+  "id": "osm:node/11702647192",
+  "name": "Black Creek",
+  "kind": "neighbourhood",
+  "lat": 43.7688384,
+  "lng": -79.5203566
+ },
+ {
+  "id": "osm:node/11710771152",
+  "name": "Dublin Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7495724,
+  "lng": -79.4456823
+ },
+ {
+  "id": "osm:node/11710771153",
+  "name": "Clanton Park",
+  "kind": "neighbourhood",
+  "lat": 43.7419002,
+  "lng": -79.441675
+ },
+ {
+  "id": "osm:node/11710860132",
+  "name": "Ancaster",
+  "kind": "neighbourhood",
+  "lat": 43.7341941,
+  "lng": -79.465777
+ },
+ {
+  "id": "osm:node/12516407818",
+  "name": "Clover Hill",
+  "kind": "neighbourhood",
+  "lat": 43.6643896,
+  "lng": -79.3872257
+ },
+ {
+  "id": "osm:node/12516407819",
+  "name": "Upper Jarvis",
+  "kind": "neighbourhood",
+  "lat": 43.6688475,
+  "lng": -79.379477
+ },
+ {
+  "id": "osm:node/12516407820",
+  "name": "Winchester Park",
+  "kind": "neighbourhood",
+  "lat": 43.6653661,
+  "lng": -79.3714474
+ },
+ {
+  "id": "osm:node/12516653746",
+  "name": "Brookhaven",
+  "kind": "neighbourhood",
+  "lat": 43.7000572,
+  "lng": -79.4980666
+ },
+ {
+  "id": "osm:node/12516653747",
+  "name": "Amesbury",
+  "kind": "neighbourhood",
+  "lat": 43.7020134,
+  "lng": -79.4821918
+ },
+ {
+  "id": "osm:node/12516653748",
+  "name": "Greenhills",
+  "kind": "neighbourhood",
+  "lat": 43.69387,
+  "lng": -79.4785697
+ },
+ {
+  "id": "osm:node/12521723587",
+  "name": "Marleeville",
+  "kind": "neighbourhood",
+  "lat": 43.7057744,
+  "lng": -79.4424443
+ },
+ {
+  "id": "osm:node/12525079055",
+  "name": "Little Portugal",
+  "kind": "neighbourhood",
+  "lat": 43.6500829,
+  "lng": -79.4336204
+ },
+ {
+  "id": "osm:node/12525079056",
+  "name": "Beaconsfield Village",
+  "kind": "neighbourhood",
+  "lat": 43.6469005,
+  "lng": -79.4265024
+ },
+ {
+  "id": "osm:node/12660367732",
+  "name": "Sunshine Valley",
+  "kind": "neighbourhood",
+  "lat": 43.7121362,
+  "lng": -79.3024718
+ },
+ {
+  "id": "osm:node/12997686875",
+  "name": "Lambton Park",
+  "kind": "neighbourhood",
+  "lat": 43.6679344,
+  "lng": -79.4990801
+ },
+ {
+  "id": "osm:node/12997686876",
+  "name": "Syme",
+  "kind": "neighbourhood",
+  "lat": 43.6696239,
+  "lng": -79.4898459
+ },
+ {
+  "id": "osm:node/12997686877",
+  "name": "Smythe Park",
+  "kind": "neighbourhood",
+  "lat": 43.6717832,
+  "lng": -79.498517
+ },
+ {
+  "id": "osm:node/12997686878",
+  "name": "Roselands",
+  "kind": "neighbourhood",
+  "lat": 43.6778035,
+  "lng": -79.5016537
+ },
+ {
+  "id": "osm:node/12997686879",
+  "name": "Rockcliffe",
+  "kind": "neighbourhood",
+  "lat": 43.6801986,
+  "lng": -79.4883967
+ },
+ {
+  "id": "osm:node/12997686880",
+  "name": "Eglinton Hill",
+  "kind": "neighbourhood",
+  "lat": 43.6901931,
+  "lng": -79.4750593
+ },
+ {
+  "id": "osm:node/12997686881",
+  "name": "Beechborough",
+  "kind": "neighbourhood",
+  "lat": 43.694789,
+  "lng": -79.4716415
+ },
+ {
+  "id": "osm:node/12997686882",
+  "name": "High Park",
+  "kind": "neighbourhood",
+  "lat": 43.6518394,
+  "lng": -79.4556227
+ },
+ {
+  "id": "osm:node/12997686883",
+  "name": "Turnberry Gardens",
+  "kind": "neighbourhood",
+  "lat": 43.6778795,
+  "lng": -79.467373
+ },
+ {
+  "id": "osm:node/12997686884",
+  "name": "Hillcrest",
+  "kind": "neighbourhood",
+  "lat": 43.6804098,
+  "lng": -79.4226783
+ },
+ {
+  "id": "osm:node/12997686885",
+  "name": "Sunnylea",
+  "kind": "neighbourhood",
+  "lat": 43.6409461,
+  "lng": -79.5036018
+ },
+ {
+  "id": "osm:node/12997686886",
+  "name": "Stonegate",
+  "kind": "neighbourhood",
+  "lat": 43.6387534,
+  "lng": -79.4910562
+ },
+ {
+  "id": "osm:node/12997686887",
+  "name": "Humber Bay Shores",
+  "kind": "neighbourhood",
+  "lat": 43.6231247,
+  "lng": -79.4812254
+ },
+ {
+  "id": "osm:node/12997686888",
+  "name": "Thompson Orchard",
+  "kind": "neighbourhood",
+  "lat": 43.6436156,
+  "lng": -79.5123103
+ },
+ {
+  "id": "osm:node/12997686889",
+  "name": "Allanbrooke Gardens",
+  "kind": "neighbourhood",
+  "lat": 43.6539257,
+  "lng": -79.5210383
+ },
+ {
+  "id": "osm:node/12997686890",
+  "name": "Rosethorn",
+  "kind": "neighbourhood",
+  "lat": 43.6591428,
+  "lng": -79.5363156
+ },
+ {
+  "id": "osm:node/12997686891",
+  "name": "Norseman Heights",
+  "kind": "neighbourhood",
+  "lat": 43.6379694,
+  "lng": -79.5204019
+ },
+ {
+  "id": "osm:node/13241093606",
+  "name": "Applewood",
+  "kind": "suburb",
+  "lat": 43.6169673,
+  "lng": -79.5946768
+ },
+ {
+  "id": "osm:node/13267426876",
+  "name": "Rockwood Village",
+  "kind": "suburb",
+  "lat": 43.6357003,
+  "lng": -79.6036123
+ },
+ {
+  "id": "osm:node/13715421905",
+  "name": "University",
+  "kind": "neighbourhood",
+  "lat": 43.6629864,
+  "lng": -79.4020697
+ },
+ {
+  "id": "osm:way/4164234",
+  "name": "Exhibition Place",
+  "kind": "neighbourhood",
+  "lat": 43.6335688,
+  "lng": -79.4192774
+ },
+ {
+  "id": "osm:way/22562934",
+  "name": "Wychwood Park",
+  "kind": "neighbourhood",
+  "lat": 43.6777927,
+  "lng": -79.4202543
+ },
+ {
+  "id": "osm:way/379296804",
+  "name": "Distillery District",
+  "kind": "neighbourhood",
+  "lat": 43.6503392,
+  "lng": -79.359471
+ },
+ {
+  "id": "osm:way/677481104",
+  "name": "East Chinatown",
+  "kind": "neighbourhood",
+  "lat": 43.6666424,
+  "lng": -79.3481091
+ },
+ {
+  "id": "osm:way/1113126443",
+  "name": "Hickory Village",
+  "kind": "neighbourhood",
+  "lat": 43.6266277,
+  "lng": -79.6098374
+ },
+ {
+  "id": "osm:way/1525337529",
+  "name": "Downtown",
+  "kind": "quarter",
+  "lat": 43.6575242,
+  "lng": -79.381196
+ },
+ {
+  "id": "osm:relation/5446604",
+  "name": "Financial District",
+  "kind": "neighbourhood",
+  "lat": 43.6487655,
+  "lng": -79.3818593
+ },
+ {
+  "id": "osm:relation/7449409",
+  "name": "Parkdale",
+  "kind": "neighbourhood",
+  "lat": 43.6404074,
+  "lng": -79.4371623
+ },
+ {
+  "id": "osm:relation/9475477",
+  "name": "Little Portugal",
+  "kind": "neighbourhood",
+  "lat": 43.6473017,
+  "lng": -79.4308225
+ },
+ {
+  "id": "osm:relation/9476682",
+  "name": "Junction Triangle",
+  "kind": "neighbourhood",
+  "lat": 43.6579098,
+  "lng": -79.4503962
+ },
+ {
+  "id": "osm:relation/9477455",
+  "name": "Junction Area",
+  "kind": "neighbourhood",
+  "lat": 43.669724,
+  "lng": -79.4699716
+ },
+ {
+  "id": "osm:relation/9477489",
+  "name": "High Park North",
+  "kind": "neighbourhood",
+  "lat": 43.6571402,
+  "lng": -79.4649259
+ },
+ {
+  "id": "osm:relation/9477505",
+  "name": "Roncesvalles",
+  "kind": "neighbourhood",
+  "lat": 43.6477875,
+  "lng": -79.4403223
+ },
+ {
+  "id": "osm:relation/11068781",
+  "name": "Upper Beaches",
+  "kind": "neighbourhood",
+  "lat": 43.6789362,
+  "lng": -79.3104456
+ },
+ {
+  "id": "osm:relation/11084470",
+  "name": "The Pocket",
+  "kind": "neighbourhood",
+  "lat": 43.676778,
+  "lng": -79.3349204
+ },
+ {
+  "id": "osm:relation/11879671",
+  "name": "Kensington Market",
+  "kind": "neighbourhood",
+  "lat": 43.6548494,
+  "lng": -79.4029186
+ },
+ {
+  "id": "osm:relation/13152959",
+  "name": "Rockcliffe-Smythe",
+  "kind": "neighbourhood",
+  "lat": 43.6739306,
+  "lng": -79.492788
+ },
+ {
+  "id": "osm:relation/13152960",
+  "name": "Lambton Baby Point",
+  "kind": "neighbourhood",
+  "lat": 43.6568012,
+  "lng": -79.498315
+ },
+ {
+  "id": "osm:relation/13284336",
+  "name": "Liberty Village",
+  "kind": "neighbourhood",
+  "lat": 43.6383251,
+  "lng": -79.4195768
+ },
+ {
+  "id": "osm:relation/13284383",
+  "name": "Brockton Village",
+  "kind": "neighbourhood",
+  "lat": 43.6548766,
+  "lng": -79.4388931
+ },
+ {
+  "id": "osm:relation/17311556",
+  "name": "Bayview Woods-Steeles",
+  "kind": "neighbourhood",
+  "lat": 43.7967512,
+  "lng": -79.3821848
+ },
+ {
+  "id": "osm:relation/17326100",
+  "name": "Fenside",
+  "kind": "neighbourhood",
+  "lat": 43.763342,
+  "lng": -79.3278075
+ },
+ {
+  "id": "osm:relation/18704124",
+  "name": "Alderwood",
+  "kind": "neighbourhood",
+  "lat": 43.6036827,
+  "lng": -79.5423939
+ },
+ {
+  "id": "osm:relation/18704332",
+  "name": "Mimico-Queensway",
+  "kind": "neighbourhood",
+  "lat": 43.6130292,
+  "lng": -79.5061075
+ },
+ {
+  "id": "osm:relation/18704384",
+  "name": "New Toronto",
+  "kind": "neighbourhood",
+  "lat": 43.6002128,
+  "lng": -79.5117842
+ },
+ {
+  "id": "osm:relation/18704412",
+  "name": "Mount Olive-Silverstone-Jamestown",
+  "kind": "neighbourhood",
+  "lat": 43.7455649,
+  "lng": -79.5859978
+ },
+ {
+  "id": "osm:relation/18704416",
+  "name": "Long Branch",
+  "kind": "neighbourhood",
+  "lat": 43.5911374,
+  "lng": -79.533853
+ },
+ {
+  "id": "osm:relation/18704437",
+  "name": "Etobicoke City Centre",
+  "kind": "neighbourhood",
+  "lat": 43.6268995,
+  "lng": -79.5407272
+ },
+ {
+  "id": "osm:relation/18704510",
+  "name": "Markland Wood",
+  "kind": "neighbourhood",
+  "lat": 43.6349545,
+  "lng": -79.5714373
+ },
+ {
+  "id": "osm:relation/18704525",
+  "name": "Humber Summit",
+  "kind": "neighbourhood",
+  "lat": 43.7594705,
+  "lng": -79.5578897
+ },
+ {
+  "id": "osm:relation/18704601",
+  "name": "Rexdale-Kipling",
+  "kind": "neighbourhood",
+  "lat": 43.7238921,
+  "lng": -79.5661802
+ },
+ {
+  "id": "osm:relation/18704661",
+  "name": "Eringate-Centennial-West Deane",
+  "kind": "neighbourhood",
+  "lat": 43.6575451,
+  "lng": -79.5819853
+ },
+ {
+  "id": "osm:relation/18704729",
+  "name": "Humber Bay Shores",
+  "kind": "neighbourhood",
+  "lat": 43.6218865,
+  "lng": -79.4811361
+ },
+ {
+  "id": "osm:relation/18704759",
+  "name": "Elms-Old Rexdale",
+  "kind": "neighbourhood",
+  "lat": 43.7211908,
+  "lng": -79.5499873
+ },
+ {
+  "id": "osm:relation/18704811",
+  "name": "Stonegate-Queensway",
+  "kind": "neighbourhood",
+  "lat": 43.6352798,
+  "lng": -79.4988389
+ },
+ {
+  "id": "osm:relation/18704829",
+  "name": "Thistletown-Beaumond Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7369887,
+  "lng": -79.5643342
+ },
+ {
+  "id": "osm:relation/18704891",
+  "name": "Humbermede",
+  "kind": "neighbourhood",
+  "lat": 43.7429086,
+  "lng": -79.5474449
+ },
+ {
+  "id": "osm:relation/18721195",
+  "name": "Black Creek",
+  "kind": "neighbourhood",
+  "lat": 43.7649827,
+  "lng": -79.5198488
+ },
+ {
+  "id": "osm:relation/18721372",
+  "name": "Glenfield-Jane Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7463824,
+  "lng": -79.5123971
+ },
+ {
+  "id": "osm:relation/18721457",
+  "name": "Runnymede-Bloor West Village",
+  "kind": "neighbourhood",
+  "lat": 43.6580748,
+  "lng": -79.4877466
+ },
+ {
+  "id": "osm:relation/18721540",
+  "name": "Etobicoke West Mall",
+  "kind": "neighbourhood",
+  "lat": 43.6447795,
+  "lng": -79.5695434
+ },
+ {
+  "id": "osm:relation/18721566",
+  "name": "Islington",
+  "kind": "neighbourhood",
+  "lat": 43.645181,
+  "lng": -79.5421719
+ },
+ {
+  "id": "osm:relation/18721685",
+  "name": "Kingsway South",
+  "kind": "neighbourhood",
+  "lat": 43.6544604,
+  "lng": -79.5087938
+ },
+ {
+  "id": "osm:relation/18721707",
+  "name": "Oakdale-Beverley Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7271206,
+  "lng": -79.5067811
+ },
+ {
+  "id": "osm:relation/18721724",
+  "name": "South Parkdale",
+  "kind": "neighbourhood",
+  "lat": 43.6360064,
+  "lng": -79.4468825
+ },
+ {
+  "id": "osm:relation/18721779",
+  "name": "Fort York-Liberty Village",
+  "kind": "neighbourhood",
+  "lat": 43.6334492,
+  "lng": -79.4129032
+ },
+ {
+  "id": "osm:relation/18721785",
+  "name": "York University Heights",
+  "kind": "neighbourhood",
+  "lat": 43.7648936,
+  "lng": -79.4922385
+ },
+ {
+  "id": "osm:relation/18721884",
+  "name": "Downsview",
+  "kind": "neighbourhood",
+  "lat": 43.7391283,
+  "lng": -79.475445
+ },
+ {
+  "id": "osm:relation/18721915",
+  "name": "Clanton Park",
+  "kind": "neighbourhood",
+  "lat": 43.741762,
+  "lng": -79.4466865
+ },
+ {
+  "id": "osm:relation/18722174",
+  "name": "Dufferin Grove",
+  "kind": "neighbourhood",
+  "lat": 43.6568546,
+  "lng": -79.4308701
+ },
+ {
+  "id": "osm:relation/18722181",
+  "name": "Lansing-Westgate",
+  "kind": "neighbourhood",
+  "lat": 43.752122,
+  "lng": -79.4243953
+ },
+ {
+  "id": "osm:relation/18722229",
+  "name": "Little Portugal",
+  "kind": "neighbourhood",
+  "lat": 43.6471004,
+  "lng": -79.4318418
+ },
+ {
+  "id": "osm:relation/18722330",
+  "name": "Willowdale West",
+  "kind": "neighbourhood",
+  "lat": 43.7715533,
+  "lng": -79.4276374
+ },
+ {
+  "id": "osm:relation/18722344",
+  "name": "Wallace Emerson",
+  "kind": "neighbourhood",
+  "lat": 43.6660541,
+  "lng": -79.442191
+ },
+ {
+  "id": "osm:relation/18722404",
+  "name": "Yonge-Doris",
+  "kind": "neighbourhood",
+  "lat": 43.7709928,
+  "lng": -79.4119207
+ },
+ {
+  "id": "osm:relation/18722423",
+  "name": "Weston-Pelham Park",
+  "kind": "neighbourhood",
+  "lat": 43.6745151,
+  "lng": -79.4607504
+ },
+ {
+  "id": "osm:relation/18722442",
+  "name": "Corso Italia-Davenport",
+  "kind": "neighbourhood",
+  "lat": 43.6779643,
+  "lng": -79.4469976
+ },
+ {
+  "id": "osm:relation/18722453",
+  "name": "Newtonbrook West",
+  "kind": "neighbourhood",
+  "lat": 43.7859484,
+  "lng": -79.4311248
+ },
+ {
+  "id": "osm:relation/18722462",
+  "name": "Princess-Rosethorn",
+  "kind": "neighbourhood",
+  "lat": 43.6649104,
+  "lng": -79.5447856
+ },
+ {
+  "id": "osm:relation/18722475",
+  "name": "Edenbridge-Humber Valley",
+  "kind": "neighbourhood",
+  "lat": 43.6684325,
+  "lng": -79.5222663
+ },
+ {
+  "id": "osm:relation/18722510",
+  "name": "Willowridge-Martingrove-Richview",
+  "kind": "neighbourhood",
+  "lat": 43.6847811,
+  "lng": -79.5520635
+ },
+ {
+  "id": "osm:relation/18725018",
+  "name": "Oakwood Village",
+  "kind": "neighbourhood",
+  "lat": 43.6886309,
+  "lng": -79.4396837
+ },
+ {
+  "id": "osm:relation/18725023",
+  "name": "Caledonia-Fairbank",
+  "kind": "neighbourhood",
+  "lat": 43.6886311,
+  "lng": -79.4552005
+ },
+ {
+  "id": "osm:relation/18725040",
+  "name": "Avondale",
+  "kind": "neighbourhood",
+  "lat": 43.7600944,
+  "lng": -79.3990438
+ },
+ {
+  "id": "osm:relation/18725086",
+  "name": "Keelesdale-Eglinton West",
+  "kind": "neighbourhood",
+  "lat": 43.6856995,
+  "lng": -79.4737592
+ },
+ {
+  "id": "osm:relation/18725102",
+  "name": "Mount Dennis",
+  "kind": "neighbourhood",
+  "lat": 43.6883837,
+  "lng": -79.4981935
+ },
+ {
+  "id": "osm:relation/18725103",
+  "name": "Beechborough-Greenbrook",
+  "kind": "neighbourhood",
+  "lat": 43.6935746,
+  "lng": -79.4813061
+ },
+ {
+  "id": "osm:relation/18725106",
+  "name": "East Willowdale",
+  "kind": "neighbourhood",
+  "lat": 43.7735485,
+  "lng": -79.4002638
+ },
+ {
+  "id": "osm:relation/18725108",
+  "name": "Briar Hill-Belgravia",
+  "kind": "neighbourhood",
+  "lat": 43.6988958,
+  "lng": -79.4529621
+ },
+ {
+  "id": "osm:relation/18725118",
+  "name": "Yorkdale-Glen Park",
+  "kind": "neighbourhood",
+  "lat": 43.714871,
+  "lng": -79.4555134
+ },
+ {
+  "id": "osm:relation/18725125",
+  "name": "Maple Leaf",
+  "kind": "neighbourhood",
+  "lat": 43.7156425,
+  "lng": -79.4811486
+ },
+ {
+  "id": "osm:relation/18725136",
+  "name": "Rustic",
+  "kind": "neighbourhood",
+  "lat": 43.7114902,
+  "lng": -79.4977333
+ },
+ {
+  "id": "osm:relation/18725149",
+  "name": "Brookhaven-Amesbury",
+  "kind": "neighbourhood",
+  "lat": 43.7018949,
+  "lng": -79.4876685
+ },
+ {
+  "id": "osm:relation/18725155",
+  "name": "Newtonbrook East",
+  "kind": "neighbourhood",
+  "lat": 43.7915088,
+  "lng": -79.4060974
+ },
+ {
+  "id": "osm:relation/18725156",
+  "name": "Weston",
+  "kind": "neighbourhood",
+  "lat": 43.701972,
+  "lng": -79.5190974
+ },
+ {
+  "id": "osm:relation/18725169",
+  "name": "Pelmo Park-Humberlea",
+  "kind": "neighbourhood",
+  "lat": 43.7204666,
+  "lng": -79.5253338
+ },
+ {
+  "id": "osm:relation/18725173",
+  "name": "Humber Heights-Westmount",
+  "kind": "neighbourhood",
+  "lat": 43.6919179,
+  "lng": -79.5199254
+ },
+ {
+  "id": "osm:relation/18725180",
+  "name": "Bayview Village",
+  "kind": "neighbourhood",
+  "lat": 43.7766885,
+  "lng": -79.3759045
+ },
+ {
+  "id": "osm:relation/18725183",
+  "name": "Bayview Woods-Steeles",
+  "kind": "neighbourhood",
+  "lat": 43.7968379,
+  "lng": -79.3821848
+ },
+ {
+  "id": "osm:relation/18725185",
+  "name": "Kingsview Village-The Westway",
+  "kind": "neighbourhood",
+  "lat": 43.6993089,
+  "lng": -79.5504109
+ },
+ {
+  "id": "osm:relation/18725209",
+  "name": "Henry Farm",
+  "kind": "neighbourhood",
+  "lat": 43.7713534,
+  "lng": -79.3419538
+ },
+ {
+  "id": "osm:relation/18725215",
+  "name": "Pleasant View",
+  "kind": "neighbourhood",
+  "lat": 43.7884983,
+  "lng": -79.3337099
+ },
+ {
+  "id": "osm:relation/18725476",
+  "name": "Don Valley Village",
+  "kind": "neighbourhood",
+  "lat": 43.7834053,
+  "lng": -79.3538536
+ },
+ {
+  "id": "osm:relation/18725790",
+  "name": "Hillcrest Village",
+  "kind": "neighbourhood",
+  "lat": 43.8028274,
+  "lng": -79.353681
+ },
+ {
+  "id": "osm:relation/18725806",
+  "name": "Harbourfront-CityPlace",
+  "kind": "neighbourhood",
+  "lat": 43.6396252,
+  "lng": -79.3904869
+ },
+ {
+  "id": "osm:relation/18726411",
+  "name": "Milliken",
+  "kind": "neighbourhood",
+  "lat": 43.8189356,
+  "lng": -79.275064
+ },
+ {
+  "id": "osm:relation/18755545",
+  "name": "Westminster-Branson",
+  "kind": "neighbourhood",
+  "lat": 43.7768261,
+  "lng": -79.4542502
+ },
+ {
+  "id": "osm:relation/18755548",
+  "name": "Bathurst Manor",
+  "kind": "neighbourhood",
+  "lat": 43.7691499,
+  "lng": -79.450094
+ },
+ {
+  "id": "osm:relation/18755632",
+  "name": "Tam O'Shanter-Sullivan",
+  "kind": "neighbourhood",
+  "lat": 43.7821991,
+  "lng": -79.3038165
+ },
+ {
+  "id": "osm:relation/18755655",
+  "name": "East L'Amoreaux",
+  "kind": "neighbourhood",
+  "lat": 43.7977811,
+  "lng": -79.3046254
+ },
+ {
+  "id": "osm:relation/18755660",
+  "name": "L'Amoreaux West",
+  "kind": "neighbourhood",
+  "lat": 43.7904695,
+  "lng": -79.3232426
+ },
+ {
+  "id": "osm:relation/18755665",
+  "name": "Steeles",
+  "kind": "neighbourhood",
+  "lat": 43.81301,
+  "lng": -79.3211795
+ },
+ {
+  "id": "osm:relation/19727760",
+  "name": "Mineola",
+  "kind": "suburb",
+  "lat": 43.5676276,
+  "lng": -79.5897389
+ },
+ {
+  "id": "osm:relation/19727762",
+  "name": "Applewood",
+  "kind": "suburb",
+  "lat": 43.6162447,
+  "lng": -79.5971867
+ },
+ {
+  "id": "osm:relation/19727763",
+  "name": "Fairview",
+  "kind": "suburb",
+  "lat": 43.5812004,
+  "lng": -79.6329762
+ },
+ {
+  "id": "osm:relation/19727764",
+  "name": "Cooksville",
+  "kind": "suburb",
+  "lat": 43.5712642,
+  "lng": -79.6132614
+ },
+ {
+  "id": "osm:relation/19770377",
+  "name": "Lakeview",
+  "kind": "suburb",
+  "lat": 43.5822232,
+  "lng": -79.5609186
+ },
+ {
+  "id": "osm:relation/19770378",
+  "name": "Dixie",
+  "kind": "suburb",
+  "lat": 43.6035451,
+  "lng": -79.5814851
+ },
+ {
+  "id": "osm:relation/19770383",
+  "name": "Hurontario",
+  "kind": "suburb",
+  "lat": 43.6079775,
+  "lng": -79.6594191
+ },
+ {
+  "id": "osm:relation/19770385",
+  "name": "City Centre",
+  "kind": "suburb",
+  "lat": 43.5919734,
+  "lng": -79.6432779
+ },
+ {
+  "id": "osm:relation/19770386",
+  "name": "Mississauga Valleys",
+  "kind": "suburb",
+  "lat": 43.5970349,
+  "lng": -79.6176154
+ },
+ {
+  "id": "osm:relation/19770387",
+  "name": "Rathwood",
+  "kind": "suburb",
+  "lat": 43.6164364,
+  "lng": -79.6218211
+ },
+ {
+  "id": "osm:relation/19770388",
+  "name": "Rockwood Village",
+  "kind": "suburb",
+  "lat": 43.634488,
+  "lng": -79.6031906
+ }
+]

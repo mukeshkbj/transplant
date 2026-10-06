@@ -9,15 +9,20 @@ const OVERPASS_URLS = [
   "https://overpass.kumi.systems/api/interpreter",
 ];
 
+const ROUNDS = 3;
+
 const overpass = async (query: string): Promise<Response> => {
-  for (const url of OVERPASS_URLS) {
-    const res = await fetch(url, {
-      method: "POST",
-      body: new URLSearchParams({ data: query }),
-      headers: { "User-Agent": "transplant-hackathon/0.1 (Qloo Agentic Hackathon)" },
-    }).catch(() => undefined);
-    if (res?.ok) return res;
-    console.warn(`  ${url} -> ${res?.status ?? "network error"}, trying next mirror`);
+  for (let round = 1; round <= ROUNDS; round++) {
+    for (const url of OVERPASS_URLS) {
+      const res = await fetch(url, {
+        method: "POST",
+        body: new URLSearchParams({ data: query }),
+        headers: { "User-Agent": "transplant-hackathon/0.1 (Qloo Agentic Hackathon)" },
+      }).catch(() => undefined);
+      if (res?.ok) return res;
+      console.warn(`  ${url} -> ${res?.status ?? "network error"}`);
+    }
+    if (round < ROUNDS) await new Promise((resolve) => setTimeout(resolve, 20_000));
   }
   throw new Error("All Overpass mirrors failed");
 };
@@ -48,7 +53,9 @@ for (const city of CITIES) {
     const lat = el.lat ?? el.center?.lat;
     const lng = el.lon ?? el.center?.lon;
     const kind = el.tags.place ?? `admin${el.tags.admin_level}`;
-    return lat === undefined || lng === undefined ? [] : [{ id: `osm:${el.type}/${el.id}`, name: el.tags.name!, kind, lat, lng }];
+    const local = el.tags.name!;
+    const name = /[^\u0000-\u024F\s'’.,()-]/.test(local) ? (el.tags["name:en"] ?? local) : local;
+    return lat === undefined || lng === undefined ? [] : [{ id: `osm:${el.type}/${el.id}`, name, kind, lat, lng }];
   });
   await writeFile(`server/data/hoods/${city.id}.json`, `${JSON.stringify(hoods, null, 1)}\n`);
   console.log(`${city.id}: ${hoods.length} neighborhoods`);
