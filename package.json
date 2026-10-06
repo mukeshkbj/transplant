@@ -1,0 +1,22 @@
+{
+  "name": "transplant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "hoods": "node --import tsx scripts/fetch-hoods.ts",
+    "record": "node --env-file=.env --import tsx scripts/record-fixtures.ts",
+    "lift-report": "node --import tsx scripts/lift-report.ts"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.0.2"
+  }
+}
