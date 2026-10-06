@@ -1,5 +1,5 @@
 import { createSseParser } from "./sse.ts";
-import type { Chip, CityInfo, Place, TransplantEvent, TransplantInput } from "./types.ts";
+import type { Chip, CityInfo, Demo, Place, RefineInput, RefineResult, TransplantEvent, TransplantInput } from "./types.ts";
 
 export class ApiError extends Error {
   constructor(
@@ -31,6 +31,12 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 }
 
 export const fetchCities = () => request<CityInfo[]>("/api/cities");
+
+export const fetchDemos = () => request<Demo[]>("/api/demos");
+
+export const fetchHealth = () => request<{ ok: boolean; qlooMonthRemaining: number | null; quotaFloor: number }>("/api/health");
+
+export const refine = (input: RefineInput) => request<RefineResult>("/api/refine", post(input));
 
 export const resolveTaste = async (text: string) => (await request<{ chips: Chip[] }>("/api/resolve", post({ text }))).chips;
 

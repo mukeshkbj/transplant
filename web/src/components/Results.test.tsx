@@ -31,7 +31,7 @@ const state: State = {
 
 describe("Results", () => {
   it("renders the visa, features, spots, plan, and provenance", () => {
-    render(<Results state={state} city={city} onSelectHood={vi.fn()} onRestart={vi.fn()} />);
+    render(<Results state={state} city={city} onSelectHood={vi.fn()} onRestart={vi.fn()} onAsk={vi.fn()} />);
 
     expect(screen.getByLabelText(/taste visa/i).textContent).toMatch(/Greenpoint/);
     expect(screen.getByRole("heading", { name: "Williamsburg" })).toBeTruthy();
@@ -44,7 +44,7 @@ describe("Results", () => {
 
   it("selects another hood", async () => {
     const onSelectHood = vi.fn();
-    render(<Results state={state} city={city} onSelectHood={onSelectHood} onRestart={vi.fn()} />);
+    render(<Results state={state} city={city} onSelectHood={onSelectHood} onRestart={vi.fn()} onAsk={vi.fn()} />);
 
     await userEvent.click(screen.getByRole("button", { name: /williamsburg/i }));
 

@@ -3,6 +3,7 @@ import { placeLabel } from "../../../server/src/places.ts";
 import { type State, toInput } from "../state.ts";
 import type { CityInfo, Place, RankedHood } from "../types.ts";
 import { stagger } from "../ui.ts";
+import { Guide } from "./Guide.tsx";
 
 const MapView = lazy(async () => ({ default: (await import("./MapView.tsx")).MapView }));
 
@@ -11,6 +12,7 @@ interface Props {
   city: CityInfo;
   onSelectHood: (hoodId: string) => void;
   onRestart: () => void;
+  onAsk: (text: string) => void;
 }
 
 const lift = (score: number) => `+${(score * 100).toFixed(1)}`;
@@ -29,10 +31,11 @@ function Meter({ values, labels }: { values: number[]; labels: string[] }) {
   );
 }
 
-function Places({ places, hoodName }: { places: Place[] | undefined; hoodName: string }) {
+function Places({ places, hoodName, filters }: { places: Place[] | undefined; hoodName: string; filters?: string[] }) {
   return (
     <section className="reveal" style={stagger(3)}>
       <h2 className="section-title">Your spots in {hoodName}</h2>
+      {filters && filters.length > 0 && <p className="mono">Filtered by Qloo tags: {filters.join(", ")}</p>}
       {!places && <p className="mono">Finding spots in {hoodName}…</p>}
       {places?.length === 0 && <p>No curated spots here yet.</p>}
       <ul className="places">
@@ -52,7 +55,7 @@ function Places({ places, hoodName }: { places: Place[] | undefined; hoodName: s
   );
 }
 
-export function Results({ state, city, onSelectHood, onRestart }: Props) {
+export function Results({ state, city, onSelectHood, onRestart, onAsk }: Props) {
   const results = state.results!;
   const [top] = results.hoods as [RankedHood, ...RankedHood[]];
   const active = results.hoods.find((h) => h.id === state.activeHoodId) ?? top;
@@ -127,7 +130,9 @@ export function Results({ state, city, onSelectHood, onRestart }: Props) {
           })}
         </ol>
 
-        <Places places={state.placesByHood[active.id]} hoodName={active.name} />
+        <Places places={state.placesByHood[active.id]} hoodName={active.name} filters={state.placeFilters[active.id]} />
+
+        <Guide hoodName={active.name} guide={state.guide} onAsk={onAsk} />
 
         {story && story.plan.length > 0 && (
           <section className="reveal" style={stagger(4)}>

@@ -47,6 +47,18 @@ describe("reducer", () => {
     expect(readyToRun(reducer(s, { type: "blend", on: true }))).toBe(false);
   });
 
+  it("tracks guide turns and applies refined places with their filters", () => {
+    let s = reducer(initialState(), { type: "guideAsk", text: "quieter" });
+    expect(s.guide).toEqual({ busy: true, turns: [{ role: "user", text: "quieter" }] });
+
+    s = reducer(s, { type: "guideReply", reply: "Try Tea Bar.", trace: [{ tool: "find_tags", summary: "Qloo tags for quiet: Quiet" }] });
+    expect(s.guide.busy).toBe(false);
+    expect(s.guide.turns.at(-1)).toEqual({ role: "guide", text: "Try Tea Bar.", trace: [{ tool: "find_tags", summary: "Qloo tags for quiet: Quiet" }] });
+
+    s = reducer(s, { type: "hoodPlaces", hoodId: "h1", places: [], filters: ["Quiet"] });
+    expect(s.placeFilters).toEqual({ h1: ["Quiet"] });
+  });
+
   it("moves to results on hoods, upserts steps, and returns to intake on early errors", () => {
     let s = reducer(initialState(), { type: "runStart" });
     s = reducer(s, { type: "event", event: { type: "step", id: "map", label: "Mapping", status: "running" } });

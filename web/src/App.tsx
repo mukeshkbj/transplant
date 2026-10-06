@@ -1,5 +1,5 @@
 import { useEffect, useReducer, useState } from "react";
-import { ApiError, fetchCities, fetchPlaces, resolveTaste, streamTransplant } from "./api.ts";
+import { ApiError, fetchCities, fetchPlaces, refine, resolveTaste, streamTransplant } from "./api.ts";
 import { Intake } from "./components/Intake.tsx";
 import { Progress } from "./components/Progress.tsx";
 import { Results } from "./components/Results.tsx";
@@ -44,6 +44,30 @@ export function App() {
     dispatch({ type: "hoodPlaces", hoodId, places });
   };
 
+  const ask = async (text: string) => {
+    if (!state.results || !state.activeHoodId) return;
+    dispatch({ type: "guideAsk", text });
+    try {
+      const result = await refine({
+        cityId: state.cityId,
+        people: toInput(state).people,
+        hoods: state.results.hoods.map(({ id, name }) => ({ id, name })),
+        activeHoodId: state.activeHoodId,
+        message: text,
+      });
+      dispatch({ type: "guideReply", reply: result.reply, trace: result.trace });
+      for (const action of result.actions) {
+        dispatch(
+          action.type === "places"
+            ? { type: "hoodPlaces", hoodId: action.hoodId, places: action.places, filters: action.filters }
+            : { type: "selectHood", hoodId: action.hoodId },
+        );
+      }
+    } catch (error) {
+      dispatch({ type: "guideFail", message: message(error, "The guide is busy. Try again in a moment.") });
+    }
+  };
+
   const restart = () => dispatch({ type: "restart" });
 
   return (
@@ -65,7 +89,7 @@ export function App() {
 
       {state.stage === "intake" && <Intake state={state} cities={cities} dispatch={dispatch} onRead={read} onRun={run} />}
       {state.stage === "running" && <Progress steps={state.steps} cityName={city?.name ?? ""} />}
-      {state.stage === "results" && city && state.results && <Results state={state} city={city} onSelectHood={selectHood} onRestart={restart} />}
+      {state.stage === "results" && city && state.results && <Results state={state} city={city} onSelectHood={selectHood} onRestart={restart} onAsk={ask} />}
 
       <footer className="colophon mono">
         Taste data: Qloo. Results are aggregate cultural affinities, not predictions about any person. Neighborhoods © OpenStreetMap

@@ -1,4 +1,16 @@
-import type { Chip, ChipOption, MapCell, Place, RankedHood, SharedTag, SignalStrength, Story, TransplantEvent, TransplantInput } from "./types.ts";
+import type {
+  Chip,
+  ChipOption,
+  MapCell,
+  Place,
+  RankedHood,
+  SharedTag,
+  SignalStrength,
+  Story,
+  TraceStep,
+  TransplantEvent,
+  TransplantInput,
+} from "./types.ts";
 
 export type Mode = "moving" | "visiting";
 
@@ -25,6 +37,12 @@ export interface Results {
   storySource?: "llm" | "template";
 }
 
+export interface GuideTurn {
+  role: "user" | "guide";
+  text: string;
+  trace?: TraceStep[];
+}
+
 export interface State {
   cityId: string;
   mode: Mode;
@@ -34,7 +52,10 @@ export interface State {
   steps: Step[];
   results?: Results;
   placesByHood: Record<string, Place[]>;
+  placeFilters: Record<string, string[]>;
   activeHoodId?: string;
+  guide: { busy: boolean; turns: GuideTurn[] };
+  demoId?: string;
   error?: { code: string; message: string };
 }
 
@@ -52,7 +73,10 @@ export type Action =
   | { type: "event"; event: TransplantEvent }
   | { type: "runFail"; code: string; message: string }
   | { type: "selectHood"; hoodId: string }
-  | { type: "hoodPlaces"; hoodId: string; places: Place[] }
+  | { type: "hoodPlaces"; hoodId: string; places: Place[]; filters?: string[] }
+  | { type: "guideAsk"; text: string }
+  | { type: "guideReply"; reply: string; trace: TraceStep[] }
+  | { type: "guideFail"; message: string }
   | { type: "restart" };
 
 export const MIN_PICKS = 3;
@@ -67,6 +91,8 @@ export const initialState = (cityId = "nyc"): State => ({
   stage: "intake",
   steps: [],
   placesByHood: {},
+  placeFilters: {},
+  guide: { busy: false, turns: [] },
 });
 
 const chipKey = (c: Chip) => c.selected?.id ?? c.query.toLowerCase();
@@ -81,7 +107,15 @@ const updatePerson = (s: State, index: number, update: (p: Person) => Person): S
   people: s.people.map((p, i) => (i === index ? update(p) : p)),
 });
 
-const cleared = { steps: [], results: undefined, placesByHood: {}, activeHoodId: undefined, error: undefined };
+const cleared = {
+  steps: [],
+  results: undefined,
+  placesByHood: {},
+  placeFilters: {},
+  activeHoodId: undefined,
+  guide: { busy: false, turns: [] },
+  error: undefined,
+};
 
 function applyEvent(s: State, e: TransplantEvent): State {
   switch (e.type) {
@@ -140,7 +174,17 @@ export function reducer(s: State, a: Action): State {
     case "selectHood":
       return { ...s, activeHoodId: a.hoodId };
     case "hoodPlaces":
-      return { ...s, placesByHood: { ...s.placesByHood, [a.hoodId]: a.places } };
+      return {
+        ...s,
+        placesByHood: { ...s.placesByHood, [a.hoodId]: a.places },
+        placeFilters: a.filters ? { ...s.placeFilters, [a.hoodId]: a.filters } : s.placeFilters,
+      };
+    case "guideAsk":
+      return { ...s, guide: { busy: true, turns: [...s.guide.turns, { role: "user", text: a.text }] } };
+    case "guideReply":
+      return { ...s, guide: { busy: false, turns: [...s.guide.turns, { role: "guide", text: a.reply, trace: a.trace }] } };
+    case "guideFail":
+      return { ...s, guide: { busy: false, turns: [...s.guide.turns, { role: "guide", text: a.message }] } };
     case "restart":
       return { ...s, ...cleared, stage: "intake" };
   }
