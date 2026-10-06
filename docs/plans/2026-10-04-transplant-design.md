@@ -78,7 +78,7 @@ Browser (React + Vite + MapLibre)  ──HTTPS / SSE──▶  Node 22 backend (
                                                      ├─ Pipeline (deterministic)
                                                      ├─ Agent (Gemini Flash; Groq fallback)
                                                      ├─ Qloo client (REST, queue 4 rps, retries)
-                                                     ├─ Neighborhood index (GeoJSON, 12 cities)
+                                                     ├─ Neighborhood index (OSM points, 12 cities)
                                                      └─ Cache (memory LRU + SQLite on Fly volume)
 ```
 
@@ -87,11 +87,12 @@ Browser (React + Vite + MapLibre)  ──HTTPS / SSE──▶  Node 22 backend (
 1. **Resolve** chips via `/search` (cached by normalized query + type).
 2. **Heatmap** per person: one insights call, `take=50`, city query.
 3. **Taste lift.** Per cell, `lift = affinity − f(popularity)` where `f` is a
-   per-response linear fit. Drop cells below a popularity floor. Aggregate
-   cells into neighborhoods by point-in-polygon (mean lift weighted by
-   popularity). Beta cities: aggregate to geohash-5 and label via locality
-   search.
-4. **Blend** score `min(A, B) + λ · sharedTagScore`.
+   per-response linear fit. Drop cells below a popularity floor. Assign each
+   cell to the nearest OSM `place=suburb|neighbourhood|quarter` point within
+   1.5 km and aggregate (mean lift weighted by popularity). Same method for
+   curated and beta cities; no polygons needed.
+4. **Blend** score `min(A, B)`. Compare's shared tags are per-pair, not
+   per-neighborhood, so they explain the blend in the UI but do not rank.
 5. **Places** for top neighborhood: place insights with signals +
    `filter.location.query="<hood>, <city>"`.
 6. **Explain + plan** via LLM, constrained to returned evidence (JSON schema
