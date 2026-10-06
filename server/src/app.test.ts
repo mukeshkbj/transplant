@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { fakeLlm, fakeQloo, fixture } from "../test/fakes.ts";
+import { fakeLlm, fakeQloo, fakeToolProvider, fixture } from "../test/fakes.ts";
 import { createApp } from "./app.ts";
 import { CITIES } from "./cities.ts";
 import { loadHoods } from "./hoods-data.ts";
@@ -15,9 +15,16 @@ const deps = (limit = 10) => ({
   llm: fakeLlm((req) =>
     req.name === "taste_items" ? { items: [{ query: "Aesop", kind: "entity", type: "brand" }] } : Promise.reject(new Error("down")),
   ).llm,
+  tools: [fakeToolProvider("p", () => ({ text: "Hello.", calls: [] })).provider],
   quota: { remaining: 9000 as number | undefined },
+  quotaFloor: 1500,
   hoodsFor: loadHoods,
-  limits: { resolve: createRateLimiter(limit, 60_000), transplant: createRateLimiter(limit, 60_000), places: createRateLimiter(limit, 60_000) },
+  limits: {
+    resolve: createRateLimiter(limit, 60_000),
+    transplant: createRateLimiter(limit, 60_000),
+    places: createRateLimiter(limit, 60_000),
+    refine: createRateLimiter(limit, 60_000),
+  },
 });
 
 const post = (body: unknown) => ({ method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
@@ -27,7 +34,7 @@ describe("createApp", () => {
   it("reports health and cities", async () => {
     const app = createApp(deps());
 
-    expect(await (await app.request("/api/health")).json()).toEqual({ ok: true, qlooMonthRemaining: 9000 });
+    expect(await (await app.request("/api/health")).json()).toEqual({ ok: true, qlooMonthRemaining: 9000, quotaFloor: 1500 });
     expect(await (await app.request("/api/cities")).json()).toEqual(
       expect.arrayContaining([
         { id: "nyc", name: "New York City", beta: false, bbox: [40.49, -74.26, 40.92, -73.7] },
@@ -60,6 +67,16 @@ describe("createApp", () => {
     const ok = await app.request("/api/places", post({ cityId: "nyc", hoodId: greenpoint.id, people }));
     expect((await ok.json()).places.map((p: { name: string }) => p.name)).toContain("Desert Island");
     expect((await app.request("/api/places", post({ cityId: "nyc", hoodId: "osm:nope", people }))).status).toBe(404);
+  });
+
+  it("refines with the guide agent", async () => {
+    const greenpoint = loadHoods(CITIES.find((c) => c.id === "nyc")!).find((h) => h.name === "Greenpoint")!;
+    const body = { cityId: "nyc", people: transplantBody.people, hoods: [{ id: greenpoint.id, name: "Greenpoint" }], activeHoodId: greenpoint.id, message: "quieter" };
+
+    const res = await createApp(deps()).request("/api/refine", post(body));
+
+    expect(await res.json()).toEqual({ reply: "Hello.", actions: [], trace: [] });
+    expect((await createApp(deps()).request("/api/refine", post({ ...body, message: "" }))).status).toBe(400);
   });
 
   it("rate-limits per client IP", async () => {

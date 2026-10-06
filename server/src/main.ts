@@ -6,6 +6,7 @@ import { loadConfig } from "./config.ts";
 import { loadHoods } from "./hoods-data.ts";
 import { createLlm } from "./llm/llm.ts";
 import { geminiProvider, groqProvider } from "./llm/providers.ts";
+import { geminiTools, groqTools } from "./llm/tools.ts";
 import { withCache } from "./qloo/cache.ts";
 import { createQlooClient } from "./qloo/client.ts";
 import { type QuotaState, withQuotaGuard } from "./qloo/quota.ts";
@@ -25,12 +26,24 @@ const llm = createLlm([
   ...(config.GROQ_API_KEY ? [groqProvider({ apiKey: config.GROQ_API_KEY, model: config.GROQ_MODEL })] : []),
 ]);
 
+const tools = [
+  ...(config.GROQ_API_KEY ? [groqTools({ apiKey: config.GROQ_API_KEY, model: config.GROQ_MODEL })] : []),
+  geminiTools({ apiKey: config.GEMINI_API_KEY, model: config.GEMINI_MODEL }),
+];
+
 const app = createApp({
   qloo,
   llm,
+  tools,
   quota,
+  quotaFloor: config.QUOTA_FLOOR,
   hoodsFor: loadHoods,
-  limits: { resolve: createRateLimiter(30, HOUR_MS), transplant: createRateLimiter(6, HOUR_MS), places: createRateLimiter(30, HOUR_MS) },
+  limits: {
+    resolve: createRateLimiter(30, HOUR_MS),
+    transplant: createRateLimiter(6, HOUR_MS),
+    places: createRateLimiter(30, HOUR_MS),
+    refine: createRateLimiter(20, HOUR_MS),
+  },
 });
 
 serve({ fetch: app.fetch, port: config.PORT }, (info) => console.log(`Transplant API listening on http://localhost:${info.port}`));
