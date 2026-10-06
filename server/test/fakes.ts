@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import type { JsonRequest, Llm } from "../src/llm/llm.ts";
+import type { ToolProvider, ToolTurn, ToolTurnRequest } from "../src/llm/tools.ts";
 import type { QlooClient, QlooParams } from "../src/qloo/client.ts";
 
 export const fixture = <T = any>(name: string): T =>
@@ -29,4 +30,19 @@ export function fakeLlm(respond: (req: JsonRequest<unknown>) => unknown) {
     },
   };
   return { llm, requests };
+}
+
+export function fakeToolProvider(name: string, script: ToolTurn[] | ((req: ToolTurnRequest, step: number) => ToolTurn)) {
+  const requests: ToolTurnRequest[] = [];
+  const provider: ToolProvider = {
+    name,
+    async turn(req) {
+      requests.push(structuredClone(req));
+      const step = requests.length - 1;
+      const next = typeof script === "function" ? script(req, step) : script[step];
+      if (!next) throw new Error(`${name}: no scripted turn ${step}`);
+      return next;
+    },
+  };
+  return { provider, requests };
 }
