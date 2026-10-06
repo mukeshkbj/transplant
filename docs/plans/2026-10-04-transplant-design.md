@@ -99,6 +99,11 @@ Chosen scoring (via `npm run lift-report`):
 | London | Upper Clapton, South Tottenham, West Hackney | Hounslow West, Upton Park, West Drayton |
 | Lisbon | Algés, Campo Grande, Célula E | Olivais, Penha de França, Santa Maria Maior |
 
+Decision: **GO.** Top-3 overlap is 0 in every city and NYC/London results are
+recognisable with 9–16 cells of evidence each. Lisbon is weaker (sparser data,
+lift ≤0.05) — the product must expose signal strength (cell count, lift
+spread) and the demo should lead with dense-data cities.
+
 ## M2 live smoke (2026-10-05)
 
 Input text: "I love Khruangbin, Fleabag, natural wine bars and Aesop" → NYC, Moving.
@@ -111,11 +116,6 @@ Input text: "I love Khruangbin, Fleabag, natural wine bars and Aesop" → NYC, M
 - Warm rerun spent 0 Qloo calls (cache). Quota after smoke: 9,905.
 - Follow-up: story copy is generic ("Grab a morning coffee") and doesn't name
   places; tighten the prompt (name the place, cite the strongest taste) in M3.
-
-Decision (M1): **GO.** Top-3 overlap is 0 in every city and NYC/London results are
-recognisable with 9–16 cells of evidence each. Lisbon is weaker (sparser data,
-lift ≤0.05) — the product must expose signal strength (cell count, lift
-spread) and the demo should lead with dense-data cities.
 
 ## Architecture
 
