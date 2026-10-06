@@ -8,6 +8,9 @@ const api = vi.hoisted(() => ({
   resolveTaste: vi.fn(),
   streamTransplant: vi.fn(),
   fetchPlaces: vi.fn(),
+  refine: vi.fn(),
+  fetchDemos: vi.fn(),
+  fetchHealth: vi.fn(),
 }));
 vi.mock("./api.ts", async (importOriginal) => ({ ...(await importOriginal<object>()), ...api }));
 vi.mock("./components/MapView.tsx", () => ({ MapView: () => <div data-testid="map" /> }));
@@ -49,6 +52,17 @@ beforeEach(() => {
     { id: "tokyo", name: "Tokyo", beta: true, bbox: [35.53, 139.56, 35.82, 139.92] },
   ]);
   api.resolveTaste.mockResolvedValue([chip("Khruangbin", "artist"), chip("Fleabag", "tv_show"), chip("Aesop", "brand")]);
+  api.fetchHealth.mockResolvedValue({ ok: true, qlooMonthRemaining: 9000, quotaFloor: 1500 });
+  api.fetchDemos.mockResolvedValue([
+    {
+      id: "nyc-indie",
+      title: "Indie, moving to New York",
+      blurb: "Khruangbin, Fleabag, Aesop",
+      cityId: "nyc",
+      mode: "moving",
+      people: [{ label: "You", picks: ["Khruangbin", "Fleabag", "Aesop"].map((n) => ({ id: n, name: n, type: "artist", kind: "entity" })) }],
+    },
+  ]);
   api.streamTransplant.mockImplementation(async (_input: unknown, onEvent: (e: TransplantEvent) => void) => {
     for (const e of events) onEvent(e);
   });
@@ -87,5 +101,25 @@ describe("App", () => {
 
     expect((await screen.findByRole("alert")).textContent).toMatch(/not enough qloo taste signal/i);
     expect(screen.getByLabelText(/what do you love/i)).toBeTruthy();
+  });
+
+  it("runs a demo in one click and offers a share link", async () => {
+    render(<App />);
+
+    await userEvent.click(await screen.findByRole("button", { name: /indie, moving to new york/i }));
+
+    expect(await screen.findByLabelText(/taste visa/i)).toBeTruthy();
+    expect(api.resolveTaste).not.toHaveBeenCalled();
+    expect(screen.getByRole("button", { name: /copy share link/i })).toBeTruthy();
+  });
+
+  it("auto-runs a demo from ?demo= and warns when quota is low", async () => {
+    api.fetchHealth.mockResolvedValue({ ok: true, qlooMonthRemaining: 1600, quotaFloor: 1500 });
+    window.history.replaceState(null, "", "/?demo=nyc-indie");
+    render(<App />);
+
+    expect(await screen.findByLabelText(/taste visa/i)).toBeTruthy();
+    expect(screen.getByText(/live qloo lookups are running low/i)).toBeTruthy();
+    window.history.replaceState(null, "", "/");
   });
 });

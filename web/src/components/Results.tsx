@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useState } from "react";
 import { placeLabel } from "../../../server/src/places.ts";
 import { type State, toInput } from "../state.ts";
 import type { CityInfo, Place, RankedHood } from "../types.ts";
@@ -13,6 +13,7 @@ interface Props {
   onSelectHood: (hoodId: string) => void;
   onRestart: () => void;
   onAsk: (text: string) => void;
+  shareUrl: string;
 }
 
 const lift = (score: number) => `+${(score * 100).toFixed(1)}`;
@@ -55,7 +56,8 @@ function Places({ places, hoodName, filters }: { places: Place[] | undefined; ho
   );
 }
 
-export function Results({ state, city, onSelectHood, onRestart, onAsk }: Props) {
+export function Results({ state, city, onSelectHood, onRestart, onAsk, shareUrl }: Props) {
+  const [copied, setCopied] = useState(false);
   const results = state.results!;
   const [top] = results.hoods as [RankedHood, ...RankedHood[]];
   const active = results.hoods.find((h) => h.id === state.activeHoodId) ?? top;
@@ -153,9 +155,20 @@ export function Results({ state, city, onSelectHood, onRestart, onAsk }: Props) 
           </section>
         )}
 
-        <button type="button" className="btn" onClick={onRestart}>
-          ← Try another taste or city
-        </button>
+        <div className="taste__row">
+          <button type="button" className="btn" onClick={onRestart}>
+            ← Try another taste or city
+          </button>
+          <button
+            type="button"
+            className="btn btn--ink"
+            onClick={() => {
+              void navigator.clipboard?.writeText(shareUrl).then(() => setCopied(true));
+            }}
+          >
+            {copied ? "Link copied" : "Copy share link"}
+          </button>
+        </div>
       </div>
 
       <div className="results__map">

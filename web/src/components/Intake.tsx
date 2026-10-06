@@ -1,6 +1,6 @@
 import type { Dispatch } from "react";
 import { type Action, readyToRun, type State } from "../state.ts";
-import type { CityInfo } from "../types.ts";
+import type { CityInfo, Demo } from "../types.ts";
 import { stagger } from "../ui.ts";
 import { ChipBoard } from "./ChipBoard.tsx";
 
@@ -13,9 +13,11 @@ const EXAMPLES = [
 interface Props {
   state: State;
   cities: CityInfo[];
+  demos: Demo[];
   dispatch: Dispatch<Action>;
   onRead: (person: number) => void;
   onRun: () => void;
+  onDemo: (demo: Demo) => void;
 }
 
 function TasteInput({ state, index, dispatch, onRead }: { state: State; index: number; dispatch: Dispatch<Action>; onRead: (person: number) => void }) {
@@ -67,7 +69,7 @@ function TasteInput({ state, index, dispatch, onRead }: { state: State; index: n
   );
 }
 
-export function Intake({ state, cities, dispatch, onRead, onRun }: Props) {
+export function Intake({ state, cities, demos, dispatch, onRead, onRun, onDemo }: Props) {
   const ready = readyToRun(state);
   return (
     <main className="cover">
@@ -78,6 +80,21 @@ export function Intake({ state, cities, dispatch, onRead, onRun }: Props) {
           Tell us your artists, shows, brands and haunts. We map where people with your exact taste cluster in a new city — then hand you the
           spots and your first week.
         </p>
+        {demos.length > 0 && (
+          <div className="ticket__section">
+            <p className="eyebrow">Or try a ready-made taste</p>
+            <ul className="demos">
+              {demos.map((d) => (
+                <li key={d.id}>
+                  <button type="button" className="demo" onClick={() => onDemo(d)}>
+                    <strong>{d.title}</strong>
+                    <span className="mono">{d.blurb}</span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </section>
 
       <section className="ticket reveal" style={stagger(1)}>

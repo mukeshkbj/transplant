@@ -11,6 +11,7 @@ import type {
   TransplantEvent,
   TransplantInput,
 } from "./types.ts";
+import type { PicksPayload } from "./share.ts";
 
 export type Mode = "moving" | "visiting";
 
@@ -77,6 +78,7 @@ export type Action =
   | { type: "guideAsk"; text: string }
   | { type: "guideReply"; reply: string; trace: TraceStep[] }
   | { type: "guideFail"; message: string }
+  | { type: "loadPicks"; payload: PicksPayload; demoId?: string }
   | { type: "restart" };
 
 export const MIN_PICKS = 3;
@@ -185,6 +187,25 @@ export function reducer(s: State, a: Action): State {
       return { ...s, guide: { busy: false, turns: [...s.guide.turns, { role: "guide", text: a.reply, trace: a.trace }] } };
     case "guideFail":
       return { ...s, guide: { busy: false, turns: [...s.guide.turns, { role: "guide", text: a.message }] } };
+    case "loadPicks": {
+      const people = [0, 1].map((i) => {
+        const incoming = a.payload.people[i];
+        const base = s.people[i] ?? person(i === 0 ? "You" : "Them");
+        if (!incoming) return { ...base, chips: [] };
+        const chips: Chip[] = incoming.picks.map((o) => ({ query: o.name, kind: o.kind, status: "resolved", selected: o, options: [o] }));
+        return { ...base, label: incoming.label, text: "", error: undefined, chips };
+      });
+      return {
+        ...s,
+        ...cleared,
+        stage: "intake",
+        cityId: a.payload.cityId,
+        mode: a.payload.mode,
+        blend: a.payload.people.length > 1,
+        people,
+        demoId: a.demoId,
+      };
+    }
     case "restart":
       return { ...s, ...cleared, stage: "intake" };
   }
@@ -210,5 +231,11 @@ export function toInput(s: State): TransplantInput {
   });
   return { cityId: s.cityId, mode: s.mode, people };
 }
+
+export const toPicks = (s: State): PicksPayload => ({
+  cityId: s.cityId,
+  mode: s.mode,
+  people: (s.blend ? s.people : s.people.slice(0, 1)).map((p) => ({ label: p.label, picks: confirmed(p) })),
+});
 
 export const readyToRun = (s: State) => toInput(s).people.every((p) => p.entities.length + p.tags.length >= MIN_PICKS);

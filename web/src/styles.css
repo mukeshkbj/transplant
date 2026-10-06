@@ -765,3 +765,33 @@ textarea {
   border: 1px solid var(--ink);
   background: rgb(255 255 255 / 0.5);
 }
+
+.demos {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.demo {
+  width: 100%;
+  display: grid;
+  gap: 0.125rem;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid var(--ink);
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 150ms var(--ease-out);
+}
+
+.demo strong {
+  font: 400 1.125rem/1.2 var(--display);
+}
+
+@media (hover: hover) {
+  .demo:hover {
+    background: var(--paper-2);
+  }
+}

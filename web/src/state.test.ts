@@ -47,6 +47,39 @@ describe("reducer", () => {
     expect(readyToRun(reducer(s, { type: "blend", on: true }))).toBe(false);
   });
 
+  it("loads a demo or shared payload as confirmed stamps", () => {
+    const s = reducer(initialState(), {
+      type: "loadPicks",
+      demoId: "london-blend",
+      payload: {
+        cityId: "london",
+        mode: "moving",
+        people: [
+          {
+            label: "You",
+            picks: [
+              { id: "a", name: "A", type: "artist", kind: "entity" },
+              { id: "b", name: "B", type: "tv_show", kind: "entity" },
+              { id: "c", name: "C", type: "urn:tag:x", kind: "concept" },
+            ],
+          },
+          {
+            label: "Them",
+            picks: [
+              { id: "d", name: "D", type: "artist", kind: "entity" },
+              { id: "e", name: "E", type: "movie", kind: "entity" },
+              { id: "f", name: "F", type: "brand", kind: "entity" },
+            ],
+          },
+        ],
+      },
+    });
+
+    expect(s).toMatchObject({ cityId: "london", blend: true, demoId: "london-blend" });
+    expect(readyToRun(s)).toBe(true);
+    expect(toInput(s).people[1]).toMatchObject({ label: "Them", entities: ["d", "e", "f"] });
+  });
+
   it("tracks guide turns and applies refined places with their filters", () => {
     let s = reducer(initialState(), { type: "guideAsk", text: "quieter" });
     expect(s.guide).toEqual({ busy: true, turns: [{ role: "user", text: "quieter" }] });
