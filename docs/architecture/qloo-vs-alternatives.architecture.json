@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Why Transplant needs Qloo",
+    "output": "qloo-vs-alternatives.html",
+    "quality_profile": "showcase",
+    "views": [
+      {
+        "id": "qloo-covers",
+        "label": "What Qloo covers",
+        "focus": [
+          "qloo",
+          "tasteToPlace",
+          "tasteMap",
+          "sharedTaste"
+        ],
+        "note": "One API answers all three capabilities from the same cross-domain taste graph."
+      },
+      {
+        "id": "alternatives",
+        "label": "Where alternatives stop",
+        "focus": [
+          "spotify",
+          "foursquare",
+          "google",
+          "llm",
+          "tasteToPlace",
+          "tasteMap",
+          "sharedTaste"
+        ],
+        "note": "Each alternative covers a slice: one domain, venue labels, generic summaries, or ungrounded guesses."
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "qloo",
+      "type": "external",
+      "label": "Qloo API",
+      "sublabel": "cross-domain taste graph",
+      "pos": [
+        600,
+        70
+      ],
+      "size": [
+        190,
+        64
+      ],
+      "tag": "used by Transplant"
+    },
+    {
+      "id": "tasteToPlace",
+      "type": "backend",
+      "label": "Taste to places",
+      "sublabel": "music · TV · brand → venues",
+      "pos": [
+        360,
+        270
+      ],
+      "size": [
+        190,
+        64
+      ]
+    },
+    {
+      "id": "tasteMap",
+      "type": "backend",
+      "label": "Where taste clusters",
+      "sublabel": "heatmap per taste",
+      "pos": [
+        600,
+        270
+      ],
+      "size": [
+        190,
+        64
+      ]
+    },
+    {
+      "id": "sharedTaste",
+      "type": "backend",
+      "label": "Two tastes, one hood",
+      "sublabel": "audience compare",
+      "pos": [
+        840,
+        270
+      ],
+      "size": [
+        190,
+        64
+      ]
+    },
+    {
+      "id": "spotify",
+      "type": "external",
+      "label": "Spotify Web API",
+      "sublabel": "music catalog",
+      "pos": [
+        120,
+        460
+      ],
+      "size": [
+        170,
+        60
+      ]
+    },
+    {
+      "id": "foursquare",
+      "type": "external",
+      "label": "Foursquare Places",
+      "sublabel": "venue tastes",
+      "pos": [
+        360,
+        460
+      ],
+      "size": [
+        190,
+        60
+      ]
+    },
+    {
+      "id": "google",
+      "type": "external",
+      "label": "Google Places",
+      "sublabel": "types · AI summaries",
+      "pos": [
+        600,
+        460
+      ],
+      "size": [
+        190,
+        60
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "external",
+      "label": "LLM only",
+      "sublabel": "no data source",
+      "pos": [
+        840,
+        460
+      ],
+      "size": [
+        190,
+        60
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "qloo-places",
+      "from": "qloo",
+      "to": "tasteToPlace",
+      "label": "insights",
+      "variant": "emphasis",
+      "fromSide": "left",
+      "toSide": "top"
+    },
+    {
+      "id": "qloo-heat",
+      "from": "qloo",
+      "to": "tasteMap",
+      "label": "urn:heatmap",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDy": 24
+    },
+    {
+      "id": "qloo-compare",
+      "from": "qloo",
+      "to": "sharedTaste",
+      "label": "analysis/compare",
+      "variant": "emphasis",
+      "fromSide": "right",
+      "toSide": "top"
+    },
+    {
+      "id": "spotify-places",
+      "from": "spotify",
+      "to": "tasteToPlace",
+      "label": "music only",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "left"
+    },
+    {
+      "id": "foursquare-places",
+      "from": "foursquare",
+      "to": "tasteToPlace",
+      "label": "venue labels only",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "google-heat",
+      "from": "google",
+      "to": "tasteMap",
+      "label": "generic hood summary",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "llm-shared",
+      "from": "llm",
+      "to": "sharedTaste",
+      "label": "ungrounded guess",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "Qloo (used)",
+      "items": [
+        "Search, tags, insights, heatmaps, compare",
+        "Mixes artists, shows, brands, places",
+        "Taste lift per ~1 km cell ranks hoods"
+      ]
+    },
+    {
+      "dot": "cyan",
+      "title": "Place APIs",
+      "items": [
+        "Google: generic neighborhood summaries",
+        "Foursquare: venue-level tastes only",
+        "Yelp: categories, reviews; from $229/mo"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Taste without place",
+      "items": [
+        "Spotify: music only; recs closed (2024)",
+        "LLM only: no affinity data or evidence",
+        "Neither maps where a taste clusters"
+      ]
+    }
+  ]
+}
