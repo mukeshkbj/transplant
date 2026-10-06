@@ -114,7 +114,7 @@ const strength = (top: RankedHood): SignalStrength => ({
   cells: top.cellCount,
 });
 
-const union = (people: Signals[]): Signals => ({
+export const union = (people: Signals[]): Signals => ({
   entities: [...new Set(people.flatMap((p) => p.entities))],
   tags: [...new Set(people.flatMap((p) => p.tags))],
 });

@@ -92,8 +92,17 @@ export async function searchEntities(qloo: QlooClient, query: string, type?: Ent
   }));
 }
 
-export async function searchTags(qloo: QlooClient, query: string, take = 3): Promise<TagCandidate[]> {
-  const { data } = await qloo.get<{ results?: { tags?: TagCandidate[] } }>("/v2/tags", { "filter.query": query, take });
+export interface TagSearchOptions {
+  take?: number;
+  parentType?: string;
+}
+
+export async function searchTags(qloo: QlooClient, query: string, { take = 3, parentType }: TagSearchOptions = {}): Promise<TagCandidate[]> {
+  const { data } = await qloo.get<{ results?: { tags?: TagCandidate[] } }>("/v2/tags", {
+    "filter.query": query,
+    take,
+    ...(parentType ? { "filter.parents.types": parentType } : {}),
+  });
   return (data.results?.tags ?? []).map(({ id, name, type }) => ({ id, name, type }));
 }
 
@@ -107,18 +116,26 @@ export async function heatmap(qloo: QlooClient, signals: Signals, location: Reco
   return parseHeatmap(data);
 }
 
+export interface PlaceQuery {
+  radiusM?: number;
+  take?: number;
+  includeTags?: string[];
+  excludeTags?: string[];
+}
+
 export async function placesNear(
   qloo: QlooClient,
   signals: Signals,
   at: { lat: number; lng: number },
-  radiusM = 1200,
-  take = 30,
+  { radiusM = 1200, take = 30, includeTags = [], excludeTags = [] }: PlaceQuery = {},
 ): Promise<Place[]> {
   const { data } = await qloo.get<{ results?: { entities?: RawPlace[] } }>("/v2/insights", {
     "filter.type": "urn:entity:place",
     ...signalParams(signals),
     "filter.location": `POINT(${at.lng} ${at.lat})`,
     "filter.location.radius": radiusM,
+    ...(includeTags.length > 0 ? { "filter.tags": includeTags } : {}),
+    ...(excludeTags.length > 0 ? { "filter.exclude.tags": excludeTags } : {}),
     take,
   });
   return (data.results?.entities ?? []).map((e) => ({

@@ -50,6 +50,31 @@ describe("Qloo domain API", () => {
     });
   });
 
+  it("placesNear passes include/exclude tag filters", async () => {
+    const { client, calls } = fakeQloo(() => fixture("places-indie-greenpoint.json"));
+
+    await placesNear(
+      client,
+      { entities: ["E1"], tags: [] },
+      { lat: 40.73, lng: -73.95 },
+      { includeTags: ["urn:tag:ambience:qloo:quiet"], excludeTags: ["urn:tag:good_for:qloo:nightlife"], take: 12 },
+    );
+
+    expect(calls[0]!.params).toMatchObject({
+      "filter.tags": ["urn:tag:ambience:qloo:quiet"],
+      "filter.exclude.tags": ["urn:tag:good_for:qloo:nightlife"],
+      take: 12,
+    });
+  });
+
+  it("searchTags can scope tags to a parent entity type", async () => {
+    const { client, calls } = fakeQloo(() => fixture("tags-natural-wine-bars.json"));
+
+    await searchTags(client, "quiet", { take: 6, parentType: "urn:entity:place" });
+
+    expect(calls[0]!.params).toEqual({ "filter.query": "quiet", take: 6, "filter.parents.types": "urn:entity:place" });
+  });
+
   it("compareTastes maps shared tags and skips empty groups", async () => {
     const { client, calls } = fakeQloo(() => ({ results: { tags: [{ tag_id: "urn:tag:genre:music:blues", name: "Blues", query: { score: 0.98 } }] } }));
 
