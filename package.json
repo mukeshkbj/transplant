@@ -15,7 +15,8 @@
     "typecheck": "tsc --noEmit",
     "hoods": "node --import tsx scripts/fetch-hoods.ts",
     "record": "node --env-file=.env --import tsx scripts/record-fixtures.ts",
-    "lift-report": "node --import tsx scripts/lift-report.ts"
+    "lift-report": "node --import tsx scripts/lift-report.ts",
+    "smoke-tools": "node --env-file=.env --import tsx scripts/smoke-tools.ts"
   },
   "devDependencies": {
     "@testing-library/react": "16.3.3",

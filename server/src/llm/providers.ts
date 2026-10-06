@@ -8,7 +8,7 @@ interface ProviderOptions {
 
 const TIMEOUT_MS = 20_000;
 
-const failure = async (res: Response) => {
+export const failure = async (res: Response) => {
   const body = (await res.json().catch(() => ({}))) as { error?: { message?: string } };
   return new Error(`HTTP ${res.status}: ${(body.error?.message ?? "").slice(0, 160)}`);
 };
