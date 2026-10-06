@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Transplant — where your taste lives",
+    "output": "transplant-architecture.html",
+    "quality_profile": "showcase",
+    "views": [
+      {
+        "id": "taste-path",
+        "label": "Taste to neighborhoods",
+        "focus": [
+          "web",
+          "api",
+          "engine",
+          "qclient",
+          "qloo",
+          "hoods"
+        ],
+        "note": "Confirmed taste becomes Qloo heatmaps, popularity-adjusted lift, and ranked OSM neighborhoods."
+      },
+      {
+        "id": "quota",
+        "label": "Quota protection",
+        "focus": [
+          "qclient",
+          "cache",
+          "qloo"
+        ],
+        "note": "A 4 rps queue, a SQLite read-through cache, and a monthly quota floor guard the 10k-call event budget."
+      },
+      {
+        "id": "story",
+        "label": "Grounded story",
+        "focus": [
+          "engine",
+          "llm",
+          "gemini",
+          "groq"
+        ],
+        "note": "The LLM only writes copy from Qloo evidence; Gemini falls back to Groq, then to templates."
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "web",
+      "type": "frontend",
+      "label": "Web app",
+      "sublabel": "React + MapLibre",
+      "pos": [
+        40,
+        300
+      ],
+      "size": [
+        140,
+        64
+      ]
+    },
+    {
+      "id": "tiles",
+      "type": "external",
+      "label": "OpenFreeMap",
+      "sublabel": "dark tiles",
+      "pos": [
+        40,
+        480
+      ],
+      "size": [
+        140,
+        60
+      ]
+    },
+    {
+      "id": "api",
+      "type": "backend",
+      "label": "Hono API",
+      "sublabel": "/api/* · SSE",
+      "pos": [
+        280,
+        300
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "tag": "per-IP limits"
+    },
+    {
+      "id": "engine",
+      "type": "backend",
+      "label": "Taste engine",
+      "sublabel": "resolve · lift · blend",
+      "pos": [
+        520,
+        300
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "qclient",
+      "type": "backend",
+      "label": "Qloo client",
+      "sublabel": "4 rps · quota guard",
+      "pos": [
+        790,
+        300
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "qloo",
+      "type": "external",
+      "label": "Qloo API",
+      "sublabel": "taste graph",
+      "pos": [
+        1060,
+        300
+      ],
+      "size": [
+        140,
+        64
+      ],
+      "tag": "10k calls/month"
+    },
+    {
+      "id": "hoods",
+      "type": "database",
+      "label": "OSM hoods",
+      "sublabel": "12 cities",
+      "pos": [
+        520,
+        480
+      ],
+      "size": [
+        150,
+        60
+      ]
+    },
+    {
+      "id": "cache",
+      "type": "database",
+      "label": "SQLite cache",
+      "sublabel": "30-day responses",
+      "pos": [
+        790,
+        480
+      ],
+      "size": [
+        150,
+        60
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "backend",
+      "label": "LLM layer",
+      "sublabel": "strict JSON schema",
+      "pos": [
+        520,
+        110
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "external",
+      "label": "Gemini",
+      "sublabel": "3.5 flash-lite",
+      "pos": [
+        790,
+        110
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "groq",
+      "type": "external",
+      "label": "Groq",
+      "sublabel": "gpt-oss-120b",
+      "pos": [
+        1060,
+        110
+      ],
+      "size": [
+        140,
+        64
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "security-group",
+      "label": "Node backend · secrets stay server-side",
+      "wraps": [
+        "api",
+        "engine",
+        "qclient",
+        "hoods",
+        "cache",
+        "llm"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "web-api",
+      "from": "web",
+      "to": "api",
+      "label": "POST · SSE",
+      "variant": "emphasis"
+    },
+    {
+      "id": "web-tiles",
+      "from": "web",
+      "to": "tiles",
+      "label": "tiles",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDy": 24
+    },
+    {
+      "id": "api-engine",
+      "from": "api",
+      "to": "engine",
+      "variant": "emphasis"
+    },
+    {
+      "id": "engine-qclient",
+      "from": "engine",
+      "to": "qclient",
+      "label": "heatmap · places",
+      "variant": "emphasis"
+    },
+    {
+      "id": "qclient-qloo",
+      "from": "qclient",
+      "to": "qloo",
+      "label": "X-Api-Key",
+      "variant": "security"
+    },
+    {
+      "id": "engine-hoods",
+      "from": "engine",
+      "to": "hoods",
+      "label": "nearest hoods",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDy": 24
+    },
+    {
+      "id": "qclient-cache",
+      "from": "qclient",
+      "to": "cache",
+      "label": "read-through",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDy": 24
+    },
+    {
+      "id": "engine-llm",
+      "from": "engine",
+      "to": "llm",
+      "label": "evidence JSON",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "id": "llm-gemini",
+      "from": "llm",
+      "to": "gemini",
+      "label": "primary"
+    },
+    {
+      "id": "gemini-groq",
+      "from": "gemini",
+      "to": "groq",
+      "label": "on failure",
+      "variant": "dashed"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "amber",
+      "title": "Taste engine",
+      "items": [
+        "Heatmap affinity minus a popularity fit = taste lift",
+        "1.5 km kernel, shrinkage prior, distinct top 3",
+        "Blend ranks by the weaker person's score"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Quota and cost",
+      "items": [
+        "Cache hits never reach Qloo",
+        "Live calls stop at a monthly floor",
+        "Free-tier LLMs with template fallback"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Trust",
+      "items": [
+        "Only cultural names are sent to Qloo",
+        "Story may cite only returned place IDs",
+        "Keys never reach the browser"
+      ]
+    }
+  ]
+}
