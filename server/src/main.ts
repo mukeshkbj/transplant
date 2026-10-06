@@ -24,7 +24,7 @@ const qloo = withCache(
   config.CACHE_PATH,
 );
 const llm = createLlm([
-  geminiProvider({ apiKey: config.GEMINI_API_KEY, model: config.GEMINI_MODEL }),
+  geminiProvider({ apiKey: config.GEMINI_API_KEY, model: config.GEMINI_MODEL, timeoutMs: 10_000 }),
   ...(config.GROQ_API_KEY ? [groqProvider({ apiKey: config.GROQ_API_KEY, model: config.GROQ_MODEL })] : []),
 ]);
 

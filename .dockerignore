@@ -1,0 +1,16 @@
+.git
+.github
+.env
+.env.*
+!.env.example
+node_modules
+dist
+.cache
+.scratch
+_kit
+_harness
+docs
+server/test
+**/*.test.ts
+**/*.test.tsx
+*.sqlite

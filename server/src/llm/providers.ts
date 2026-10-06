@@ -4,6 +4,7 @@ interface ProviderOptions {
   apiKey: string;
   model: string;
   fetchImpl?: typeof fetch;
+  timeoutMs?: number;
 }
 
 const TIMEOUT_MS = 20_000;
@@ -13,7 +14,7 @@ export const failure = async (res: Response) => {
   return new Error(`HTTP ${res.status}: ${(body.error?.message ?? "").slice(0, 160)}`);
 };
 
-export function geminiProvider({ apiKey, model, fetchImpl = fetch }: ProviderOptions): LlmProvider {
+export function geminiProvider({ apiKey, model, fetchImpl = fetch, timeoutMs = TIMEOUT_MS }: ProviderOptions): LlmProvider {
   return {
     name: `gemini:${model}`,
     async json({ system, prompt, jsonSchema }: ProviderCall) {
@@ -25,7 +26,7 @@ export function geminiProvider({ apiKey, model, fetchImpl = fetch }: ProviderOpt
           contents: [{ role: "user", parts: [{ text: prompt }] }],
           generationConfig: { responseMimeType: "application/json", responseJsonSchema: jsonSchema, temperature: 0.4 },
         }),
-        signal: AbortSignal.timeout(TIMEOUT_MS),
+        signal: AbortSignal.timeout(timeoutMs),
       });
       if (!res.ok) throw await failure(res);
       const body = (await res.json()) as { candidates?: { content?: { parts?: { text?: string }[] } }[] };
@@ -34,7 +35,7 @@ export function geminiProvider({ apiKey, model, fetchImpl = fetch }: ProviderOpt
   };
 }
 
-export function groqProvider({ apiKey, model, fetchImpl = fetch }: ProviderOptions): LlmProvider {
+export function groqProvider({ apiKey, model, fetchImpl = fetch, timeoutMs = TIMEOUT_MS }: ProviderOptions): LlmProvider {
   return {
     name: `groq:${model}`,
     async json({ system, prompt, jsonSchema, name }: ProviderCall) {
@@ -50,7 +51,7 @@ export function groqProvider({ apiKey, model, fetchImpl = fetch }: ProviderOptio
           response_format: { type: "json_schema", json_schema: { name, strict: true, schema: jsonSchema } },
           temperature: 0.4,
         }),
-        signal: AbortSignal.timeout(TIMEOUT_MS),
+        signal: AbortSignal.timeout(timeoutMs),
       });
       if (!res.ok) throw await failure(res);
       const body = (await res.json()) as { choices?: { message?: { content?: string } }[] };

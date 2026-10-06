@@ -31,6 +31,21 @@ describe("geminiProvider", () => {
   });
 });
 
+describe("provider timeouts", () => {
+  it("aborts a slow provider after timeoutMs so the fallback can run", async () => {
+    const fetchImpl = vi.fn<typeof fetch>().mockImplementation(
+      (_url, init) =>
+        new Promise((_resolve, reject) => {
+          init?.signal?.addEventListener("abort", () => reject(init.signal?.reason));
+        }),
+    );
+
+    const started = Date.now();
+    await expect(geminiProvider({ apiKey: "k", model: "m", fetchImpl, timeoutMs: 50 }).json(call)).rejects.toThrow();
+    expect(Date.now() - started).toBeLessThan(1000);
+  });
+});
+
 describe("groqProvider", () => {
   it("requests strict json_schema output and parses the message", async () => {
     const fetchImpl = ok({ choices: [{ message: { content: '{"b":2}' } }] });
