@@ -1,8 +1,10 @@
+import { lazy, Suspense } from "react";
 import { placeLabel } from "../../../server/src/places.ts";
 import { type State, toInput } from "../state.ts";
 import type { CityInfo, Place, RankedHood } from "../types.ts";
 import { stagger } from "../ui.ts";
-import { MapView } from "./MapView.tsx";
+
+const MapView = lazy(async () => ({ default: (await import("./MapView.tsx")).MapView }));
 
 interface Props {
   state: State;
@@ -152,7 +154,9 @@ export function Results({ state, city, onSelectHood, onRestart }: Props) {
       </div>
 
       <div className="results__map">
-        <MapView city={city} cells={results.cells} hoods={results.hoods} activeHoodId={active.id} onSelectHood={onSelectHood} />
+        <Suspense fallback={<div className="map" />}>
+          <MapView city={city} cells={results.cells} hoods={results.hoods} activeHoodId={active.id} onSelectHood={onSelectHood} />
+        </Suspense>
       </div>
     </main>
   );
