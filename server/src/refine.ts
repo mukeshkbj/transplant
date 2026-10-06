@@ -41,6 +41,7 @@ const SYSTEM = `You are the local guide inside Transplant, an app that found nei
 The first part of the user message is JSON with the city, the user's neighborhoods (hoodId + name), the active one, and what they love.
 Help them refine, e.g. "quieter", "more nightlife", "great coffee", "good for kids".
 - To filter by a quality: call find_tags with a short phrase, choose the best-fitting tag ids from its results (ONLY ids it returned), then call find_places for the relevant hood.
+- Qloo tag coverage is uneven. If find_places returns no places, call find_tags again with a more concrete venue word (e.g. "night club", "cocktail bar", "live music venue") and retry once before answering.
 - Only use hoodIds from the JSON. Call focus_hood when they want to switch neighborhood.
 - Reply in at most 60 words of plain text, naming 2-3 places that find_places returned. Never invent places or facts. If nothing fits, say so and suggest another phrasing.`;
 
@@ -58,6 +59,8 @@ export async function refine(input: RefineInput, deps: RefineDeps): Promise<Refi
   );
   const knownTags = new Map<string, string>();
   const actions = new Map<string, RefineAction>();
+  let placesFound = 0;
+  let lastEmpty: { hood: string; filters: string[] } | undefined;
 
   const hoodFor = (value: unknown) => {
     const hood = typeof value === "string" ? hoods.get(value) : undefined;
@@ -105,7 +108,7 @@ export async function refine(input: RefineInput, deps: RefineDeps): Promise<Refi
             include_tags: { type: "array", items: { type: "string" } },
             exclude_tags: { type: "array", items: { type: "string" } },
           },
-          required: ["hood_id", "include_tags", "exclude_tags"],
+          required: ["hood_id"],
         },
       },
       async run(args) {
@@ -114,11 +117,20 @@ export async function refine(input: RefineInput, deps: RefineDeps): Promise<Refi
         const excludeTags = tagsFrom(args.exclude_tags);
         const places = curatePlaces(await placesNear(deps.qloo, union(input.people), hood, { includeTags, excludeTags }), 6);
         const filters = [...includeTags.map((id) => knownTags.get(id)!), ...excludeTags.map((id) => `not ${knownTags.get(id)!}`)];
+        const summary = `${places.length} places in ${hood.name}${filters.length > 0 ? ` · ${filters.join(", ")}` : ""}`;
+        if (places.length === 0) {
+          lastEmpty = { hood: hood.name, filters };
+          return {
+            result: {
+              places: [],
+              note: `No places in ${hood.name} carry these Qloo tags. Do not name any place. Try other tag ids from find_tags (a different kind) or fewer tags.`,
+            },
+            summary,
+          };
+        }
+        placesFound += places.length;
         actions.set(`places:${hood.id}`, { type: "places", hoodId: hood.id, filters, places });
-        return {
-          result: places.map((p) => ({ placeId: p.id, name: p.name, label: placeLabel(p) })),
-          summary: `${places.length} places in ${hood.name}${filters.length > 0 ? ` · ${filters.join(", ")}` : ""}`,
-        };
+        return { result: { places: places.map((p) => ({ placeId: p.id, name: p.name, label: placeLabel(p) })) }, summary };
       },
     },
     {
@@ -147,5 +159,13 @@ export async function refine(input: RefineInput, deps: RefineDeps): Promise<Refi
     prompt: `${JSON.stringify(context)}\n\nUser: ${input.message}`,
     tools,
   });
+  if (lastEmpty && placesFound === 0) {
+    const what = lastEmpty.filters.length > 0 ? `${lastEmpty.filters.join(", ")} spots` : "matching spots";
+    return {
+      reply: `I couldn't find ${what} in ${lastEmpty.hood} in Qloo's data. Try another angle, like "cocktail bars", "live music", or "late-night food".`,
+      actions: [...actions.values()],
+      trace,
+    };
+  }
   return { reply, actions: [...actions.values()], trace };
 }

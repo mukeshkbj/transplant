@@ -64,6 +64,25 @@ describe("refine", () => {
     expect(q.calls).toHaveLength(0);
   });
 
+  it("never lets the agent name places when Qloo returned none", async () => {
+    const q = fakeQloo((path) => {
+      if (path === "/v2/tags") return { results: { tags: [{ id: "urn:tag:good_for:qloo:nightlife", name: "Nightlife", type: "urn:tag:good_for:qloo" }] } };
+      if (path === "/v2/insights") return { results: { entities: [] } };
+      return undefined;
+    });
+    const { provider, requests } = fakeToolProvider("p", [
+      { text: "", calls: [{ id: "1", name: "find_tags", args: { query: "nightlife" } }] },
+      { text: "", calls: [{ id: "2", name: "find_places", args: { hood_id: greenpoint.id, include_tags: ["urn:tag:good_for:qloo:nightlife"] } }] },
+      { text: "Try Night of Joy and Brooklyn Bowl!", calls: [] },
+    ]);
+
+    const out = await refine({ ...input, message: "more nightlife" }, { qloo: q.client, providers: [provider], hoodsFor: loadHoods });
+
+    expect(requests[2]!.messages.at(-1)).toMatchObject({ role: "tool", result: { places: [], note: expect.stringMatching(/do not name/i) } });
+    expect(out.reply).not.toMatch(/Night of Joy|Brooklyn Bowl/);
+    expect(out.reply).toMatch(/couldn't find Nightlife spots in Greenpoint/);
+  });
+
   it("focus_hood switches the active neighborhood", async () => {
     const { provider } = fakeToolProvider("p", [
       { text: "", calls: [{ id: "1", name: "focus_hood", args: { hood_id: williamsburg.id } }] },

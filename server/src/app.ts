@@ -2,6 +2,7 @@ import { type Context, Hono } from "hono";
 import { streamSSE } from "hono/streaming";
 import { z } from "zod";
 import { CITIES } from "./cities.ts";
+import { loadDemos } from "./demos.ts";
 import { LlmError } from "./llm/llm.ts";
 import type { ToolProvider } from "./llm/tools.ts";
 import { QlooError } from "./qloo/client.ts";
@@ -56,6 +57,7 @@ export function createApp(deps: AppDeps): Hono {
       return c.json(publicError, status);
     }
   });
+  app.get("/api/demos", (c) => c.json(loadDemos()));
   app.get("/api/cities", (c) => c.json(CITIES.map(({ id, name, beta, bbox }) => ({ id, name, beta: beta === true, bbox }))));
 
   app.post("/api/places", async (c) => {

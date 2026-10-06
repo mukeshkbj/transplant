@@ -1,0 +1,151 @@
+[
+  {
+    "id": "nyc-indie",
+    "title": "Indie, moving to New York",
+    "blurb": "Khruangbin, Fleabag, Aesop, natural wine",
+    "cityId": "nyc",
+    "mode": "moving",
+    "people": [
+      {
+        "label": "You",
+        "picks": [
+          {
+            "id": "BAF6317A-DF94-4C90-92AE-63F86560C21B",
+            "name": "Khruangbin",
+            "type": "artist",
+            "image": "https://images.qloo.com/i/BAF6317A-DF94-4C90-92AE-63F86560C21B-420x-auto.jpg",
+            "description": "Khruangbin is an American musical trio known for their eclectic blend of global musical influences and instrumental sound.",
+            "kind": "entity"
+          },
+          {
+            "id": "878680F2-2C8D-4D7A-8288-BEA75D38A843",
+            "name": "Fleabag",
+            "type": "tv_show",
+            "image": "https://images.qloo.com/i/878680F2-2C8D-4D7A-8288-BEA75D38A843-420x-auto.jpg",
+            "kind": "entity"
+          },
+          {
+            "id": "32F867B9-E6DF-44C3-BCE4-40160C7ED5E4",
+            "name": "Aesop",
+            "type": "brand",
+            "image": "https://images.qloo.com/i/32F867B9-E6DF-44C3-BCE4-40160C7ED5E4-420x-auto.jpg",
+            "description": "Aesop is an Australian luxury brand known for its vegan, cruelty-free skincare, haircare, and fragrance products.",
+            "kind": "entity"
+          },
+          {
+            "id": "urn:tag:resy:collection:place:natural_wine",
+            "name": "Natural Wine",
+            "type": "urn:tag:resy:collection:place",
+            "kind": "concept"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "london-blend",
+    "title": "Two tastes, one London flat",
+    "blurb": "Phoebe Bridgers + Severance meets Metallica + Top Gun",
+    "cityId": "london",
+    "mode": "moving",
+    "people": [
+      {
+        "label": "You",
+        "picks": [
+          {
+            "id": "AFBC71A7-9439-4AB0-AB68-D14B11AAF836",
+            "name": "Phoebe Bridgers",
+            "type": "artist",
+            "image": "https://images.qloo.com/i/AFBC71A7-9439-4AB0-AB68-D14B11AAF836-420x-auto.jpg",
+            "description": "Phoebe Bridgers is an American singer-songwriter known for her emotive indie rock and folk music.",
+            "kind": "entity"
+          },
+          {
+            "id": "569F8294-72DA-4935-B9F2-4FC697AB2A1E",
+            "name": "Severance",
+            "type": "tv_show",
+            "image": "https://images.qloo.com/i/569F8294-72DA-4935-B9F2-4FC697AB2A1E-420x-auto.jpg",
+            "kind": "entity"
+          },
+          {
+            "id": "urn:tag:genre:place:vintage_clothing_store",
+            "name": "Vintage clothing store",
+            "type": "urn:tag:genre:place",
+            "kind": "concept"
+          }
+        ]
+      },
+      {
+        "label": "Them",
+        "picks": [
+          {
+            "id": "C445C761-CB38-4FEE-B085-D35F444A04DF",
+            "name": "Metallica",
+            "type": "artist",
+            "image": "https://images.qloo.com/i/C445C761-CB38-4FEE-B085-D35F444A04DF-420x-auto.jpg",
+            "description": "American heavy metal band known for pioneering thrash metal and influencing the metal genre.",
+            "kind": "entity"
+          },
+          {
+            "id": "63109D8F-F736-42BF-BF29-460BB2AE0D2F",
+            "name": "Top Gun: Maverick",
+            "type": "movie",
+            "image": "https://images.qloo.com/i/63109D8F-F736-42BF-BF29-460BB2AE0D2F-420x-auto.jpg",
+            "kind": "entity"
+          },
+          {
+            "id": "8FD09C3A-7362-4749-BDCE-12C3933FDC25",
+            "name": "Harley-Davidson",
+            "type": "brand",
+            "image": "https://images.qloo.com/i/8FD09C3A-7362-4749-BDCE-12C3933FDC25-420x-auto.jpg",
+            "description": "Harley-Davidson is a renowned American motorcycle manufacturer known for its powerful, customizable motorcycles and extensive gear and accessories.",
+            "kind": "entity"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "la-visit",
+    "title": "A long weekend in LA",
+    "blurb": "Kendrick Lamar, The Bear, Patagonia, tacos",
+    "cityId": "la",
+    "mode": "visiting",
+    "people": [
+      {
+        "label": "You",
+        "picks": [
+          {
+            "id": "C915A918-39C5-47A3-A101-D9FA1DECBD9C",
+            "name": "Kendrick Lamar",
+            "type": "artist",
+            "image": "https://images.qloo.com/i/C915A918-39C5-47A3-A101-D9FA1DECBD9C-420x-auto.jpg",
+            "description": "An influential American rapper and songwriter known for his profound lyricism and storytelling.",
+            "kind": "entity"
+          },
+          {
+            "id": "4C305B2F-5A46-4885-A6DA-5E22D11E86E0",
+            "name": "The Bear",
+            "type": "tv_show",
+            "image": "https://images.qloo.com/i/4C305B2F-5A46-4885-A6DA-5E22D11E86E0-420x-auto.jpg",
+            "kind": "entity"
+          },
+          {
+            "id": "DB4CE34E-3A63-4947-946F-9D52502C5762",
+            "name": "Patagonia",
+            "type": "brand",
+            "image": "https://images.qloo.com/i/DB4CE34E-3A63-4947-946F-9D52502C5762-420x-auto.jpg",
+            "description": "Patagonia is an outdoor apparel company known for sustainable clothing and gear for activities like climbing, surfing, skiing, and trail running.",
+            "kind": "entity"
+          },
+          {
+            "id": "urn:tag:specialty_dish:place:tacos",
+            "name": "Tacos",
+            "type": "urn:tag:specialty_dish:place",
+            "kind": "concept"
+          }
+        ]
+      }
+    ]
+  }
+]

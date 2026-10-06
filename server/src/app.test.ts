@@ -79,6 +79,12 @@ describe("createApp", () => {
     expect((await createApp(deps()).request("/api/refine", post({ ...body, message: "" }))).status).toBe(400);
   });
 
+  it("lists demo profiles", async () => {
+    const demos = await (await createApp(deps()).request("/api/demos")).json();
+
+    expect(demos.map((d: { id: string }) => d.id)).toEqual(["nyc-indie", "london-blend", "la-visit"]);
+  });
+
   it("rate-limits per client IP", async () => {
     const app = createApp(deps(1));
     const req = () =>

@@ -4,13 +4,15 @@ import { serve } from "@hono/node-server";
 import { createApp } from "./app.ts";
 import { loadConfig } from "./config.ts";
 import { loadHoods } from "./hoods-data.ts";
-import { createLlm } from "./llm/llm.ts";
+import { loadDemos, warmDemos } from "./demos.ts";
+import { createLlm, type Llm } from "./llm/llm.ts";
 import { geminiProvider, groqProvider } from "./llm/providers.ts";
 import { geminiTools, groqTools } from "./llm/tools.ts";
 import { withCache } from "./qloo/cache.ts";
 import { createQlooClient } from "./qloo/client.ts";
 import { type QuotaState, withQuotaGuard } from "./qloo/quota.ts";
 import { createRateLimiter } from "./rate-limit.ts";
+import { runTransplant } from "./transplant.ts";
 
 const HOUR_MS = 60 * 60 * 1000;
 const config = loadConfig();
@@ -47,3 +49,6 @@ const app = createApp({
 });
 
 serve({ fetch: app.fetch, port: config.PORT }, (info) => console.log(`Transplant API listening on http://localhost:${info.port}`));
+
+const offline: Llm = { json: () => Promise.reject(new Error("warm-up skips the LLM")) };
+void warmDemos(loadDemos(), (input) => runTransplant(input, { qloo, llm: offline, hoodsFor: loadHoods }, () => {}));
