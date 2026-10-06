@@ -71,6 +71,13 @@ Out of scope: accounts, playlist imports, saved trips, booking links.
   shared tags with scores.
 - `/search?types=urn:entity:locality` returns neighborhoods with ancestors.
 
+- Concepts ("natural wine bars") resolve via `/v2/tags` and work as
+  `signal.interests.tags` in heatmaps.
+- Places must be filtered with `filter.location=POINT(lng lat)` +
+  `filter.location.radius`; `filter.location.query="<hood>, <city>"` does not
+  constrain results. Raw results include noise (e.g. a wastewater plant), so
+  places are curated by `primary_genre`.
+
 ## M1 go/no-go result (2026-10-05)
 
 Fixtures: two profiles — indie (Khruangbin, Fleabag, Aesop) vs. mainstream
