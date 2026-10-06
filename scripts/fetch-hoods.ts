@@ -47,7 +47,8 @@ for (const city of CITIES) {
   const hoods: Hood[] = elements.flatMap((el) => {
     const lat = el.lat ?? el.center?.lat;
     const lng = el.lon ?? el.center?.lon;
-    return lat === undefined || lng === undefined ? [] : [{ id: `osm:${el.type}/${el.id}`, name: el.tags.name!, lat, lng }];
+    const kind = el.tags.place ?? `admin${el.tags.admin_level}`;
+    return lat === undefined || lng === undefined ? [] : [{ id: `osm:${el.type}/${el.id}`, name: el.tags.name!, kind, lat, lng }];
   });
   await writeFile(`server/data/hoods/${city.id}.json`, `${JSON.stringify(hoods, null, 1)}\n`);
   console.log(`${city.id}: ${hoods.length} neighborhoods`);

@@ -2,8449 +2,9857 @@
  {
   "id": "osm:node/196021",
   "name": "Whetstone",
+  "kind": "suburb",
   "lat": 51.6301886,
   "lng": -0.1748799
  },
  {
   "id": "osm:node/198806",
   "name": "Totteridge",
+  "kind": "suburb",
   "lat": 51.6331271,
   "lng": -0.2008674
  },
  {
   "id": "osm:node/200088",
   "name": "Friern Barnet",
+  "kind": "suburb",
   "lat": 51.6128792,
   "lng": -0.1585948
  },
  {
   "id": "osm:node/201212",
   "name": "Muswell Hill",
+  "kind": "suburb",
   "lat": 51.5910395,
   "lng": -0.1420768
  },
  {
   "id": "osm:node/222466",
   "name": "Hendon",
+  "kind": "suburb",
   "lat": 51.5897175,
   "lng": -0.2216026
  },
  {
   "id": "osm:node/16231633",
   "name": "Hampton Hill",
+  "kind": "suburb",
   "lat": 51.4278442,
   "lng": -0.355081
  },
  {
   "id": "osm:node/17061510",
   "name": "Hanworth",
+  "kind": "suburb",
   "lat": 51.4348478,
   "lng": -0.3903611
  },
  {
   "id": "osm:node/17061656",
   "name": "Bedfont",
+  "kind": "suburb",
   "lat": 51.4531236,
   "lng": -0.430874
  },
  {
   "id": "osm:node/18083845",
   "name": "Putney",
+  "kind": "suburb",
   "lat": 51.4625314,
   "lng": -0.2163018
  },
  {
   "id": "osm:node/20962674",
   "name": "Hammersmith",
+  "kind": "suburb",
   "lat": 51.4920377,
   "lng": -0.2236401
  },
  {
   "id": "osm:node/21042294",
   "name": "Pimlico",
+  "kind": "suburb",
   "lat": 51.4889993,
   "lng": -0.1398817
  },
  {
   "id": "osm:node/21099165",
   "name": "Kew",
+  "kind": "suburb",
   "lat": 51.4771443,
   "lng": -0.2855658
  },
  {
   "id": "osm:node/21262497",
   "name": "Crystal Palace",
+  "kind": "suburb",
   "lat": 51.4193664,
   "lng": -0.0711328
  },
  {
   "id": "osm:node/21315205",
   "name": "Tooting Graveney",
+  "kind": "neighbourhood",
   "lat": 51.4234522,
   "lng": -0.1665496
  },
  {
   "id": "osm:node/21315206",
   "name": "Wandsworth",
+  "kind": "suburb",
   "lat": 51.4570271,
   "lng": -0.1932607
  },
  {
   "id": "osm:node/21329597",
   "name": "South Wimbledon",
+  "kind": "neighbourhood",
   "lat": 51.4156153,
   "lng": -0.192382
  },
  {
   "id": "osm:node/21415113",
   "name": "Chingford",
+  "kind": "suburb",
   "lat": 51.630887,
   "lng": 0.0039962
  },
  {
   "id": "osm:node/21521237",
   "name": "Brixton",
+  "kind": "suburb",
   "lat": 51.4633914,
   "lng": -0.1148023
  },
  {
   "id": "osm:node/21521238",
   "name": "Streatham",
+  "kind": "suburb",
   "lat": 51.429769,
   "lng": -0.1311105
  },
  {
   "id": "osm:node/21662002",
   "name": "Shepherd's Bush",
+  "kind": "suburb",
   "lat": 51.5053155,
   "lng": -0.2229856
  },
  {
   "id": "osm:node/25921915",
   "name": "New Eltham",
+  "kind": "suburb",
   "lat": 51.4362297,
   "lng": 0.0685289
  },
  {
   "id": "osm:node/25921916",
   "name": "Mottingham",
+  "kind": "suburb",
   "lat": 51.4369991,
   "lng": 0.0432854
  },
  {
   "id": "osm:node/26472010",
   "name": "Bellingham",
+  "kind": "quarter",
   "lat": 51.4311004,
   "lng": -0.0244895
  },
  {
   "id": "osm:node/26472011",
   "name": "Hither Green",
+  "kind": "suburb",
   "lat": 51.450299,
   "lng": -0.0054331
  },
  {
   "id": "osm:node/26472012",
   "name": "Downham",
+  "kind": "suburb",
   "lat": 51.426111,
   "lng": 0.0064566
  },
  {
   "id": "osm:node/26472013",
   "name": "Catford South",
+  "kind": "suburb",
   "lat": 51.440517,
   "lng": -0.0059785
  },
  {
   "id": "osm:node/26545978",
   "name": "Walworth",
+  "kind": "suburb",
   "lat": 51.4901142,
   "lng": -0.0906603
  },
  {
   "id": "osm:node/26546003",
   "name": "Elephant and Castle",
+  "kind": "suburb",
   "lat": 51.495007,
   "lng": -0.1003315
  },
  {
   "id": "osm:node/26562607",
   "name": "Hackbridge",
+  "kind": "suburb",
   "lat": 51.3796135,
   "lng": -0.1567541
  },
  {
   "id": "osm:node/26728131",
   "name": "South Stifford",
+  "kind": "suburb",
   "lat": 51.4777652,
   "lng": 0.301663
  },
  {
   "id": "osm:node/26745366",
   "name": "Mayfair",
+  "kind": "suburb",
   "lat": 51.5110872,
   "lng": -0.147058
  },
  {
   "id": "osm:node/26745371",
   "name": "St Giles",
+  "kind": "neighbourhood",
   "lat": 51.5154723,
   "lng": -0.1284181
  },
  {
   "id": "osm:node/26890166",
   "name": "Shenfield",
+  "kind": "suburb",
   "lat": 51.6295286,
   "lng": 0.3255277
  },
  {
   "id": "osm:node/27364398",
   "name": "Seven Sisters",
+  "kind": "neighbourhood",
   "lat": 51.5817795,
   "lng": -0.0739615
  },
  {
   "id": "osm:node/27364687",
   "name": "Crouch End",
+  "kind": "suburb",
   "lat": 51.5796918,
   "lng": -0.1236831
  },
  {
   "id": "osm:node/27365015",
   "name": "West Green",
+  "kind": "suburb",
   "lat": 51.5868063,
   "lng": -0.0898489
  },
  {
   "id": "osm:node/27365016",
   "name": "Stamford Hill",
+  "kind": "suburb",
   "lat": 51.5707092,
   "lng": -0.0690402
  },
  {
   "id": "osm:node/27365017",
   "name": "Upper Clapton",
+  "kind": "quarter",
   "lat": 51.5668384,
   "lng": -0.0605697
  },
  {
   "id": "osm:node/27365018",
   "name": "Stoke Newington",
+  "kind": "suburb",
   "lat": 51.5578698,
   "lng": -0.0822482
  },
  {
   "id": "osm:node/27365019",
   "name": "Lower Clapton",
+  "kind": "quarter",
   "lat": 51.5546565,
   "lng": -0.0550912
  },
  {
   "id": "osm:node/27365020",
   "name": "Islington",
+  "kind": "suburb",
   "lat": 51.5384287,
   "lng": -0.0999051
  },
  {
   "id": "osm:node/27365022",
   "name": "Kentish Town",
-  "lat": 51.5501355,
-  "lng": -0.1408009
+  "kind": "suburb",
+  "lat": 51.5500554,
+  "lng": -0.1425712
  },
  {
   "id": "osm:node/27365023",
   "name": "Gospel Oak",
+  "kind": "suburb",
   "lat": 51.5536863,
   "lng": -0.1517524
  },
  {
   "id": "osm:node/27365024",
   "name": "Bethnal Green",
+  "kind": "suburb",
   "lat": 51.5303456,
   "lng": -0.0561633
  },
  {
   "id": "osm:node/27365025",
   "name": "Dalston",
+  "kind": "suburb",
   "lat": 51.543212,
   "lng": -0.0760128
  },
  {
   "id": "osm:node/27365026",
   "name": "Haggerston",
+  "kind": "suburb",
   "lat": 51.5366603,
   "lng": -0.0740127
  },
  {
   "id": "osm:node/27365028",
   "name": "Wapping",
+  "kind": "suburb",
   "lat": 51.5071316,
   "lng": -0.0620152
  },
  {
   "id": "osm:node/27365029",
   "name": "Shoreditch",
+  "kind": "suburb",
   "lat": 51.5266694,
   "lng": -0.0798926
  },
  {
   "id": "osm:node/27365031",
   "name": "Clerkenwell",
+  "kind": "suburb",
   "lat": 51.5237268,
   "lng": -0.1055555
  },
  {
   "id": "osm:node/27365033",
   "name": "Bloomsbury",
+  "kind": "suburb",
   "lat": 51.5210963,
   "lng": -0.1289635
  },
  {
   "id": "osm:node/27365035",
   "name": "Bermondsey",
+  "kind": "suburb",
   "lat": 51.4970125,
   "lng": -0.063268
  },
  {
   "id": "osm:node/27365036",
   "name": "Millwall",
+  "kind": "quarter",
   "lat": 51.4933423,
   "lng": -0.0212187
  },
  {
   "id": "osm:node/27365037",
   "name": "Rotherhithe",
+  "kind": "suburb",
   "lat": 51.5002908,
   "lng": -0.0436321
  },
  {
   "id": "osm:node/27365038",
   "name": "Stepney",
+  "kind": "suburb",
   "lat": 51.5174023,
   "lng": -0.0462189
  },
  {
   "id": "osm:node/27365039",
   "name": "Limehouse",
+  "kind": "suburb",
   "lat": 51.5133074,
   "lng": -0.0351492
  },
  {
   "id": "osm:node/27365040",
   "name": "Cubitt Town",
+  "kind": "quarter",
   "lat": 51.4936677,
   "lng": -0.0082433
  },
  {
   "id": "osm:node/27365041",
   "name": "Blackwall",
+  "kind": "suburb",
   "lat": 51.5065004,
   "lng": -0.0064024
  },
  {
   "id": "osm:node/27365042",
   "name": "Isle of Dogs",
+  "kind": "suburb",
   "lat": 51.4978447,
   "lng": -0.0168854
  },
  {
   "id": "osm:node/27365043",
   "name": "Poplar",
+  "kind": "suburb",
   "lat": 51.5110713,
   "lng": -0.0144629
  },
  {
   "id": "osm:node/27365044",
   "name": "Bromley-by-Bow",
+  "kind": "quarter",
   "lat": 51.5229529,
   "lng": -0.0179722
  },
  {
   "id": "osm:node/27365045",
   "name": "Bow",
+  "kind": "suburb",
   "lat": 51.5309383,
   "lng": -0.0274853
  },
  {
   "id": "osm:node/27365046",
   "name": "Stratford",
+  "kind": "suburb",
   "lat": 51.5406878,
   "lng": 0.0016208
  },
  {
   "id": "osm:node/27365049",
   "name": "Leytonstone",
+  "kind": "suburb",
   "lat": 51.5683955,
   "lng": 0.0111704
  },
  {
   "id": "osm:node/27365051",
   "name": "Edmonton",
+  "kind": "suburb",
   "lat": 51.6268085,
   "lng": -0.0772524
  },
  {
   "id": "osm:node/27365297",
   "name": "Lower Holloway",
+  "kind": "neighbourhood",
   "lat": 51.5544402,
   "lng": -0.1148807
  },
  {
   "id": "osm:node/27365298",
   "name": "Archway",
+  "kind": "suburb",
   "lat": 51.5656796,
   "lng": -0.1345871
  },
  {
   "id": "osm:node/27365299",
   "name": "Highbury",
+  "kind": "suburb",
   "lat": 51.5457996,
   "lng": -0.1027127
  },
  {
   "id": "osm:node/27365300",
   "name": "Barnsbury",
+  "kind": "suburb",
   "lat": 51.5389351,
   "lng": -0.114735
  },
  {
   "id": "osm:node/27365303",
   "name": "Charlton",
+  "kind": "suburb",
   "lat": 51.4826053,
   "lng": 0.0365359
  },
  {
   "id": "osm:node/27365506",
   "name": "Hillingdon",
+  "kind": "suburb",
   "lat": 51.532563,
   "lng": -0.453256
  },
  {
   "id": "osm:node/27365509",
   "name": "Harrow on the Hill",
+  "kind": "neighbourhood",
   "lat": 51.5715948,
   "lng": -0.3406636
  },
  {
   "id": "osm:node/27365510",
   "name": "Northwood",
+  "kind": "suburb",
   "lat": 51.6051713,
   "lng": -0.4205812
  },
  {
   "id": "osm:node/27365511",
   "name": "Pinner",
+  "kind": "suburb",
   "lat": 51.5968712,
   "lng": -0.3770142
  },
  {
   "id": "osm:node/27365512",
   "name": "Wealdstone",
+  "kind": "suburb",
   "lat": 51.5936353,
   "lng": -0.3294758
  },
  {
   "id": "osm:node/27396436",
   "name": "South Kensington",
+  "kind": "suburb",
   "lat": 51.4955817,
   "lng": -0.1831368
  },
  {
   "id": "osm:node/27396490",
   "name": "Knightsbridge",
+  "kind": "suburb",
   "lat": 51.5008444,
   "lng": -0.166965
  },
  {
   "id": "osm:node/27467065",
   "name": "Fitzrovia",
+  "kind": "suburb",
   "lat": 51.5229426,
   "lng": -0.1383554
  },
  {
   "id": "osm:node/27467066",
   "name": "Marylebone",
+  "kind": "suburb",
   "lat": 51.5196374,
   "lng": -0.1519627
  },
  {
   "id": "osm:node/27467067",
   "name": "Chelsea",
+  "kind": "suburb",
   "lat": 51.4888554,
   "lng": -0.1653781
  },
  {
   "id": "osm:node/27467182",
   "name": "Kensington",
+  "kind": "suburb",
   "lat": 51.4989948,
   "lng": -0.1991229
  },
  {
   "id": "osm:node/27467184",
   "name": "Paddington",
+  "kind": "suburb",
   "lat": 51.5161629,
   "lng": -0.1744856
  },
  {
   "id": "osm:node/27467185",
   "name": "Maida Vale",
+  "kind": "suburb",
   "lat": 51.527592,
   "lng": -0.1905916
  },
  {
   "id": "osm:node/27481928",
   "name": "De Beauvoir Town",
+  "kind": "quarter",
   "lat": 51.5405639,
   "lng": -0.0801312
  },
  {
   "id": "osm:node/27481929",
   "name": "Homerton",
+  "kind": "suburb",
   "lat": 51.5504686,
   "lng": -0.0399629
  },
  {
   "id": "osm:node/27485888",
   "name": "Chislehurst",
+  "kind": "suburb",
   "lat": 51.4115718,
   "lng": 0.0769545
  },
  {
   "id": "osm:node/27485890",
   "name": "Thamesmead",
+  "kind": "suburb",
   "lat": 51.4989335,
   "lng": 0.1148486
  },
  {
   "id": "osm:node/27485891",
   "name": "St Mary Cray",
+  "kind": "suburb",
   "lat": 51.3954765,
   "lng": 0.1138557
  },
  {
   "id": "osm:node/27485892",
   "name": "Bexley",
+  "kind": "suburb",
   "lat": 51.4416793,
   "lng": 0.150488
  },
  {
   "id": "osm:node/27486121",
   "name": "Canning Town",
+  "kind": "suburb",
   "lat": 51.5181741,
   "lng": 0.0134976
  },
  {
   "id": "osm:node/27486122",
   "name": "West Ham",
+  "kind": "suburb",
   "lat": 51.5343383,
   "lng": 0.0077868
  },
  {
   "id": "osm:node/27486150",
   "name": "Becontree",
+  "kind": "suburb",
   "lat": 51.5492654,
   "lng": 0.1275378
  },
  {
   "id": "osm:node/27486181",
   "name": "Rainham",
+  "kind": "suburb",
   "lat": 51.5167284,
   "lng": 0.1996559
  },
  {
   "id": "osm:node/27486184",
   "name": "South Hornchurch",
+  "kind": "suburb",
   "lat": 51.5330916,
   "lng": 0.1912727
  },
  {
   "id": "osm:node/27529126",
   "name": "Harringay",
+  "kind": "suburb",
   "lat": 51.582382,
   "lng": -0.0996181
  },
  {
   "id": "osm:node/27534857",
   "name": "Hanwell",
+  "kind": "suburb",
   "lat": 51.5089838,
   "lng": -0.3381584
  },
  {
   "id": "osm:node/27535022",
   "name": "Greenford",
+  "kind": "suburb",
   "lat": 51.5279378,
   "lng": -0.3527601
  },
  {
   "id": "osm:node/27536665",
   "name": "South Harrow",
+  "kind": "neighbourhood",
   "lat": 51.565869,
   "lng": -0.352919
  },
  {
   "id": "osm:node/27553615",
   "name": "Plaistow",
+  "kind": "suburb",
   "lat": 51.5293798,
   "lng": 0.0249097
  },
  {
   "id": "osm:node/27553702",
   "name": "Kennington",
+  "kind": "suburb",
   "lat": 51.4884523,
   "lng": -0.1092504
  },
  {
   "id": "osm:node/27553707",
   "name": "Vauxhall",
+  "kind": "suburb",
   "lat": 51.4874834,
   "lng": -0.1229297
  },
  {
   "id": "osm:node/27553712",
   "name": "The Borough",
-  "lat": 51.5012554,
-  "lng": -0.0932166
+  "kind": "suburb",
+  "lat": 51.5022549,
+  "lng": -0.093898
  },
  {
   "id": "osm:node/27553719",
   "name": "Lambeth",
+  "kind": "suburb",
   "lat": 51.4952111,
   "lng": -0.1163354
  },
  {
   "id": "osm:node/27553725",
   "name": "Stockwell",
+  "kind": "suburb",
   "lat": 51.4682652,
   "lng": -0.1212434
  },
  {
   "id": "osm:node/27553734",
   "name": "Camberwell",
+  "kind": "suburb",
   "lat": 51.4745706,
   "lng": -0.0925416
  },
  {
   "id": "osm:node/27553742",
   "name": "East Dulwich",
+  "kind": "suburb",
   "lat": 51.4585222,
   "lng": -0.0750304
  },
  {
   "id": "osm:node/27553749",
   "name": "Dulwich",
+  "kind": "suburb",
   "lat": 51.4418786,
   "lng": -0.0843244
  },
  {
   "id": "osm:node/27553768",
   "name": "Forest Hill",
+  "kind": "suburb",
   "lat": 51.439108,
   "lng": -0.0539538
  },
  {
   "id": "osm:node/27554058",
   "name": "Deptford",
+  "kind": "suburb",
   "lat": 51.4758453,
   "lng": -0.0215164
  },
  {
   "id": "osm:node/27554063",
   "name": "New Cross Gate",
+  "kind": "suburb",
   "lat": 51.4746978,
   "lng": -0.045284
  },
  {
   "id": "osm:node/27554266",
   "name": "Battersea",
+  "kind": "suburb",
   "lat": 51.4707933,
   "lng": -0.172214
  },
  {
   "id": "osm:node/27554267",
   "name": "Clapham",
+  "kind": "suburb",
   "lat": 51.4614469,
   "lng": -0.138627
  },
  {
   "id": "osm:node/27729031",
   "name": "Southgate",
+  "kind": "suburb",
   "lat": 51.6324361,
   "lng": -0.1273334
  },
  {
   "id": "osm:node/27729624",
   "name": "Hornsey",
+  "kind": "suburb",
   "lat": 51.5873645,
   "lng": -0.1209667
  },
  {
   "id": "osm:node/27729625",
   "name": "Finchley",
+  "kind": "suburb",
   "lat": 51.5973246,
   "lng": -0.1805587
  },
  {
   "id": "osm:node/27730054",
   "name": "Mill Hill",
+  "kind": "suburb",
   "lat": 51.6154423,
   "lng": -0.2330675
  },
  {
   "id": "osm:node/27731303",
   "name": "Woodford",
+  "kind": "suburb",
   "lat": 51.6041652,
   "lng": 0.0324525
  },
  {
   "id": "osm:node/27731566",
   "name": "Barkingside",
+  "kind": "suburb",
   "lat": 51.588311,
   "lng": 0.0848694
  },
  {
   "id": "osm:node/27731567",
   "name": "Newbury Park",
+  "kind": "suburb",
   "lat": 51.5758531,
   "lng": 0.0922634
  },
  {
   "id": "osm:node/27731568",
   "name": "Wanstead",
+  "kind": "suburb",
   "lat": 51.5756739,
   "lng": 0.0277989
  },
  {
   "id": "osm:node/27732675",
   "name": "Welling",
+  "kind": "suburb",
   "lat": 51.4622188,
   "lng": 0.1122877
  },
  {
   "id": "osm:node/27732676",
   "name": "Plumstead",
+  "kind": "suburb",
   "lat": 51.4804635,
   "lng": 0.0924286
  },
  {
   "id": "osm:node/28296776",
   "name": "Penge",
+  "kind": "suburb",
   "lat": 51.4137657,
   "lng": -0.0516671
  },
  {
   "id": "osm:node/29174788",
   "name": "West Thurrock",
+  "kind": "suburb",
   "lat": 51.47712,
   "lng": 0.2721259
  },
  {
   "id": "osm:node/29402048",
   "name": "Herne Hill",
+  "kind": "suburb",
   "lat": 51.4554407,
   "lng": -0.1001002
  },
  {
   "id": "osm:node/29402049",
   "name": "Tulse Hill",
+  "kind": "suburb",
   "lat": 51.4412109,
   "lng": -0.1020591
  },
  {
   "id": "osm:node/29944851",
   "name": "Wood End",
+  "kind": "neighbourhood",
   "lat": 51.5538342,
   "lng": -0.3521696
  },
  {
   "id": "osm:node/30738531",
   "name": "Ham",
+  "kind": "suburb",
   "lat": 51.4347641,
   "lng": -0.3092987
  },
  {
   "id": "osm:node/30759430",
   "name": "Sudbury Hill",
+  "kind": "suburb",
   "lat": 51.5609382,
   "lng": -0.3320218
  },
  {
   "id": "osm:node/31036372",
   "name": "Heston",
+  "kind": "suburb",
   "lat": 51.4854573,
   "lng": -0.3719561
  },
  {
   "id": "osm:node/31036373",
   "name": "Osterley",
+  "kind": "suburb",
   "lat": 51.4832218,
   "lng": -0.3517985
  },
  {
   "id": "osm:node/31424254",
   "name": "Harmondsworth",
+  "kind": "suburb",
   "lat": 51.4889317,
   "lng": -0.4755435
  },
  {
   "id": "osm:node/31425699",
   "name": "West Drayton",
+  "kind": "suburb",
   "lat": 51.503513,
   "lng": -0.4662704
  },
  {
   "id": "osm:node/31922291",
   "name": "Streatham Hill",
+  "kind": "suburb",
   "lat": 51.4406366,
   "lng": -0.122249
  },
  {
   "id": "osm:node/33382361",
   "name": "North Woolwich",
+  "kind": "suburb",
   "lat": 51.5004071,
   "lng": 0.064154
  },
  {
   "id": "osm:node/33499702",
   "name": "Brownswood Park",
+  "kind": "neighbourhood",
   "lat": 51.5647805,
   "lng": -0.0972619
  },
  {
   "id": "osm:node/33758152",
   "name": "Beddington",
+  "kind": "suburb",
   "lat": 51.3719875,
   "lng": -0.1323928
  },
  {
   "id": "osm:node/33758228",
   "name": "Wallington",
+  "kind": "suburb",
   "lat": 51.357945,
   "lng": -0.1495621
  },
  {
   "id": "osm:node/36489724",
   "name": "Lampton",
+  "kind": "neighbourhood",
   "lat": 51.4776251,
   "lng": -0.3641365
  },
  {
   "id": "osm:node/41031645",
   "name": "Harold Wood",
+  "kind": "suburb",
   "lat": 51.5936326,
   "lng": 0.2310497
  },
  {
   "id": "osm:node/41045184",
   "name": "Harold Hill",
+  "kind": "suburb",
   "lat": 51.6049,
   "lng": 0.2201549
  },
  {
   "id": "osm:node/45365899",
   "name": "Ardleigh Green",
+  "kind": "suburb",
   "lat": 51.5841911,
   "lng": 0.2209904
  },
  {
   "id": "osm:node/45378448",
   "name": "Emerson Park",
+  "kind": "suburb",
   "lat": 51.5706928,
   "lng": 0.2290526
  },
  {
   "id": "osm:node/52706783",
   "name": "Collier Row",
+  "kind": "suburb",
   "lat": 51.599912,
   "lng": 0.1615162
  },
  {
   "id": "osm:node/56236733",
   "name": "Gidea Park",
+  "kind": "suburb",
   "lat": 51.5811818,
   "lng": 0.2059524
  },
  {
   "id": "osm:node/59193109",
   "name": "Whitton",
+  "kind": "suburb",
   "lat": 51.4511693,
   "lng": -0.3579759
  },
  {
   "id": "osm:node/59842030",
   "name": "Cranford",
+  "kind": "suburb",
   "lat": 51.4795957,
   "lng": -0.4106605
  },
  {
   "id": "osm:node/60465311",
   "name": "Clockhouse",
+  "kind": "neighbourhood",
   "lat": 51.3260695,
   "lng": -0.1568827
  },
  {
   "id": "osm:node/63805934",
   "name": "Selsdon",
+  "kind": "suburb",
   "lat": 51.3443067,
   "lng": -0.0607688
  },
  {
   "id": "osm:node/86947053",
   "name": "Benhilton",
+  "kind": "neighbourhood",
   "lat": 51.3716416,
   "lng": -0.1915714
  },
  {
   "id": "osm:node/88374730",
   "name": "Kenley",
+  "kind": "suburb",
   "lat": 51.3227524,
   "lng": -0.1037854
  },
  {
   "id": "osm:node/88374952",
   "name": "Purley",
+  "kind": "suburb",
   "lat": 51.3388112,
   "lng": -0.1158589
  },
  {
   "id": "osm:node/88376040",
   "name": "Whyteleafe",
+  "kind": "suburb",
   "lat": 51.3101495,
   "lng": -0.0795445
  },
  {
   "id": "osm:node/105539532",
   "name": "South Norwood",
+  "kind": "suburb",
   "lat": 51.3980951,
   "lng": -0.0768216
  },
  {
   "id": "osm:node/106227330",
   "name": "West Wickham",
+  "kind": "suburb",
   "lat": 51.3758036,
   "lng": -0.0146843
  },
  {
   "id": "osm:node/123921330",
   "name": "Beckenham",
+  "kind": "suburb",
   "lat": 51.4070938,
   "lng": -0.0303183
  },
  {
   "id": "osm:node/130823478",
   "name": "Elmers End",
+  "kind": "suburb",
   "lat": 51.3994675,
   "lng": -0.0416048
  },
  {
   "id": "osm:node/138187664",
   "name": "Shirley",
+  "kind": "suburb",
   "lat": 51.3749243,
   "lng": -0.0466335
  },
  {
   "id": "osm:node/183613836",
   "name": "Cranham",
+  "kind": "suburb",
   "lat": 51.5685214,
   "lng": 0.2690562
  },
  {
   "id": "osm:node/206144557",
   "name": "The Beveree",
+  "kind": "neighbourhood",
   "lat": 51.4150277,
   "lng": -0.3640956
  },
  {
   "id": "osm:node/207141595",
   "name": "Peckham",
+  "kind": "suburb",
   "lat": 51.4734122,
   "lng": -0.0699321
  },
  {
   "id": "osm:node/215809322",
   "name": "Rayners Lane",
+  "kind": "suburb",
   "lat": 51.5767143,
   "lng": -0.3703002
  },
  {
   "id": "osm:node/221170550",
   "name": "Waltham Abbey",
+  "kind": "suburb",
   "lat": 51.6892068,
   "lng": -0.0009449
  },
  {
   "id": "osm:node/242917397",
   "name": "Tolworth",
+  "kind": "suburb",
   "lat": 51.3788758,
   "lng": -0.2828604
  },
  {
   "id": "osm:node/243814259",
   "name": "Hoxton",
+  "kind": "suburb",
   "lat": 51.5323935,
   "lng": -0.086078
  },
  {
   "id": "osm:node/249335467",
   "name": "Roundshaw",
+  "kind": "suburb",
   "lat": 51.3535628,
   "lng": -0.1305736
  },
  {
   "id": "osm:node/249674698",
   "name": "Mitcham",
+  "kind": "suburb",
   "lat": 51.4058006,
   "lng": -0.1640787
  },
  {
   "id": "osm:node/253101009",
   "name": "Worton",
+  "kind": "suburb",
   "lat": 51.4647068,
   "lng": -0.3463595
  },
  {
   "id": "osm:node/255747342",
   "name": "Ponders End",
+  "kind": "suburb",
   "lat": 51.6443511,
   "lng": -0.0403754
  },
  {
   "id": "osm:node/255747617",
   "name": "Cockfosters",
+  "kind": "suburb",
   "lat": 51.6478986,
   "lng": -0.1474108
  },
  {
   "id": "osm:node/255755993",
   "name": "Winchmore Hill",
+  "kind": "quarter",
   "lat": 51.6333948,
   "lng": -0.1033617
  },
  {
   "id": "osm:node/255756095",
   "name": "Palmers Green",
+  "kind": "suburb",
   "lat": 51.6178253,
   "lng": -0.1091946
  },
  {
   "id": "osm:node/262200466",
   "name": "Joydens Wood",
+  "kind": "suburb",
   "lat": 51.4269656,
   "lng": 0.170417
  },
  {
   "id": "osm:node/266798614",
   "name": "Worcester Park",
+  "kind": "suburb",
   "lat": 51.3785033,
   "lng": -0.2416597
  },
  {
   "id": "osm:node/266799034",
   "name": "Stoneleigh",
+  "kind": "suburb",
   "lat": 51.3627372,
   "lng": -0.2462611
  },
  {
   "id": "osm:node/267113333",
   "name": "Carshalton Beeches",
+  "kind": "neighbourhood",
   "lat": 51.3563143,
   "lng": -0.1712613
  },
  {
   "id": "osm:node/269611584",
   "name": "Hadley Wood",
+  "kind": "suburb",
   "lat": 51.6671608,
   "lng": -0.1735167
  },
  {
   "id": "osm:node/281041529",
   "name": "Somers Town",
+  "kind": "suburb",
   "lat": 51.5317283,
   "lng": -0.1315656
  },
  {
   "id": "osm:node/285732351",
   "name": "Tappesfield Estate",
+  "kind": "neighbourhood",
   "lat": 51.4648375,
   "lng": -0.0560195
  },
  {
   "id": "osm:node/288848078",
   "name": "Butler's Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5036914,
   "lng": -0.0739092
  },
  {
   "id": "osm:node/297805659",
   "name": "Hampton",
+  "kind": "suburb",
   "lat": 51.4150272,
   "lng": -0.3691409
  },
  {
   "id": "osm:node/300045629",
   "name": "Old Pyrford",
+  "kind": "neighbourhood",
   "lat": 51.3148713,
   "lng": -0.5080968
  },
  {
   "id": "osm:node/303927927",
   "name": "Spring Grove",
+  "kind": "suburb",
   "lat": 51.4798335,
   "lng": -0.3440115
  },
  {
   "id": "osm:node/309777285",
   "name": "Garston",
+  "kind": "suburb",
   "lat": 51.6857896,
   "lng": -0.3956985
  },
  {
   "id": "osm:node/313490648",
   "name": "Birds Hill Estate",
+  "kind": "neighbourhood",
   "lat": 51.3382452,
   "lng": -0.3514176
  },
  {
   "id": "osm:node/314729225",
   "name": "Watford Heath",
+  "kind": "suburb",
   "lat": 51.640054,
   "lng": -0.385174
  },
  {
   "id": "osm:node/344093927",
   "name": "Seven Dials",
+  "kind": "neighbourhood",
   "lat": 51.5137742,
   "lng": -0.1269968
  },
  {
   "id": "osm:node/360873726",
   "name": "Ebbsfleet",
+  "kind": "suburb",
   "lat": 51.4416277,
   "lng": 0.3194846
  },
  {
   "id": "osm:node/362908707",
   "name": "Little Ilford",
+  "kind": "suburb",
   "lat": 51.550298,
   "lng": 0.0625225
  },
  {
   "id": "osm:node/364663239",
   "name": "Harrow Weald",
+  "kind": "suburb",
   "lat": 51.6047861,
   "lng": -0.3404854
  },
  {
   "id": "osm:node/364663370",
   "name": "Belmont",
+  "kind": "suburb",
   "lat": 51.601225,
   "lng": -0.3181008
  },
  {
   "id": "osm:node/364664007",
   "name": "Stanmore",
+  "kind": "suburb",
   "lat": 51.6174205,
   "lng": -0.3095111
  },
  {
   "id": "osm:node/364664640",
   "name": "Kenton",
+  "kind": "suburb",
   "lat": 51.5846627,
   "lng": -0.3134253
  },
  {
   "id": "osm:node/364844511",
   "name": "Kingsbury",
+  "kind": "suburb",
   "lat": 51.5841783,
   "lng": -0.264545
  },
  {
   "id": "osm:node/380743163",
   "name": "Hatch End",
+  "kind": "suburb",
   "lat": 51.6084159,
   "lng": -0.3735717
  },
  {
   "id": "osm:node/383729579",
   "name": "St Luke's",
+  "kind": "neighbourhood",
   "lat": 51.5268671,
   "lng": -0.0959005
  },
  {
   "id": "osm:node/385147398",
   "name": "Roehampton",
+  "kind": "suburb",
   "lat": 51.4498773,
   "lng": -0.2412672
  },
  {
   "id": "osm:node/385147523",
   "name": "East Sheen",
+  "kind": "suburb",
   "lat": 51.4623706,
   "lng": -0.267094
  },
  {
   "id": "osm:node/385148479",
   "name": "Mortlake",
+  "kind": "suburb",
   "lat": 51.4698873,
   "lng": -0.2685226
  },
  {
   "id": "osm:node/390315780",
   "name": "Southfields",
+  "kind": "suburb",
   "lat": 51.4447618,
   "lng": -0.2064713
  },
  {
   "id": "osm:node/400704579",
   "name": "White City Estate",
+  "kind": "neighbourhood",
   "lat": 51.5126389,
   "lng": -0.2326312
  },
  {
   "id": "osm:node/409700968",
   "name": "Nunhead",
+  "kind": "suburb",
   "lat": 51.4615309,
   "lng": -0.0535056
  },
  {
   "id": "osm:node/410414097",
   "name": "Chipstead",
+  "kind": "suburb",
   "lat": 51.283835,
   "lng": 0.1507705
  },
  {
   "id": "osm:node/410414098",
   "name": "St John's",
+  "kind": "suburb",
   "lat": 51.2834527,
   "lng": 0.1960469
  },
  {
   "id": "osm:node/410647948",
   "name": "Greatness",
+  "kind": "suburb",
   "lat": 51.2900206,
   "lng": 0.1992177
  },
  {
   "id": "osm:node/410648677",
   "name": "Wildernesse",
+  "kind": "suburb",
   "lat": 51.2842505,
   "lng": 0.2173846
  },
  {
   "id": "osm:node/415561032",
   "name": "St Olave's Estate",
+  "kind": "neighbourhood",
   "lat": 51.5025837,
   "lng": -0.0794981
  },
  {
   "id": "osm:node/420876704",
   "name": "Widmore",
+  "kind": "suburb",
   "lat": 51.402527,
   "lng": 0.0337799
  },
  {
   "id": "osm:node/430826269",
   "name": "Petersham",
+  "kind": "suburb",
   "lat": 51.4436913,
   "lng": -0.3052934
  },
  {
   "id": "osm:node/431507207",
   "name": "Blackheath",
+  "kind": "suburb",
   "lat": 51.4662623,
   "lng": 0.008681
  },
  {
   "id": "osm:node/431524383",
   "name": "Thornton Heath",
+  "kind": "suburb",
   "lat": 51.39911,
   "lng": -0.0986059
  },
  {
   "id": "osm:node/432444944",
   "name": "Purbrook Estate",
+  "kind": "neighbourhood",
   "lat": 51.4988641,
   "lng": -0.0782589
  },
  {
   "id": "osm:node/447843121",
   "name": "Cricklewood",
+  "kind": "suburb",
   "lat": 51.5566986,
   "lng": -0.2157507
  },
  {
   "id": "osm:node/450524790",
   "name": "South Bank",
+  "kind": "quarter",
   "lat": 51.5065325,
   "lng": -0.1134203
  },
  {
   "id": "osm:node/469779298",
   "name": "Riverhill",
+  "kind": "neighbourhood",
   "lat": 51.3771651,
   "lng": -0.2687702
  },
  {
   "id": "osm:node/510151303",
   "name": "Aldrington Estate",
+  "kind": "neighbourhood",
   "lat": 51.4284919,
   "lng": -0.1399222
  },
  {
   "id": "osm:node/529458254",
   "name": "North Finchley",
+  "kind": "suburb",
   "lat": 51.6124905,
   "lng": -0.1756922
  },
  {
   "id": "osm:node/559739378",
   "name": "Fish Island",
+  "kind": "neighbourhood",
   "lat": 51.5394491,
   "lng": -0.0229053
  },
  {
   "id": "osm:node/568572880",
   "name": "Brockley",
+  "kind": "suburb",
   "lat": 51.4578328,
   "lng": -0.0360868
  },
  {
   "id": "osm:node/568590483",
   "name": "Honor Oak",
+  "kind": "suburb",
   "lat": 51.4499075,
   "lng": -0.0399142
  },
  {
   "id": "osm:node/568590491",
   "name": "Ladywell",
+  "kind": "suburb",
   "lat": 51.4565877,
   "lng": -0.0203239
  },
  {
   "id": "osm:node/591984822",
   "name": "Snaresbrook",
+  "kind": "suburb",
   "lat": 51.5831734,
   "lng": 0.0228777
  },
  {
   "id": "osm:node/596780321",
   "name": "Becontree Heath",
+  "kind": "suburb",
   "lat": 51.5610299,
   "lng": 0.1478793
  },
  {
   "id": "osm:node/596796167",
   "name": "Dagenham",
+  "kind": "suburb",
   "lat": 51.5413271,
   "lng": 0.1481142
  },
  {
   "id": "osm:node/597379779",
   "name": "Scrattons Farm",
+  "kind": "suburb",
   "lat": 51.5304104,
   "lng": 0.1324402
  },
  {
   "id": "osm:node/597379918",
   "name": "Thames View",
+  "kind": "suburb",
   "lat": 51.5286041,
   "lng": 0.1043626
  },
  {
   "id": "osm:node/597399332",
   "name": "Hornchurch",
+  "kind": "suburb",
   "lat": 51.5617734,
   "lng": 0.2207441
  },
  {
   "id": "osm:node/597405972",
   "name": "Chadwell Heath",
+  "kind": "suburb",
   "lat": 51.5700474,
   "lng": 0.1297842
  },
  {
   "id": "osm:node/597405975",
   "name": "Marks Gate",
+  "kind": "suburb",
   "lat": 51.5863692,
   "lng": 0.1348482
  },
  {
   "id": "osm:node/597406950",
   "name": "Little Heath",
+  "kind": "suburb",
   "lat": 51.5808369,
   "lng": 0.1171352
  },
  {
   "id": "osm:node/597407039",
   "name": "Goodmayes",
+  "kind": "quarter",
   "lat": 51.564204,
   "lng": 0.1186977
  },
  {
   "id": "osm:node/597407482",
   "name": "Seven Kings",
+  "kind": "suburb",
   "lat": 51.5646258,
   "lng": 0.0986148
  },
  {
   "id": "osm:node/610844778",
   "name": "Clifton Estate",
+  "kind": "neighbourhood",
   "lat": 51.4729375,
   "lng": -0.064817
  },
  {
+  "id": "osm:node/610844779",
+  "name": "Cossall Estate",
+  "kind": "neighbourhood",
+  "lat": 51.4722538,
+  "lng": -0.0611006
+ },
+ {
   "id": "osm:node/610875919",
   "name": "Elmington Estate",
+  "kind": "neighbourhood",
   "lat": 51.4775251,
   "lng": -0.0931465
  },
  {
   "id": "osm:node/611721875",
   "name": "Aylesbury Estate",
+  "kind": "neighbourhood",
   "lat": 51.4853277,
   "lng": -0.086079
  },
  {
   "id": "osm:node/616600058",
   "name": "Cooper's Estate",
+  "kind": "neighbourhood",
   "lat": 51.4872948,
   "lng": -0.0718836
  },
  {
   "id": "osm:node/620872406",
   "name": "Temple Fortune",
+  "kind": "suburb",
   "lat": 51.5819126,
   "lng": -0.1990538
  },
  {
   "id": "osm:node/626591740",
   "name": "Balham",
+  "kind": "suburb",
   "lat": 51.4447487,
   "lng": -0.1512937
  },
  {
   "id": "osm:node/705682847",
   "name": "Corbets Tey",
+  "kind": "suburb",
   "lat": 51.5429422,
   "lng": 0.2513598
  },
  {
   "id": "osm:node/716816528",
   "name": "Westbourne Green",
+  "kind": "neighbourhood",
   "lat": 51.5189617,
   "lng": -0.1908172
  },
  {
   "id": "osm:node/849946938",
   "name": "Tachbrook Estate",
+  "kind": "neighbourhood",
   "lat": 51.4873879,
   "lng": -0.1330858
  },
  {
   "id": "osm:node/878184976",
   "name": "Carpenders Park",
+  "kind": "suburb",
   "lat": 51.6294667,
   "lng": -0.380024
  },
  {
   "id": "osm:node/945446434",
   "name": "Browning Estate",
+  "kind": "neighbourhood",
   "lat": 51.4894002,
   "lng": -0.0945392
  },
  {
   "id": "osm:node/1022389851",
   "name": "Longfield Estate",
+  "kind": "neighbourhood",
   "lat": 51.4918509,
   "lng": -0.0733171
  },
  {
   "id": "osm:node/1022389854",
   "name": "Lynton Estate",
+  "kind": "neighbourhood",
   "lat": 51.4896389,
   "lng": -0.0701617
  },
  {
   "id": "osm:node/1022389857",
   "name": "Astley Estate",
+  "kind": "neighbourhood",
   "lat": 51.4878394,
   "lng": -0.0736875
  },
  {
   "id": "osm:node/1116643128",
   "name": "York Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.4669802,
   "lng": -0.1729197
  },
  {
   "id": "osm:node/1123412172",
   "name": "High Barnet",
+  "kind": "suburb",
   "lat": 51.6531493,
   "lng": -0.2005407
  },
  {
   "id": "osm:node/1125067421",
   "name": "St John's Estate",
+  "kind": "neighbourhood",
   "lat": 51.5008198,
   "lng": -0.0765674
  },
  {
   "id": "osm:node/1139095970",
   "name": "Motspur Park",
+  "kind": "suburb",
   "lat": 51.3909852,
   "lng": -0.2488979
  },
  {
   "id": "osm:node/1143192152",
   "name": "The Hamptons",
+  "kind": "neighbourhood",
   "lat": 51.3854486,
   "lng": -0.2379296
  },
  {
   "id": "osm:node/1165078123",
   "name": "Pepys Estate",
+  "kind": "neighbourhood",
   "lat": 51.4894251,
   "lng": -0.0357545
  },
  {
   "id": "osm:node/1166364131",
   "name": "Mill End",
+  "kind": "suburb",
   "lat": 51.6371126,
   "lng": -0.4927717
  },
  {
   "id": "osm:node/1189132201",
   "name": "The Cedars Estate",
+  "kind": "suburb",
   "lat": 51.6400899,
   "lng": -0.4816778
  },
  {
   "id": "osm:node/1189174048",
   "name": "Moneyhill",
+  "kind": "suburb",
   "lat": 51.637236,
   "lng": -0.483943
  },
  {
   "id": "osm:node/1224753025",
   "name": "East Barnet",
+  "kind": "suburb",
   "lat": 51.6416813,
   "lng": -0.1628235
  },
  {
   "id": "osm:node/1224754174",
   "name": "New Barnet",
+  "kind": "suburb",
   "lat": 51.6495724,
   "lng": -0.171006
  },
  {
   "id": "osm:node/1224759066",
   "name": "Brunswick Park",
+  "kind": "suburb",
   "lat": 51.6262191,
   "lng": -0.1481899
  },
  {
   "id": "osm:node/1224759110",
   "name": "New Southgate",
+  "kind": "suburb",
   "lat": 51.6171653,
   "lng": -0.1378851
  },
  {
   "id": "osm:node/1224760874",
   "name": "Oakleigh Park",
+  "kind": "quarter",
   "lat": 51.6374989,
   "lng": -0.1686559
  },
  {
   "id": "osm:node/1228088100",
   "name": "Norbury",
+  "kind": "suburb",
   "lat": 51.4110663,
   "lng": -0.1224869
  },
  {
   "id": "osm:node/1275832562",
   "name": "Peabody Estate",
+  "kind": "neighbourhood",
   "lat": 51.4864167,
   "lng": -0.1326523
  },
  {
   "id": "osm:node/1284722492",
   "name": "Wandon Estate",
+  "kind": "neighbourhood",
   "lat": 51.4804226,
   "lng": -0.1883642
  },
  {
   "id": "osm:node/1313310991",
   "name": "North Kensington",
+  "kind": "suburb",
   "lat": 51.5196647,
   "lng": -0.2106959
  },
  {
   "id": "osm:node/1341681399",
   "name": "Beckton",
+  "kind": "suburb",
   "lat": 51.5160797,
   "lng": 0.0594257
  },
  {
   "id": "osm:node/1341723809",
   "name": "Temple Mills",
+  "kind": "neighbourhood",
   "lat": 51.5506149,
   "lng": -0.0074363
  },
  {
   "id": "osm:node/1341723818",
   "name": "Cyprus",
+  "kind": "suburb",
   "lat": 51.5091962,
   "lng": 0.0670869
  },
  {
   "id": "osm:node/1341723823",
   "name": "Upton Park",
+  "kind": "suburb",
   "lat": 51.5369171,
   "lng": 0.034673
  },
  {
   "id": "osm:node/1341723829",
   "name": "Stratford New Town",
+  "kind": "neighbourhood",
   "lat": 51.5474264,
   "lng": 0.0019071
  },
  {
   "id": "osm:node/1341723836",
   "name": "Forest Gate",
+  "kind": "suburb",
   "lat": 51.5495236,
   "lng": 0.0249248
  },
  {
   "id": "osm:node/1341723842",
   "name": "Manor Park",
+  "kind": "suburb",
   "lat": 51.5506867,
   "lng": 0.0476391
  },
  {
   "id": "osm:node/1370329100",
   "name": "Long Ditton",
+  "kind": "suburb",
   "lat": 51.384162,
   "lng": -0.3199839
  },
  {
   "id": "osm:node/1370329112",
   "name": "Hinchley Wood",
+  "kind": "suburb",
   "lat": 51.3745705,
   "lng": -0.3389149
  },
  {
   "id": "osm:node/1389643453",
   "name": "Broadwater Farm",
+  "kind": "neighbourhood",
   "lat": 51.5949286,
   "lng": -0.0816018
  },
  {
   "id": "osm:node/1447934981",
   "name": "Walthamstow Village",
+  "kind": "neighbourhood",
   "lat": 51.5836835,
   "lng": -0.0121451
  },
  {
   "id": "osm:node/1447936888",
   "name": "Higham Hill",
+  "kind": "quarter",
   "lat": 51.5960399,
   "lng": -0.0353557
  },
  {
   "id": "osm:node/1452965570",
   "name": "Stroud Green",
+  "kind": "suburb",
   "lat": 51.5716864,
   "lng": -0.1114972
  },
  {
   "id": "osm:node/1503483262",
   "name": "Blackheath Royal Standard",
+  "kind": "quarter",
   "lat": 51.4770445,
   "lng": 0.0191953
  },
  {
   "id": "osm:node/1569016949",
   "name": "Kilburn",
+  "kind": "suburb",
   "lat": 51.541882,
   "lng": -0.1979358
  },
  {
   "id": "osm:node/1639959450",
   "name": "Fulham",
+  "kind": "suburb",
   "lat": 51.474408,
   "lng": -0.206809
  },
  {
   "id": "osm:node/1653239257",
   "name": "St. James's",
+  "kind": "neighbourhood",
   "lat": 51.5079082,
   "lng": -0.1365727
  },
  {
   "id": "osm:node/1669242693",
   "name": "Telegraph Hill",
+  "kind": "neighbourhood",
   "lat": 51.4686583,
   "lng": -0.0467923
  },
  {
   "id": "osm:node/1712699729",
   "name": "Morden",
+  "kind": "suburb",
   "lat": 51.4006852,
   "lng": -0.1938973
  },
  {
   "id": "osm:node/1712699730",
   "name": "Raynes Park",
+  "kind": "suburb",
   "lat": 51.4106243,
   "lng": -0.2312868
  },
  {
   "id": "osm:node/1712699731",
   "name": "Merton",
+  "kind": "suburb",
   "lat": 51.4143912,
   "lng": -0.1880608
  },
  {
   "id": "osm:node/1712699734",
   "name": "Merton Park",
+  "kind": "suburb",
   "lat": 51.4079938,
   "lng": -0.2019654
  },
  {
   "id": "osm:node/1712711930",
   "name": "Lower Morden",
+  "kind": "suburb",
   "lat": 51.3897736,
   "lng": -0.2163635
  },
  {
   "id": "osm:node/1712711947",
   "name": "New Malden",
+  "kind": "suburb",
   "lat": 51.4053347,
   "lng": -0.2634066
  },
  {
   "id": "osm:node/1716927288",
   "name": "Finsbury",
+  "kind": "suburb",
   "lat": 51.521798,
   "lng": -0.0914245
  },
  {
   "id": "osm:node/1733864727",
   "name": "Chessington",
+  "kind": "suburb",
   "lat": 51.358336,
   "lng": -0.2986216
  },
  {
   "id": "osm:node/1734271740",
   "name": "Hook",
+  "kind": "suburb",
   "lat": 51.3678984,
   "lng": -0.3071453
  },
  {
   "id": "osm:node/1736768189",
   "name": "Surbiton",
+  "kind": "suburb",
   "lat": 51.3937557,
   "lng": -0.3033105
  },
  {
   "id": "osm:node/1755339535",
   "name": "Childs Hill",
+  "kind": "quarter",
   "lat": 51.5629822,
   "lng": -0.1972494
  },
  {
   "id": "osm:node/1755339536",
   "name": "Brent Cross",
+  "kind": "suburb",
   "lat": 51.5767595,
   "lng": -0.2183801
  },
  {
   "id": "osm:node/1755342824",
   "name": "West Hendon",
+  "kind": "suburb",
   "lat": 51.578213,
   "lng": -0.2403793
  },
  {
   "id": "osm:node/1755342828",
   "name": "Colindale",
+  "kind": "suburb",
   "lat": 51.5916555,
   "lng": -0.2495576
  },
  {
   "id": "osm:node/1755346697",
   "name": "Colney Hatch",
+  "kind": "suburb",
   "lat": 51.6025172,
   "lng": -0.1480126
  },
  {
   "id": "osm:node/1755356230",
   "name": "Woodside Park",
+  "kind": "suburb",
   "lat": 51.6207552,
   "lng": -0.1870733
  },
  {
   "id": "osm:node/1755356236",
   "name": "West Finchley",
+  "kind": "suburb",
   "lat": 51.6088451,
   "lng": -0.1946371
  },
  {
   "id": "osm:node/1756264130",
   "name": "Enfield Highway",
+  "kind": "quarter",
   "lat": 51.6570155,
   "lng": -0.0471516
  },
  {
   "id": "osm:node/1756264131",
   "name": "Brimsdown",
+  "kind": "quarter",
   "lat": 51.6587679,
   "lng": -0.0231555
  },
  {
   "id": "osm:node/1756264132",
   "name": "Carterhatch",
+  "kind": "quarter",
   "lat": 51.6606887,
   "lng": -0.062018
  },
  {
   "id": "osm:node/1756268163",
   "name": "Enfield Island Village",
+  "kind": "quarter",
   "lat": 51.6693018,
   "lng": -0.0152295
  },
  {
   "id": "osm:node/1769839658",
   "name": "Chalk Farm",
+  "kind": "suburb",
   "lat": 51.5423141,
   "lng": -0.1518474
  },
  {
   "id": "osm:node/1769839663",
   "name": "Belsize Park",
+  "kind": "suburb",
   "lat": 51.5473926,
   "lng": -0.1683005
  },
  {
   "id": "osm:node/1846244237",
   "name": "West Hampstead",
+  "kind": "suburb",
   "lat": 51.5509898,
   "lng": -0.1917279
  },
  {
   "id": "osm:node/1846244241",
   "name": "South Hampstead",
+  "kind": "suburb",
   "lat": 51.5435046,
   "lng": -0.1852026
  },
  {
   "id": "osm:node/1846245190",
   "name": "Swiss Cottage",
+  "kind": "neighbourhood",
   "lat": 51.5438518,
   "lng": -0.1750178
  },
  {
   "id": "osm:node/1846245653",
   "name": "Tufnell Park",
+  "kind": "suburb",
   "lat": 51.557917,
   "lng": -0.1300565
  },
  {
   "id": "osm:node/1846253665",
   "name": "Highgate",
+  "kind": "suburb",
   "lat": 51.5706446,
   "lng": -0.1492397
  },
  {
   "id": "osm:node/1846253666",
   "name": "Hampstead Garden Suburb",
+  "kind": "suburb",
   "lat": 51.5805081,
   "lng": -0.1806164
  },
  {
   "id": "osm:node/1868669482",
   "name": "Holborn",
+  "kind": "suburb",
   "lat": 51.5195982,
   "lng": -0.1137266
  },
  {
   "id": "osm:node/1911997473",
   "name": "Noel Park",
+  "kind": "neighbourhood",
   "lat": 51.5970269,
   "lng": -0.1009153
  },
  {
   "id": "osm:node/1912019962",
   "name": "Bowes Park",
+  "kind": "quarter",
   "lat": 51.6120257,
   "lng": -0.1199352
  },
  {
   "id": "osm:node/1925384346",
   "name": "Iver",
+  "kind": "suburb",
   "lat": 51.5192944,
   "lng": -0.5063705
  },
  {
   "id": "osm:node/1954935140",
   "name": "Sanderstead",
+  "kind": "suburb",
   "lat": 51.3340837,
   "lng": -0.0767435
  },
  {
   "id": "osm:node/1956519439",
   "name": "Bulls Cross",
+  "kind": "neighbourhood",
   "lat": 51.6784103,
   "lng": -0.0590736
  },
  {
   "id": "osm:node/2052583613",
   "name": "Holywell Estate",
+  "kind": "suburb",
   "lat": 51.6467923,
   "lng": -0.4242583
  },
  {
   "id": "osm:node/2052585238",
   "name": "North Watford",
+  "kind": "suburb",
   "lat": 51.673946,
   "lng": -0.4012117
  },
  {
   "id": "osm:node/2086436560",
   "name": "Broadfields",
+  "kind": "quarter",
   "lat": 51.6280216,
   "lng": -0.270054
  },
  {
   "id": "osm:node/2087117875",
   "name": "Highwood Hill",
+  "kind": "neighbourhood",
   "lat": 51.6272982,
   "lng": -0.2418093
  },
  {
   "id": "osm:node/2088461113",
   "name": "Chalet Estate",
+  "kind": "neighbourhood",
   "lat": 51.6198121,
   "lng": -0.2370621
  },
  {
   "id": "osm:node/2088461117",
   "name": "Marshall Estate",
+  "kind": "neighbourhood",
   "lat": 51.6182274,
   "lng": -0.2349818
  },
  {
   "id": "osm:node/2089095722",
   "name": "Chapel End",
+  "kind": "neighbourhood",
   "lat": 51.598434,
   "lng": -0.0154323
  },
  {
   "id": "osm:node/2089099112",
   "name": "Upper Walthamstow",
+  "kind": "quarter",
   "lat": 51.5857628,
   "lng": 0.0007567
  },
  {
   "id": "osm:node/2089099115",
   "name": "Wood Street",
+  "kind": "neighbourhood",
   "lat": 51.5879103,
   "lng": -0.0038474
  },
  {
   "id": "osm:node/2089929392",
   "name": "The Hyde",
+  "kind": "quarter",
   "lat": 51.5840727,
   "lng": -0.2419456
  },
  {
   "id": "osm:node/2089929393",
   "name": "Grahame Park",
+  "kind": "quarter",
   "lat": 51.6028898,
   "lng": -0.244866
  },
  {
   "id": "osm:node/2106478607",
   "name": "Hendon Central",
+  "kind": "suburb",
   "lat": 51.5828243,
   "lng": -0.227022
  },
  {
   "id": "osm:node/2133924981",
   "name": "Hackney",
+  "kind": "suburb",
   "lat": 51.5432402,
   "lng": -0.0493621
  },
  {
   "id": "osm:node/2142758741",
   "name": "Coombe",
+  "kind": "suburb",
   "lat": 51.4194499,
   "lng": -0.2653985
  },
  {
   "id": "osm:node/2143331386",
   "name": "Forestdale",
+  "kind": "suburb",
   "lat": 51.3513283,
   "lng": -0.0387563
  },
  {
   "id": "osm:node/2143331387",
   "name": "Waddon",
+  "kind": "suburb",
   "lat": 51.3649811,
   "lng": -0.1181995
  },
  {
   "id": "osm:node/2143342897",
   "name": "Addiscombe",
+  "kind": "suburb",
   "lat": 51.3796916,
   "lng": -0.0742821
  },
  {
   "id": "osm:node/2143342904",
   "name": "Woodcote",
+  "kind": "neighbourhood",
   "lat": 51.3460764,
   "lng": -0.1459324
  },
  {
   "id": "osm:node/2143342911",
   "name": "Broad Green",
+  "kind": "suburb",
   "lat": 51.3833946,
   "lng": -0.1083305
  },
  {
   "id": "osm:node/2143361135",
   "name": "West Norwood",
+  "kind": "suburb",
   "lat": 51.4346192,
   "lng": -0.1036917
  },
  {
   "id": "osm:node/2143763192",
   "name": "Falcon Estate",
+  "kind": "neighbourhood",
   "lat": 51.4682152,
   "lng": -0.1679046
  },
  {
   "id": "osm:node/2143779938",
   "name": "Clapham Junction",
+  "kind": "suburb",
   "lat": 51.463615,
   "lng": -0.1678664
  },
  {
   "id": "osm:node/2144167585",
   "name": "Sands End",
+  "kind": "neighbourhood",
   "lat": 51.4725454,
   "lng": -0.1871122
  },
  {
   "id": "osm:node/2144191662",
   "name": "Nine Elms",
+  "kind": "quarter",
   "lat": 51.4787433,
   "lng": -0.1362629
  },
  {
   "id": "osm:node/2144198505",
   "name": "Putney Vale",
+  "kind": "suburb",
   "lat": 51.4380193,
   "lng": -0.2459701
  },
  {
   "id": "osm:node/2144202565",
   "name": "Furzedown",
+  "kind": "suburb",
   "lat": 51.424389,
   "lng": -0.1537022
  },
  {
   "id": "osm:node/2144202566",
   "name": "Streatham Park",
+  "kind": "neighbourhood",
   "lat": 51.4249832,
   "lng": -0.1452011
  },
  {
   "id": "osm:node/2144208752",
   "name": "Abbeville Village",
+  "kind": "neighbourhood",
   "lat": 51.4545041,
   "lng": -0.1398146
  },
  {
   "id": "osm:node/2144212125",
   "name": "Clapham Park",
+  "kind": "neighbourhood",
   "lat": 51.4562426,
   "lng": -0.1318354
  },
  {
   "id": "osm:node/2145143960",
   "name": "Norbiton",
+  "kind": "suburb",
   "lat": 51.4099994,
   "lng": -0.2873963
  },
  {
   "id": "osm:node/2145146467",
   "name": "Kingston Vale",
+  "kind": "suburb",
   "lat": 51.43185,
   "lng": -0.2581379
  },
  {
   "id": "osm:node/2145159697",
   "name": "Old Malden",
+  "kind": "suburb",
   "lat": 51.382484,
   "lng": -0.2590897
  },
  {
   "id": "osm:node/2175016407",
   "name": "Hersham",
+  "kind": "suburb",
   "lat": 51.3655959,
   "lng": -0.3996815
  },
  {
   "id": "osm:node/2175018262",
   "name": "Berrylands",
+  "kind": "suburb",
   "lat": 51.3937811,
   "lng": -0.2848024
  },
  {
   "id": "osm:node/2176970106",
   "name": "St Margarets",
+  "kind": "suburb",
   "lat": 51.4567091,
   "lng": -0.3224118
  },
  {
   "id": "osm:node/2176976139",
   "name": "Strawberry Hill",
+  "kind": "suburb",
   "lat": 51.4385925,
   "lng": -0.3399367
  },
  {
   "id": "osm:node/2207920770",
   "name": "Blenheim Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.4547674,
   "lng": -0.1250554
  },
  {
   "id": "osm:node/2268352172",
   "name": "Notting Hill",
+  "kind": "suburb",
   "lat": 51.5109995,
   "lng": -0.2055267
  },
  {
   "id": "osm:node/2272513642",
   "name": "Bayswater",
+  "kind": "suburb",
   "lat": 51.5124135,
   "lng": -0.1876323
  },
  {
   "id": "osm:node/2288027626",
   "name": "Belgravia",
+  "kind": "suburb",
   "lat": 51.4982128,
   "lng": -0.1534998
  },
  {
   "id": "osm:node/2288030394",
   "name": "Victoria",
+  "kind": "suburb",
   "lat": 51.4959786,
   "lng": -0.1413172
  },
  {
   "id": "osm:node/2288030397",
   "name": "Millbank",
+  "kind": "suburb",
   "lat": 51.4926121,
   "lng": -0.1290435
  },
  {
   "id": "osm:node/2290086954",
   "name": "Covent Garden",
+  "kind": "suburb",
   "lat": 51.5117363,
   "lng": -0.1226769
  },
  {
   "id": "osm:node/2298727211",
   "name": "Eastcote",
+  "kind": "neighbourhood",
   "lat": 51.5795418,
   "lng": -0.4016534
  },
  {
   "id": "osm:node/2298727214",
   "name": "Eastcote Village",
+  "kind": "neighbourhood",
   "lat": 51.5840686,
   "lng": -0.4063644
  },
  {
   "id": "osm:node/2315701689",
   "name": "Windmill Green Estate",
+  "kind": "neighbourhood",
   "lat": 51.4541158,
   "lng": -0.1739408
  },
  {
   "id": "osm:node/2325649033",
   "name": "Hayes",
+  "kind": "suburb",
   "lat": 51.5077154,
   "lng": -0.4181471
  },
  {
   "id": "osm:node/2325948649",
   "name": "Battlers Green",
+  "kind": "quarter",
   "lat": 51.6796551,
   "lng": -0.3311641
  },
  {
   "id": "osm:node/2333856725",
   "name": "Merry Hill",
+  "kind": "quarter",
   "lat": 51.6416534,
   "lng": -0.3563564
  },
  {
   "id": "osm:node/2369008993",
   "name": "Golders Green",
+  "kind": "suburb",
   "lat": 51.5718577,
   "lng": -0.1954797
  },
  {
   "id": "osm:node/2392802550",
   "name": "Canonbury",
+  "kind": "neighbourhood",
   "lat": 51.5435168,
   "lng": -0.1004036
  },
  {
   "id": "osm:node/2392813733",
   "name": "Mildmay Park",
+  "kind": "neighbourhood",
   "lat": 51.5473979,
   "lng": -0.0852963
  },
  {
   "id": "osm:node/2405848798",
   "name": "Upper Norwood",
+  "kind": "suburb",
   "lat": 51.4164053,
   "lng": -0.0940347
  },
  {
   "id": "osm:node/2482174799",
   "name": "Otterspool",
+  "kind": "neighbourhood",
   "lat": 51.6682906,
   "lng": -0.3651527
  },
  {
   "id": "osm:node/2484565491",
   "name": "Cann Hall",
+  "kind": "neighbourhood",
   "lat": 51.5526109,
   "lng": 0.0056209
  },
  {
   "id": "osm:node/2496071363",
   "name": "Preston",
+  "kind": "suburb",
   "lat": 51.5762155,
   "lng": -0.2915108
  },
  {
   "id": "osm:node/2528090562",
   "name": "North Wembley",
+  "kind": "neighbourhood",
   "lat": 51.5677557,
   "lng": -0.3115614
  },
  {
   "id": "osm:node/2534885941",
   "name": "New Haw",
+  "kind": "neighbourhood",
   "lat": 51.3498725,
   "lng": -0.4968942
  },
  {
   "id": "osm:node/2595103132",
   "name": "Petts Wood",
+  "kind": "suburb",
   "lat": 51.3909147,
   "lng": 0.0771282
  },
  {
   "id": "osm:node/2595113712",
   "name": "Farnborough",
+  "kind": "suburb",
   "lat": 51.3598951,
   "lng": 0.0687712
  },
  {
   "id": "osm:node/2595113717",
   "name": "Locksbottom",
+  "kind": "suburb",
   "lat": 51.3670479,
   "lng": 0.0625805
  },
  {
   "id": "osm:node/2595115193",
   "name": "Bromley Common",
+  "kind": "suburb",
   "lat": 51.382016,
   "lng": 0.0403387
  },
  {
   "id": "osm:node/2595123135",
   "name": "Green Street Green",
+  "kind": "suburb",
   "lat": 51.3507678,
   "lng": 0.0838757
  },
  {
   "id": "osm:node/2681755460",
   "name": "Anerley",
+  "kind": "suburb",
   "lat": 51.4088267,
   "lng": -0.0611263
  },
  {
   "id": "osm:node/2681755461",
   "name": "Upper Sydenham",
+  "kind": "quarter",
   "lat": 51.4324021,
   "lng": -0.060673
  },
  {
   "id": "osm:node/2681755462",
   "name": "Crofton Park",
+  "kind": "neighbourhood",
   "lat": 51.454795,
   "lng": -0.0368661
  },
  {
   "id": "osm:node/2687144776",
   "name": "Kingswood",
+  "kind": "suburb",
   "lat": 51.6896811,
   "lng": -0.4033162
  },
  {
   "id": "osm:node/2714630753",
   "name": "Feltham",
+  "kind": "suburb",
   "lat": 51.4442232,
   "lng": -0.410659
  },
  {
   "id": "osm:node/2940888058",
   "name": "Seething Wells",
+  "kind": "neighbourhood",
   "lat": 51.3926421,
   "lng": -0.3143662
  },
  {
   "id": "osm:node/2958890518",
   "name": "Ryewood",
+  "kind": "neighbourhood",
   "lat": 51.2927113,
   "lng": 0.1722045
  },
  {
   "id": "osm:node/3064005585",
   "name": "Globe Town",
+  "kind": "neighbourhood",
   "lat": 51.5286514,
   "lng": -0.0475522
  },
  {
   "id": "osm:node/3140627554",
   "name": "Chingford Hatch",
+  "kind": "neighbourhood",
   "lat": 51.6188134,
   "lng": 0.0085493
  },
  {
   "id": "osm:node/3157981543",
   "name": "Warley",
+  "kind": "suburb",
   "lat": 51.6084019,
   "lng": 0.2972591
  },
  {
   "id": "osm:node/3206863629",
   "name": "West Ealing",
+  "kind": "neighbourhood",
   "lat": 51.5104133,
   "lng": -0.3235244
  },
  {
   "id": "osm:node/3206941112",
   "name": "Alperton",
+  "kind": "suburb",
   "lat": 51.5377679,
   "lng": -0.2979241
  },
  {
   "id": "osm:node/3207532292",
   "name": "North Greenford",
+  "kind": "neighbourhood",
   "lat": 51.5551182,
   "lng": -0.3367211
  },
  {
   "id": "osm:node/3207840655",
   "name": "Yeading",
+  "kind": "suburb",
   "lat": 51.527239,
   "lng": -0.3992705
  },
  {
   "id": "osm:node/3207863853",
   "name": "Perivale",
+  "kind": "suburb",
   "lat": 51.5344736,
   "lng": -0.3204999
  },
  {
   "id": "osm:node/3260849575",
   "name": "Yiewsley",
+  "kind": "suburb",
   "lat": 51.5129149,
   "lng": -0.471438
  },
  {
   "id": "osm:node/3282529867",
   "name": "Upminster",
+  "kind": "suburb",
   "lat": 51.556197,
   "lng": 0.2491841
  },
  {
   "id": "osm:node/3319761264",
   "name": "Whipps Cross",
+  "kind": "neighbourhood",
   "lat": 51.581543,
   "lng": -0.0001023
  },
  {
   "id": "osm:node/3470411219",
   "name": "Birch Green",
+  "kind": "neighbourhood",
   "lat": 51.4383492,
   "lng": -0.5045637
  },
  {
   "id": "osm:node/3470411229",
   "name": "Chattern Hill",
+  "kind": "neighbourhood",
   "lat": 51.4346579,
   "lng": -0.4496081
  },
  {
   "id": "osm:node/3470411269",
   "name": "Knowle Green",
+  "kind": "neighbourhood",
   "lat": 51.4306161,
   "lng": -0.5000255
  },
  {
   "id": "osm:node/3470411272",
   "name": "Littleton Common",
+  "kind": "neighbourhood",
   "lat": 51.4217179,
   "lng": -0.4445943
  },
  {
   "id": "osm:node/3470411273",
   "name": "Littleton",
+  "kind": "neighbourhood",
   "lat": 51.4073955,
   "lng": -0.4599865
  },
  {
   "id": "osm:node/3470411309",
   "name": "St George's Hill",
+  "kind": "neighbourhood",
   "lat": 51.349968,
   "lng": -0.443008
  },
  {
   "id": "osm:node/3471197729",
   "name": "Ashford Common",
+  "kind": "neighbourhood",
   "lat": 51.42407,
   "lng": -0.4326259
  },
  {
   "id": "osm:node/3471216193",
   "name": "Cottenham Park",
+  "kind": "quarter",
   "lat": 51.4143002,
   "lng": -0.2360857
  },
  {
   "id": "osm:node/3471216195",
   "name": "East Molesey",
+  "kind": "neighbourhood",
   "lat": 51.399102,
   "lng": -0.3571356
  },
  {
   "id": "osm:node/3471216197",
   "name": "Hampton Wick",
+  "kind": "suburb",
   "lat": 51.4144519,
   "lng": -0.3126743
  },
  {
   "id": "osm:node/3471216198",
   "name": "Hounslow West",
+  "kind": "neighbourhood",
   "lat": 51.4736084,
   "lng": -0.3883334
  },
  {
   "id": "osm:node/3471216200",
   "name": "Lower Feltham",
+  "kind": "neighbourhood",
   "lat": 51.4374213,
   "lng": -0.4256212
  },
  {
   "id": "osm:node/3471216201",
   "name": "North Feltham",
+  "kind": "quarter",
   "lat": 51.4563563,
   "lng": -0.4064332
  },
  {
   "id": "osm:node/3471216202",
   "name": "North Sheen",
+  "kind": "suburb",
   "lat": 51.4688862,
   "lng": -0.2822834
  },
  {
   "id": "osm:node/3471216208",
   "name": "Sunbury Common",
+  "kind": "neighbourhood",
   "lat": 51.4215234,
   "lng": -0.4232078
  },
  {
   "id": "osm:node/3471216214",
   "name": "West Molesey",
+  "kind": "neighbourhood",
   "lat": 51.4047705,
   "lng": -0.3641342
  },
  {
   "id": "osm:node/3517779027",
   "name": "Isles Quarry West",
+  "kind": "neighbourhood",
   "lat": 51.2875379,
   "lng": 0.2992772
  },
  {
   "id": "osm:node/3575430433",
   "name": "Hayes",
+  "kind": "suburb",
   "lat": 51.3778193,
   "lng": 0.0102353
  },
  {
   "id": "osm:node/3584603472",
   "name": "Leyton",
+  "kind": "suburb",
   "lat": 51.5696734,
   "lng": -0.015681
  },
  {
   "id": "osm:node/3661486904",
   "name": "East Village",
-  "lat": 51.5477822,
-  "lng": -0.0097187
+  "kind": "neighbourhood",
+  "lat": 51.5481075,
+  "lng": -0.0091769
  },
  {
   "id": "osm:node/3756642912",
   "name": "Hughesfield Estate",
+  "kind": "neighbourhood",
   "lat": 51.4826296,
   "lng": -0.0262781
  },
  {
   "id": "osm:node/3823180939",
   "name": "Aldersbrook",
+  "kind": "neighbourhood",
   "lat": 51.5641123,
   "lng": 0.0334403
  },
  {
   "id": "osm:node/3904886817",
   "name": "Fortis Green",
+  "kind": "neighbourhood",
   "lat": 51.5910863,
   "lng": -0.1533604
  },
  {
   "id": "osm:node/3925845657",
   "name": "Brompton",
+  "kind": "suburb",
   "lat": 51.4918222,
   "lng": -0.178326
  },
  {
   "id": "osm:node/3925873320",
   "name": "Burnt Oak",
+  "kind": "quarter",
   "lat": 51.6049875,
   "lng": -0.2644503
  },
  {
   "id": "osm:node/3928517083",
   "name": "Shepherd's Hill",
+  "kind": "neighbourhood",
   "lat": 51.5780916,
   "lng": -0.1359006
  },
  {
   "id": "osm:node/3928522466",
   "name": "Crouch Hall Park",
+  "kind": "neighbourhood",
   "lat": 51.5797494,
   "lng": -0.1280663
  },
  {
   "id": "osm:node/3930389397",
   "name": "Shacklewell",
+  "kind": "suburb",
   "lat": 51.5523761,
   "lng": -0.0701582
  },
  {
   "id": "osm:node/3930403657",
   "name": "South Tottenham",
+  "kind": "quarter",
   "lat": 51.5782495,
   "lng": -0.073678
  },
  {
   "id": "osm:node/3930413845",
   "name": "Tottenham Hale",
+  "kind": "quarter",
   "lat": 51.5882436,
   "lng": -0.0627578
  },
  {
   "id": "osm:node/3930426857",
   "name": "Manor House",
+  "kind": "neighbourhood",
   "lat": 51.57128,
   "lng": -0.0959125
  },
  {
   "id": "osm:node/3930510015",
   "name": "Bowes",
+  "kind": "suburb",
   "lat": 51.6123266,
   "lng": -0.1000295
  },
  {
   "id": "osm:node/3930560279",
   "name": "Church End",
+  "kind": "suburb",
   "lat": 51.601117,
   "lng": -0.1918901
  },
  {
   "id": "osm:node/3930564513",
   "name": "Fallow Corner",
+  "kind": "suburb",
   "lat": 51.6057602,
   "lng": -0.1787368
  },
  {
   "id": "osm:node/3933848027",
   "name": "Brook Green",
+  "kind": "suburb",
   "lat": 51.4960214,
   "lng": -0.2192533
  },
  {
   "id": "osm:node/3933850644",
   "name": "West Kensington",
+  "kind": "suburb",
   "lat": 51.4909928,
   "lng": -0.207486
  },
  {
   "id": "osm:node/3933858663",
   "name": "Earl's Court",
+  "kind": "suburb",
   "lat": 51.4919685,
   "lng": -0.1954
  },
  {
   "id": "osm:node/3933862427",
   "name": "Walham Green",
-  "lat": 51.4799737,
-  "lng": -0.1956889
+  "kind": "neighbourhood",
+  "lat": 51.4813433,
+  "lng": -0.1950367
  },
  {
   "id": "osm:node/3933865037",
   "name": "Parson's Green",
+  "kind": "neighbourhood",
   "lat": 51.474389,
   "lng": -0.1979497
  },
  {
   "id": "osm:node/3934807457",
   "name": "Copse Hill",
+  "kind": "neighbourhood",
   "lat": 51.4187233,
   "lng": -0.2420669
  },
  {
   "id": "osm:node/3934810644",
   "name": "West Barnes",
+  "kind": "suburb",
   "lat": 51.3977576,
   "lng": -0.2383655
  },
  {
   "id": "osm:node/3936960065",
   "name": "Pentonville",
+  "kind": "neighbourhood",
   "lat": 51.5321048,
   "lng": -0.1148938
  },
  {
   "id": "osm:node/3936965089",
   "name": "King's Cross",
+  "kind": "suburb",
   "lat": 51.5291076,
   "lng": -0.1224129
  },
  {
   "id": "osm:node/3936968792",
   "name": "St. John's Wood",
+  "kind": "suburb",
   "lat": 51.531726,
   "lng": -0.1741901
  },
  {
   "id": "osm:node/3936973085",
   "name": "Maida Hill",
+  "kind": "suburb",
   "lat": 51.5299675,
   "lng": -0.2012551
  },
  {
   "id": "osm:node/3937580110",
   "name": "Soho",
+  "kind": "suburb",
   "lat": 51.5140654,
   "lng": -0.1350494
  },
  {
   "id": "osm:node/3937587633",
   "name": "St Clement Danes",
+  "kind": "neighbourhood",
   "lat": 51.5133595,
   "lng": -0.118564
  },
  {
   "id": "osm:node/3937591763",
   "name": "Temple",
+  "kind": "quarter",
   "lat": 51.5129986,
   "lng": -0.1100478
  },
  {
   "id": "osm:node/3938354608",
   "name": "Wimbledon Village",
+  "kind": "neighbourhood",
   "lat": 51.4250982,
   "lng": -0.217633
  },
  {
   "id": "osm:node/3938375236",
   "name": "Earlsfield",
+  "kind": "suburb",
   "lat": 51.4464482,
   "lng": -0.1893941
  },
  {
   "id": "osm:node/3938379795",
   "name": "Summerstown",
+  "kind": "suburb",
   "lat": 51.4343379,
   "lng": -0.1831657
  },
  {
   "id": "osm:node/3938381837",
   "name": "Upper Tooting",
+  "kind": "neighbourhood",
   "lat": 51.4341891,
   "lng": -0.1618427
  },
  {
   "id": "osm:node/3938401583",
   "name": "Manor Park",
+  "kind": "neighbourhood",
   "lat": 51.4269492,
   "lng": -0.1355069
  },
  {
   "id": "osm:node/3938408784",
   "name": "Lonesome",
+  "kind": "quarter",
   "lat": 51.4105488,
   "lng": -0.1435231
  },
  {
   "id": "osm:node/3939308798",
   "name": "Ratcliffe",
+  "kind": "quarter",
   "lat": 51.5115396,
   "lng": -0.0442364
  },
  {
   "id": "osm:node/3939311899",
   "name": "Shadwell",
+  "kind": "suburb",
   "lat": 51.5094102,
   "lng": -0.0515703
  },
  {
   "id": "osm:node/3939324659",
   "name": "St. George in the East",
+  "kind": "quarter",
   "lat": 51.5114632,
   "lng": -0.0621141
  },
  {
   "id": "osm:node/3939325033",
   "name": "Spitalfields",
+  "kind": "quarter",
   "lat": 51.5195274,
   "lng": -0.0751701
  },
  {
   "id": "osm:node/3939328592",
   "name": "Whitechapel",
+  "kind": "suburb",
   "lat": 51.5174861,
   "lng": -0.0659685
  },
  {
   "id": "osm:node/3939359610",
   "name": "Old Ford",
+  "kind": "quarter",
   "lat": 51.5341124,
   "lng": -0.0268215
  },
  {
   "id": "osm:node/3939364338",
   "name": "Mile End",
+  "kind": "suburb",
   "lat": 51.5250913,
   "lng": -0.0350468
  },
  {
   "id": "osm:node/3939373094",
   "name": "Hackney Wick",
+  "kind": "suburb",
   "lat": 51.544354,
   "lng": -0.0254673
  },
  {
   "id": "osm:node/3939393416",
   "name": "Clapton Park",
+  "kind": "quarter",
   "lat": 51.5563607,
   "lng": -0.0404086
  },
  {
   "id": "osm:node/3939407454",
   "name": "Mill Meads",
+  "kind": "quarter",
   "lat": 51.5303704,
   "lng": -0.0034965
  },
  {
   "id": "osm:node/3939499364",
   "name": "Plashet",
+  "kind": "suburb",
   "lat": 51.5400084,
   "lng": 0.0392744
  },
  {
   "id": "osm:node/3939503731",
   "name": "Upton",
+  "kind": "suburb",
   "lat": 51.5419294,
   "lng": 0.0263178
  },
  {
   "id": "osm:node/3939866762",
   "name": "Silvertown",
+  "kind": "suburb",
   "lat": 51.5013626,
   "lng": 0.0385185
  },
  {
   "id": "osm:node/3939924573",
   "name": "Lower Belvedere",
+  "kind": "suburb",
   "lat": 51.4913381,
   "lng": 0.1506496
  },
  {
   "id": "osm:node/3939944346",
   "name": "West Heath",
+  "kind": "suburb",
   "lat": 51.4808745,
   "lng": 0.1273574
  },
  {
   "id": "osm:node/3943604906",
   "name": "Kidbrooke",
+  "kind": "suburb",
   "lat": 51.467429,
   "lng": 0.0286005
  },
  {
   "id": "osm:node/3946349709",
   "name": "Woodford Wells",
+  "kind": "suburb",
   "lat": 51.6177397,
   "lng": 0.0248291
  },
  {
   "id": "osm:node/4001592822",
   "name": "Angel",
+  "kind": "quarter",
   "lat": 51.5331955,
   "lng": -0.1061141
  },
  {
   "id": "osm:node/4001592823",
   "name": "Holloway",
+  "kind": "suburb",
   "lat": 51.5572453,
   "lng": -0.1183706
  },
  {
   "id": "osm:node/4053293389",
   "name": "Barking Riverside",
+  "kind": "suburb",
   "lat": 51.5205472,
   "lng": 0.1081363
  },
  {
   "id": "osm:node/4173003440",
   "name": "Roding Riverside",
+  "kind": "neighbourhood",
   "lat": 51.5322759,
   "lng": 0.0755699
  },
  {
   "id": "osm:node/4173018969",
   "name": "Loxford",
+  "kind": "quarter",
   "lat": 51.5481943,
   "lng": 0.084051
  },
  {
   "id": "osm:node/4218946742",
   "name": "College Park",
+  "kind": "neighbourhood",
   "lat": 51.5311515,
   "lng": -0.2353698
  },
  {
   "id": "osm:node/4267093235",
   "name": "Chinbrook",
+  "kind": "suburb",
   "lat": 51.4294489,
   "lng": 0.0330024
  },
  {
   "id": "osm:node/4267167889",
   "name": "Longlands",
+  "kind": "suburb",
   "lat": 51.4304854,
   "lng": 0.0841774
  },
  {
   "id": "osm:node/4267255531",
   "name": "Horn Park",
+  "kind": "suburb",
   "lat": 51.4472867,
   "lng": 0.0260585
  },
  {
   "id": "osm:node/4267945340",
   "name": "Coldharbour",
+  "kind": "suburb",
   "lat": 51.4304703,
   "lng": 0.0576814
  },
  {
   "id": "osm:node/4345162200",
   "name": "Finsbury Park",
+  "kind": "suburb",
   "lat": 51.5639577,
   "lng": -0.10965
  },
  {
   "id": "osm:node/4484691959",
   "name": "Charlton Riverside",
+  "kind": "suburb",
   "lat": 51.4919673,
   "lng": 0.0376536
  },
  {
   "id": "osm:node/4511034829",
   "name": "Hainault",
+  "kind": "suburb",
   "lat": 51.6069979,
   "lng": 0.097221
  },
  {
   "id": "osm:node/4512003104",
   "name": "Fairlop",
+  "kind": "suburb",
   "lat": 51.5985538,
   "lng": 0.0819696
  },
  {
   "id": "osm:node/4580796951",
   "name": "Chingford Mount",
+  "kind": "neighbourhood",
   "lat": 51.6172178,
   "lng": -0.0178956
  },
  {
   "id": "osm:node/4678882806",
   "name": "Hornsey Park",
+  "kind": "neighbourhood",
   "lat": 51.5917289,
   "lng": -0.1101582
  },
  {
   "id": "osm:node/4678882808",
   "name": "Ferme Park",
+  "kind": "neighbourhood",
   "lat": 51.5798926,
   "lng": -0.1155277
  },
  {
   "id": "osm:node/4678882809",
   "name": "Scotch Estate",
+  "kind": "neighbourhood",
   "lat": 51.601385,
   "lng": -0.0997131
  },
  {
   "id": "osm:node/4743294786",
   "name": "Blackheath Park",
+  "kind": "neighbourhood",
   "lat": 51.4608648,
   "lng": 0.0180184
  },
  {
   "id": "osm:node/4743294787",
   "name": "Canada Water",
+  "kind": "quarter",
   "lat": 51.4972278,
   "lng": -0.0505388
  },
  {
   "id": "osm:node/4743294788",
   "name": "East Greenwich",
+  "kind": "suburb",
   "lat": 51.4879961,
   "lng": 0.0104653
  },
  {
   "id": "osm:node/4743294789",
   "name": "Greenwich Peninsula",
+  "kind": "suburb",
   "lat": 51.4979844,
   "lng": 0.0039054
  },
  {
   "id": "osm:node/4743294790",
   "name": "New Cross",
+  "kind": "suburb",
   "lat": 51.4749303,
   "lng": -0.0320638
  },
  {
   "id": "osm:node/4743294791",
   "name": "South Bermondsey",
+  "kind": "quarter",
   "lat": 51.4868203,
   "lng": -0.0545085
  },
  {
   "id": "osm:node/4743294792",
   "name": "Surrey Quays",
+  "kind": "quarter",
   "lat": 51.49235,
   "lng": -0.0444608
  },
  {
   "id": "osm:node/4790767687",
   "name": "Southbury",
+  "kind": "suburb",
   "lat": 51.650849,
   "lng": -0.0606578
  },
  {
   "id": "osm:node/4921923458",
   "name": "Lancaster West Estate",
+  "kind": "neighbourhood",
   "lat": 51.513445,
   "lng": -0.2161682
  },
  {
   "id": "osm:node/4921923459",
   "name": "Silchester Estate",
+  "kind": "neighbourhood",
   "lat": 51.5142238,
   "lng": -0.2186164
  },
  {
   "id": "osm:node/5058705768",
   "name": "Well Hall",
+  "kind": "suburb",
   "lat": 51.4574683,
   "lng": 0.0501437
  },
  {
   "id": "osm:node/5067675686",
   "name": "Southend",
+  "kind": "suburb",
   "lat": 51.4286029,
   "lng": -0.0131715
  },
  {
   "id": "osm:node/5067688871",
   "name": "Bell Green",
+  "kind": "quarter",
   "lat": 51.4307475,
   "lng": -0.0374595
  },
  {
   "id": "osm:node/5067694335",
   "name": "Perry Vale",
+  "kind": "suburb",
   "lat": 51.435121,
   "lng": -0.0430306
  },
  {
   "id": "osm:node/5067718701",
   "name": "Middle Park",
+  "kind": "suburb",
   "lat": 51.4453135,
   "lng": 0.0400849
  },
  {
   "id": "osm:node/5067878597",
   "name": "New Beckenham",
+  "kind": "suburb",
   "lat": 51.4160631,
   "lng": -0.0339493
  },
  {
   "id": "osm:node/5067878598",
   "name": "Lower Sydenham",
+  "kind": "quarter",
   "lat": 51.4270926,
   "lng": -0.0407936
  },
  {
   "id": "osm:node/5067878599",
   "name": "Upper Sydenham",
+  "kind": "quarter",
   "lat": 51.4323018,
   "lng": -0.072812
  },
  {
   "id": "osm:node/5069338632",
   "name": "Shooters Hill",
+  "kind": "suburb",
   "lat": 51.4692255,
   "lng": 0.066306
  },
  {
   "id": "osm:node/5069365343",
   "name": "Avery Hill",
+  "kind": "suburb",
   "lat": 51.4506723,
   "lng": 0.0806051
  },
  {
   "id": "osm:node/5069365344",
   "name": "Falconwood",
+  "kind": "suburb",
   "lat": 51.4582845,
   "lng": 0.087749
  },
  {
   "id": "osm:node/5069602787",
   "name": "Blackfen",
+  "kind": "suburb",
   "lat": 51.4505408,
   "lng": 0.1030617
  },
  {
   "id": "osm:node/5069602788",
   "name": "Blendon",
+  "kind": "suburb",
   "lat": 51.4482606,
   "lng": 0.1204599
  },
  {
   "id": "osm:node/5069602789",
   "name": "Penhill",
+  "kind": "quarter",
   "lat": 51.4422195,
   "lng": 0.1181211
  },
  {
   "id": "osm:node/5069602790",
   "name": "Hurst",
+  "kind": "quarter",
   "lat": 51.4394234,
   "lng": 0.118453
  },
  {
   "id": "osm:node/5069602791",
   "name": "Halfway Street",
+  "kind": "quarter",
   "lat": 51.4374659,
   "lng": 0.0977394
  },
  {
   "id": "osm:node/5069792007",
   "name": "South End",
+  "kind": "quarter",
   "lat": 51.4442783,
   "lng": 0.0633679
  },
  {
   "id": "osm:node/5069880897",
   "name": "Bridgen",
+  "kind": "quarter",
   "lat": 51.4459597,
   "lng": 0.1306459
  },
  {
   "id": "osm:node/5069975854",
   "name": "Burnt Ash Green",
+  "kind": "neighbourhood",
   "lat": 51.4458923,
   "lng": 0.0145079
  },
  {
   "id": "osm:node/5070151361",
   "name": "Upton",
+  "kind": "quarter",
   "lat": 51.4524572,
   "lng": 0.1275711
  },
  {
   "id": "osm:node/5070151364",
   "name": "Ramsden",
+  "kind": "suburb",
   "lat": 51.3772138,
   "lng": 0.1192722
  },
  {
   "id": "osm:node/5070151365",
   "name": "Goddington",
+  "kind": "suburb",
   "lat": 51.3690444,
   "lng": 0.1117289
  },
  {
   "id": "osm:node/5070151366",
   "name": "Broom Hill",
+  "kind": "quarter",
   "lat": 51.3800469,
   "lng": 0.0982784
  },
  {
   "id": "osm:node/5070263814",
   "name": "Southborough",
+  "kind": "suburb",
   "lat": 51.3899151,
   "lng": 0.0446175
  },
  {
   "id": "osm:node/5070369070",
   "name": "Crofton",
+  "kind": "suburb",
   "lat": 51.3782254,
   "lng": 0.078355
  },
  {
   "id": "osm:node/5070369071",
   "name": "Shortlands",
+  "kind": "suburb",
   "lat": 51.4060917,
   "lng": -0.001434
  },
  {
   "id": "osm:node/5070369105",
   "name": "Sundridge",
+  "kind": "suburb",
   "lat": 51.4198856,
   "lng": 0.0202065
  },
  {
   "id": "osm:node/5070369106",
   "name": "Plaistow",
+  "kind": "suburb",
   "lat": 51.4151484,
   "lng": 0.0171595
  },
  {
   "id": "osm:node/5070378290",
   "name": "Bickley",
+  "kind": "suburb",
   "lat": 51.4017399,
   "lng": 0.0437122
  },
  {
   "id": "osm:node/5071824799",
   "name": "Poverest",
+  "kind": "suburb",
   "lat": 51.3908045,
   "lng": 0.0950382
  },
  {
   "id": "osm:node/5071840980",
   "name": "St Paul's Cray",
+  "kind": "suburb",
   "lat": 51.4031797,
   "lng": 0.1183273
  },
  {
   "id": "osm:node/5152139077",
   "name": "Crook Log",
+  "kind": "quarter",
   "lat": 51.4596374,
   "lng": 0.1240177
  },
  {
   "id": "osm:node/5152273892",
   "name": "Albany Park",
+  "kind": "suburb",
   "lat": 51.4361034,
   "lng": 0.1259205
  },
  {
   "id": "osm:node/5177531405",
   "name": "Belmont",
+  "kind": "quarter",
   "lat": 51.4224626,
   "lng": 0.0705694
  },
  {
   "id": "osm:node/5177663434",
   "name": "North Cray",
+  "kind": "suburb",
   "lat": 51.4251795,
   "lng": 0.1345992
  },
  {
   "id": "osm:node/5177693353",
   "name": "White Oak",
+  "kind": "suburb",
   "lat": 51.4031376,
   "lng": 0.169334
  },
  {
   "id": "osm:node/5182083072",
   "name": "Grove Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.428269,
   "lng": 0.0316339
  },
  {
   "id": "osm:node/5182083073",
   "name": "Chinbrook Estate",
+  "kind": "neighbourhood",
   "lat": 51.4306603,
   "lng": 0.0352429
  },
  {
   "id": "osm:node/5182147055",
   "name": "Elmstead",
+  "kind": "suburb",
   "lat": 51.4181888,
   "lng": 0.0469182
  },
  {
   "id": "osm:node/5186419617",
   "name": "Foots Cray Estate",
+  "kind": "neighbourhood",
   "lat": 51.4179894,
   "lng": 0.1169977
  },
  {
   "id": "osm:node/5186640030",
   "name": "Crayford",
+  "kind": "suburb",
   "lat": 51.4515584,
   "lng": 0.1787188
  },
  {
   "id": "osm:node/5186655480",
   "name": "Northumberland Heath",
+  "kind": "suburb",
   "lat": 51.4777524,
   "lng": 0.1636911
  },
  {
   "id": "osm:node/5186763925",
   "name": "Lessness Heath",
+  "kind": "suburb",
   "lat": 51.482569,
   "lng": 0.1462903
  },
  {
   "id": "osm:node/5191638214",
   "name": "Burnt Ash",
+  "kind": "neighbourhood",
   "lat": 51.4417702,
   "lng": 0.0192848
  },
  {
   "id": "osm:node/5191751524",
   "name": "Redbrick Estate",
+  "kind": "neighbourhood",
   "lat": 51.4476912,
   "lng": 0.0121809
  },
  {
   "id": "osm:node/5221295731",
   "name": "Coney Hall",
+  "kind": "suburb",
   "lat": 51.3703786,
   "lng": 0.0035117
  },
  {
   "id": "osm:node/5302085651",
   "name": "Canary Wharf",
+  "kind": "suburb",
   "lat": 51.5048954,
   "lng": -0.0190006
  },
  {
   "id": "osm:node/5401073874",
   "name": "Elm Park",
+  "kind": "suburb",
   "lat": 51.5484748,
   "lng": 0.1999627
  },
  {
   "id": "osm:node/5518275354",
   "name": "Woodberry Down",
+  "kind": "neighbourhood",
   "lat": 51.5724915,
   "lng": -0.090699
  },
  {
   "id": "osm:node/5518334231",
   "name": "Harringay Warehouse District",
+  "kind": "neighbourhood",
   "lat": 51.5764735,
   "lng": -0.0897923
  },
  {
   "id": "osm:node/5535711332",
   "name": "Duckett's Green",
+  "kind": "neighbourhood",
   "lat": 51.5884533,
   "lng": -0.0974856
  },
  {
   "id": "osm:node/5599175875",
   "name": "South Chingford",
+  "kind": "neighbourhood",
   "lat": 51.6105232,
   "lng": -0.0178626
  },
  {
   "id": "osm:node/5730586306",
   "name": "West Hackney",
+  "kind": "suburb",
   "lat": 51.5608595,
   "lng": -0.0691322
  },
  {
   "id": "osm:node/5754905009",
   "name": "Wimbledon Park",
+  "kind": "neighbourhood",
   "lat": 51.4351625,
   "lng": -0.1964558
  },
  {
   "id": "osm:node/5766990925",
   "name": "Bermondsey Village",
+  "kind": "quarter",
   "lat": 51.5008732,
   "lng": -0.0819668
  },
  {
   "id": "osm:node/5870404319",
   "name": "Batchworth",
+  "kind": "suburb",
   "lat": 51.6294462,
   "lng": -0.4611006
  },
  {
   "id": "osm:node/6039777944",
   "name": "Barnehurst",
+  "kind": "suburb",
   "lat": 51.4626874,
   "lng": 0.1617566
  },
  {
   "id": "osm:node/6184613884",
   "name": "Castle Hill",
+  "kind": "suburb",
   "lat": 51.4374847,
   "lng": 0.3091518
  },
  {
   "id": "osm:node/6388713702",
   "name": "Cordwell Estate",
+  "kind": "neighbourhood",
   "lat": 51.4558037,
   "lng": 0.0003137
  },
  {
   "id": "osm:node/6388714392",
   "name": "Mercator Estate",
+  "kind": "neighbourhood",
   "lat": 51.4607385,
   "lng": -0.0034812
  },
  {
   "id": "osm:node/6388716407",
   "name": "Dacre Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.4603742,
   "lng": 0.0049676
  },
  {
   "id": "osm:node/6388729985",
   "name": "Baizdon Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.4663307,
   "lng": 0.0012522
  },
  {
   "id": "osm:node/6388729986",
   "name": "Lee Terrace Estate",
+  "kind": "neighbourhood",
   "lat": 51.4648957,
   "lng": 0.0057569
  },
  {
   "id": "osm:node/6440358085",
   "name": "The Hollies",
+  "kind": "neighbourhood",
   "lat": 51.4405541,
   "lng": 0.0983352
  },
  {
   "id": "osm:node/6799260133",
   "name": "Swallowfields",
+  "kind": "neighbourhood",
   "lat": 51.3896049,
   "lng": -0.4042949
  },
  {
   "id": "osm:node/6815000657",
   "name": "Bermondsey Spa",
+  "kind": "neighbourhood",
   "lat": 51.4951777,
   "lng": -0.0758607
  },
  {
   "id": "osm:node/7069167056",
   "name": "Coldblow",
+  "kind": "suburb",
   "lat": 51.4383389,
   "lng": 0.1624884
  },
  {
   "id": "osm:node/7235212629",
   "name": "Oakhill",
+  "kind": "neighbourhood",
   "lat": 51.3897534,
   "lng": -0.2990497
  },
  {
   "id": "osm:node/7235212630",
   "name": "Claremont Park",
+  "kind": "neighbourhood",
   "lat": 51.3597098,
   "lng": -0.367328
  },
  {
   "id": "osm:node/7362529074",
   "name": "Lower Green Esher",
+  "kind": "neighbourhood",
   "lat": 51.3816613,
   "lng": -0.3668642
  },
  {
   "id": "osm:node/7464657784",
   "name": "Kidbrooke Village",
+  "kind": "neighbourhood",
   "lat": 51.4614006,
   "lng": 0.0259584
  },
  {
   "id": "osm:node/7498905109",
   "name": "West Ewell",
+  "kind": "suburb",
   "lat": 51.3618197,
   "lng": -0.2733742
  },
  {
   "id": "osm:node/7498940370",
   "name": "Nork",
+  "kind": "suburb",
   "lat": 51.3228216,
   "lng": -0.2239885
  },
  {
   "id": "osm:node/7619494308",
   "name": "Victoria Park Village",
+  "kind": "neighbourhood",
   "lat": 51.5385764,
   "lng": -0.0453454
  },
  {
   "id": "osm:node/7625870517",
   "name": "Clerkenwell Green",
+  "kind": "neighbourhood",
   "lat": 51.5230119,
   "lng": -0.1051077
  },
  {
   "id": "osm:node/7625922281",
   "name": "Aldgate",
+  "kind": "quarter",
   "lat": 51.5136572,
   "lng": -0.0765482
  },
  {
   "id": "osm:node/7625922282",
   "name": "Farringdon",
+  "kind": "neighbourhood",
   "lat": 51.5210061,
   "lng": -0.1019125
  },
  {
   "id": "osm:node/7625922283",
   "name": "West Smithfield",
+  "kind": "neighbourhood",
   "lat": 51.5178275,
   "lng": -0.1021753
  },
  {
   "id": "osm:node/7626103610",
   "name": "Newington Green",
+  "kind": "neighbourhood",
   "lat": 51.5495725,
   "lng": -0.0855745
  },
  {
   "id": "osm:node/7626551300",
   "name": "Park Royal",
+  "kind": "suburb",
   "lat": 51.5284366,
   "lng": -0.2797183
  },
  {
   "id": "osm:node/7626551301",
   "name": "Old Oak Common",
+  "kind": "neighbourhood",
   "lat": 51.5297321,
   "lng": -0.2431255
  },
  {
   "id": "osm:node/7626945170",
   "name": "Redbridge",
+  "kind": "suburb",
   "lat": 51.5765828,
   "lng": 0.0453401
  },
  {
   "id": "osm:node/7627076086",
   "name": "Hale End",
+  "kind": "suburb",
   "lat": 51.6039256,
   "lng": 0.0035122
  },
  {
   "id": "osm:node/7627076087",
   "name": "Highams Park",
+  "kind": "suburb",
   "lat": 51.6080662,
   "lng": -0.0007533
  },
  {
   "id": "osm:node/7628473009",
   "name": "Custom House",
+  "kind": "quarter",
   "lat": 51.5112619,
   "lng": 0.0254356
  },
  {
   "id": "osm:node/7628489779",
   "name": "Gray's Inn",
+  "kind": "neighbourhood",
   "lat": 51.520415,
   "lng": -0.1138437
  },
  {
   "id": "osm:node/7628489780",
   "name": "Barbican",
+  "kind": "quarter",
   "lat": 51.5194587,
   "lng": -0.0923806
  },
  {
   "id": "osm:node/7628489781",
   "name": "Hatton Garden",
+  "kind": "neighbourhood",
   "lat": 51.5200487,
   "lng": -0.1083706
  },
  {
   "id": "osm:node/7628655056",
   "name": "Bankside",
+  "kind": "quarter",
   "lat": 51.508176,
   "lng": -0.0991338
  },
  {
   "id": "osm:node/7632688671",
   "name": "Friday Hill",
+  "kind": "neighbourhood",
   "lat": 51.6234187,
   "lng": 0.0068074
  },
  {
   "id": "osm:node/7632688672",
   "name": "Chingford Green",
+  "kind": "neighbourhood",
   "lat": 51.6322484,
   "lng": 0.0004774
  },
  {
   "id": "osm:node/7632688673",
   "name": "Oakwood",
+  "kind": "quarter",
   "lat": 51.6409265,
   "lng": -0.1240361
  },
  {
   "id": "osm:node/7632688675",
   "name": "Grange Park",
+  "kind": "neighbourhood",
   "lat": 51.6438826,
   "lng": -0.1007116
  },
  {
   "id": "osm:node/7632688676",
   "name": "Bush Hill Park",
+  "kind": "neighbourhood",
   "lat": 51.6409332,
   "lng": -0.0734174
  },
  {
   "id": "osm:node/7632688677",
   "name": "Bullsmoor",
+  "kind": "neighbourhood",
   "lat": 51.6804589,
   "lng": -0.0399113
  },
  {
   "id": "osm:node/7632688678",
   "name": "Freezywater",
+  "kind": "quarter",
   "lat": 51.675772,
   "lng": -0.0314301
  },
  {
   "id": "osm:node/7632688679",
   "name": "Enfield Lock",
+  "kind": "quarter",
   "lat": 51.6707187,
   "lng": -0.0274122
  },
  {
   "id": "osm:node/7632688680",
   "name": "Enfield Wash",
+  "kind": "quarter",
   "lat": 51.6676487,
   "lng": -0.0415139
  },
  {
   "id": "osm:node/7632688681",
   "name": "Upper Edmonton",
+  "kind": "quarter",
   "lat": 51.6136664,
   "lng": -0.0621951
  },
  {
   "id": "osm:node/7632688682",
   "name": "Lower Edmonton",
+  "kind": "quarter",
   "lat": 51.6228426,
   "lng": -0.0553715
  },
  {
   "id": "osm:node/7633442858",
   "name": "Greenhill",
+  "kind": "quarter",
   "lat": 51.5835699,
   "lng": -0.3293967
  },
  {
   "id": "osm:node/7633442859",
   "name": "Queensbury",
+  "kind": "quarter",
   "lat": 51.5937087,
   "lng": -0.2917385
  },
  {
   "id": "osm:node/7633442861",
   "name": "Canons Park",
+  "kind": "neighbourhood",
   "lat": 51.610595,
   "lng": -0.2933157
  },
  {
   "id": "osm:node/7638874912",
   "name": "Pollards Hill",
+  "kind": "suburb",
   "lat": 51.4000959,
   "lng": -0.1323509
  },
  {
   "id": "osm:node/7641183201",
   "name": "Stonecot",
+  "kind": "quarter",
   "lat": 51.3848523,
   "lng": -0.2113742
  },
  {
   "id": "osm:node/7646215710",
   "name": "Harlesden",
+  "kind": "suburb",
   "lat": 51.535812,
   "lng": -0.2472005
  },
  {
   "id": "osm:node/7646215711",
   "name": "Dollis Hill",
+  "kind": "suburb",
   "lat": 51.559784,
   "lng": -0.2293611
  },
  {
   "id": "osm:node/7646215712",
   "name": "Dudden Hill",
+  "kind": "quarter",
   "lat": 51.554054,
   "lng": -0.2402294
  },
  {
   "id": "osm:node/7646215713",
   "name": "Willesden Green",
+  "kind": "quarter",
   "lat": 51.5425518,
   "lng": -0.2301228
  },
  {
   "id": "osm:node/7646215714",
   "name": "Brondesbury Park",
+  "kind": "quarter",
   "lat": 51.5396558,
   "lng": -0.2190292
  },
  {
   "id": "osm:node/7646215715",
   "name": "Brondesbury",
+  "kind": "suburb",
   "lat": 51.5422783,
   "lng": -0.2125629
  },
  {
   "id": "osm:node/7646215716",
   "name": "Maitland Park",
-  "lat": 51.5484463,
-  "lng": -0.1560544
+  "kind": "quarter",
+  "lat": 51.5491368,
+  "lng": -0.1530221
  },
  {
   "id": "osm:node/7646215717",
   "name": "Vale of Health",
+  "kind": "neighbourhood",
   "lat": 51.5629388,
   "lng": -0.1762815
  },
  {
   "id": "osm:node/7646215718",
   "name": "North End",
+  "kind": "quarter",
   "lat": 51.5678057,
   "lng": -0.1819396
  },
  {
   "id": "osm:node/7646215719",
   "name": "Westminster",
+  "kind": "quarter",
   "lat": 51.5004439,
   "lng": -0.1265398
  },
  {
   "id": "osm:node/7646215720",
   "name": "Blackfriars",
+  "kind": "quarter",
   "lat": 51.5122054,
   "lng": -0.1039556
  },
  {
   "id": "osm:node/7646215721",
   "name": "Bishopsgate",
+  "kind": "quarter",
   "lat": 51.5162117,
   "lng": -0.0817099
  },
  {
   "id": "osm:node/7646257172",
   "name": "Clapton",
+  "kind": "suburb",
   "lat": 51.558602,
   "lng": -0.0558777
  },
  {
   "id": "osm:node/7646455056",
   "name": "West Dulwich",
+  "kind": "quarter",
   "lat": 51.4370692,
   "lng": -0.0947678
  },
  {
   "id": "osm:node/7646455057",
   "name": "Dulwich Village",
+  "kind": "suburb",
   "lat": 51.4499553,
   "lng": -0.0844091
  },
  {
   "id": "osm:node/7659608327",
   "name": "Cuddington",
+  "kind": "quarter",
   "lat": 51.3764891,
   "lng": -0.2554486
  },
  {
   "id": "osm:node/7796523135",
   "name": "Lot's Village",
+  "kind": "quarter",
   "lat": 51.4791758,
   "lng": -0.1823792
  },
  {
   "id": "osm:node/7815438959",
   "name": "Lower Halliford",
+  "kind": "neighbourhood",
   "lat": 51.3886453,
   "lng": -0.4328991
  },
  {
   "id": "osm:node/7843989518",
   "name": "World's End",
+  "kind": "neighbourhood",
   "lat": 51.4818786,
   "lng": -0.1781511
  },
  {
   "id": "osm:node/7880167991",
   "name": "The Galleries",
+  "kind": "neighbourhood",
   "lat": 51.6071517,
   "lng": 0.293542
  },
  {
   "id": "osm:node/7880435380",
   "name": "Clements Park",
+  "kind": "neighbourhood",
   "lat": 51.6081814,
   "lng": 0.2908373
  },
  {
   "id": "osm:node/7910239639",
   "name": "K9 Industrial Estate",
+  "kind": "neighbourhood",
   "lat": 51.5091526,
   "lng": 0.1788285
  },
  {
   "id": "osm:node/7935169192",
   "name": "Hans Town",
+  "kind": "neighbourhood",
   "lat": 51.4978003,
   "lng": -0.160984
  },
  {
   "id": "osm:node/8073094326",
   "name": "Orchard Village",
+  "kind": "neighbourhood",
   "lat": 51.5290605,
   "lng": 0.1702636
  },
  {
   "id": "osm:node/8148540060",
   "name": "St Pancras",
+  "kind": "suburb",
   "lat": 51.5259149,
   "lng": -0.1290973
  },
  {
   "id": "osm:node/8339442296",
   "name": "Loughborough Junction",
+  "kind": "suburb",
   "lat": 51.4684515,
   "lng": -0.102439
  },
  {
   "id": "osm:node/8339603737",
   "name": "Denmark Hill",
+  "kind": "quarter",
   "lat": 51.466024,
   "lng": -0.0899044
  },
  {
   "id": "osm:node/8339603738",
   "name": "Myatt's Fields",
+  "kind": "quarter",
   "lat": 51.472983,
   "lng": -0.1067602
  },
  {
   "id": "osm:node/8339603739",
   "name": "Stockwell Park",
+  "kind": "quarter",
   "lat": 51.4714986,
   "lng": -0.1173842
  },
  {
   "id": "osm:node/8402268482",
   "name": "Cowley",
+  "kind": "suburb",
   "lat": 51.5279334,
   "lng": -0.4793824
  },
  {
   "id": "osm:node/8405182806",
   "name": "Beam Park",
+  "kind": "neighbourhood",
   "lat": 51.5253327,
   "lng": 0.1663503
  },
  {
   "id": "osm:node/8419462316",
   "name": "Woolwich Dockyard",
+  "kind": "neighbourhood",
   "lat": 51.4936605,
   "lng": 0.0533068
  },
  {
   "id": "osm:node/8427227181",
   "name": "Childsbridge",
+  "kind": "neighbourhood",
   "lat": 51.3065526,
   "lng": 0.2162558
  },
  {
   "id": "osm:node/8442270460",
   "name": "Manchester Estate",
+  "kind": "neighbourhood",
   "lat": 51.4914734,
   "lng": -0.0067903
  },
  {
   "id": "osm:node/8442270461",
   "name": "St John's Estate",
+  "kind": "neighbourhood",
   "lat": 51.4977143,
   "lng": -0.0113687
  },
  {
   "id": "osm:node/8503728266",
   "name": "Fleet Estate",
+  "kind": "suburb",
   "lat": 51.4347751,
   "lng": 0.2460229
  },
  {
   "id": "osm:node/8589304716",
   "name": "Grove Park",
+  "kind": "neighbourhood",
   "lat": 51.4861734,
   "lng": -0.2711251
  },
  {
   "id": "osm:node/8663560594",
   "name": "St Mary's",
+  "kind": "suburb",
   "lat": 51.3978173,
   "lng": 0.1631776
  },
  {
   "id": "osm:node/8664486597",
   "name": "Christchurch",
+  "kind": "suburb",
   "lat": 51.3939378,
   "lng": 0.184345
  },
  {
   "id": "osm:node/8676746809",
   "name": "High Firs",
+  "kind": "suburb",
   "lat": 51.3904772,
   "lng": 0.1769789
  },
  {
   "id": "osm:node/8821128225",
   "name": "Oval",
+  "kind": "suburb",
   "lat": 51.4821243,
   "lng": -0.114504
  },
  {
   "id": "osm:node/8821142047",
   "name": "Old Kent Road",
+  "kind": "suburb",
   "lat": 51.4882658,
   "lng": -0.0766699
  },
  {
   "id": "osm:node/8911839054",
   "name": "Barnes Cray",
+  "kind": "suburb",
   "lat": 51.4553884,
   "lng": 0.1936238
  },
  {
   "id": "osm:node/8911839057",
   "name": "The Bridge",
+  "kind": "suburb",
   "lat": 51.4602905,
   "lng": 0.2321391
  },
  {
   "id": "osm:node/8911839058",
   "name": "Temple Hill",
+  "kind": "suburb",
   "lat": 51.4523193,
   "lng": 0.226669
  },
  {
   "id": "osm:node/8911839059",
   "name": "New Town",
+  "kind": "suburb",
   "lat": 51.4455265,
   "lng": 0.2320235
  },
  {
   "id": "osm:node/8911839060",
   "name": "Brooklands",
+  "kind": "suburb",
   "lat": 51.433229,
   "lng": 0.2237122
  },
  {
   "id": "osm:node/8912240163",
   "name": "Abbey Wood",
+  "kind": "suburb",
   "lat": 51.4906957,
   "lng": 0.1112776
  },
  {
   "id": "osm:node/8980871514",
   "name": "East Wick",
+  "kind": "neighbourhood",
   "lat": 51.5455406,
   "lng": -0.0206478
  },
  {
   "id": "osm:node/9177037229",
   "name": "Sudbury",
+  "kind": "suburb",
   "lat": 51.5527579,
   "lng": -0.3136576
  },
  {
   "id": "osm:node/9180396691",
   "name": "Upper Belvedere",
+  "kind": "suburb",
   "lat": 51.4814777,
   "lng": 0.1444963
  },
  {
   "id": "osm:node/9180396692",
   "name": "North End",
+  "kind": "suburb",
   "lat": 51.4672048,
   "lng": 0.1854508
  },
  {
   "id": "osm:node/9180396693",
   "name": "Slade Green",
+  "kind": "suburb",
   "lat": 51.4719195,
   "lng": 0.1925451
  },
  {
   "id": "osm:node/9263472905",
   "name": "Dartmouth Park",
+  "kind": "suburb",
   "lat": 51.5592533,
   "lng": -0.1441412
  },
  {
   "id": "osm:node/9418080806",
   "name": "Selhurst",
+  "kind": "suburb",
   "lat": 51.3899758,
   "lng": -0.0891434
  },
  {
   "id": "osm:node/9418083840",
   "name": "Woodside",
+  "kind": "suburb",
   "lat": 51.3895954,
   "lng": -0.066115
  },
  {
   "id": "osm:node/9418086943",
   "name": "Upper Elmers End",
+  "kind": "suburb",
   "lat": 51.3915769,
   "lng": -0.0375188
  },
  {
   "id": "osm:node/9418086944",
   "name": "Eden Park",
+  "kind": "suburb",
   "lat": 51.3915669,
   "lng": -0.0268379
  },
  {
   "id": "osm:node/9418086945",
   "name": "Park Langley",
+  "kind": "suburb",
   "lat": 51.3878981,
   "lng": -0.0109377
  },
  {
   "id": "osm:node/9418086946",
   "name": "Monks Orchard",
+  "kind": "suburb",
   "lat": 51.383646,
   "lng": -0.0413
  },
  {
   "id": "osm:node/9418132472",
   "name": "Carshalton Beeches",
+  "kind": "suburb",
   "lat": 51.3486372,
   "lng": -0.1742207
  },
  {
   "id": "osm:node/9418145769",
   "name": "Little Woodcote",
+  "kind": "suburb",
   "lat": 51.3376724,
   "lng": -0.1573936
  },
  {
   "id": "osm:node/9418157995",
   "name": "South Beddington",
+  "kind": "suburb",
   "lat": 51.356622,
   "lng": -0.1386358
  },
  {
   "id": "osm:node/9418164693",
   "name": "Carshalton-on-the-Hill",
+  "kind": "suburb",
   "lat": 51.350677,
   "lng": -0.1609462
  },
  {
   "id": "osm:node/9418164694",
   "name": "Woodcote Green",
+  "kind": "suburb",
   "lat": 51.3477987,
   "lng": -0.1474831
  },
  {
   "id": "osm:node/9418170699",
   "name": "The Wrythe",
+  "kind": "suburb",
   "lat": 51.3720496,
   "lng": -0.1675526
  },
  {
   "id": "osm:node/9418226093",
   "name": "Benhilton",
+  "kind": "suburb",
   "lat": 51.3730779,
   "lng": -0.1937783
  },
  {
   "id": "osm:node/9418226094",
   "name": "Rosehill",
+  "kind": "suburb",
   "lat": 51.3835055,
   "lng": -0.1904104
  },
  {
   "id": "osm:node/9418236657",
   "name": "Collier's Wood",
+  "kind": "suburb",
   "lat": 51.4184001,
   "lng": -0.1774009
  },
  {
   "id": "osm:node/9418241206",
   "name": "Lower Ashtead",
+  "kind": "suburb",
   "lat": 51.3098384,
   "lng": -0.3190667
  },
  {
   "id": "osm:node/9418257441",
   "name": "Woodcote",
+  "kind": "neighbourhood",
   "lat": 51.321622,
   "lng": -0.2765649
  },
  {
   "id": "osm:node/9418257442",
   "name": "Ashtead Park",
+  "kind": "suburb",
   "lat": 51.3109976,
   "lng": -0.2857044
  },
  {
   "id": "osm:node/9425690637",
   "name": "East Marylebone",
+  "kind": "quarter",
   "lat": 51.5184623,
   "lng": -0.1402596
  },
  {
   "id": "osm:node/9484576109",
   "name": "Queen's Park",
+  "kind": "suburb",
   "lat": 51.536628,
   "lng": -0.2041029
  },
  {
   "id": "osm:node/9524626355",
   "name": "Foxbury",
+  "kind": "quarter",
   "lat": 51.4225618,
   "lng": 0.0792335
  },
  {
   "id": "osm:node/9527015388",
   "name": "Kemnal",
+  "kind": "quarter",
   "lat": 51.4250601,
   "lng": 0.0795626
  },
  {
   "id": "osm:node/9545495617",
   "name": "Tower Hill",
+  "kind": "quarter",
   "lat": 51.5101234,
   "lng": -0.0769284
  },
  {
   "id": "osm:node/9565803816",
   "name": "Edgebury",
+  "kind": "quarter",
   "lat": 51.4273843,
   "lng": 0.0662655
  },
  {
   "id": "osm:node/9572939273",
   "name": "Grange Hill",
+  "kind": "quarter",
   "lat": 51.6106678,
   "lng": 0.081837
  },
  {
   "id": "osm:node/9573011974",
   "name": "Taverner Square",
+  "kind": "neighbourhood",
   "lat": 51.5544476,
   "lng": -0.0962269
  },
  {
   "id": "osm:node/9592909266",
   "name": "East Smithfield",
+  "kind": "neighbourhood",
   "lat": 51.5097883,
   "lng": -0.0719108
  },
  {
   "id": "osm:node/9601990709",
   "name": "East Wickham",
+  "kind": "suburb",
   "lat": 51.4714275,
   "lng": 0.1104824
  },
  {
   "id": "osm:node/9606449481",
   "name": "Glyndon",
+  "kind": "quarter",
   "lat": 51.4864106,
   "lng": 0.0789543
  },
  {
   "id": "osm:node/9607787589",
   "name": "Birchwood Corner",
+  "kind": "neighbourhood",
   "lat": 51.4052108,
   "lng": 0.1589075
  },
  {
   "id": "osm:node/9611400516",
   "name": "Kensal Town",
+  "kind": "suburb",
   "lat": 51.5276442,
   "lng": -0.2098855
  },
  {
   "id": "osm:node/9623860574",
   "name": "Stonehill Woods Park",
+  "kind": "quarter",
   "lat": 51.4167685,
   "lng": 0.1551907
  },
  {
   "id": "osm:node/9624102271",
   "name": "Braeburn Park",
+  "kind": "quarter",
   "lat": 51.4446946,
   "lng": 0.1752778
  },
  {
   "id": "osm:node/9627953695",
   "name": "Bromley Park",
+  "kind": "quarter",
   "lat": 51.4087947,
   "lng": 0.0056276
  },
  {
   "id": "osm:node/9628028269",
   "name": "Chatterton Village",
+  "kind": "quarter",
   "lat": 51.3929766,
   "lng": 0.0348433
  },
  {
   "id": "osm:node/9628342554",
   "name": "Perry Hall",
+  "kind": "quarter",
   "lat": 51.3816413,
   "lng": 0.0961666
  },
  {
   "id": "osm:node/9629108201",
   "name": "Leesons",
+  "kind": "quarter",
   "lat": 51.4012355,
   "lng": 0.09
  },
  {
   "id": "osm:node/9630438803",
   "name": "Tubbenden",
+  "kind": "quarter",
   "lat": 51.3665344,
   "lng": 0.0817186
  },
  {
   "id": "osm:node/9630637652",
   "name": "Perry Street",
+  "kind": "quarter",
   "lat": 51.4160521,
   "lng": 0.0887328
  },
  {
   "id": "osm:node/9630773674",
   "name": "Pickhurst",
+  "kind": "quarter",
   "lat": 51.3818027,
   "lng": 0.0023988
  },
  {
   "id": "osm:node/9630835481",
   "name": "Chislehurst West",
+  "kind": "quarter",
   "lat": 51.4184937,
   "lng": 0.0683838
  },
  {
   "id": "osm:node/9631596266",
   "name": "Keston Mark",
+  "kind": "suburb",
   "lat": 51.36721,
   "lng": 0.0390049
  },
  {
   "id": "osm:node/9632359309",
   "name": "Farnborough Park",
+  "kind": "quarter",
   "lat": 51.3724246,
   "lng": 0.0577818
  },
  {
   "id": "osm:node/9632409795",
   "name": "Blackbrook",
+  "kind": "quarter",
   "lat": 51.3906762,
   "lng": 0.0529911
  },
  {
   "id": "osm:node/9632416350",
   "name": "Red Hill",
+  "kind": "quarter",
   "lat": 51.4208556,
   "lng": 0.0648171
  },
  {
   "id": "osm:node/9643913275",
   "name": "Frognal",
+  "kind": "quarter",
   "lat": 51.4170111,
   "lng": 0.1041519
  },
  {
   "id": "osm:node/9643913276",
   "name": "Scadbury",
+  "kind": "quarter",
   "lat": 51.411643,
   "lng": 0.0967277
  },
  {
   "id": "osm:node/9643913314",
   "name": "Hawkwood",
+  "kind": "quarter",
   "lat": 51.4017502,
   "lng": 0.0710161
  },
  {
   "id": "osm:node/9644574668",
   "name": "Widmore Green",
+  "kind": "quarter",
   "lat": 51.4062028,
   "lng": 0.0337872
  },
  {
   "id": "osm:node/9644629198",
   "name": "Eltham Park",
+  "kind": "quarter",
   "lat": 51.4579435,
   "lng": 0.0585453
  },
  {
   "id": "osm:node/9694252997",
   "name": "Howbury",
+  "kind": "quarter",
   "lat": 51.4673596,
   "lng": 0.1961785
  },
  {
   "id": "osm:node/9806701623",
   "name": "Beavers",
+  "kind": "quarter",
   "lat": 51.4693476,
   "lng": -0.3978835
  },
  {
   "id": "osm:node/9887293560",
   "name": "Hurlingham",
+  "kind": "neighbourhood",
   "lat": 51.4700286,
   "lng": -0.2040366
  },
  {
   "id": "osm:node/9924091250",
   "name": "South Stanmore",
+  "kind": "quarter",
   "lat": 51.6007156,
   "lng": -0.2787467
  },
  {
   "id": "osm:node/9938136774",
   "name": "Brentham Garden Suburb",
+  "kind": "neighbourhood",
   "lat": 51.5272765,
   "lng": -0.3073075
  },
  {
   "id": "osm:node/9983163529",
   "name": "Maryland",
+  "kind": "suburb",
   "lat": 51.5490689,
   "lng": 0.0066611
  },
  {
   "id": "osm:node/9989001165",
   "name": "Primrose Hill",
+  "kind": "quarter",
   "lat": 51.5414756,
   "lng": -0.1569288
  },
  {
   "id": "osm:node/10008712904",
   "name": "Blackheath Village",
+  "kind": "neighbourhood",
   "lat": 51.4663537,
   "lng": 0.0085735
  },
  {
   "id": "osm:node/10244976882",
   "name": "Sandringham Community",
+  "kind": "neighbourhood",
   "lat": 51.6241907,
   "lng": -0.3400305
  },
  {
   "id": "osm:node/10281258046",
   "name": "South Woodford",
+  "kind": "suburb",
   "lat": 51.5924522,
   "lng": 0.0275668
  },
  {
   "id": "osm:node/10304527922",
   "name": "Three Mills",
+  "kind": "neighbourhood",
   "lat": 51.5279982,
   "lng": -0.0074378
  },
  {
   "id": "osm:node/10556960853",
   "name": "Clayhall",
+  "kind": "suburb",
   "lat": 51.5913639,
   "lng": 0.0607368
  },
  {
   "id": "osm:node/10573620341",
   "name": "Woodford Bridge",
+  "kind": "suburb",
   "lat": 51.6057436,
   "lng": 0.0526035
  },
  {
   "id": "osm:node/10573620342",
   "name": "Woodford Green",
+  "kind": "suburb",
   "lat": 51.6085806,
   "lng": 0.0212014
  },
  {
   "id": "osm:node/10661537007",
   "name": "Waterloo",
+  "kind": "suburb",
   "lat": 51.5014885,
   "lng": -0.1126417
  },
  {
   "id": "osm:node/10716358180",
   "name": "Gants Hill",
+  "kind": "suburb",
   "lat": 51.5765655,
   "lng": 0.0664026
  },
  {
   "id": "osm:node/10833709826",
   "name": "Southall Green",
+  "kind": "neighbourhood",
   "lat": 51.5002297,
   "lng": -0.3885899
  },
  {
   "id": "osm:node/10878951639",
   "name": "Vicarage Farm",
+  "kind": "neighbourhood",
   "lat": 51.4746087,
   "lng": -0.3870572
  },
  {
   "id": "osm:node/10890362187",
   "name": "New Bedfont",
+  "kind": "quarter",
   "lat": 51.4623868,
   "lng": -0.426666
  },
  {
   "id": "osm:node/10891100774",
   "name": "Sparrow Farm",
+  "kind": "quarter",
   "lat": 51.4525704,
   "lng": -0.3983033
  },
  {
   "id": "osm:node/10891506763",
   "name": "Hatton Cross",
+  "kind": "quarter",
   "lat": 51.46667,
   "lng": -0.4222073
  },
  {
   "id": "osm:node/10891506764",
   "name": "Hatton Green",
+  "kind": "quarter",
   "lat": 51.4651195,
   "lng": -0.4157252
  },
  {
   "id": "osm:node/10915041967",
   "name": "Kennington Cross",
+  "kind": "neighbourhood",
   "lat": 51.4887281,
   "lng": -0.1111131
  },
  {
   "id": "osm:node/10959139284",
   "name": "Charville",
+  "kind": "neighbourhood",
   "lat": 51.5357548,
   "lng": -0.4274842
  },
  {
   "id": "osm:node/11036195470",
-  "name": "Bishopsgate Without",
-  "lat": 51.5186737,
-  "lng": -0.0814757
+  "name": "Broadgate",
+  "kind": "neighbourhood",
+  "lat": 51.5193944,
+  "lng": -0.0819637
  },
  {
   "id": "osm:node/11048780157",
   "name": "The Hale",
+  "kind": "quarter",
   "lat": 51.6168154,
   "lng": -0.2601126
  },
  {
   "id": "osm:node/11134046611",
   "name": "Chafford Hundred",
+  "kind": "suburb",
   "lat": 51.4899067,
   "lng": 0.3039631
  },
  {
   "id": "osm:node/11142421821",
   "name": "Strand-on-the-Green",
+  "kind": "quarter",
   "lat": 51.486424,
   "lng": -0.2798847
  },
  {
   "id": "osm:node/11142442339",
   "name": "Callis Yard",
+  "kind": "neighbourhood",
   "lat": 51.4933291,
   "lng": 0.0647057
  },
  {
   "id": "osm:node/11540337561",
   "name": "Badgers Dene",
+  "kind": "quarter",
   "lat": 51.4817355,
   "lng": 0.3153316
  },
  {
   "id": "osm:node/11553198118",
   "name": "Belle Grove",
+  "kind": "quarter",
   "lat": 51.4637701,
   "lng": 0.0992342
  },
  {
   "id": "osm:node/11930403418",
   "name": "Greenwich Town Centre",
+  "kind": "quarter",
   "lat": 51.4814206,
   "lng": -0.0100798
  },
  {
   "id": "osm:node/12002963361",
   "name": "Upminster Bridge",
+  "kind": "quarter",
   "lat": 51.5587244,
   "lng": 0.2377792
  },
  {
   "id": "osm:node/12003255761",
   "name": "Rush Green",
+  "kind": "suburb",
   "lat": 51.5655413,
   "lng": 0.1762371
  },
  {
   "id": "osm:node/12003281006",
   "name": "Gallows Corner",
+  "kind": "neighbourhood",
   "lat": 51.5927416,
   "lng": 0.2128192
  },
  {
   "id": "osm:node/12044682283",
   "name": "Haringey Heartlands",
+  "kind": "neighbourhood",
   "lat": 51.5918248,
   "lng": -0.1130523
  },
  {
   "id": "osm:node/12140155871",
   "name": "Pullens Estate",
+  "kind": "neighbourhood",
   "lat": 51.4895866,
   "lng": -0.0994205
  },
  {
   "id": "osm:node/12163524920",
   "name": "Steele's Village",
+  "kind": "neighbourhood",
   "lat": 51.5466119,
   "lng": -0.1580773
  },
  {
   "id": "osm:node/12163699373",
   "name": "South End Green",
+  "kind": "neighbourhood",
   "lat": 51.5544201,
   "lng": -0.1651262
  },
  {
   "id": "osm:node/12244490222",
   "name": "East Twickenham",
+  "kind": "neighbourhood",
   "lat": 51.4548553,
   "lng": -0.3119072
  },
  {
   "id": "osm:node/12248130257",
   "name": "Ickenham",
+  "kind": "suburb",
   "lat": 51.5646372,
   "lng": -0.4542583
  },
  {
   "id": "osm:node/12293585542",
   "name": "Mapesbury",
+  "kind": "suburb",
   "lat": 51.5504039,
   "lng": -0.2128899
  },
  {
   "id": "osm:node/12324015804",
   "name": "Kingswood Warren",
+  "kind": "neighbourhood",
   "lat": 51.2884263,
   "lng": -0.213005
  },
  {
   "id": "osm:node/12344915125",
   "name": "Moor Park Estate",
+  "kind": "quarter",
   "lat": 51.6292719,
   "lng": -0.4346278
  },
  {
   "id": "osm:node/12425870920",
   "name": "Monument",
+  "kind": "quarter",
   "lat": 51.5100659,
   "lng": -0.0849968
  },
  {
   "id": "osm:node/12431285468",
   "name": "Leadenhall Market",
+  "kind": "neighbourhood",
   "lat": 51.5128179,
   "lng": -0.083484
  },
  {
   "id": "osm:node/12464139267",
   "name": "Moorgate",
+  "kind": "quarter",
   "lat": 51.5174118,
   "lng": -0.0887639
  },
  {
   "id": "osm:node/12465476305",
   "name": "Bank",
+  "kind": "quarter",
   "lat": 51.5136071,
   "lng": -0.0888442
  },
  {
   "id": "osm:node/12465486611",
   "name": "St Paul's",
+  "kind": "quarter",
   "lat": 51.5139624,
   "lng": -0.0966057
  },
  {
   "id": "osm:node/12473409686",
   "name": "Hounslow West",
+  "kind": "suburb",
   "lat": 51.4728665,
   "lng": -0.385912
  },
  {
   "id": "osm:node/12676137969",
   "name": "Springhead Park",
+  "kind": "neighbourhood",
   "lat": 51.4344999,
   "lng": 0.3269664
  },
  {
   "id": "osm:node/12685871150",
   "name": "Gallions Reach",
+  "kind": "suburb",
   "lat": 51.507171,
   "lng": 0.0749771
  },
  {
   "id": "osm:node/12692729063",
   "name": "Bull's Bridge",
+  "kind": "neighbourhood",
   "lat": 51.4998203,
   "lng": -0.4067527
  },
  {
   "id": "osm:node/12715964344",
   "name": "Southwark",
-  "lat": 51.505653,
-  "lng": -0.0995649
+  "kind": "suburb",
+  "lat": 51.5061349,
+  "lng": -0.1011379
  },
  {
   "id": "osm:node/12720725962",
   "name": "Brockley Park",
+  "kind": "neighbourhood",
   "lat": 51.6237285,
   "lng": -0.2973577
  },
  {
   "id": "osm:node/12740264356",
   "name": "Loudwater (Troutstream) Estate",
+  "kind": "neighbourhood",
   "lat": 51.6574008,
   "lng": -0.4850793
  },
  {
   "id": "osm:node/12749033204",
   "name": "Barnet Vale",
+  "kind": "quarter",
   "lat": 51.6482624,
   "lng": -0.1821275
  },
  {
   "id": "osm:node/12828232933",
   "name": "Fairmile Estate",
+  "kind": "neighbourhood",
   "lat": 51.3370961,
   "lng": -0.4005201
  },
  {
   "id": "osm:node/12855231657",
   "name": "Borough Market",
+  "kind": "neighbourhood",
   "lat": 51.5055264,
   "lng": -0.090438
  },
  {
   "id": "osm:node/12961342802",
   "name": "Albury Court",
+  "kind": "neighbourhood",
   "lat": 51.480705,
   "lng": -0.0241625
  },
  {
   "id": "osm:node/13146147772",
   "name": "Mill Hill Village",
+  "kind": "neighbourhood",
   "lat": 51.6175736,
   "lng": -0.2383733
  },
  {
   "id": "osm:node/13186154388",
   "name": "Sutton New Town",
+  "kind": "neighbourhood",
   "lat": 51.3652719,
   "lng": -0.1860142
  },
  {
   "id": "osm:node/13294255977",
   "name": "Monkhams",
+  "kind": "suburb",
   "lat": 51.6121522,
   "lng": 0.0330368
  },
  {
   "id": "osm:node/13294743131",
   "name": "Chobham Manor",
+  "kind": "neighbourhood",
   "lat": 51.5492618,
   "lng": -0.0122583
  },
  {
   "id": "osm:node/13452761324",
   "name": "Shepperton Green",
+  "kind": "neighbourhood",
   "lat": 51.3997631,
   "lng": -0.458475
  },
  {
   "id": "osm:node/13484874838",
   "name": "Twyford",
+  "kind": "suburb",
   "lat": 51.5352719,
   "lng": -0.27305
  },
  {
   "id": "osm:node/13507202786",
   "name": "Stifford Clays",
+  "kind": "suburb",
   "lat": 51.4979037,
   "lng": 0.329422
  },
  {
   "id": "osm:node/13717719084",
   "name": "Hazlemere Marina",
+  "kind": "neighbourhood",
   "lat": 51.6853232,
   "lng": -0.0117628
  },
  {
   "id": "osm:node/13778573568",
   "name": "Ducks Island",
+  "kind": "neighbourhood",
   "lat": 51.6434898,
   "lng": -0.2062538
  },
  {
   "id": "osm:node/13778573569",
   "name": "Underhill",
+  "kind": "neighbourhood",
   "lat": 51.6472596,
   "lng": -0.1930895
  },
  {
   "id": "osm:node/13784013956",
   "name": "Dollis Valley Estate",
+  "kind": "neighbourhood",
   "lat": 51.644357,
   "lng": -0.197829
  },
  {
   "id": "osm:node/13931176045",
   "name": "St James Estate",
+  "kind": "neighbourhood",
   "lat": 51.4881413,
   "lng": -0.0670789
  },
  {
   "id": "osm:node/13955460976",
   "name": "Westbourne",
+  "kind": "suburb",
   "lat": 51.5187956,
   "lng": -0.1965442
  },
  {
   "id": "osm:node/13966720436",
   "name": "Meriden",
+  "kind": "neighbourhood",
   "lat": 51.681944,
   "lng": -0.3802004
  },
  {
   "id": "osm:node/13966720560",
   "name": "Tudor Estate",
+  "kind": "neighbourhood",
   "lat": 51.6751999,
   "lng": -0.383336
  },
  {
   "id": "osm:node/13980428142",
   "name": "Waddon Marsh",
+  "kind": "suburb",
   "lat": 51.3774696,
   "lng": -0.1202099
  },
  {
   "id": "osm:node/14011313176",
   "name": "Cassiobury",
+  "kind": "quarter",
   "lat": 51.6671214,
   "lng": -0.4181188
  },
  {
-  "id": "osm:node/14100879571",
-  "name": "West Kentish Town",
-  "lat": 51.5496459,
-  "lng": -0.1521429
- },
- {
   "id": "osm:way/7820916",
   "name": "Jack Dunning Estate",
+  "kind": "neighbourhood",
   "lat": 51.5503001,
   "lng": -0.0490394
  },
  {
   "id": "osm:way/11550492",
   "name": "Bells Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.4767173,
   "lng": -0.0683071
  },
  {
   "id": "osm:way/18929526",
   "name": "Great Fleete Estate",
+  "kind": "neighbourhood",
   "lat": 51.5261337,
   "lng": 0.1189873
  },
  {
   "id": "osm:way/22612155",
   "name": "Woodberry Grove Estate",
+  "kind": "neighbourhood",
   "lat": 51.5725415,
   "lng": -0.0942068
  },
  {
   "id": "osm:way/22761495",
   "name": "Lime Works",
+  "kind": "neighbourhood",
   "lat": 51.4854713,
   "lng": 0.0241405
  },
  {
   "id": "osm:way/23610254",
   "name": "Hallfield Estate",
+  "kind": "neighbourhood",
   "lat": 51.5156619,
   "lng": -0.1846854
  },
  {
   "id": "osm:way/24034907",
   "name": "Corney Reach Private Estate",
+  "kind": "neighbourhood",
   "lat": 51.4830318,
   "lng": -0.252084
  },
  {
   "id": "osm:way/24384850",
   "name": "Hogarth Estate",
+  "kind": "neighbourhood",
   "lat": 51.4883314,
   "lng": -0.2552095
  },
  {
   "id": "osm:way/24384854",
   "name": "Chiswick Gate",
-  "lat": 51.486209,
+  "kind": "neighbourhood",
+  "lat": 51.4862143,
   "lng": -0.2547875
  },
  {
   "id": "osm:way/24610691",
   "name": "The Apostles",
+  "kind": "quarter",
   "lat": 51.4089714,
   "lng": -0.2230244
  },
  {
   "id": "osm:way/24842156",
   "name": "Arnold Estate",
+  "kind": "neighbourhood",
   "lat": 51.4994657,
   "lng": -0.0735648
  },
  {
   "id": "osm:way/24931715",
   "name": "Dickens Estate",
+  "kind": "neighbourhood",
   "lat": 51.4995203,
   "lng": -0.066632
  },
  {
   "id": "osm:way/24967210",
   "name": "Popham Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.5389329,
   "lng": -0.0940201
  },
  {
   "id": "osm:way/25863911",
   "name": "Montgomery Court",
+  "kind": "neighbourhood",
   "lat": 51.4840925,
   "lng": -0.270124
  },
  {
   "id": "osm:way/26356976",
   "name": "Grove Village",
+  "kind": "neighbourhood",
   "lat": 51.4484569,
   "lng": -0.4322187
  },
  {
   "id": "osm:way/26360711",
   "name": "Heathcote Vale",
+  "kind": "neighbourhood",
   "lat": 51.448735,
   "lng": -0.4211511
  },
  {
   "id": "osm:way/27005744",
   "name": "Lisson Green Estate",
+  "kind": "neighbourhood",
   "lat": 51.5261964,
   "lng": -0.1682632
  },
  {
   "id": "osm:way/27571399",
   "name": "Keir Hardie Estate",
+  "kind": "neighbourhood",
   "lat": 51.5114753,
   "lng": 0.0169938
  },
  {
   "id": "osm:way/27581832",
   "name": "Salisbury Estate",
+  "kind": "neighbourhood",
   "lat": 51.4918895,
   "lng": -0.0889182
  },
  {
   "id": "osm:way/30589789",
   "name": "Barnsbury Estate",
+  "kind": "neighbourhood",
   "lat": 51.5357086,
   "lng": -0.1140035
  },
  {
   "id": "osm:way/30686970",
   "name": "Halton Mansions Estate",
+  "kind": "neighbourhood",
   "lat": 51.5411228,
   "lng": -0.0988317
  },
  {
   "id": "osm:way/30687167",
   "name": "Bingham Court",
+  "kind": "neighbourhood",
   "lat": 51.5421795,
   "lng": -0.1005284
  },
  {
   "id": "osm:way/30699691",
   "name": "Caledonian Estate",
+  "kind": "neighbourhood",
   "lat": 51.5464933,
   "lng": -0.1166974
  },
  {
   "id": "osm:way/30699799",
   "name": "Westbourne Estate",
+  "kind": "neighbourhood",
   "lat": 51.5467553,
   "lng": -0.1144449
  },
  {
   "id": "osm:way/30740978",
   "name": "Williamson Street Estate",
+  "kind": "neighbourhood",
   "lat": 51.5559076,
   "lng": -0.1206045
  },
  {
   "id": "osm:way/30740984",
   "name": "Papworth Gardens",
+  "kind": "neighbourhood",
   "lat": 51.5497492,
   "lng": -0.1125572
  },
  {
   "id": "osm:way/30741885",
   "name": "Tyndale Mansions",
+  "kind": "neighbourhood",
   "lat": 51.5421727,
   "lng": -0.1022148
  },
  {
   "id": "osm:way/30898499",
   "name": "Andover Estate",
+  "kind": "neighbourhood",
   "lat": 51.563371,
   "lng": -0.1142116
  },
  {
   "id": "osm:way/31386119",
   "name": "Hyde Village",
+  "kind": "neighbourhood",
   "lat": 51.5498207,
   "lng": -0.1238381
  },
  {
   "id": "osm:way/31697994",
   "name": "The Grove",
+  "kind": "neighbourhood",
   "lat": 51.5448534,
   "lng": -0.1128834
  },
  {
   "id": "osm:way/32799294",
   "name": "Pitfield Estate",
+  "kind": "neighbourhood",
   "lat": 51.5288913,
   "lng": -0.0823401
  },
  {
   "id": "osm:way/33739058",
   "name": "Geffrye Estate",
+  "kind": "neighbourhood",
   "lat": 51.5317668,
   "lng": -0.078493
  },
  {
   "id": "osm:way/33838066",
   "name": "Haberdasher Estate",
-  "lat": 51.5287445,
-  "lng": -0.0863547
+  "kind": "neighbourhood",
+  "lat": 51.5287402,
+  "lng": -0.0863935
  },
  {
   "id": "osm:way/34018250",
   "name": "Stock Orchard Estate",
+  "kind": "neighbourhood",
   "lat": 51.5524224,
   "lng": -0.1171168
  },
  {
   "id": "osm:way/34063828",
   "name": "Popham Street Estate",
+  "kind": "neighbourhood",
   "lat": 51.5381082,
   "lng": -0.096962
  },
  {
   "id": "osm:way/34064927",
   "name": "Cumming Estate",
+  "kind": "neighbourhood",
   "lat": 51.5372159,
   "lng": -0.0971957
  },
  {
   "id": "osm:way/34083752",
   "name": "Percival Street Estate",
+  "kind": "neighbourhood",
   "lat": 51.525491,
   "lng": -0.1020049
  },
  {
   "id": "osm:way/34749520",
   "name": "Watling Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.5483103,
   "lng": -0.2060861
  },
  {
   "id": "osm:way/34829983",
   "name": "Templar House Estate",
+  "kind": "neighbourhood",
   "lat": 51.5484739,
   "lng": -0.2039381
  },
  {
   "id": "osm:way/34832227",
   "name": "Mortimer Estate",
+  "kind": "neighbourhood",
   "lat": 51.5369332,
   "lng": -0.1887766
  },
  {
   "id": "osm:way/35684119",
   "name": "Miranda Estate",
+  "kind": "neighbourhood",
   "lat": 51.5674589,
   "lng": -0.1340445
  },
  {
   "id": "osm:way/35735176",
   "name": "Cowley Estate",
+  "kind": "neighbourhood",
   "lat": 51.4752453,
   "lng": -0.1113757
  },
  {
   "id": "osm:way/35778620",
   "name": "Plantation Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4668967,
   "lng": -0.1810424
  },
  {
   "id": "osm:way/35977192",
   "name": "Brook Hospital Estate",
+  "kind": "neighbourhood",
   "lat": 51.4706037,
   "lng": 0.0477562
  },
  {
   "id": "osm:way/37228676",
   "name": "Morland Estate",
+  "kind": "neighbourhood",
   "lat": 51.5429008,
   "lng": -0.0632118
  },
  {
   "id": "osm:way/37228907",
   "name": "Wayman Court",
+  "kind": "neighbourhood",
   "lat": 51.5439257,
   "lng": -0.060327
  },
  {
   "id": "osm:way/37480108",
   "name": "Priory Gardens",
+  "kind": "neighbourhood",
   "lat": 51.4469552,
   "lng": 0.2101978
  },
  {
   "id": "osm:way/37630685",
   "name": "Kings Crescent Estate",
+  "kind": "neighbourhood",
   "lat": 51.5622097,
   "lng": -0.0933739
  },
  {
   "id": "osm:way/37983031",
   "name": "Trinity Estate",
+  "kind": "neighbourhood",
   "lat": 51.4854179,
   "lng": -0.0332447
  },
  {
   "id": "osm:way/38922568",
   "name": "The Hall",
+  "kind": "neighbourhood",
   "lat": 51.4631686,
   "lng": 0.0155342
  },
  {
   "id": "osm:way/39085824",
   "name": "Delhi Outram Estate",
+  "kind": "neighbourhood",
   "lat": 51.5381299,
   "lng": -0.1214982
  },
  {
   "id": "osm:way/39894178",
   "name": "Girdlestone Estate",
+  "kind": "neighbourhood",
   "lat": 51.5652121,
   "lng": -0.1384448
  },
  {
   "id": "osm:way/40325272",
   "name": "Beckton Parkside",
+  "kind": "neighbourhood",
   "lat": 51.5192076,
   "lng": 0.0460481
  },
  {
   "id": "osm:way/40621859",
   "name": "Elthorne Estate",
+  "kind": "neighbourhood",
   "lat": 51.5682877,
   "lng": -0.1279978
  },
  {
   "id": "osm:way/40850481",
   "name": "Excalibur Estate",
+  "kind": "neighbourhood",
   "lat": 51.4347226,
   "lng": -0.0006319
  },
  {
   "id": "osm:way/42558172",
   "name": "Summit Estate",
+  "kind": "neighbourhood",
   "lat": 51.5712815,
   "lng": -0.0668322
  },
  {
   "id": "osm:way/42785364",
   "name": "Empire Square",
+  "kind": "neighbourhood",
   "lat": 51.5004866,
   "lng": -0.0905972
  },
  {
   "id": "osm:way/43024937",
   "name": "Amberley Estate",
+  "kind": "neighbourhood",
   "lat": 51.5235084,
   "lng": -0.1893461
  },
  {
   "id": "osm:way/43312356",
   "name": "York Way Court",
+  "kind": "neighbourhood",
   "lat": 51.5362922,
   "lng": -0.1213358
  },
  {
   "id": "osm:way/43312357",
   "name": "Treaty Street / Tiber Gardens",
-  "lat": 51.5361022,
-  "lng": -0.1205956
+  "kind": "neighbourhood",
+  "lat": 51.5361015,
+  "lng": -0.1205597
  },
  {
   "id": "osm:way/43935418",
   "name": "Shepherd Market Estate",
+  "kind": "neighbourhood",
   "lat": 51.5326397,
   "lng": -0.092342
  },
  {
   "id": "osm:way/43996027",
   "name": "Kingsmead Estate",
+  "kind": "neighbourhood",
   "lat": 51.5521152,
   "lng": -0.0331878
  },
  {
   "id": "osm:way/44426138",
   "name": "Sulivan Court",
+  "kind": "neighbourhood",
   "lat": 51.4690591,
   "lng": -0.1981174
  },
  {
   "id": "osm:way/45199446",
   "name": "The Woodlands Estate",
+  "kind": "neighbourhood",
   "lat": 51.5399525,
   "lng": -0.3254478
  },
  {
   "id": "osm:way/46829151",
   "name": "Ridgemont",
+  "kind": "neighbourhood",
   "lat": 51.6128929,
   "lng": -0.2079118
  },
  {
   "id": "osm:way/48244608",
   "name": "Chesnut Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.5902865,
-  "lng": -0.0666841
+  "lng": -0.0667047
  },
  {
   "id": "osm:way/48244906",
   "name": "Heron Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5865798,
   "lng": -0.0549119
  },
  {
   "id": "osm:way/48244910",
   "name": "Ferry Lane Estate",
-  "lat": 51.5864606,
-  "lng": -0.0581873
+  "kind": "neighbourhood",
+  "lat": 51.5864598,
+  "lng": -0.0581471
  },
  {
   "id": "osm:way/48286111",
   "name": "Tower Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.6003103,
   "lng": -0.085718
  },
  {
   "id": "osm:way/48371970",
   "name": "Papermill Place",
+  "kind": "neighbourhood",
   "lat": 51.5926171,
   "lng": -0.0373147
  },
  {
   "id": "osm:way/48734539",
   "name": "Winsor Terrace",
+  "kind": "neighbourhood",
   "lat": 51.5149886,
   "lng": 0.0673605
  },
  {
   "id": "osm:way/48754286",
   "name": "Galleons Point",
+  "kind": "neighbourhood",
   "lat": 51.5008489,
   "lng": 0.0721907
  },
  {
   "id": "osm:way/48754325",
   "name": "Britannia Village",
+  "kind": "neighbourhood",
   "lat": 51.5040721,
   "lng": 0.0225702
  },
  {
   "id": "osm:way/48767569",
   "name": "Holly Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.5725382,
   "lng": -0.1175665
  },
  {
   "id": "osm:way/48767583",
   "name": "Ingestre Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.5560519,
   "lng": -0.1432935
  },
  {
   "id": "osm:way/48767603",
   "name": "Carrol & Sanderson Close Estate",
+  "kind": "neighbourhood",
   "lat": 51.5548982,
   "lng": -0.145757
  },
  {
   "id": "osm:way/48772784",
   "name": "Old Kingshold Estate",
+  "kind": "neighbourhood",
   "lat": 51.5374605,
   "lng": -0.0533693
  },
  {
   "id": "osm:way/48865040",
   "name": "Lymington Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.5494817,
   "lng": -0.1864574
  },
  {
   "id": "osm:way/48870255",
   "name": "West Kentish Town Estate",
+  "kind": "neighbourhood",
   "lat": 51.5493294,
   "lng": -0.14918
  },
  {
   "id": "osm:way/48917109",
   "name": "Holly Lodge Estate",
+  "kind": "neighbourhood",
   "lat": 51.5656472,
   "lng": -0.1501389
  },
  {
   "id": "osm:way/48967471",
   "name": "Peckwater Estate",
+  "kind": "neighbourhood",
   "lat": 51.5497677,
   "lng": -0.136235
  },
  {
   "id": "osm:way/48967482",
   "name": "Upper Hilldrop Estate",
+  "kind": "neighbourhood",
   "lat": 51.5527412,
   "lng": -0.1314513
  },
  {
   "id": "osm:way/49121533",
   "name": "Wendling Estate",
+  "kind": "neighbourhood",
   "lat": 51.5516794,
   "lng": -0.1559974
  },
  {
   "id": "osm:way/49182703",
   "name": "Golders Green Estate",
+  "kind": "neighbourhood",
   "lat": 51.5672304,
   "lng": -0.212239
  },
  {
   "id": "osm:way/49419581",
   "name": "Whitecross Street Estate",
+  "kind": "neighbourhood",
   "lat": 51.5235471,
   "lng": -0.0917729
  },
  {
   "id": "osm:way/49940840",
   "name": "Millfields Estate",
+  "kind": "neighbourhood",
   "lat": 51.5582361,
   "lng": -0.0432142
  },
  {
   "id": "osm:way/50258321",
   "name": "Will Crooks Estate",
-  "lat": 51.5096142,
+  "kind": "neighbourhood",
+  "lat": 51.5096109,
   "lng": -0.0184874
  },
  {
   "id": "osm:way/50563885",
   "name": "Six Acres Estate",
+  "kind": "neighbourhood",
   "lat": 51.5640171,
   "lng": -0.1104871
  },
  {
   "id": "osm:way/50592240",
   "name": "Lower Hilldrop Estate",
+  "kind": "neighbourhood",
   "lat": 51.5526969,
   "lng": -0.1268824
  },
  {
   "id": "osm:way/50668391",
   "name": "Smalley Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.5613598,
   "lng": -0.0720339
  },
  {
   "id": "osm:way/50695375",
   "name": "Aspland Estate & Marcon Court",
+  "kind": "neighbourhood",
   "lat": 51.5481018,
   "lng": -0.0583148
  },
  {
   "id": "osm:way/50825771",
   "name": "Lincoln South Estate",
+  "kind": "neighbourhood",
   "lat": 51.5202565,
   "lng": -0.0216177
  },
  {
   "id": "osm:way/51166210",
   "name": "Evelyn Court",
+  "kind": "neighbourhood",
   "lat": 51.55364,
   "lng": -0.0666535
  },
  {
   "id": "osm:way/51166211",
   "name": "Downs Estate",
+  "kind": "neighbourhood",
   "lat": 51.5524151,
   "lng": -0.0654064
  },
  {
   "id": "osm:way/51166441",
   "name": "Mayville Estate",
+  "kind": "neighbourhood",
   "lat": 51.5507505,
   "lng": -0.0804753
  },
  {
   "id": "osm:way/51271811",
   "name": "Rhodes Estate",
+  "kind": "neighbourhood",
   "lat": 51.5449714,
   "lng": -0.0717325
  },
  {
   "id": "osm:way/51271837",
   "name": "Warburton and Darcy Estate",
+  "kind": "neighbourhood",
   "lat": 51.5385913,
   "lng": -0.0592248
  },
  {
   "id": "osm:way/51567521",
   "name": "Boundary Estate",
+  "kind": "neighbourhood",
   "lat": 51.5259725,
   "lng": -0.0747511
  },
  {
   "id": "osm:way/51567532",
   "name": "Moye Close Estate",
+  "kind": "neighbourhood",
   "lat": 51.533904,
   "lng": -0.0648568
  },
  {
   "id": "osm:way/51567547",
   "name": "Newling North Estate",
+  "kind": "neighbourhood",
   "lat": 51.5290125,
   "lng": -0.0741533
  },
  {
   "id": "osm:way/51567567",
   "name": "Minerva Estate",
+  "kind": "neighbourhood",
   "lat": 51.5306487,
   "lng": -0.059001
  },
  {
   "id": "osm:way/51567575",
   "name": "Teesdale Estate",
+  "kind": "neighbourhood",
   "lat": 51.5282897,
   "lng": -0.0590681
  },
  {
   "id": "osm:way/51689071",
   "name": "Cyprus Street Estate",
-  "lat": 51.5299462,
+  "kind": "neighbourhood",
+  "lat": 51.529913,
   "lng": -0.05179
  },
  {
   "id": "osm:way/51736463",
   "name": "Ranwell West",
+  "kind": "neighbourhood",
   "lat": 51.5335642,
   "lng": -0.0348697
  },
  {
   "id": "osm:way/51736709",
   "name": "Bow Quarter",
+  "kind": "neighbourhood",
   "lat": 51.5317209,
   "lng": -0.0214875
  },
  {
   "id": "osm:way/51740937",
   "name": "Longnor Estate",
+  "kind": "neighbourhood",
   "lat": 51.5260933,
   "lng": -0.0435121
  },
  {
   "id": "osm:way/51740938",
   "name": "Westfield Student Village",
+  "kind": "neighbourhood",
   "lat": 51.525904,
   "lng": -0.0397993
  },
  {
   "id": "osm:way/51787780",
   "name": "Malmesbury East Estate",
+  "kind": "neighbourhood",
   "lat": 51.5289004,
   "lng": -0.0245527
  },
  {
   "id": "osm:way/51872750",
   "name": "Leopold",
+  "kind": "neighbourhood",
   "lat": 51.5190362,
   "lng": -0.0276889
  },
  {
   "id": "osm:way/51875924",
   "name": "Hallsville Quarter",
+  "kind": "neighbourhood",
   "lat": 51.5144891,
   "lng": 0.0102567
  },
  {
   "id": "osm:way/51876156",
   "name": "Lincoln North Estate",
+  "kind": "neighbourhood",
   "lat": 51.5230184,
   "lng": -0.0211752
  },
  {
   "id": "osm:way/51946909",
   "name": "Birchfield Estate",
+  "kind": "neighbourhood",
   "lat": 51.5101678,
   "lng": -0.0233073
  },
  {
   "id": "osm:way/52002461",
   "name": "Virginia Quay",
+  "kind": "neighbourhood",
   "lat": 51.5086601,
   "lng": -0.0003036
  },
  {
   "id": "osm:way/52003574",
   "name": "Boardwalk Place",
+  "kind": "neighbourhood",
   "lat": 51.5055177,
   "lng": -0.010396
  },
  {
   "id": "osm:way/52036925",
   "name": "Clippers Quay",
+  "kind": "neighbourhood",
   "lat": 51.4919776,
   "lng": -0.0166038
  },
  {
   "id": "osm:way/52036926",
   "name": "Mill Quay",
+  "kind": "neighbourhood",
   "lat": 51.4921557,
   "lng": -0.0194203
  },
  {
   "id": "osm:way/52036929",
   "name": "The Odyssey",
+  "kind": "neighbourhood",
   "lat": 51.4922877,
   "lng": -0.0259713
  },
  {
   "id": "osm:way/52036931",
   "name": "Barkantine",
+  "kind": "neighbourhood",
   "lat": 51.4991594,
   "lng": -0.0244417
  },
  {
   "id": "osm:way/52036948",
   "name": "Island Point",
+  "kind": "neighbourhood",
   "lat": 51.4879982,
   "lng": -0.015963
  },
  {
   "id": "osm:way/52036950",
   "name": "Lockes Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4866734,
   "lng": -0.0150541
  },
  {
   "id": "osm:way/52036960",
   "name": "Schooner Estate",
+  "kind": "neighbourhood",
   "lat": 51.4886489,
   "lng": -0.0081996
  },
  {
   "id": "osm:way/52036968",
   "name": "Samuda Estate",
+  "kind": "neighbourhood",
   "lat": 51.4966393,
   "lng": -0.0077774
  },
  {
   "id": "osm:way/52036983",
   "name": "London Yard",
+  "kind": "neighbourhood",
   "lat": 51.4946958,
   "lng": -0.0068519
  },
  {
   "id": "osm:way/52253637",
   "name": "Fleetwood Court",
+  "kind": "neighbourhood",
   "lat": 51.5179183,
   "lng": 0.0552861
  },
  {
   "id": "osm:way/52290601",
   "name": "Hermitage Waterside",
+  "kind": "neighbourhood",
   "lat": 51.5058906,
   "lng": -0.0673509
  },
  {
   "id": "osm:way/52333568",
   "name": "Rennie Estate",
+  "kind": "neighbourhood",
   "lat": 51.4898825,
   "lng": -0.057993
  },
  {
   "id": "osm:way/52588146",
   "name": "Rouel Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.4940168,
   "lng": -0.0675504
  },
  {
   "id": "osm:way/52597652",
   "name": "Marine Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4914676,
   "lng": -0.0371478
  },
  {
   "id": "osm:way/52717424",
   "name": "Millennium Quay",
+  "kind": "neighbourhood",
   "lat": 51.4830005,
   "lng": -0.0204747
  },
  {
   "id": "osm:way/52718064",
   "name": "Meridian Estate",
+  "kind": "neighbourhood",
   "lat": 51.4822489,
   "lng": -0.0124823
  },
  {
   "id": "osm:way/53171799",
   "name": "York Row Estate",
+  "kind": "neighbourhood",
   "lat": 51.5337133,
   "lng": -0.0764774
  },
  {
   "id": "osm:way/53171815",
   "name": "Cranston Estate",
+  "kind": "neighbourhood",
   "lat": 51.5324383,
   "lng": -0.0857313
  },
  {
   "id": "osm:way/53177060",
   "name": "The Whitmore",
+  "kind": "neighbourhood",
   "lat": 51.5352499,
   "lng": -0.0796874
  },
  {
   "id": "osm:way/53177062",
   "name": "New Era Estate",
+  "kind": "neighbourhood",
   "lat": 51.5361099,
-  "lng": -0.0814131
+  "lng": -0.081397
  },
  {
   "id": "osm:way/53177754",
   "name": "Lockner Estate",
+  "kind": "neighbourhood",
   "lat": 51.5416459,
   "lng": -0.0772312
  },
  {
   "id": "osm:way/53179097",
   "name": "Bentham Court",
+  "kind": "neighbourhood",
   "lat": 51.5406177,
   "lng": -0.0942484
  },
  {
   "id": "osm:way/53288510",
   "name": "Wharf Road",
+  "kind": "neighbourhood",
   "lat": 51.5317853,
   "lng": -0.0968323
  },
  {
   "id": "osm:way/53368568",
   "name": "Half Moon Crescent Tenants Co-Operative",
+  "kind": "neighbourhood",
   "lat": 51.5341801,
   "lng": -0.1132684
  },
  {
   "id": "osm:way/53368757",
   "name": "Elm Village",
+  "kind": "neighbourhood",
   "lat": 51.5395853,
   "lng": -0.1331161
  },
  {
   "id": "osm:way/53371056",
   "name": "Ampthill Square Estate",
+  "kind": "neighbourhood",
   "lat": 51.5319892,
   "lng": -0.1371213
  },
  {
   "id": "osm:way/53651531",
   "name": "Lillington Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.4905262,
   "lng": -0.1352019
  },
  {
   "id": "osm:way/53651532",
   "name": "Longmoore Estate",
-  "lat": 51.4919434,
+  "kind": "neighbourhood",
+  "lat": 51.4919526,
   "lng": -0.1377178
  },
  {
   "id": "osm:way/53727568",
   "name": "Abbey Estate",
+  "kind": "neighbourhood",
   "lat": 51.5381912,
   "lng": -0.1870524
  },
  {
   "id": "osm:way/53727605",
   "name": "Alexandra Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.5394333,
   "lng": -0.1831393
  },
  {
   "id": "osm:way/54266540",
   "name": "Vanguard Street Estate",
+  "kind": "neighbourhood",
   "lat": 51.4728993,
   "lng": -0.0254129
  },
  {
   "id": "osm:way/55789465",
   "name": "Manor Estate",
-  "lat": 51.490585,
+  "kind": "neighbourhood",
+  "lat": 51.4905736,
   "lng": -0.0626432
  },
  {
   "id": "osm:way/56208408",
   "name": "Grosvenor Waterside",
+  "kind": "neighbourhood",
   "lat": 51.4873242,
   "lng": -0.1492758
  },
  {
   "id": "osm:way/57726096",
   "name": "Elgin Estate",
+  "kind": "neighbourhood",
   "lat": 51.5242203,
   "lng": -0.198899
  },
  {
   "id": "osm:way/57778576",
   "name": "Lilestone Estate",
+  "kind": "neighbourhood",
   "lat": 51.5245585,
   "lng": -0.1739948
  },
  {
   "id": "osm:way/57937945",
   "name": "Upper Hurlingham",
+  "kind": "neighbourhood",
   "lat": 51.4709311,
   "lng": -0.2039125
  },
  {
   "id": "osm:way/57937963",
   "name": "Lower Hurlingham",
+  "kind": "neighbourhood",
   "lat": 51.468052,
   "lng": -0.2067638
  },
  {
   "id": "osm:way/57940322",
   "name": "Imperial Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4730231,
   "lng": -0.1824832
  },
  {
+  "id": "osm:way/58110291",
+  "name": "Brompton Park",
+  "kind": "neighbourhood",
+  "lat": 51.4832856,
+  "lng": -0.1928535
+ },
+ {
   "id": "osm:way/58112554",
   "name": "St Paul's Court",
+  "kind": "neighbourhood",
   "lat": 51.4924522,
   "lng": -0.2149738
  },
  {
   "id": "osm:way/61007452",
   "name": "Chiswick War Memorial Homes",
+  "kind": "neighbourhood",
   "lat": 51.481117,
   "lng": -0.2645087
  },
  {
+  "id": "osm:way/62108351",
+  "name": "Samuel Lewis Trust Dwellings",
+  "kind": "neighbourhood",
+  "lat": 51.4812946,
+  "lng": -0.1959664
+ },
+ {
   "id": "osm:way/62225331",
   "name": "Tollgate Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.5353287,
   "lng": -0.1911491
  },
  {
   "id": "osm:way/62326562",
   "name": "Lakeview Estate",
+  "kind": "neighbourhood",
   "lat": 51.5332157,
   "lng": -0.040613
  },
  {
   "id": "osm:way/67426595",
   "name": "Cluse Court",
+  "kind": "neighbourhood",
   "lat": 51.5337979,
   "lng": -0.096586
  },
  {
   "id": "osm:way/69644196",
   "name": "Goldsmith's Place",
+  "kind": "neighbourhood",
   "lat": 51.537177,
   "lng": -0.1906049
  },
  {
   "id": "osm:way/76383842",
   "name": "Scovell Estate",
+  "kind": "neighbourhood",
   "lat": 51.5000551,
   "lng": -0.0979869
  },
  {
   "id": "osm:way/77045678",
   "name": "Kilburn Gate Estate",
+  "kind": "neighbourhood",
   "lat": 51.5359849,
   "lng": -0.1892752
  },
  {
   "id": "osm:way/82488094",
   "name": "Southwark Street Estate",
+  "kind": "neighbourhood",
   "lat": 51.5058639,
   "lng": -0.0967567
  },
  {
   "id": "osm:way/94331566",
   "name": "Badric Court Estate",
+  "kind": "neighbourhood",
   "lat": 51.4707162,
   "lng": -0.1747151
  },
  {
   "id": "osm:way/95022864",
   "name": "Bourne Estate",
+  "kind": "neighbourhood",
   "lat": 51.5209529,
   "lng": -0.111086
  },
  {
   "id": "osm:way/97467455",
   "name": "Queen Caroline Estate",
+  "kind": "neighbourhood",
   "lat": 51.4897055,
   "lng": -0.2272371
  },
  {
   "id": "osm:way/97595420",
   "name": "Chelsea Creek",
+  "kind": "neighbourhood",
   "lat": 51.4755862,
   "lng": -0.1846812
  },
  {
   "id": "osm:way/100283824",
   "name": "Kingsland Wharves",
+  "kind": "neighbourhood",
   "lat": 51.5376907,
   "lng": -0.0780861
  },
  {
   "id": "osm:way/100878017",
   "name": "Water Gardens",
+  "kind": "neighbourhood",
   "lat": 51.499336,
   "lng": -0.0474219
  },
  {
   "id": "osm:way/101328358",
   "name": "Tyer's Estate",
+  "kind": "neighbourhood",
   "lat": 51.5013,
   "lng": -0.0831396
  },
  {
   "id": "osm:way/101824462",
   "name": "Water Square Gardens",
+  "kind": "neighbourhood",
   "lat": 51.4987811,
   "lng": -0.0462327
  },
  {
   "id": "osm:way/102789550",
   "name": "Harold Gibbons Court",
+  "kind": "neighbourhood",
   "lat": 51.481533,
   "lng": 0.0307095
  },
  {
   "id": "osm:way/102789912",
   "name": "Mascalls Court",
+  "kind": "neighbourhood",
   "lat": 51.4802884,
   "lng": 0.0312287
  },
  {
   "id": "osm:way/103885863",
   "name": "The Academy",
+  "kind": "neighbourhood",
   "lat": 51.4752246,
   "lng": 0.0586558
  },
  {
   "id": "osm:way/111325254",
   "name": "Thomas More Estate",
+  "kind": "neighbourhood",
   "lat": 51.4830648,
   "lng": -0.1737814
  },
  {
   "id": "osm:way/114091934",
   "name": "Sutton Estate",
+  "kind": "neighbourhood",
   "lat": 51.4910022,
   "lng": -0.168132
  },
  {
   "id": "osm:way/119616806",
   "name": "Wandsworth Riverside Quarter",
+  "kind": "neighbourhood",
   "lat": 51.4616561,
   "lng": -0.1980329
  },
  {
   "id": "osm:way/119695844",
   "name": "Priory Green Estate",
+  "kind": "neighbourhood",
   "lat": 51.5332752,
   "lng": -0.1159529
  },
  {
   "id": "osm:way/127096758",
   "name": "Chatsworth Estate",
+  "kind": "neighbourhood",
   "lat": 51.5555424,
   "lng": -0.0450676
  },
  {
   "id": "osm:way/146543196",
   "name": "Spa Green",
+  "kind": "neighbourhood",
   "lat": 51.5287095,
-  "lng": -0.1054511
+  "lng": -0.1054428
  },
  {
   "id": "osm:way/153080885",
   "name": "St Matthew's Estate",
+  "kind": "neighbourhood",
   "lat": 51.4572242,
   "lng": -0.1161293
  },
  {
   "id": "osm:way/153213965",
   "name": "Fieldcommon",
+  "kind": "neighbourhood",
   "lat": 51.3877326,
   "lng": -0.3830706
  },
  {
   "id": "osm:way/157266411",
   "name": "Hale Village",
+  "kind": "neighbourhood",
   "lat": 51.589259,
   "lng": -0.0579105
  },
  {
   "id": "osm:way/161033385",
   "name": "Trafalgar Estate",
+  "kind": "neighbourhood",
   "lat": 51.482884,
   "lng": -0.001844
  },
  {
   "id": "osm:way/164010939",
   "name": "Pleydell Estate",
+  "kind": "neighbourhood",
   "lat": 51.526914,
-  "lng": -0.092933
+  "lng": -0.0929292
  },
  {
   "id": "osm:way/164254072",
   "name": "Finsbury Estate",
+  "kind": "neighbourhood",
   "lat": 51.526491,
   "lng": -0.1059425
  },
  {
   "id": "osm:way/173166420",
   "name": "London City Island",
+  "kind": "neighbourhood",
   "lat": 51.5121273,
   "lng": 0.0055687
  },
  {
   "id": "osm:way/175583722",
   "name": "Earlstoke Estate",
+  "kind": "neighbourhood",
   "lat": 51.5287524,
   "lng": -0.1022368
  },
  {
   "id": "osm:way/176017626",
   "name": "Suttons Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5285509,
   "lng": -0.041665
  },
  {
   "id": "osm:way/179420174",
   "name": "East Village",
+  "kind": "neighbourhood",
   "lat": 51.5486679,
   "lng": -0.0088345
  },
  {
   "id": "osm:way/184172330",
   "name": "Riverlight",
+  "kind": "neighbourhood",
   "lat": 51.4821042,
   "lng": -0.1375312
  },
  {
   "id": "osm:way/185426356",
   "name": "Ethelred Estate",
+  "kind": "neighbourhood",
   "lat": 51.4919015,
   "lng": -0.1149579
  },
  {
   "id": "osm:way/189773715",
   "name": "Chinatown",
+  "kind": "suburb",
   "lat": 51.5116661,
   "lng": -0.1305842
  },
  {
   "id": "osm:way/191540815",
   "name": "Saint George Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4857412,
   "lng": -0.1264136
  },
  {
   "id": "osm:way/192357243",
   "name": "Martineau Estate",
-  "lat": 51.5113805,
-  "lng": -0.0524126
+  "kind": "neighbourhood",
+  "lat": 51.5113639,
+  "lng": -0.0524122
  },
  {
   "id": "osm:way/195089027",
   "name": "Norway Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5119595,
   "lng": -0.0329007
  },
  {
   "id": "osm:way/195200672",
   "name": "Blyth's Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5090033,
   "lng": -0.0345663
  },
  {
   "id": "osm:way/195200693",
   "name": "Watergarden",
+  "kind": "neighbourhood",
   "lat": 51.5096244,
   "lng": -0.0345012
  },
  {
   "id": "osm:way/195636511",
   "name": "Burdett Estate",
+  "kind": "neighbourhood",
   "lat": 51.5165952,
   "lng": -0.0260159
  },
  {
   "id": "osm:way/197292496",
   "name": "Canary Gateway",
+  "kind": "neighbourhood",
   "lat": 51.5129917,
   "lng": -0.0293388
  },
  {
   "id": "osm:way/198690151",
   "name": "Millbrook Park",
+  "kind": "neighbourhood",
   "lat": 51.6111981,
   "lng": -0.2089606
  },
  {
   "id": "osm:way/201851998",
   "name": "Golden Lane Estate",
-  "lat": 51.5224655,
-  "lng": -0.0960748
+  "kind": "neighbourhood",
+  "lat": 51.5224567,
+  "lng": -0.0960483
  },
  {
   "id": "osm:way/201852001",
   "name": "Peabody Estate",
+  "kind": "neighbourhood",
   "lat": 51.5229607,
   "lng": -0.0941217
  },
  {
   "id": "osm:way/204256118",
   "name": "East Hill Estate",
+  "kind": "neighbourhood",
   "lat": 51.460545,
   "lng": -0.1819014
  },
  {
   "id": "osm:way/208046041",
   "name": "Locksley Estate",
+  "kind": "neighbourhood",
   "lat": 51.5142999,
   "lng": -0.0324442
  },
  {
   "id": "osm:way/209682391",
   "name": "Ocean Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4982559,
   "lng": -0.0266851
  },
  {
   "id": "osm:way/214245801",
   "name": "Morgan's Walk",
+  "kind": "neighbourhood",
   "lat": 51.4786746,
   "lng": -0.172917
  },
  {
   "id": "osm:way/214790638",
   "name": "Tissington Court",
+  "kind": "neighbourhood",
   "lat": 51.4908116,
   "lng": -0.0488434
  },
  {
   "id": "osm:way/215203490",
   "name": "Lombard Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4712176,
   "lng": -0.177941
  },
  {
   "id": "osm:way/217343585",
   "name": "Whittington Estate",
+  "kind": "neighbourhood",
   "lat": 51.565241,
   "lng": -0.1426603
  },
  {
   "id": "osm:way/233513215",
   "name": "Champion Hill Estate",
+  "kind": "neighbourhood",
   "lat": 51.4637334,
   "lng": -0.0849415
  },
  {
   "id": "osm:way/238802979",
   "name": "Boston Estate",
+  "kind": "neighbourhood",
   "lat": 51.5443263,
   "lng": -0.1181472
  },
  {
   "id": "osm:way/244667590",
   "name": "Deals Gateway",
+  "kind": "neighbourhood",
   "lat": 51.4726785,
   "lng": -0.0204773
  },
  {
   "id": "osm:way/245273964",
   "name": "Marquess Estate",
+  "kind": "neighbourhood",
   "lat": 51.5443099,
   "lng": -0.0915775
  },
  {
   "id": "osm:way/258702218",
   "name": "The River Gardens",
+  "kind": "neighbourhood",
   "lat": 51.4881595,
   "lng": 0.0022795
  },
  {
   "id": "osm:way/262264143",
   "name": "Nye Bevan Estate",
+  "kind": "neighbourhood",
   "lat": 51.5570563,
   "lng": -0.042158
  },
  {
   "id": "osm:way/262264145",
   "name": "Clapton Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.555632,
   "lng": -0.0393699
  },
  {
   "id": "osm:way/266713621",
   "name": "Millennium Harbour",
+  "kind": "neighbourhood",
   "lat": 51.5006112,
   "lng": -0.026703
  },
  {
   "id": "osm:way/281967579",
   "name": "Mettle & Poise",
+  "kind": "neighbourhood",
   "lat": 51.5318771,
   "lng": -0.0654552
  },
  {
   "id": "osm:way/284915047",
   "name": "Windsor Terrace Estate",
+  "kind": "neighbourhood",
   "lat": 51.5295361,
   "lng": -0.0936533
  },
  {
   "id": "osm:way/286631338",
   "name": "Price's Court",
+  "kind": "neighbourhood",
   "lat": 51.4684018,
   "lng": -0.1796839
  },
  {
   "id": "osm:way/288320681",
   "name": "The City Quays",
+  "kind": "neighbourhood",
   "lat": 51.5077755,
   "lng": -0.0697102
  },
  {
   "id": "osm:way/298987058",
   "name": "Ocean Estate",
+  "kind": "neighbourhood",
   "lat": 51.5204794,
   "lng": -0.0419788
  },
  {
   "id": "osm:way/302294378",
   "name": "Brierly Gardens",
+  "kind": "neighbourhood",
   "lat": 51.5295285,
   "lng": -0.0500181
  },
  {
   "id": "osm:way/307580090",
   "name": "Battersea Reach",
+  "kind": "neighbourhood",
   "lat": 51.4641901,
   "lng": -0.1845323
  },
  {
   "id": "osm:way/311315889",
   "name": "Patrick Connolly Gardens",
+  "kind": "neighbourhood",
   "lat": 51.5259742,
   "lng": -0.0131129
  },
  {
   "id": "osm:way/317442791",
   "name": "Henry Prince Estate",
+  "kind": "neighbourhood",
   "lat": 51.4448368,
   "lng": -0.1913192
  },
  {
   "id": "osm:way/330952026",
   "name": "Chelsea Bridge Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4821821,
   "lng": -0.1486394
  },
  {
   "id": "osm:way/332403098",
   "name": "Surrey Lane Estate",
+  "kind": "neighbourhood",
   "lat": 51.4764974,
   "lng": -0.1702243
  },
  {
   "id": "osm:way/353164147",
   "name": "Chelsea Waterfront",
+  "kind": "neighbourhood",
   "lat": 51.4770937,
   "lng": -0.1811221
  },
  {
   "id": "osm:way/353164905",
   "name": "Chelsea Harbour",
+  "kind": "neighbourhood",
   "lat": 51.475323,
   "lng": -0.1816024
  },
  {
   "id": "osm:way/356491156",
   "name": "The Gardens",
+  "kind": "neighbourhood",
   "lat": 51.5793771,
   "lng": -0.0957089
  },
  {
   "id": "osm:way/362885987",
   "name": "Burrells Wharf",
+  "kind": "neighbourhood",
   "lat": 51.487836,
   "lng": -0.0197551
  },
  {
   "id": "osm:way/363977005",
   "name": "Langbourne Place",
+  "kind": "neighbourhood",
   "lat": 51.4870175,
   "lng": -0.0172271
  },
  {
   "id": "osm:way/367115206",
   "name": "Kingsbridge",
+  "kind": "neighbourhood",
   "lat": 51.4934365,
   "lng": -0.0261386
  },
  {
   "id": "osm:way/369386609",
   "name": "Cyclops Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4913605,
   "lng": -0.0251927
  },
  {
   "id": "osm:way/376524596",
   "name": "Chobham Farm",
+  "kind": "neighbourhood",
   "lat": 51.5484357,
   "lng": -0.0035217
  },
  {
   "id": "osm:way/378465334",
   "name": "Greenland Place",
+  "kind": "neighbourhood",
   "lat": 51.4912463,
   "lng": -0.0391587
  },
  {
   "id": "osm:way/381822571",
   "name": "Milton Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.5533779,
   "lng": -0.0821909
  },
  {
   "id": "osm:way/386743654",
   "name": "Enderby Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4900836,
   "lng": 0.0037018
  },
  {
   "id": "osm:way/387368184",
   "name": "Merryweather Place",
+  "kind": "neighbourhood",
   "lat": 51.4761824,
   "lng": -0.0192817
  },
  {
   "id": "osm:way/387383439",
   "name": "Merchants Walk",
+  "kind": "neighbourhood",
   "lat": 51.52095,
   "lng": -0.0171748
  },
  {
   "id": "osm:way/388411825",
   "name": "Waterside Park",
+  "kind": "neighbourhood",
   "lat": 51.5013575,
   "lng": 0.0368061
  },
  {
   "id": "osm:way/389246677",
   "name": "Whiston Estate",
+  "kind": "neighbourhood",
   "lat": 51.5350445,
   "lng": -0.0652398
  },
  {
   "id": "osm:way/390482319",
   "name": "New Festival Quarter",
+  "kind": "neighbourhood",
   "lat": 51.5130271,
   "lng": -0.0209774
  },
  {
   "id": "osm:way/390852367",
   "name": "Caspian Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5194262,
   "lng": -0.0166506
  },
  {
   "id": "osm:way/391205008",
   "name": "Blackheath Vale",
+  "kind": "neighbourhood",
   "lat": 51.4692988,
   "lng": 0.0040821
  },
  {
   "id": "osm:way/400377941",
   "name": "Cherry Orchard Estate",
+  "kind": "neighbourhood",
   "lat": 51.4775847,
   "lng": 0.031252
  },
  {
   "id": "osm:way/416147073",
   "name": "Royal Herbert Pavilions",
+  "kind": "neighbourhood",
   "lat": 51.470791,
   "lng": 0.0527798
  },
  {
   "id": "osm:way/421868910",
   "name": "Meridian Water",
+  "kind": "neighbourhood",
   "lat": 51.610355,
   "lng": -0.0439029
  },
  {
   "id": "osm:way/430362837",
   "name": "Hope Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4753526,
   "lng": -0.0204201
  },
  {
   "id": "osm:way/432846124",
   "name": "Colt Stead",
+  "kind": "neighbourhood",
   "lat": 51.3659159,
   "lng": 0.3006074
  },
  {
   "id": "osm:way/432846125",
   "name": "The Mead",
+  "kind": "neighbourhood",
   "lat": 51.3668912,
   "lng": 0.2986625
  },
  {
   "id": "osm:way/435146468",
   "name": "Ayelands",
+  "kind": "neighbourhood",
   "lat": 51.3686801,
   "lng": 0.2994358
  },
  {
   "id": "osm:way/435146469",
   "name": "Chapel Wood",
+  "kind": "neighbourhood",
   "lat": 51.3702062,
   "lng": 0.3011618
  },
  {
   "id": "osm:way/435146470",
   "name": "Millfield",
+  "kind": "neighbourhood",
   "lat": 51.3678375,
   "lng": 0.3018188
  },
  {
   "id": "osm:way/435146471",
   "name": "Olivers Mill",
+  "kind": "neighbourhood",
   "lat": 51.3701234,
   "lng": 0.3035349
  },
  {
   "id": "osm:way/435148124",
   "name": "Foxbury",
+  "kind": "neighbourhood",
   "lat": 51.3650838,
   "lng": 0.3028574
  },
  {
   "id": "osm:way/435148125",
   "name": "Punch Croft",
+  "kind": "neighbourhood",
   "lat": 51.3636304,
   "lng": 0.3028328
  },
  {
   "id": "osm:way/435148126",
   "name": "Seven Acres",
+  "kind": "neighbourhood",
   "lat": 51.3643934,
   "lng": 0.2990812
  },
  {
   "id": "osm:way/435152721",
   "name": "Penenden",
+  "kind": "neighbourhood",
   "lat": 51.3692465,
   "lng": 0.3054894
  },
  {
   "id": "osm:way/435183833",
   "name": "Bazes Shaw",
+  "kind": "neighbourhood",
   "lat": 51.3692949,
   "lng": 0.3086919
  },
  {
   "id": "osm:way/435183834",
   "name": "Caling Croft",
+  "kind": "neighbourhood",
   "lat": 51.3712668,
   "lng": 0.3102253
  },
  {
   "id": "osm:way/435183835",
   "name": "Farm Holt",
+  "kind": "neighbourhood",
   "lat": 51.3710042,
   "lng": 0.3073673
  },
  {
   "id": "osm:way/435187384",
   "name": "Knights Croft",
+  "kind": "neighbourhood",
   "lat": 51.3624108,
   "lng": 0.3053686
  },
  {
   "id": "osm:way/435187385",
   "name": "Redhill Wood",
+  "kind": "neighbourhood",
   "lat": 51.3624745,
   "lng": 0.3155109
  },
  {
   "id": "osm:way/435187386",
   "name": "Westfield",
+  "kind": "neighbourhood",
   "lat": 51.3606474,
   "lng": 0.3076772
  },
  {
   "id": "osm:way/435189399",
   "name": "Capelands",
+  "kind": "neighbourhood",
   "lat": 51.3660864,
   "lng": 0.3116003
  },
  {
   "id": "osm:way/435189400",
   "name": "Lambardes",
+  "kind": "neighbourhood",
   "lat": 51.3653152,
   "lng": 0.3082975
  },
  {
   "id": "osm:way/435189401",
   "name": "Manor Forstal",
+  "kind": "neighbourhood",
   "lat": 51.3632658,
   "lng": 0.3088953
  },
  {
   "id": "osm:way/435189402",
   "name": "Over Minnis",
+  "kind": "neighbourhood",
   "lat": 51.3646877,
   "lng": 0.3053556
  },
  {
   "id": "osm:way/435189403",
   "name": "Spring Cross",
+  "kind": "neighbourhood",
   "lat": 51.3637927,
   "lng": 0.3119484
  },
  {
   "id": "osm:way/435190053",
   "name": "Bowes Wood",
+  "kind": "neighbourhood",
   "lat": 51.3616586,
   "lng": 0.3110207
  },
  {
   "id": "osm:way/444253843",
   "name": "Highgate New Town",
+  "kind": "neighbourhood",
   "lat": 51.5640263,
   "lng": -0.1418438
  },
  {
   "id": "osm:way/446887602",
   "name": "Morningside Estate",
+  "kind": "neighbourhood",
   "lat": 51.5460539,
   "lng": -0.0475146
  },
  {
   "id": "osm:way/448660899",
   "name": "Parkhaus",
+  "kind": "neighbourhood",
   "lat": 51.5560193,
   "lng": -0.0664961
  },
  {
   "id": "osm:way/450809571",
   "name": "Oakfields Estate",
+  "kind": "neighbourhood",
   "lat": 51.4344232,
   "lng": -0.2181859
  },
  {
   "id": "osm:way/460527874",
   "name": "Warwick Estate",
+  "kind": "neighbourhood",
   "lat": 51.5213564,
   "lng": -0.1890274
  },
  {
   "id": "osm:way/474605576",
   "name": "Hallgate",
+  "kind": "neighbourhood",
   "lat": 51.4644289,
   "lng": 0.0151459
  },
  {
   "id": "osm:way/474705737",
   "name": "Lock No19",
-  "lat": 51.5385397,
-  "lng": -0.0216683
+  "kind": "neighbourhood",
+  "lat": 51.5385332,
+  "lng": -0.0216937
  },
  {
   "id": "osm:way/476770724",
   "name": "Clarence Way Estate",
+  "kind": "neighbourhood",
   "lat": 51.5437566,
   "lng": -0.1430211
  },
  {
   "id": "osm:way/482765284",
   "name": "Highcroft Estate",
+  "kind": "neighbourhood",
   "lat": 51.5718708,
   "lng": -0.1235195
  },
  {
   "id": "osm:way/490209567",
   "name": "Blackstone Estate",
+  "kind": "neighbourhood",
   "lat": 51.5409925,
   "lng": -0.0626215
  },
  {
   "id": "osm:way/490724417",
   "name": "Linzell Estate",
+  "kind": "neighbourhood",
   "lat": 51.5503901,
   "lng": -0.0378534
  },
  {
   "id": "osm:way/492220450",
   "name": "Fulham Riverside",
+  "kind": "neighbourhood",
   "lat": 51.4671703,
   "lng": -0.1867725
  },
  {
   "id": "osm:way/492847916",
   "name": "Nine Elms Point",
+  "kind": "neighbourhood",
   "lat": 51.4809276,
   "lng": -0.1289257
  },
  {
   "id": "osm:way/494303753",
   "name": "Evelyn Estate",
+  "kind": "neighbourhood",
   "lat": 51.4816926,
   "lng": -0.0311443
  },
  {
   "id": "osm:way/502612937",
   "name": "Seager Place",
+  "kind": "neighbourhood",
   "lat": 51.4739113,
-  "lng": -0.0234004
+  "lng": -0.0234007
  },
  {
   "id": "osm:way/503644479",
   "name": "Fulham Reach",
+  "kind": "neighbourhood",
   "lat": 51.487024,
   "lng": -0.2259731
  },
  {
   "id": "osm:way/507831153",
   "name": "Gloucester Grove Estate",
+  "kind": "neighbourhood",
   "lat": 51.4812152,
   "lng": -0.0772788
  },
  {
   "id": "osm:way/515517402",
   "name": "Keybridge",
+  "kind": "neighbourhood",
   "lat": 51.4822614,
   "lng": -0.125228
  },
  {
   "id": "osm:way/522394919",
   "name": "Glasshouse Gardens",
+  "kind": "neighbourhood",
   "lat": 51.5411721,
   "lng": -0.0083616
  },
  {
   "id": "osm:way/533024791",
   "name": "New Union Wharf",
+  "kind": "neighbourhood",
   "lat": 51.4975014,
   "lng": -0.0074396
  },
  {
   "id": "osm:way/537306443",
   "name": "Vista",
+  "kind": "neighbourhood",
   "lat": 51.4800613,
   "lng": -0.1483444
  },
  {
   "id": "osm:way/538373186",
   "name": "Colville Estate",
+  "kind": "neighbourhood",
   "lat": 51.5365642,
   "lng": -0.0851019
  },
  {
   "id": "osm:way/538644072",
   "name": "Goldsmiths' Square",
+  "kind": "neighbourhood",
   "lat": 51.5338709,
   "lng": -0.0637049
  },
  {
   "id": "osm:way/543244952",
   "name": "Dolphin Square",
+  "kind": "neighbourhood",
   "lat": 51.4864393,
   "lng": -0.1362543
  },
  {
   "id": "osm:way/546227680",
   "name": "Banister House",
+  "kind": "neighbourhood",
   "lat": 51.5489381,
   "lng": -0.0456292
  },
  {
   "id": "osm:way/549233688",
   "name": "Pedworth Estate",
+  "kind": "neighbourhood",
   "lat": 51.4912219,
   "lng": -0.0543732
  },
  {
   "id": "osm:way/549753317",
   "name": "Kilburn Vale Private Estate",
+  "kind": "neighbourhood",
   "lat": 51.538704,
   "lng": -0.1920647
  },
  {
   "id": "osm:way/555241272",
   "name": "Circus West Village",
+  "kind": "neighbourhood",
   "lat": 51.482175,
   "lng": -0.146271
  },
  {
   "id": "osm:way/555948759",
   "name": "Victory Place",
+  "kind": "neighbourhood",
   "lat": 51.5105338,
   "lng": -0.0347484
  },
  {
   "id": "osm:way/560551488",
   "name": "Royal Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5003853,
   "lng": 0.0281214
  },
  {
   "id": "osm:way/565189543",
   "name": "Saint John's Estate",
+  "kind": "neighbourhood",
   "lat": 51.5319771,
   "lng": -0.0846641
  },
  {
   "id": "osm:way/585508383",
   "name": "Locton Estate",
+  "kind": "neighbourhood",
   "lat": 51.5374373,
   "lng": -0.0273251
  },
  {
   "id": "osm:way/586640152",
   "name": "Carey Gardens",
+  "kind": "neighbourhood",
   "lat": 51.4737431,
   "lng": -0.1362265
  },
  {
   "id": "osm:way/589525927",
   "name": "Lindley Estate",
+  "kind": "neighbourhood",
   "lat": 51.478992,
   "lng": -0.0669302
  },
  {
   "id": "osm:way/589525928",
   "name": "Lindley Estate",
+  "kind": "neighbourhood",
   "lat": 51.4785813,
   "lng": -0.0689305
  },
  {
   "id": "osm:way/589673135",
   "name": "Lime Quarter",
+  "kind": "neighbourhood",
   "lat": 51.522069,
   "lng": -0.0177693
  },
  {
   "id": "osm:way/595240757",
   "name": "Sceaux Gardens",
+  "kind": "neighbourhood",
   "lat": 51.4750904,
   "lng": -0.0805602
  },
  {
   "id": "osm:way/604258846",
   "name": "Gascoigne Estate",
+  "kind": "neighbourhood",
   "lat": 51.5322768,
   "lng": 0.081071
  },
  {
   "id": "osm:way/605111978",
   "name": "St Pancras Way Estate",
+  "kind": "neighbourhood",
   "lat": 51.5427867,
   "lng": -0.1359645
  },
  {
   "id": "osm:way/608147182",
   "name": "Oliver Goldsmith Estate",
+  "kind": "neighbourhood",
   "lat": 51.4748761,
   "lng": -0.0674967
  },
  {
   "id": "osm:way/613586147",
   "name": "New Providence Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5062114,
   "lng": -0.0049999
  },
  {
   "id": "osm:way/617439828",
   "name": "Ledbury Estate",
+  "kind": "neighbourhood",
   "lat": 51.4805827,
   "lng": -0.0628056
  },
  {
   "id": "osm:way/618492004",
   "name": "Tustin Estate",
+  "kind": "neighbourhood",
   "lat": 51.4804119,
   "lng": -0.055566
  },
  {
   "id": "osm:way/621224359",
   "name": "D'Eynsford Estate",
+  "kind": "neighbourhood",
   "lat": 51.4752867,
   "lng": -0.0893776
  },
  {
   "id": "osm:way/656481077",
   "name": "Chobham Manor",
+  "kind": "neighbourhood",
   "lat": 51.5490737,
   "lng": -0.0119989
  },
  {
   "id": "osm:way/659395306",
   "name": "Triptych Bankside",
+  "kind": "neighbourhood",
   "lat": 51.5069853,
   "lng": -0.0972773
  },
  {
   "id": "osm:way/669441093",
   "name": "Goodmans Fields",
+  "kind": "neighbourhood",
   "lat": 51.5133859,
   "lng": -0.069173
  },
  {
   "id": "osm:way/679509939",
   "name": "Bayliss Old School",
+  "kind": "neighbourhood",
   "lat": 51.492274,
   "lng": -0.1147101
  },
  {
   "id": "osm:way/684616535",
   "name": "Westferry Estate",
+  "kind": "neighbourhood",
   "lat": 51.4901687,
   "lng": -0.020062
  },
  {
   "id": "osm:way/688180657",
   "name": "Manchester Grove Estate",
+  "kind": "neighbourhood",
   "lat": 51.4878422,
   "lng": -0.0119905
  },
  {
   "id": "osm:way/688511441",
   "name": "Glebe Estate",
+  "kind": "neighbourhood",
   "lat": 51.4730381,
   "lng": -0.0844737
  },
  {
   "id": "osm:way/690852696",
   "name": "Wilcove Estate",
+  "kind": "neighbourhood",
   "lat": 51.5228274,
   "lng": -0.1680949
  },
  {
   "id": "osm:way/691918116",
   "name": "Fisherton Street Estate",
+  "kind": "neighbourhood",
   "lat": 51.5250313,
   "lng": -0.1717616
  },
  {
   "id": "osm:way/692798681",
   "name": "Wharncliffe Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.5266903,
   "lng": -0.1739562
  },
  {
   "id": "osm:way/697821713",
   "name": "Townsend Estate",
+  "kind": "neighbourhood",
   "lat": 51.5352206,
   "lng": -0.1674646
  },
  {
   "id": "osm:way/702183477",
   "name": "Boundary Estate",
+  "kind": "neighbourhood",
   "lat": 51.5384229,
   "lng": -0.1824999
  },
  {
   "id": "osm:way/719632200",
   "name": "Fish Island Village",
+  "kind": "neighbourhood",
   "lat": 51.540001,
   "lng": -0.0239257
  },
  {
   "id": "osm:way/721847768",
   "name": "Lydford Estate",
+  "kind": "neighbourhood",
   "lat": 51.5271989,
   "lng": -0.2022108
  },
  {
   "id": "osm:way/723665848",
   "name": "Hornsey Lane Estate",
+  "kind": "neighbourhood",
   "lat": 51.5726708,
   "lng": -0.1316401
  },
  {
   "id": "osm:way/723803857",
   "name": "Mozart Estate",
+  "kind": "neighbourhood",
   "lat": 51.5306582,
   "lng": -0.2066524
  },
  {
   "id": "osm:way/726098777",
   "name": "Portland Rise Estate",
+  "kind": "neighbourhood",
   "lat": 51.5689623,
   "lng": -0.0958728
  },
  {
   "id": "osm:way/728781873",
   "name": "Carlton Gate",
+  "kind": "neighbourhood",
   "lat": 51.5223131,
   "lng": -0.1952966
  },
  {
   "id": "osm:way/728882226",
   "name": "Brunswick Close Estate",
+  "kind": "neighbourhood",
   "lat": 51.5264693,
   "lng": -0.1023152
  },
  {
   "id": "osm:way/728959897",
   "name": "Brindley Estate",
+  "kind": "neighbourhood",
   "lat": 51.5214048,
   "lng": -0.1945124
  },
  {
   "id": "osm:way/729854513",
   "name": "John Aird Court",
+  "kind": "neighbourhood",
   "lat": 51.5211533,
   "lng": -0.1789488
  },
  {
   "id": "osm:way/733129292",
   "name": "Maiden Lane Community",
+  "kind": "neighbourhood",
   "lat": 51.5421051,
   "lng": -0.1281926
  },
  {
   "id": "osm:way/736562678",
   "name": "Zenith Building",
+  "kind": "neighbourhood",
   "lat": 51.5123977,
   "lng": -0.0377356
  },
  {
   "id": "osm:way/737847587",
   "name": "Willowbrook Estate",
+  "kind": "neighbourhood",
   "lat": 51.4788837,
   "lng": -0.0728871
  },
  {
   "id": "osm:way/741784394",
   "name": "Wyke Estate",
+  "kind": "neighbourhood",
   "lat": 51.5459419,
   "lng": -0.0441586
  },
  {
   "id": "osm:way/747158592",
   "name": "Packington Estate",
+  "kind": "neighbourhood",
   "lat": 51.5350828,
   "lng": -0.0952721
  },
  {
   "id": "osm:way/749519639",
   "name": "Webb Estate",
+  "kind": "neighbourhood",
   "lat": 51.5703102,
   "lng": -0.0621501
  },
  {
   "id": "osm:way/749519641",
   "name": "Fawcett Estate",
+  "kind": "neighbourhood",
   "lat": 51.5690389,
   "lng": -0.061026
  },
  {
   "id": "osm:way/757533858",
   "name": "Brunel Estate",
+  "kind": "neighbourhood",
   "lat": 51.5196444,
   "lng": -0.1974824
  },
  {
   "id": "osm:way/766605320",
   "name": "Longlands Court",
+  "kind": "neighbourhood",
   "lat": 51.5134606,
   "lng": -0.201855
  },
  {
   "id": "osm:way/768286291",
   "name": "Portobello Court",
+  "kind": "neighbourhood",
   "lat": 51.5141912,
   "lng": -0.2028112
  },
  {
   "id": "osm:way/784558349",
   "name": "Allom & Barlow Estate",
+  "kind": "neighbourhood",
   "lat": 51.5136888,
   "lng": -0.2124192
  },
  {
   "id": "osm:way/787916408",
   "name": "Henry Dickens Court",
+  "kind": "neighbourhood",
   "lat": 51.509973,
   "lng": -0.2151814
  },
  {
   "id": "osm:way/792846969",
   "name": "Woodsford Square",
+  "kind": "neighbourhood",
   "lat": 51.5038153,
   "lng": -0.209464
  },
  {
   "id": "osm:way/792982144",
   "name": "Somerset Square",
+  "kind": "neighbourhood",
   "lat": 51.5008859,
   "lng": -0.2073602
  },
  {
   "id": "osm:way/795888863",
   "name": "The Phillimore Estate",
+  "kind": "neighbourhood",
   "lat": 51.501215,
   "lng": -0.197756
  },
  {
   "id": "osm:way/797530807",
   "name": "Royal Albert Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5066693,
   "lng": 0.0767258
  },
  {
   "id": "osm:way/804847433",
   "name": "Chelsea Barracks",
+  "kind": "neighbourhood",
   "lat": 51.4893025,
   "lng": -0.1546741
  },
  {
   "id": "osm:way/809223133",
   "name": "Empress Works",
+  "kind": "neighbourhood",
   "lat": 51.5337877,
   "lng": -0.0584065
  },
  {
   "id": "osm:way/814211344",
   "name": "Wilditch Estate",
+  "kind": "neighbourhood",
   "lat": 51.4710637,
   "lng": -0.15878
  },
  {
   "id": "osm:way/814252339",
   "name": "Cremourne Estate",
+  "kind": "neighbourhood",
   "lat": 51.4825753,
   "lng": -0.1772119
  },
  {
   "id": "osm:way/816331595",
   "name": "Herbert Butler Estate",
+  "kind": "neighbourhood",
   "lat": 51.5483377,
   "lng": -0.035784
  },
  {
   "id": "osm:way/823099699",
   "name": "The Bridge",
+  "kind": "suburb",
   "lat": 51.4595202,
   "lng": 0.234814
  },
  {
   "id": "osm:way/824501401",
   "name": "Guiness Estate/Trust",
+  "kind": "neighbourhood",
   "lat": 51.481076,
   "lng": -0.1820416
  },
  {
   "id": "osm:way/827958324",
   "name": "Tree Estate",
+  "kind": "neighbourhood",
   "lat": 51.4371627,
   "lng": 0.2095368
  },
  {
   "id": "osm:way/837611130",
   "name": "Amwell Court Estate",
+  "kind": "neighbourhood",
   "lat": 51.5664226,
   "lng": -0.0930673
  },
  {
   "id": "osm:way/840239394",
   "name": "Tanswell Estate",
+  "kind": "neighbourhood",
   "lat": 51.5005624,
   "lng": -0.1098522
  },
  {
   "id": "osm:way/842036424",
   "name": "Regents Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.5306535,
   "lng": -0.1419691
  },
  {
   "id": "osm:way/844116094",
   "name": "Yorkshire Grove Estate",
+  "kind": "neighbourhood",
   "lat": 51.557393,
   "lng": -0.0776015
  },
  {
   "id": "osm:way/848661998",
   "name": "Wilton Estate",
+  "kind": "neighbourhood",
   "lat": 51.5447669,
   "lng": -0.0637763
  },
  {
   "id": "osm:way/852131959",
   "name": "Stonebridge Estate",
+  "kind": "neighbourhood",
   "lat": 51.5374052,
   "lng": -0.0743585
  },
  {
   "id": "osm:way/855719275",
   "name": "Cresswood",
+  "kind": "neighbourhood",
   "lat": 51.5514934,
   "lng": -0.149109
  },
  {
   "id": "osm:way/858411964",
   "name": "Arlington Park Mansions",
+  "kind": "neighbourhood",
   "lat": 51.492255,
   "lng": -0.267621
  },
  {
   "id": "osm:way/865584466",
   "name": "Marlborough",
+  "kind": "neighbourhood",
   "lat": 51.4944656,
   "lng": -0.1662205
  },
  {
   "id": "osm:way/866397126",
   "name": "Wiltshire Close Estate",
+  "kind": "neighbourhood",
   "lat": 51.4931864,
   "lng": -0.1646459
  },
  {
   "id": "osm:way/870259741",
   "name": "The Bromptons",
+  "kind": "neighbourhood",
   "lat": 51.4909019,
   "lng": -0.1744422
  },
  {
   "id": "osm:way/871644535",
   "name": "Woolwich Reach",
+  "kind": "neighbourhood",
   "lat": 51.4988757,
   "lng": 0.0640594
  },
  {
   "id": "osm:way/873350613",
   "name": "Weedington Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.5511377,
   "lng": -0.1520771
  },
  {
   "id": "osm:way/873350615",
   "name": "Kiln Place Estate",
+  "kind": "neighbourhood",
   "lat": 51.5536153,
   "lng": -0.1502661
  },
  {
   "id": "osm:way/873350620",
   "name": "Barrington and Lamble Estate",
+  "kind": "neighbourhood",
   "lat": 51.5533877,
   "lng": -0.15265
  },
  {
   "id": "osm:way/874854995",
   "name": "Woodlands Park",
+  "kind": "neighbourhood",
   "lat": 51.5837666,
   "lng": -0.0957734
  },
  {
   "id": "osm:way/878495470",
   "name": "Tregunter Estate",
+  "kind": "neighbourhood",
   "lat": 51.4855994,
   "lng": -0.1880225
  },
  {
   "id": "osm:way/882512475",
   "name": "Abbots Manor Estate",
+  "kind": "neighbourhood",
   "lat": 51.4902131,
   "lng": -0.1468857
  },
  {
   "id": "osm:way/893087648",
   "name": "Caxton Street Works",
+  "kind": "neighbourhood",
   "lat": 51.5110062,
   "lng": 0.0126383
  },
  {
   "id": "osm:way/893228540",
   "name": "Pond House",
+  "kind": "neighbourhood",
   "lat": 51.4917793,
   "lng": -0.1703669
  },
  {
   "id": "osm:way/893249193",
   "name": "Samuel Lewis Trust Dwellings",
+  "kind": "neighbourhood",
   "lat": 51.4916423,
   "lng": -0.1695791
  },
  {
   "id": "osm:way/896303071",
   "name": "Wyvil Estate",
+  "kind": "neighbourhood",
   "lat": 51.4805737,
   "lng": -0.1267209
  },
  {
   "id": "osm:way/899490525",
   "name": "Upton Gardens",
+  "kind": "neighbourhood",
   "lat": 51.531901,
   "lng": 0.0388874
  },
  {
   "id": "osm:way/906846486",
   "name": "The Pavilions",
+  "kind": "neighbourhood",
   "lat": 51.5419158,
   "lng": -0.1198209
  },
  {
   "id": "osm:way/907070863",
   "name": "Barrier Point",
+  "kind": "neighbourhood",
   "lat": 51.5006176,
   "lng": 0.0318399
  },
  {
   "id": "osm:way/907162209",
   "name": "Wards Wharf Approach",
+  "kind": "neighbourhood",
   "lat": 51.5007907,
   "lng": 0.0380665
  },
  {
   "id": "osm:way/907162210",
   "name": "Millet Place",
+  "kind": "neighbourhood",
   "lat": 51.5019697,
   "lng": 0.0337286
  },
  {
   "id": "osm:way/908713998",
   "name": "World's End Estate",
+  "kind": "neighbourhood",
   "lat": 51.4811577,
   "lng": -0.179292
  },
  {
   "id": "osm:way/909289023",
   "name": "Greenwich Millennium Village",
+  "kind": "neighbourhood",
   "lat": 51.4934755,
   "lng": 0.0148684
  },
  {
   "id": "osm:way/909336390",
   "name": "Wick Village",
+  "kind": "neighbourhood",
   "lat": 51.5470442,
   "lng": -0.0261462
  },
  {
   "id": "osm:way/911046232",
   "name": "Wood Wharf",
-  "lat": 51.5027268,
+  "kind": "neighbourhood",
+  "lat": 51.502728,
   "lng": -0.0121669
  },
  {
   "id": "osm:way/911340904",
   "name": "Royal Arsenal Riverside",
-  "lat": 51.4935816,
+  "kind": "neighbourhood",
+  "lat": 51.4936149,
   "lng": 0.0703636
  },
  {
   "id": "osm:way/913672413",
   "name": "Brownfields",
+  "kind": "neighbourhood",
   "lat": 51.5130692,
   "lng": -0.0109148
  },
  {
   "id": "osm:way/915560374",
   "name": "Bridge House",
+  "kind": "neighbourhood",
   "lat": 51.5476417,
   "lng": -0.0468693
  },
  {
   "id": "osm:way/917378149",
   "name": "Regency Quay",
+  "kind": "neighbourhood",
   "lat": 51.4843524,
   "lng": -0.2510872
  },
  {
   "id": "osm:way/918704760",
   "name": "Wormholt Estate",
+  "kind": "neighbourhood",
   "lat": 51.5121503,
   "lng": -0.2435265
  },
  {
   "id": "osm:way/920214190",
   "name": "The Plantation",
+  "kind": "neighbourhood",
   "lat": 51.468097,
   "lng": 0.0208242
  },
  {
   "id": "osm:way/920906365",
   "name": "Morden College",
+  "kind": "neighbourhood",
   "lat": 51.469116,
   "lng": 0.0195137
  },
  {
   "id": "osm:way/920965805",
   "name": "The Lane",
+  "kind": "neighbourhood",
   "lat": 51.4647065,
   "lng": 0.0199312
  },
  {
   "id": "osm:way/920965806",
   "name": "Bernersmede",
+  "kind": "neighbourhood",
   "lat": 51.4655232,
   "lng": 0.016292
  },
  {
   "id": "osm:way/922705959",
   "name": "The Grove",
+  "kind": "neighbourhood",
   "lat": 51.6318673,
   "lng": -0.3215267
  },
  {
   "id": "osm:way/923541116",
   "name": "Sunday Mills",
+  "kind": "neighbourhood",
   "lat": 51.4393932,
   "lng": -0.1900898
  },
  {
   "id": "osm:way/925275445",
   "name": "White City Estate",
+  "kind": "neighbourhood",
   "lat": 51.5122359,
   "lng": -0.2314758
  },
  {
   "id": "osm:way/933883663",
   "name": "Hackney Gardens",
+  "kind": "neighbourhood",
   "lat": 51.5485642,
   "lng": -0.0542245
  },
  {
   "id": "osm:way/936670700",
   "name": "Ferdinand Estate",
+  "kind": "neighbourhood",
   "lat": 51.5442543,
   "lng": -0.1482044
  },
  {
   "id": "osm:way/936670702",
   "name": "Denton Estate",
+  "kind": "neighbourhood",
   "lat": 51.5452609,
   "lng": -0.1506595
  },
  {
   "id": "osm:way/936953404",
   "name": "Regency Apartments",
+  "kind": "neighbourhood",
   "lat": 51.4920948,
   "lng": -0.1308407
  },
  {
   "id": "osm:way/938481101",
   "name": "Quay 430",
+  "kind": "neighbourhood",
   "lat": 51.5071942,
   "lng": -0.0641705
  },
  {
   "id": "osm:way/941360663",
   "name": "Ferdinand Street Estate",
+  "kind": "neighbourhood",
   "lat": 51.5441813,
   "lng": -0.1498798
  },
  {
   "id": "osm:way/945764804",
   "name": "Teviot",
+  "kind": "neighbourhood",
   "lat": 51.5183894,
   "lng": -0.0123395
  },
  {
   "id": "osm:way/951206255",
   "name": "Lillie Square",
-  "lat": 51.4860341,
-  "lng": -0.1946385
+  "kind": "neighbourhood",
+  "lat": 51.485973,
+  "lng": -0.1948863
  },
  {
   "id": "osm:way/951222664",
   "name": "Lordship South Estate",
+  "kind": "neighbourhood",
   "lat": 51.5628693,
   "lng": -0.0834429
  },
  {
   "id": "osm:way/951695702",
   "name": "Flintmill Crescent Estate",
+  "kind": "neighbourhood",
   "lat": 51.465344,
   "lng": 0.0457793
  },
  {
   "id": "osm:way/952490155",
   "name": "Wimbledon Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.4430084,
   "lng": -0.2094732
  },
  {
   "id": "osm:way/952496299",
   "name": "Brunel Street Works",
+  "kind": "neighbourhood",
   "lat": 51.5123147,
   "lng": 0.0101791
  },
  {
   "id": "osm:way/953007558",
   "name": "Acorn Walk",
+  "kind": "neighbourhood",
   "lat": 51.5052864,
   "lng": -0.0347479
  },
  {
   "id": "osm:way/953009520",
   "name": "Amos Estate",
+  "kind": "neighbourhood",
   "lat": 51.505833,
   "lng": -0.0434858
  },
  {
   "id": "osm:way/954762413",
   "name": "Bancroft Estate",
+  "kind": "neighbourhood",
   "lat": 51.5241386,
   "lng": -0.0514188
  },
  {
   "id": "osm:way/963378077",
   "name": "Sansom and Acacia Estate",
+  "kind": "neighbourhood",
   "lat": 51.5611861,
   "lng": 0.0108266
  },
  {
   "id": "osm:way/973323988",
   "name": "Elim Estate",
+  "kind": "neighbourhood",
   "lat": 51.4982928,
   "lng": -0.0852207
  },
  {
   "id": "osm:way/975131939",
   "name": "Stone Studios",
+  "kind": "neighbourhood",
   "lat": 51.5441659,
   "lng": -0.0238988
  },
  {
   "id": "osm:way/976361924",
   "name": "Radley Square",
+  "kind": "neighbourhood",
   "lat": 51.5635278,
   "lng": -0.0496593
  },
  {
   "id": "osm:way/979784066",
   "name": "Royal Artillery Quays",
+  "kind": "neighbourhood",
   "lat": 51.4966581,
   "lng": 0.0789
  },
  {
   "id": "osm:way/982213200",
   "name": "Churchill Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.4863073,
   "lng": -0.1415181
  },
  {
   "id": "osm:way/982336500",
   "name": "Doddington and Rollo Estate",
+  "kind": "neighbourhood",
   "lat": 51.4741056,
   "lng": -0.1517644
  },
  {
   "id": "osm:way/984676212",
   "name": "Ethelburga",
+  "kind": "neighbourhood",
   "lat": 51.4772975,
   "lng": -0.1672901
  },
  {
   "id": "osm:way/984750329",
   "name": "Meakin Estate",
+  "kind": "neighbourhood",
   "lat": 51.4969656,
   "lng": -0.0833273
  },
  {
   "id": "osm:way/986758799",
   "name": "Battersea Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.4725886,
   "lng": -0.1572383
  },
  {
   "id": "osm:way/986758821",
   "name": "St James's Grove",
+  "kind": "neighbourhood",
   "lat": 51.4728684,
   "lng": -0.161368
  },
  {
   "id": "osm:way/986758825",
   "name": "St John's Estate",
+  "kind": "neighbourhood",
   "lat": 51.4734617,
   "lng": -0.1757731
  },
  {
   "id": "osm:way/996167082",
   "name": "Blackheath Cator Estate",
+  "kind": "quarter",
   "lat": 51.464176,
   "lng": 0.0158283
  },
  {
   "id": "osm:way/998734035",
   "name": "Barons Keep",
+  "kind": "neighbourhood",
   "lat": 51.4911707,
   "lng": -0.2123258
  },
  {
   "id": "osm:way/1000330692",
   "name": "Slippers Place Estate",
+  "kind": "neighbourhood",
   "lat": 51.4962958,
   "lng": -0.0592823
  },
  {
   "id": "osm:way/1000354562",
   "name": "Hyacinth Neighbourhood",
+  "kind": "neighbourhood",
   "lat": 51.445797,
   "lng": -0.2401133
  },
  {
   "id": "osm:way/1000354563",
   "name": "Ibsley Neighbourhood",
+  "kind": "neighbourhood",
   "lat": 51.4470776,
   "lng": -0.2415018
  },
  {
   "id": "osm:way/1002783311",
   "name": "Wanborough Neighbourhood",
+  "kind": "neighbourhood",
   "lat": 51.4467707,
   "lng": -0.2377555
  },
  {
   "id": "osm:way/1002783313",
   "name": "Norley Neighbourhood",
+  "kind": "neighbourhood",
   "lat": 51.4445865,
   "lng": -0.2389332
  },
  {
   "id": "osm:way/1006207076",
   "name": "Richmond Grove",
+  "kind": "neighbourhood",
   "lat": 51.541255,
   "lng": -0.1020409
  },
  {
   "id": "osm:way/1013850280",
   "name": "Percival Street Estate",
+  "kind": "neighbourhood",
   "lat": 51.5257491,
   "lng": -0.1007184
  },
  {
   "id": "osm:way/1020883520",
   "name": "Powell House Estate",
+  "kind": "neighbourhood",
   "lat": 51.554383,
   "lng": -0.0551636
  },
  {
   "id": "osm:way/1021180845",
   "name": "Samuel Lewis Trust Estate",
+  "kind": "neighbourhood",
   "lat": 51.5752494,
   "lng": -0.0805519
  },
  {
   "id": "osm:way/1021196580",
   "name": "Highbury Estate",
+  "kind": "neighbourhood",
   "lat": 51.5497285,
   "lng": -0.0929497
  },
  {
   "id": "osm:way/1021210151",
   "name": "Park View Estate",
+  "kind": "neighbourhood",
   "lat": 51.5561244,
   "lng": -0.0916842
  },
  {
   "id": "osm:way/1026061707",
   "name": "Parkside Estate",
-  "lat": 51.5367176,
+  "kind": "neighbourhood",
+  "lat": 51.5366887,
   "lng": -0.0473192
  },
  {
   "id": "osm:way/1028522390",
   "name": "Wimbledon Almshouses",
+  "kind": "neighbourhood",
   "lat": 51.4264536,
   "lng": -0.2307048
  },
  {
   "id": "osm:way/1030724371",
   "name": "Matchmakers Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5517936,
   "lng": -0.0311698
  },
  {
   "id": "osm:way/1030724372",
   "name": "Sherrys Wharf",
+  "kind": "neighbourhood",
   "lat": 51.5534627,
   "lng": -0.0331956
  },
  {
   "id": "osm:way/1035112090",
   "name": "Shore Estate",
+  "kind": "neighbourhood",
   "lat": 51.5392773,
   "lng": -0.0517319
  },
  {
   "id": "osm:way/1041517032",
   "name": "Crown Court",
+  "kind": "neighbourhood",
   "lat": 51.4643631,
   "lng": -0.2187105
  },
  {
   "id": "osm:way/1047517745",
   "name": "Chiswick Quay",
+  "kind": "neighbourhood",
   "lat": 51.4762952,
   "lng": -0.2712078
  },
  {
   "id": "osm:way/1047517746",
   "name": "Ibis Lane",
+  "kind": "neighbourhood",
   "lat": 51.475816,
   "lng": -0.2700903
  },
  {
   "id": "osm:way/1047517747",
   "name": "Thames Village",
+  "kind": "neighbourhood",
   "lat": 51.4772563,
   "lng": -0.2718589
  },
  {
   "id": "osm:way/1047517748",
   "name": "Chiswick Staithe",
+  "kind": "neighbourhood",
   "lat": 51.4781788,
   "lng": -0.2727484
  },
  {
   "id": "osm:way/1053337790",
   "name": "Queen's Elm Square",
+  "kind": "neighbourhood",
   "lat": 51.4886987,
   "lng": -0.1756194
  },
  {
   "id": "osm:way/1054471458",
   "name": "Gilmore Estate",
+  "kind": "neighbourhood",
   "lat": 51.4589886,
   "lng": -0.0059734
  },
  {
   "id": "osm:way/1054476797",
   "name": "The Keep",
+  "kind": "neighbourhood",
   "lat": 51.4673449,
   "lng": 0.0159092
  },
  {
   "id": "osm:way/1054479218",
   "name": "Pond Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.4679093,
   "lng": 0.0146768
  },
  {
   "id": "osm:way/1054479219",
   "name": "Paragon Place",
+  "kind": "neighbourhood",
   "lat": 51.4682644,
   "lng": 0.010813
  },
  {
   "id": "osm:way/1054479220",
   "name": "Ryculff Square",
+  "kind": "neighbourhood",
   "lat": 51.4683259,
   "lng": 0.0119407
  },
  {
   "id": "osm:way/1054504057",
   "name": "The Priory",
+  "kind": "neighbourhood",
   "lat": 51.4612604,
   "lng": 0.0118336
  },
  {
   "id": "osm:way/1058382511",
   "name": "Approach Estate",
+  "kind": "neighbourhood",
   "lat": 51.5310168,
   "lng": -0.0547186
  },
  {
   "id": "osm:way/1075514970",
   "name": "Fairbridge Estate",
+  "kind": "neighbourhood",
   "lat": 51.5682256,
   "lng": -0.1252102
  },
  {
   "id": "osm:way/1075612575",
   "name": "Goodluck Hope",
+  "kind": "neighbourhood",
   "lat": 51.5087568,
   "lng": 0.0072305
  },
  {
   "id": "osm:way/1076682722",
   "name": "Primrose Hill Estate",
+  "kind": "neighbourhood",
   "lat": 51.5420764,
   "lng": -0.1599006
  },
  {
+  "id": "osm:way/1080988712",
+  "name": "Fulham Court",
+  "kind": "neighbourhood",
+  "lat": 51.4778815,
+  "lng": -0.1990417
+ },
+ {
   "id": "osm:way/1081893669",
   "name": "Fielders Quarter",
+  "kind": "neighbourhood",
   "lat": 51.522819,
   "lng": 0.1231116
  },
  {
   "id": "osm:way/1086170454",
   "name": "Bishop’s Mansions",
+  "kind": "neighbourhood",
   "lat": 51.4732709,
   "lng": -0.2158788
  },
  {
   "id": "osm:way/1087943266",
   "name": "Leybridge Estate",
-  "lat": 51.4550104,
+  "kind": "neighbourhood",
+  "lat": 51.4549978,
   "lng": 0.0149061
  },
  {
   "id": "osm:way/1089461953",
   "name": "Cooper Close",
+  "kind": "neighbourhood",
   "lat": 51.5000212,
   "lng": -0.1080537
  },
  {
   "id": "osm:way/1093381302",
   "name": "Kipling Estate",
+  "kind": "neighbourhood",
   "lat": 51.5005347,
   "lng": -0.0861969
  },
  {
   "id": "osm:way/1094345446",
   "name": "Regents Estate",
+  "kind": "neighbourhood",
   "lat": 51.5372796,
   "lng": -0.0664284
  },
  {
   "id": "osm:way/1094533133",
   "name": "Whites Grounds Estate",
+  "kind": "neighbourhood",
   "lat": 51.5014508,
   "lng": -0.0811126
  },
  {
   "id": "osm:way/1094915659",
   "name": "Queen Elizabeth's College",
+  "kind": "neighbourhood",
   "lat": 51.4773198,
   "lng": -0.0131575
  },
  {
   "id": "osm:way/1095243807",
   "name": "Lennox Estate",
+  "kind": "neighbourhood",
   "lat": 51.4633304,
   "lng": -0.2525948
  },
  {
   "id": "osm:way/1095482467",
   "name": "Barset Estate",
+  "kind": "neighbourhood",
   "lat": 51.4654919,
   "lng": -0.0524967
  },
  {
   "id": "osm:way/1096368165",
   "name": "Sydenham Hill Estate",
-  "lat": 51.4325271,
+  "kind": "neighbourhood",
+  "lat": 51.432507,
   "lng": -0.0671359
  },
  {
   "id": "osm:way/1096406996",
   "name": "East Dulwich Estate",
+  "kind": "neighbourhood",
   "lat": 51.4636539,
   "lng": -0.0811576
  },
  {
   "id": "osm:way/1096412071",
   "name": "Lordship Lane & Dulwich Common Estate",
+  "kind": "neighbourhood",
   "lat": 51.4443268,
   "lng": -0.0704474
  },
  {
   "id": "osm:way/1096413114",
   "name": "Markwell Close Estate",
+  "kind": "neighbourhood",
   "lat": 51.4289525,
   "lng": -0.0638843
  },
  {
   "id": "osm:way/1098354008",
   "name": "Dorset Estate",
+  "kind": "neighbourhood",
   "lat": 51.5294842,
   "lng": -0.0722578
  },
  {
   "id": "osm:way/1099737752",
   "name": "Beecholme Estate",
+  "kind": "neighbourhood",
   "lat": 51.5593919,
   "lng": -0.0546645
  },
  {
   "id": "osm:way/1101298108",
   "name": "Little Italy",
+  "kind": "neighbourhood",
   "lat": 51.5234195,
   "lng": -0.1097926
  },
  {
   "id": "osm:way/1103968472",
   "name": "Parkside SE10",
+  "kind": "neighbourhood",
   "lat": 51.4711798,
   "lng": -0.0126366
  },
  {
   "id": "osm:way/1103971748",
   "name": "Coldbath Street Estate",
+  "kind": "neighbourhood",
   "lat": 51.4702027,
   "lng": -0.0180261
  },
  {
   "id": "osm:way/1109635512",
   "name": "Chimes Terrace",
+  "kind": "neighbourhood",
   "lat": 51.5825374,
   "lng": -0.1194011
  },
  {
   "id": "osm:way/1110616326",
   "name": "New Orleans Estate",
+  "kind": "neighbourhood",
   "lat": 51.5730916,
   "lng": -0.1278714
  },
  {
   "id": "osm:way/1110621659",
   "name": "Hillside Estate",
+  "kind": "neighbourhood",
   "lat": 51.5704044,
   "lng": -0.1299839
  },
  {
   "id": "osm:way/1117691530",
   "name": "Ada Kennedy Court",
+  "kind": "neighbourhood",
   "lat": 51.4757326,
   "lng": -0.0133103
  },
  {
   "id": "osm:way/1117691913",
   "name": "The Jubilee Almhouses",
+  "kind": "neighbourhood",
   "lat": 51.4760459,
   "lng": -0.0175391
  },
  {
   "id": "osm:way/1117692282",
   "name": "Maitland Close Estate",
+  "kind": "neighbourhood",
   "lat": 51.477022,
   "lng": -0.0151346
  },
  {
   "id": "osm:way/1117693840",
   "name": "New Capital Quay",
+  "kind": "neighbourhood",
   "lat": 51.482523,
   "lng": -0.0159687
  },
  {
   "id": "osm:way/1118081603",
   "name": "Maltings Place",
+  "kind": "neighbourhood",
   "lat": 51.5008016,
   "lng": -0.0791344
  },
  {
   "id": "osm:way/1118943551",
   "name": "Saint Matthias Estate",
+  "kind": "neighbourhood",
   "lat": 51.5097502,
   "lng": -0.0141555
  },
  {
   "id": "osm:way/1119206789",
   "name": "Acton Estate",
+  "kind": "neighbourhood",
   "lat": 51.5383884,
   "lng": -0.0716085
  },
  {
   "id": "osm:way/1124007347",
   "name": "Coppermaker Square",
+  "kind": "neighbourhood",
   "lat": 51.5416546,
   "lng": -0.006579
  },
  {
   "id": "osm:way/1146133657",
   "name": "Sweyn Place",
+  "kind": "neighbourhood",
   "lat": 51.4671208,
   "lng": 0.0209234
  },
  {
   "id": "osm:way/1151600509",
   "name": "Darenth Estate",
+  "kind": "neighbourhood",
   "lat": 51.5706023,
   "lng": -0.069085
  },
  {
   "id": "osm:way/1151615469",
   "name": "Garden Mews",
+  "kind": "neighbourhood",
   "lat": 51.4896983,
   "lng": 0.0052498
  },
  {
   "id": "osm:way/1154078200",
   "name": "Faircharm Dock",
+  "kind": "neighbourhood",
   "lat": 51.4774499,
   "lng": -0.0199656
  },
  {
   "id": "osm:way/1154136837",
   "name": "Ashmere",
+  "kind": "suburb",
   "lat": 51.4408537,
   "lng": 0.283218
  },
  {
   "id": "osm:way/1157151415",
   "name": "Millbank Estate",
+  "kind": "neighbourhood",
   "lat": 51.4915579,
   "lng": -0.1295985
  },
  {
   "id": "osm:way/1163029271",
   "name": "Crouch Hall Court",
+  "kind": "neighbourhood",
   "lat": 51.5695504,
   "lng": -0.1189136
  },
  {
   "id": "osm:way/1168955647",
   "name": "Biggs Square",
+  "kind": "neighbourhood",
   "lat": 51.5439298,
   "lng": -0.0273995
  },
  {
   "id": "osm:way/1174879792",
   "name": "Mulberry Place",
+  "kind": "neighbourhood",
   "lat": 51.456852,
   "lng": 0.0405765
  },
  {
   "id": "osm:way/1176591500",
   "name": "Vanbrugh Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.4778508,
   "lng": 0.0114565
  },
  {
   "id": "osm:way/1177367733",
   "name": "Waterfront Mews",
+  "kind": "neighbourhood",
   "lat": 51.5345735,
   "lng": -0.0929858
  },
  {
   "id": "osm:way/1179766879",
   "name": "St Mary's Path Estate",
+  "kind": "neighbourhood",
   "lat": 51.5377903,
   "lng": -0.1013663
  },
  {
+  "id": "osm:way/1180271266",
+  "name": "Riverside Court",
+  "kind": "neighbourhood",
+  "lat": 51.4571038,
+  "lng": 0.0105066
+ },
+ {
   "id": "osm:way/1180664645",
   "name": "Tideway Village",
+  "kind": "neighbourhood",
   "lat": 51.482614,
   "lng": -0.1370877
  },
  {
   "id": "osm:way/1189894924",
   "name": "Mapledene Estate",
+  "kind": "neighbourhood",
   "lat": 51.5421288,
   "lng": -0.065088
  },
  {
   "id": "osm:way/1193526852",
   "name": "Sir Frederick Messer Estate",
+  "kind": "neighbourhood",
   "lat": 51.5779967,
   "lng": -0.080003
  },
  {
   "id": "osm:way/1196342109",
   "name": "The Sandlings Estate",
+  "kind": "neighbourhood",
   "lat": 51.5931466,
   "lng": -0.102941
  },
  {
   "id": "osm:way/1197474880",
   "name": "Somerford Grove Estate",
+  "kind": "neighbourhood",
   "lat": 51.5543148,
   "lng": -0.0732544
  },
  {
   "id": "osm:way/1197476412",
   "name": "The Beckers",
+  "kind": "neighbourhood",
   "lat": 51.5566625,
   "lng": -0.0678499
  },
  {
   "id": "osm:way/1202586618",
   "name": "Mayford Estate",
+  "kind": "neighbourhood",
   "lat": 51.533446,
   "lng": -0.1355699
  },
  {
   "id": "osm:way/1204168102",
   "name": "Hawksley Court",
+  "kind": "neighbourhood",
   "lat": 51.5596515,
   "lng": -0.0820126
  },
  {
   "id": "osm:way/1204704322",
   "name": "Jutland Close",
+  "kind": "neighbourhood",
   "lat": 51.5674385,
   "lng": -0.1239017
  },
  {
   "id": "osm:way/1204705496",
   "name": "Croftdown Road",
+  "kind": "neighbourhood",
   "lat": 51.56308,
   "lng": -0.1436687
  },
  {
   "id": "osm:way/1205502771",
   "name": "Keates Estate",
+  "kind": "neighbourhood",
   "lat": 51.5629686,
   "lng": -0.0695943
  },
  {
   "id": "osm:way/1218732186",
   "name": "Shacklewell House",
+  "kind": "neighbourhood",
   "lat": 51.5537975,
   "lng": -0.0694106
  },
  {
   "id": "osm:way/1223623353",
   "name": "Pinkham Mansions",
+  "kind": "neighbourhood",
   "lat": 51.4885939,
   "lng": -0.2820268
  },
  {
   "id": "osm:way/1223623360",
   "name": "Oxford Court",
+  "kind": "neighbourhood",
   "lat": 51.4909264,
   "lng": -0.277435
  },
  {
   "id": "osm:way/1223623364",
   "name": "Chiswick Plaza",
+  "kind": "neighbourhood",
   "lat": 51.4872784,
   "lng": -0.2678882
  },
  {
   "id": "osm:way/1223845111",
   "name": "Watchfield Court",
+  "kind": "neighbourhood",
   "lat": 51.4904207,
   "lng": -0.267186
  },
  {
   "id": "osm:way/1224478562",
   "name": "Chiswick Place",
+  "kind": "neighbourhood",
   "lat": 51.4823961,
   "lng": -0.2657515
  },
  {
   "id": "osm:way/1224487436",
   "name": "Chiswick Village",
+  "kind": "neighbourhood",
   "lat": 51.4877185,
   "lng": -0.2781652
  },
  {
   "id": "osm:way/1225230795",
   "name": "Kerridge Court",
+  "kind": "neighbourhood",
   "lat": 51.547293,
   "lng": -0.0783964
  },
  {
   "id": "osm:way/1226753277",
   "name": "Honor Oak Estate",
+  "kind": "neighbourhood",
   "lat": 51.4583036,
   "lng": -0.0431913
  },
  {
   "id": "osm:way/1230967155",
   "name": "Ledbury Estate",
+  "kind": "neighbourhood",
   "lat": 51.4788006,
   "lng": -0.0631441
  },
  {
   "id": "osm:way/1230967161",
   "name": "Ledbury Estate",
+  "kind": "neighbourhood",
   "lat": 51.4794503,
   "lng": -0.0639724
  },
  {
   "id": "osm:way/1230967164",
   "name": "Acorn Estate",
+  "kind": "neighbourhood",
   "lat": 51.4756498,
   "lng": -0.0625121
  },
  {
   "id": "osm:way/1230967167",
   "name": "Brimmington Estate",
+  "kind": "neighbourhood",
   "lat": 51.4770789,
   "lng": -0.0570377
  },
  {
   "id": "osm:way/1242834051",
   "name": "Mountsfield Court",
+  "kind": "neighbourhood",
   "lat": 51.4516973,
   "lng": -0.0059045
  },
  {
   "id": "osm:way/1246837532",
   "name": "William Blake Estate",
+  "kind": "neighbourhood",
   "lat": 51.4976604,
   "lng": -0.1130067
  },
  {
   "id": "osm:way/1247407758",
   "name": "Riverscape",
+  "kind": "neighbourhood",
   "lat": 51.5003916,
   "lng": 0.0247404
  },
  {
   "id": "osm:way/1248895680",
   "name": "Avebury East Estate",
+  "kind": "neighbourhood",
   "lat": 51.5293923,
   "lng": -0.0638907
  },
  {
   "id": "osm:way/1248895682",
   "name": "Avebury Estate",
+  "kind": "neighbourhood",
   "lat": 51.5276671,
   "lng": -0.0660478
  },
  {
   "id": "osm:way/1267595533",
   "name": "Woodvale Estate",
+  "kind": "neighbourhood",
   "lat": 51.4250379,
   "lng": -0.0998369
  },
  {
   "id": "osm:way/1268117979",
   "name": "Roupell Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.4487268,
   "lng": -0.1220573
  },
  {
   "id": "osm:way/1287383015",
   "name": "Winsor Terrace",
+  "kind": "neighbourhood",
   "lat": 51.5151917,
   "lng": 0.0635821
  },
  {
   "id": "osm:way/1297165422",
   "name": "St Phillips Estate",
+  "kind": "neighbourhood",
   "lat": 51.5435696,
   "lng": -0.0675435
  },
  {
   "id": "osm:way/1301689840",
   "name": "Lilestone Estate",
+  "kind": "neighbourhood",
   "lat": 51.5254301,
   "lng": -0.1725502
  },
  {
   "id": "osm:way/1304553397",
   "name": "Rye Hill Estate",
+  "kind": "neighbourhood",
   "lat": 51.4600229,
   "lng": -0.0583543
  },
  {
   "id": "osm:way/1304553398",
   "name": "Rye Hill Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.4595865,
   "lng": -0.056076
  },
  {
   "id": "osm:way/1304553399",
   "name": "Torridge Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.4609467,
   "lng": -0.057036
  },
  {
   "id": "osm:way/1317921506",
   "name": "Southampton Way Estate",
+  "kind": "neighbourhood",
   "lat": 51.4766988,
   "lng": -0.0807527
  },
  {
   "id": "osm:way/1324655118",
   "name": "Scotch Estate",
+  "kind": "neighbourhood",
   "lat": 51.601301,
   "lng": -0.0998945
  },
  {
   "id": "osm:way/1375980656",
   "name": "Ebbsfleet Green",
+  "kind": "suburb",
   "lat": 51.4339998,
   "lng": 0.3131
  },
  {
   "id": "osm:way/1414751378",
   "name": "Green Man Estate",
+  "kind": "neighbourhood",
   "lat": 51.5112518,
   "lng": -0.3267129
  },
  {
   "id": "osm:way/1414918354",
   "name": "Pilgrim Estate",
+  "kind": "neighbourhood",
   "lat": 51.5129003,
   "lng": -0.3330234
  },
  {
   "id": "osm:way/1414918355",
   "name": "Poets Corner",
+  "kind": "neighbourhood",
   "lat": 51.5144009,
   "lng": -0.3335367
  },
  {
   "id": "osm:way/1455160761",
   "name": "Evergreen Walk",
+  "kind": "neighbourhood",
   "lat": 51.4495496,
   "lng": -0.0488101
  },
  {
   "id": "osm:way/1483796754",
   "name": "Aspen Square",
+  "kind": "neighbourhood",
   "lat": 51.374145,
   "lng": -0.441347
  },
  {
   "id": "osm:way/1503569413",
   "name": "Devonshire Square Estate",
+  "kind": "neighbourhood",
   "lat": 51.5167913,
   "lng": -0.0783228
  },
  {
   "id": "osm:way/1506349387",
   "name": "St James Estate",
+  "kind": "neighbourhood",
   "lat": 51.4880636,
   "lng": -0.0671088
  },
  {
-  "id": "osm:way/1545638027",
-  "name": "Pearl Yard",
-  "lat": 51.4949925,
-  "lng": -0.0632634
- },
- {
   "id": "osm:relation/2431165",
   "name": "Thornton Heath",
+  "kind": "suburb",
   "lat": 51.4006191,
   "lng": -0.1099032
  },
  {
   "id": "osm:relation/3815708",
   "name": "Putney Village",
+  "kind": "neighbourhood",
   "lat": 51.4482346,
   "lng": -0.2293955
  },
  {
   "id": "osm:relation/5494199",
   "name": "Hoffman Square",
+  "kind": "neighbourhood",
   "lat": 51.5282758,
   "lng": -0.0843372
  },
  {
   "id": "osm:relation/6399571",
   "name": "Falcons Estate",
+  "kind": "neighbourhood",
   "lat": 51.4662655,
   "lng": -0.1709964
  },
  {
   "id": "osm:relation/7663243",
   "name": "St Paul's Cray",
+  "kind": "suburb",
   "lat": 51.4050463,
   "lng": 0.113295
  },
  {
   "id": "osm:relation/7664022",
   "name": "St Mary Cray",
+  "kind": "suburb",
   "lat": 51.3911626,
   "lng": 0.1252342
  },
  {
   "id": "osm:relation/8433109",
   "name": "Gascoyne Estate",
+  "kind": "neighbourhood",
   "lat": 51.5442441,
   "lng": -0.0410487
  },
  {
   "id": "osm:relation/8890300",
   "name": "New Garden Quarter",
+  "kind": "neighbourhood",
   "lat": 51.5457038,
-  "lng": -0.002015
+  "lng": -0.0020019
  },
  {
   "id": "osm:relation/10997143",
   "name": "Burder Close",
+  "kind": "neighbourhood",
   "lat": 51.5469587,
   "lng": -0.0795254
  },
  {
   "id": "osm:relation/11726531",
   "name": "Jubilee Hills",
+  "kind": "neighbourhood",
   "lat": 51.5009694,
   "lng": -0.1068914
  },
  {
   "id": "osm:relation/11942771",
   "name": "Carpenters Estate",
+  "kind": "neighbourhood",
   "lat": 51.5382379,
   "lng": -0.0053113
  },
  {
   "id": "osm:relation/11977916",
   "name": "Frampton Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.5427201,
   "lng": -0.0518393
  },
  {
   "id": "osm:relation/12128036",
   "name": "Bigland Estate",
+  "kind": "neighbourhood",
   "lat": 51.5122518,
   "lng": -0.0591735
  },
  {
   "id": "osm:relation/12252829",
   "name": "Patmore Estate",
+  "kind": "neighbourhood",
   "lat": 51.4756424,
   "lng": -0.137113
  },
  {
   "id": "osm:relation/12253689",
   "name": "Maple Quays",
+  "kind": "neighbourhood",
   "lat": 51.4991612,
   "lng": -0.0487805
  },
  {
   "id": "osm:relation/12348043",
   "name": "Trowbridge Estate",
+  "kind": "neighbourhood",
   "lat": 51.5459063,
   "lng": -0.0277708
  },
  {
   "id": "osm:relation/12349001",
   "name": "Arden Estate",
+  "kind": "neighbourhood",
   "lat": 51.5317904,
   "lng": -0.0816319
  },
  {
   "id": "osm:relation/12714977",
   "name": "Maitland Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.5480022,
   "lng": -0.1563413
  },
  {
   "id": "osm:relation/12715171",
   "name": "St Silas Estate",
+  "kind": "neighbourhood",
   "lat": 51.5474368,
   "lng": -0.1528301
  },
  {
   "id": "osm:relation/12742071",
   "name": "Castle Road Estate",
+  "kind": "neighbourhood",
   "lat": 51.5445984,
   "lng": -0.1438269
  },
  {
   "id": "osm:relation/12746804",
   "name": "New Harmood Estate",
+  "kind": "neighbourhood",
   "lat": 51.545553,
   "lng": -0.148171
  },
  {
   "id": "osm:relation/13136535",
   "name": "Crossfields Estate",
+  "kind": "neighbourhood",
   "lat": 51.4781419,
   "lng": -0.0217206
  },
  {
   "id": "osm:relation/13415355",
   "name": "Barnardo Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.5122305,
   "lng": -0.0478932
  },
  {
   "id": "osm:relation/13674050",
   "name": "Highbury Quadrant Estate",
+  "kind": "neighbourhood",
   "lat": 51.5586302,
   "lng": -0.0938359
  },
  {
   "id": "osm:relation/13706618",
   "name": "Tulse Hill Estate",
+  "kind": "neighbourhood",
   "lat": 51.4512843,
   "lng": -0.1140417
  },
  {
   "id": "osm:relation/13967009",
   "name": "Southlands Estate",
+  "kind": "neighbourhood",
   "lat": 51.4721479,
   "lng": -0.1723464
  },
  {
   "id": "osm:relation/13990235",
   "name": "Latchmere Estate",
+  "kind": "neighbourhood",
   "lat": 51.4714313,
   "lng": -0.161217
  },
  {
   "id": "osm:relation/14069922",
   "name": "Loughborough Estate",
+  "kind": "neighbourhood",
   "lat": 51.4666181,
   "lng": -0.1068754
  },
  {
   "id": "osm:relation/14069924",
   "name": "Angell Town",
+  "kind": "neighbourhood",
   "lat": 51.4689759,
   "lng": -0.1097788
  },
  {
   "id": "osm:relation/14070724",
   "name": "Maida Vale Estate",
+  "kind": "neighbourhood",
   "lat": 51.5304883,
   "lng": -0.1847014
  },
  {
   "id": "osm:relation/14083126",
   "name": "Somers Town",
+  "kind": "suburb",
   "lat": 51.5314293,
   "lng": -0.1323592
  },
  {
   "id": "osm:relation/14097892",
   "name": "Dover Court Estate",
+  "kind": "neighbourhood",
   "lat": 51.5453296,
   "lng": -0.0851333
  },
  {
   "id": "osm:relation/14297692",
   "name": "The Royds",
+  "kind": "neighbourhood",
   "lat": 51.6909338,
   "lng": -0.193841
  },
  {
   "id": "osm:relation/14383576",
   "name": "Bemerton Estate",
+  "kind": "neighbourhood",
   "lat": 51.5395853,
   "lng": -0.1183684
  },
  {
   "id": "osm:relation/14405392",
   "name": "Mansford Estate",
+  "kind": "neighbourhood",
   "lat": 51.5280422,
   "lng": -0.0620432
  },
  {
   "id": "osm:relation/14534133",
   "name": "Fields Estate",
+  "kind": "neighbourhood",
   "lat": 51.5400269,
   "lng": -0.0637406
  },
  {
   "id": "osm:relation/14574677",
   "name": "Royal Hill Estate",
+  "kind": "neighbourhood",
   "lat": 51.4747871,
   "lng": -0.0120149
  },
  {
   "id": "osm:relation/14575381",
   "name": "Tabard Gardens Estate",
+  "kind": "neighbourhood",
   "lat": 51.4992659,
   "lng": -0.088737
  },
  {
   "id": "osm:relation/14875127",
   "name": "Lockyer Estate",
+  "kind": "neighbourhood",
   "lat": 51.5007947,
   "lng": -0.087278
  },
  {
   "id": "osm:relation/14875128",
   "name": "Haddonhall Estate",
+  "kind": "neighbourhood",
   "lat": 51.4960979,
   "lng": -0.0853639
  },
  {
   "id": "osm:relation/14880175",
   "name": "Wyndham and Comber Estate",
+  "kind": "neighbourhood",
   "lat": 51.4785548,
   "lng": -0.0976511
  },
  {
   "id": "osm:relation/14884873",
   "name": "Holland Park Estate",
+  "kind": "neighbourhood",
   "lat": 51.4781883,
   "lng": -0.1102946
  },
  {
   "id": "osm:relation/14892052",
   "name": "Vauxhall Walk",
+  "kind": "neighbourhood",
   "lat": 51.4897796,
   "lng": -0.1172523
  },
  {
   "id": "osm:relation/14919844",
   "name": "China Walk Estate",
+  "kind": "neighbourhood",
   "lat": 51.4950169,
   "lng": -0.1135051
  },
  {
   "id": "osm:relation/14969950",
   "name": "Bank Lane",
+  "kind": "neighbourhood",
   "lat": 51.4564503,
   "lng": -0.2561972
  },
  {
   "id": "osm:relation/15000063",
   "name": "Grosvenor Estate",
+  "kind": "neighbourhood",
   "lat": 51.4937321,
   "lng": -0.1308561
  },
  {
   "id": "osm:relation/15330497",
   "name": "Hawkstone Estate",
+  "kind": "neighbourhood",
   "lat": 51.4922905,
   "lng": -0.0492066
  },
  {
   "id": "osm:relation/15454037",
   "name": "Hanger Hill Garden Estate",
+  "kind": "neighbourhood",
   "lat": 51.5192765,
-  "lng": -0.2848011
+  "lng": -0.284824
  },
  {
   "id": "osm:relation/15777540",
   "name": "Aberfeldy Village",
+  "kind": "neighbourhood",
   "lat": 51.5134439,
   "lng": -0.0039524
  },
  {
   "id": "osm:relation/15985134",
   "name": "Stamford Hill Estate",
+  "kind": "neighbourhood",
   "lat": 51.5688644,
   "lng": -0.0737632
  },
  {
   "id": "osm:relation/16018461",
   "name": "Friary Estate",
+  "kind": "neighbourhood",
   "lat": 51.4812836,
   "lng": -0.066823
  },
  {
   "id": "osm:relation/16246543",
   "name": "St. John's Court",
+  "kind": "neighbourhood",
   "lat": 51.5643123,
   "lng": -0.0983104
  },
  {
   "id": "osm:relation/16312664",
   "name": "Holloway Estate",
+  "kind": "neighbourhood",
   "lat": 51.5548964,
   "lng": -0.1227295
  },
  {
   "id": "osm:relation/16318563",
   "name": "Lanfranc Estate",
+  "kind": "neighbourhood",
   "lat": 51.5298978,
   "lng": -0.0380424
  },
  {
   "id": "osm:relation/16492094",
   "name": "Springvale Estate",
+  "kind": "neighbourhood",
   "lat": 51.4977256,
   "lng": -0.2151826
  },
  {
   "id": "osm:relation/17710512",
   "name": "Soho",
+  "kind": "suburb",
   "lat": 51.5131657,
   "lng": -0.135604
  },
  {
   "id": "osm:relation/17881263",
   "name": "Pembury Estate",
+  "kind": "neighbourhood",
   "lat": 51.5512344,
   "lng": -0.0579265
  },
  {
   "id": "osm:relation/18910366",
   "name": "Ebbsfleet Garden City",
+  "kind": "suburb",
   "lat": 51.4413735,
   "lng": 0.315571
  },
  {
   "id": "osm:relation/18925662",
   "name": "Brockley Park",
+  "kind": "neighbourhood",
   "lat": 51.6237563,
   "lng": -0.2973611
  },
  {
   "id": "osm:relation/18963208",
   "name": "Loudwater (Troutstream) Estate",
+  "kind": "neighbourhood",
   "lat": 51.6575475,
   "lng": -0.4865329
  },
  {
   "id": "osm:relation/19259550",
   "name": "Tanners Hill Estate",
+  "kind": "neighbourhood",
   "lat": 51.4733876,
   "lng": -0.0283149
  },
  {
   "id": "osm:relation/19554561",
   "name": "De Beauvoir Estate",
+  "kind": "neighbourhood",
   "lat": 51.5383603,
   "lng": -0.082025
  },
  {
   "id": "osm:relation/20425490",
   "name": "Hazlemere Marina",
+  "kind": "neighbourhood",
   "lat": 51.6856377,
   "lng": -0.0118417
  },
  {
   "id": "osm:relation/20450305",
   "name": "Harringay Ladder",
+  "kind": "neighbourhood",
   "lat": 51.582876,
   "lng": -0.1045285
  },
  {
   "id": "osm:relation/21032874",
   "name": "Meriden",
+  "kind": "neighbourhood",
   "lat": 51.6818252,
   "lng": -0.380397
  },
  {
   "id": "osm:relation/21032875",
   "name": "Tudor Estate",
+  "kind": "neighbourhood",
   "lat": 51.6748429,
   "lng": -0.3826864
  },
  {
   "id": "osm:relation/21052989",
   "name": "Lordship North Estate",
+  "kind": "neighbourhood",
   "lat": 51.5680442,
   "lng": -0.0867785
  },
  {
   "id": "osm:relation/21096827",
   "name": "Cassiobury",
+  "kind": "quarter",
   "lat": 51.6657114,
   "lng": -0.4147916
- },
- {
-  "id": "osm:relation/21239029",
-  "name": "West Kentish Town",
-  "lat": 51.5495211,
-  "lng": -0.1527151
- },
- {
-  "id": "osm:relation/21239030",
-  "name": "Maitland Park",
-  "lat": 51.5477207,
-  "lng": -0.1563413
- },
- {
-  "id": "osm:relation/21262489",
-  "name": "Kentish Town",
-  "lat": 51.549556,
-  "lng": -0.1439323
  }
 ]

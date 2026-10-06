@@ -71,6 +71,32 @@ Out of scope: accounts, playlist imports, saved trips, booking links.
   shared tags with scores.
 - `/search?types=urn:entity:locality` returns neighborhoods with ancestors.
 
+## M1 go/no-go result (2026-10-05)
+
+Fixtures: two profiles — indie (Khruangbin, Fleabag, Aesop) vs. mainstream
+(Metallica, Top Gun: Maverick, Harley-Davidson) — in Lisbon (270 cells), NYC
+(790–1182 cells) and London (1509 cells). 12 Qloo calls; 9,919 left this month.
+
+Chosen scoring (via `npm run lift-report`):
+- `tasteLift` on `affinity`, popularity floor 0.3. (`affinity_rank` was worse:
+  it re-surfaced central tourist hoods such as Soho and Covent Garden.)
+- `scoreHoods` kernel: every cell within 1.5 km of a hood center, popularity-
+  weighted, shrinkage prior 2, min 4 cells, de-duplicated by name. Nearest-
+  point assignment was rejected: top hoods rested on a single cell.
+- Per-city `hoodKinds` filter drops tiny OSM estates (London neighbourhoods,
+  Lisbon "Quinta/Bairro" nodes).
+
+| City | Indie top 3 | Mainstream top 3 |
+| --- | --- | --- |
+| NYC | Greenpoint, Williamsburg, Red Hook | Bath Beach, Bensonhurst, New Utrecht |
+| London | Upper Clapton, South Tottenham, West Hackney | Hounslow West, Upton Park, West Drayton |
+| Lisbon | Algés, Campo Grande, Célula E | Olivais, Penha de França, Santa Maria Maior |
+
+Decision: **GO.** Top-3 overlap is 0 in every city and NYC/London results are
+recognisable with 9–16 cells of evidence each. Lisbon is weaker (sparser data,
+lift ≤0.05) — the product must expose signal strength (cell count, lift
+spread) and the demo should lead with dense-data cities.
+
 ## Architecture
 
 ```

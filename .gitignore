@@ -7,3 +7,4 @@ dist/
 *.sqlite
 _kit/
 _harness/
+.scratch/

@@ -24,14 +24,14 @@ describe("haversineKm", () => {
 });
 
 describe("scoreHoods", () => {
-  it("assigns cells to the nearest hood and ranks by popularity-weighted lift", () => {
-    const cells = [
-      lc(38.7305, -9.1352, 0.2, 1.0, { artist: 0.9 }),
-      lc(38.7298, -9.1345, 0.0, 1.0, { artist: 0.7 }),
-      lc(38.7112, -9.1301, 0.05, 0.5),
-    ];
+  const cells = [
+    lc(38.7305, -9.1352, 0.2, 1.0, { artist: 0.9 }),
+    lc(38.7298, -9.1345, 0.0, 1.0, { artist: 0.7 }),
+    lc(38.7112, -9.1301, 0.05, 0.5),
+  ];
 
-    const scores = scoreHoods(cells, hoods);
+  it("scores each hood from cells within radiusKm and ranks by popularity-weighted lift", () => {
+    const scores = scoreHoods(cells, hoods, { radiusKm: 1, prior: 0, minCells: 1 });
 
     expect(scores.map((s) => s.hood.id)).toEqual(["arroios", "alfama"]);
     expect(scores[0]).toMatchObject({ cellCount: 2 });
@@ -39,8 +39,26 @@ describe("scoreHoods", () => {
     expect(scores[0]!.byType.artist).toBeCloseTo(0.8);
   });
 
-  it("ignores cells farther than maxKm from every hood", () => {
-    expect(scoreHoods([lc(38.8, -9.44, 0.9)], hoods)).toEqual([]);
+  it("shrinks sparse evidence toward zero with the prior weight", () => {
+    const [arroios] = scoreHoods(cells, hoods, { radiusKm: 1, prior: 2, minCells: 1 });
+
+    expect(arroios!.lift).toBeCloseTo(0.2 / 4);
+  });
+
+  it("drops hoods with fewer than minCells nearby cells", () => {
+    expect(scoreHoods(cells, hoods, { radiusKm: 1, prior: 0, minCells: 2 }).map((s) => s.hood.id)).toEqual(["arroios"]);
+  });
+
+  it("ignores cells farther than radiusKm from every hood", () => {
+    expect(scoreHoods([lc(38.8, -9.44, 0.9)], hoods, { minCells: 1 })).toEqual([]);
+  });
+
+  it("keeps only the best-scoring hood when names repeat", () => {
+    const twins: Hood[] = [...hoods, { id: "arroios-2", name: "Arroios", lat: 38.711, lng: -9.131 }];
+
+    const names = scoreHoods(cells, twins, { radiusKm: 1, prior: 0, minCells: 1 }).map((s) => s.hood.id);
+
+    expect(names).toEqual(["arroios", "alfama"]);
   });
 });
 

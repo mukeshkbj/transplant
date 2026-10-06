@@ -3,6 +3,8 @@ import type { LiftCell } from "./heatmap.ts";
 export interface Hood {
   id: string;
   name: string;
+  /** OSM place value (suburb, quarter, neighbourhood) or `admin<level>`. */
+  kind?: string;
   lat: number;
   lng: number;
 }
@@ -31,41 +33,33 @@ export function haversineKm(a: { lat: number; lng: number }, b: { lat: number; l
   return 2 * EARTH_RADIUS_KM * Math.asin(Math.sqrt(h));
 }
 
-const nearest = (cell: LiftCell, hoods: Hood[], maxKm: number): Hood | undefined => {
-  let best: Hood | undefined;
-  let bestKm = maxKm;
-  for (const hood of hoods) {
-    const km = haversineKm(cell, hood);
-    if (km <= bestKm) {
-      best = hood;
-      bestKm = km;
-    }
-  }
-  return best;
-};
+export interface ScoreOptions {
+  /** Cells within this distance of a hood's center count toward it. */
+  radiusKm?: number;
+  /** Pseudo-weight of zero lift added to every hood; shrinks thin evidence. */
+  prior?: number;
+  /** Hoods with fewer nearby cells are dropped as noise. */
+  minCells?: number;
+}
 
-export function scoreHoods(cells: LiftCell[], hoods: Hood[], maxKm = 1.5): HoodScore[] {
-  const groups = new Map<Hood, LiftCell[]>();
-  for (const cell of cells) {
-    const hood = nearest(cell, hoods, maxKm);
-    if (hood) groups.set(hood, [...(groups.get(hood) ?? []), cell]);
-  }
-  return [...groups]
-    .map(([hood, group]) => {
-      const weight = group.reduce((sum, c) => sum + c.popularity, 0) || 1;
-      const byType: Record<string, number> = {};
-      for (const type of new Set(group.flatMap((c) => Object.keys(c.byType)))) {
-        const values = group.flatMap((c) => (type in c.byType ? [c.byType[type]!] : []));
-        byType[type] = values.reduce((sum, v) => sum + v, 0) / values.length;
-      }
-      return {
-        hood,
-        lift: group.reduce((sum, c) => sum + c.lift * c.popularity, 0) / weight,
-        cellCount: group.length,
-        byType,
-      };
-    })
-    .sort((x, y) => y.lift - x.lift);
+export function scoreHoods(
+  cells: LiftCell[],
+  hoods: Hood[],
+  { radiusKm = 1.5, prior = 2, minCells = 4 }: ScoreOptions = {},
+): HoodScore[] {
+  const scores = hoods.flatMap((hood) => {
+    const group = cells.filter((c) => haversineKm(c, hood) <= radiusKm);
+    if (group.length < minCells) return [];
+    const weight = group.reduce((sum, c) => sum + c.popularity, 0);
+    const byType: Record<string, number> = {};
+    for (const type of new Set(group.flatMap((c) => Object.keys(c.byType)))) {
+      const values = group.flatMap((c) => (type in c.byType ? [c.byType[type]!] : []));
+      byType[type] = values.reduce((sum, v) => sum + v, 0) / values.length;
+    }
+    return [{ hood, lift: group.reduce((sum, c) => sum + c.lift * c.popularity, 0) / (weight + prior), cellCount: group.length, byType }];
+  });
+  const seen = new Set<string>();
+  return scores.sort((x, y) => y.lift - x.lift).filter((s) => !seen.has(s.hood.name) && seen.add(s.hood.name));
 }
 
 export function blendHoods(a: HoodScore[], b: HoodScore[]): BlendScore[] {
