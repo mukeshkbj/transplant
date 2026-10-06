@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
     "target": "es2023",
+    "lib": ["es2023", "dom", "dom.iterable"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
+    "jsx": "react-jsx",
     "strict": true,
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
-    "types": ["node"]
+    "types": ["node", "vite/client"]
   },
-  "include": ["server", "scripts", "vitest.config.ts"]
+  "include": ["server", "scripts", "web", "vitest.config.ts", "vite.config.ts"]
 }
