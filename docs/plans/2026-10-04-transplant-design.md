@@ -117,6 +117,32 @@ Input text: "I love Khruangbin, Fleabag, natural wine bars and Aesop" → NYC, M
 - Follow-up: story copy is generic ("Grab a morning coffee") and doesn't name
   places; tighten the prompt (name the place, cite the strongest taste) in M3.
 
+## 12-city validation (2026-10-06)
+
+Same two profiles, `npm run lift-report`, 26 Qloo calls (quota 9,877 left).
+Scoring additions: hoods closer than 1 km to a better-ranked hood are dropped
+(top 3 = distinct areas); non-Latin OSM names without `name:en` are excluded.
+Tokyo's "Tokyo" locality covers the islands (geohash-5, 104 cells), so it uses
+`locateByBbox` (WKT polygon → geohash-6, 385 cells). Resolution varies by city
+(geohash 6 in NYC, 7 in Paris/Seoul), which the km-based kernel absorbs.
+
+| City | Kinds | Indie top 3 | Mainstream top 3 | Verdict |
+| --- | --- | --- | --- | --- |
+| NYC | sub+qtr+nbhd | Greenpoint, Williamsburg, Red Hook | Bath Beach, New Utrecht, Dyker Heights | strong |
+| London | sub+qtr | Upper Clapton, South Tottenham, Tottenham Hale | Hounslow West, Upton Park, West Drayton | strong |
+| Los Angeles | sub+qtr+nbhd | Elysian Valley, Mount Washington, Glassell Park | Little Italy, San Pedro Arts District, Raymer | strong |
+| Austin | sub+qtr+nbhd | Chestnut, Allandale, Cherrywood | Walnut Ridge, MetCenter, North Lamar | strong |
+| Toronto | sub+qtr+nbhd | Algonquin Island, Bloordale Village, Sunnyside | Downsview, Maple Leaf, Caledonia-Fairbank | strong |
+| Berlin | qtr (Kieze) | Donaukiez, Weiße Siedlung, Kungerkiez | Grüne Aue, Witzleben, Fasanenkiez | good |
+| Paris | sub+qtr | Quatre Chemins, 19e, Église | Grenelle, Passy, Gros-Caillou | good |
+| Barcelona | qtr | el Coll, Can Baró, Poblenou | Marina del Prat Vermell, Montjuïc, Torre Baró | fair (lift ≤0.03) |
+| Mexico City | sub+qtr | San Simón Tolnáhuac, Churubusco, Xoco | Cuautepec, Zapotitlán, Condesa | fair |
+| Lisbon | sub+qtr+admin8 | Algés, Campo Grande, Célula E | Olivais, Penha de França, Santa Maria Maior | beta |
+| Tokyo | sub+qtr, bbox | Shiomi, Shitaya, Kizuki | Umeda, Kaigan, Chūōhonchō | beta |
+| Seoul | sub+qtr | Gugi-dong, Yejang-dong, Jeo-dong 2-ga | Hwigyeong-dong, Cheolsan-dong, Hoegi-dong | beta |
+
+Demo order: NYC, London, LA first; beta cities labelled in the UI.
+
 ## Architecture
 
 ```

@@ -27,7 +27,12 @@ describe("createApp", () => {
     const app = createApp(deps());
 
     expect(await (await app.request("/api/health")).json()).toEqual({ ok: true, qlooMonthRemaining: 9000 });
-    expect(await (await app.request("/api/cities")).json()).toEqual(expect.arrayContaining([{ id: "nyc", name: "New York City" }]));
+    expect(await (await app.request("/api/cities")).json()).toEqual(
+      expect.arrayContaining([
+        { id: "nyc", name: "New York City", beta: false },
+        { id: "tokyo", name: "Tokyo", beta: true },
+      ]),
+    );
   });
 
   it("resolves taste text into chips and rejects bad bodies", async () => {

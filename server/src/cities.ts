@@ -9,6 +9,16 @@ export interface City {
   adminLevels?: string[];
   /** Hood kinds meaningful at city scale; excludes tiny estates where OSM maps them as neighbourhoods. */
   hoodKinds: string[];
+  /** Filter Qloo by the bbox polygon instead of `query` when the named locality is too broad (e.g. Tokyo Metropolis incl. islands). */
+  locateByBbox?: boolean;
+  /** Thin or noisy Qloo signal in validation; the UI labels results as beta. */
+  beta?: boolean;
+}
+
+export function cityLocation(city: City): Record<string, string> {
+  if (!city.locateByBbox) return { "filter.location.query": city.query };
+  const [south, west, north, east] = city.bbox;
+  return { "filter.location": `POLYGON((${west} ${south}, ${east} ${south}, ${east} ${north}, ${west} ${north}, ${west} ${south}))` };
 }
 
 export const CITIES: City[] = [
@@ -19,6 +29,7 @@ export const CITIES: City[] = [
     bbox: [38.69, -9.23, 38.8, -9.09],
     adminLevels: ["8"],
     hoodKinds: ["suburb", "quarter", "admin8"],
+    beta: true,
   },
   {
     id: "nyc",
@@ -29,12 +40,20 @@ export const CITIES: City[] = [
   },
   { id: "london", name: "London", query: "London", bbox: [51.28, -0.51, 51.69, 0.33], hoodKinds: ["suburb", "quarter"] },
   { id: "la", name: "Los Angeles", query: "Los Angeles", bbox: [33.7, -118.67, 34.34, -118.15], hoodKinds: ["suburb", "quarter", "neighbourhood"] },
-  { id: "paris", name: "Paris", query: "Paris", bbox: [48.815, 2.224, 48.902, 2.47], hoodKinds: ["suburb", "quarter", "neighbourhood"] },
-  { id: "berlin", name: "Berlin", query: "Berlin", bbox: [52.338, 13.088, 52.675, 13.761], hoodKinds: ["suburb", "quarter"] },
-  { id: "tokyo", name: "Tokyo", query: "Tokyo", bbox: [35.53, 139.56, 35.82, 139.92], hoodKinds: ["suburb", "quarter", "neighbourhood"] },
-  { id: "seoul", name: "Seoul", query: "Seoul", bbox: [37.42, 126.76, 37.7, 127.18], hoodKinds: ["suburb", "quarter", "neighbourhood"] },
-  { id: "cdmx", name: "Mexico City", query: "Mexico City", bbox: [19.2, -99.33, 19.59, -98.94], hoodKinds: ["suburb", "quarter", "neighbourhood"] },
+  { id: "paris", name: "Paris", query: "Paris", bbox: [48.815, 2.224, 48.902, 2.47], hoodKinds: ["suburb", "quarter"] },
+  { id: "berlin", name: "Berlin", query: "Berlin", bbox: [52.338, 13.088, 52.675, 13.761], hoodKinds: ["quarter"] },
+  {
+    id: "tokyo",
+    name: "Tokyo",
+    query: "Tokyo",
+    bbox: [35.53, 139.56, 35.82, 139.92],
+    hoodKinds: ["suburb", "quarter"],
+    locateByBbox: true,
+    beta: true,
+  },
+  { id: "seoul", name: "Seoul", query: "Seoul", bbox: [37.42, 126.76, 37.7, 127.18], hoodKinds: ["suburb", "quarter"], beta: true },
+  { id: "cdmx", name: "Mexico City", query: "Mexico City", bbox: [19.2, -99.33, 19.59, -98.94], hoodKinds: ["suburb", "quarter"] },
   { id: "austin", name: "Austin", query: "Austin", bbox: [30.1, -97.94, 30.52, -97.56], hoodKinds: ["suburb", "quarter", "neighbourhood"] },
   { id: "toronto", name: "Toronto", query: "Toronto", bbox: [43.58, -79.64, 43.86, -79.11], hoodKinds: ["suburb", "quarter", "neighbourhood"] },
-  { id: "barcelona", name: "Barcelona", query: "Barcelona", bbox: [41.32, 2.05, 41.47, 2.23], hoodKinds: ["suburb", "quarter", "neighbourhood"] },
+  { id: "barcelona", name: "Barcelona", query: "Barcelona", bbox: [41.32, 2.05, 41.47, 2.23], hoodKinds: ["quarter"] },
 ];

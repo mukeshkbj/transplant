@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { type City, CITIES } from "./cities.ts";
+import { type City, CITIES, cityLocation } from "./cities.ts";
 import { type LiftCell, tasteLift } from "./geo/heatmap.ts";
 import { blendHoods, type Hood, type HoodScore, scoreHoods } from "./geo/hoods.ts";
 import type { Llm } from "./llm/llm.ts";
@@ -124,7 +124,7 @@ export async function runTransplant(input: TransplantInput, deps: TransplantDeps
 
   const lifted = await step("map", `Mapping where your taste lives in ${city.name}`, async () => {
     const out: LiftCell[][] = [];
-    for (const person of input.people) out.push(tasteLift(await heatmap(deps.qloo, person, city.query)));
+    for (const person of input.people) out.push(tasteLift(await heatmap(deps.qloo, person, cityLocation(city))));
     return out;
   });
   const ranked = rankHoods(lifted.map((cells) => scoreHoods(cells, hoods))).slice(0, TOP_HOODS);

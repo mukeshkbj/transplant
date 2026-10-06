@@ -97,11 +97,11 @@ export async function searchTags(qloo: QlooClient, query: string, take = 3): Pro
   return (data.results?.tags ?? []).map(({ id, name, type }) => ({ id, name, type }));
 }
 
-export async function heatmap(qloo: QlooClient, signals: Signals, cityQuery: string): Promise<HeatCell[]> {
+export async function heatmap(qloo: QlooClient, signals: Signals, location: Record<string, string>): Promise<HeatCell[]> {
   const { data } = await qloo.get<Parameters<typeof parseHeatmap>[0]>("/v2/insights", {
     "filter.type": "urn:heatmap",
     ...signalParams(signals),
-    "filter.location.query": cityQuery,
+    ...location,
     take: 50,
   });
   return parseHeatmap(data);

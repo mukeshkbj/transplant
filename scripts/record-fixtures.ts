@@ -1,6 +1,6 @@
 import { existsSync } from "node:fs";
 import { mkdir, writeFile } from "node:fs/promises";
-import { CITIES } from "../server/src/cities.ts";
+import { CITIES, cityLocation } from "../server/src/cities.ts";
 import { withCache } from "../server/src/qloo/cache.ts";
 import { createQlooClient } from "../server/src/qloo/client.ts";
 
@@ -39,7 +39,7 @@ for (const [profile, items] of Object.entries(PROFILES)) {
     const res = await qloo.get("/v2/insights", {
       "filter.type": "urn:heatmap",
       "signal.interests.entities": ids,
-      "filter.location.query": city.query,
+      ...cityLocation(city),
       take: 50,
     });
     remaining = res.monthRemaining ?? remaining;

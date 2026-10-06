@@ -33,7 +33,7 @@ export function createApp(deps: AppDeps): Hono {
   const app = new Hono();
 
   app.get("/api/health", (c) => c.json({ ok: true, qlooMonthRemaining: deps.quota.remaining ?? null }));
-  app.get("/api/cities", (c) => c.json(CITIES.map(({ id, name }) => ({ id, name }))));
+  app.get("/api/cities", (c) => c.json(CITIES.map(({ id, name, beta }) => ({ id, name, beta: beta === true }))));
 
   app.post("/api/resolve", async (c) => {
     if (!deps.limits.resolve.allow(clientIp(c))) return c.json({ code: "RATE_LIMITED" }, 429);

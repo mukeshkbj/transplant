@@ -40,12 +40,14 @@ export interface ScoreOptions {
   prior?: number;
   /** Hoods with fewer nearby cells are dropped as noise. */
   minCells?: number;
+  /** A hood this close to a better-ranked one is dropped, so the ranking lists distinct areas. */
+  minSeparationKm?: number;
 }
 
 export function scoreHoods(
   cells: LiftCell[],
   hoods: Hood[],
-  { radiusKm = 1.5, prior = 2, minCells = 4 }: ScoreOptions = {},
+  { radiusKm = 1.5, prior = 2, minCells = 4, minSeparationKm = 1 }: ScoreOptions = {},
 ): HoodScore[] {
   const scores = hoods.flatMap((hood) => {
     const group = cells.filter((c) => haversineKm(c, hood) <= radiusKm);
@@ -58,8 +60,12 @@ export function scoreHoods(
     }
     return [{ hood, lift: group.reduce((sum, c) => sum + c.lift * c.popularity, 0) / (weight + prior), cellCount: group.length, byType }];
   });
-  const seen = new Set<string>();
-  return scores.sort((x, y) => y.lift - x.lift).filter((s) => !seen.has(s.hood.name) && seen.add(s.hood.name));
+  const kept: HoodScore[] = [];
+  for (const s of scores.sort((x, y) => y.lift - x.lift)) {
+    if (kept.some((k) => k.hood.name === s.hood.name || haversineKm(k.hood, s.hood) < minSeparationKm)) continue;
+    kept.push(s);
+  }
+  return kept;
 }
 
 export function blendHoods(a: HoodScore[], b: HoodScore[]): BlendScore[] {

@@ -53,6 +53,15 @@ describe("scoreHoods", () => {
     expect(scoreHoods([lc(38.8, -9.44, 0.9)], hoods, { minCells: 1 })).toEqual([]);
   });
 
+  it("drops hoods closer than minSeparationKm to a better-ranked hood", () => {
+    const nextDoor: Hood[] = [...hoods, { id: "arroios-annex", name: "Arroios Annex", lat: 38.7301, lng: -9.1349 }];
+
+    const ids = scoreHoods(cells, nextDoor, { radiusKm: 1, prior: 0, minCells: 1, minSeparationKm: 0.5 }).map((s) => s.hood.id);
+
+    expect(ids).toHaveLength(2);
+    expect(ids).toContain("alfama");
+  });
+
   it("keeps only the best-scoring hood when names repeat", () => {
     const twins: Hood[] = [...hoods, { id: "arroios-2", name: "Arroios", lat: 38.711, lng: -9.131 }];
 

@@ -24,7 +24,7 @@ describe("Qloo domain API", () => {
   it("heatmap sends entity and tag signals with the city", async () => {
     const { client, calls } = fakeQloo(() => fixture("heatmap-indie-nyc.json"));
 
-    const cells = await heatmap(client, { entities: ["E1"], tags: ["urn:tag:x"] }, "New York City");
+    const cells = await heatmap(client, { entities: ["E1"], tags: ["urn:tag:x"] }, { "filter.location.query": "New York City" });
 
     expect(calls[0]!.params).toEqual({
       "filter.type": "urn:heatmap",
