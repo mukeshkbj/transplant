@@ -1,0 +1,1652 @@
+[
+ {
+  "id": "osm:node/206169707",
+  "name": "Restelo",
+  "lat": 38.7019484,
+  "lng": -9.2130979
+ },
+ {
+  "id": "osm:node/207597971",
+  "name": "Alfama",
+  "lat": 38.7117704,
+  "lng": -9.12838
+ },
+ {
+  "id": "osm:node/277650510",
+  "name": "Barruncho",
+  "lat": 38.7998686,
+  "lng": -9.1680531
+ },
+ {
+  "id": "osm:node/295448919",
+  "name": "Casal da Mira",
+  "lat": 38.7832489,
+  "lng": -9.2262389
+ },
+ {
+  "id": "osm:node/295467542",
+  "name": "Alfornelos",
+  "lat": 38.7616021,
+  "lng": -9.2053896
+ },
+ {
+  "id": "osm:node/295467543",
+  "name": "Falagueira",
+  "lat": 38.7613137,
+  "lng": -9.2259842
+ },
+ {
+  "id": "osm:node/295467545",
+  "name": "Reboleira",
+  "lat": 38.7510638,
+  "lng": -9.2299951
+ },
+ {
+  "id": "osm:node/1148841736",
+  "name": "Amoreiras",
+  "lat": 38.7221497,
+  "lng": -9.1609443
+ },
+ {
+  "id": "osm:node/1148841777",
+  "name": "Santo Amaro",
+  "lat": 38.702452,
+  "lng": -9.1829626
+ },
+ {
+  "id": "osm:node/1148841793",
+  "name": "Chiado",
+  "lat": 38.7103298,
+  "lng": -9.1405186
+ },
+ {
+  "id": "osm:node/1148841800",
+  "name": "São Bento",
+  "lat": 38.7110328,
+  "lng": -9.1531551
+ },
+ {
+  "id": "osm:node/1148841838",
+  "name": "Lapa",
+  "lat": 38.7130713,
+  "lng": -9.1601181
+ },
+ {
+  "id": "osm:node/1148841899",
+  "name": "Mouraria",
+  "lat": 38.714991,
+  "lng": -9.1348415
+ },
+ {
+  "id": "osm:node/1148841905",
+  "name": "Campolide",
+  "lat": 38.727895,
+  "lng": -9.1646135
+ },
+ {
+  "id": "osm:node/1148841919",
+  "name": "Graça",
+  "lat": 38.7182732,
+  "lng": -9.1294874
+ },
+ {
+  "id": "osm:node/1148841927",
+  "name": "Parque das Nações",
+  "lat": 38.7638712,
+  "lng": -9.0953729
+ },
+ {
+  "id": "osm:node/1468348687",
+  "name": "Junqueira",
+  "lat": 38.6980934,
+  "lng": -9.1878083
+ },
+ {
+  "id": "osm:node/1468348689",
+  "name": "Pedrouços",
+  "lat": 38.6956483,
+  "lng": -9.2209818
+ },
+ {
+  "id": "osm:node/1493246250",
+  "name": "Benfica",
+  "lat": 38.7481712,
+  "lng": -9.1994775
+ },
+ {
+  "id": "osm:node/1493262308",
+  "name": "Miraflores",
+  "lat": 38.7109291,
+  "lng": -9.2282527
+ },
+ {
+  "id": "osm:node/1493262317",
+  "name": "Alfragide",
+  "lat": 38.7318267,
+  "lng": -9.2156966
+ },
+ {
+  "id": "osm:node/1493262318",
+  "name": "Outurela",
+  "lat": 38.7235465,
+  "lng": -9.2286819
+ },
+ {
+  "id": "osm:node/1564076788",
+  "name": "Carnide",
+  "lat": 38.7598932,
+  "lng": -9.1896195
+ },
+ {
+  "id": "osm:node/2063474381",
+  "name": "Castelo",
+  "lat": 38.7134033,
+  "lng": -9.1336315
+ },
+ {
+  "id": "osm:node/2256232695",
+  "name": "Alto da Cova da Moura",
+  "lat": 38.7439295,
+  "lng": -9.2140498
+ },
+ {
+  "id": "osm:node/2265435508",
+  "name": "Ribeirada",
+  "lat": 38.7976296,
+  "lng": -9.1827575
+ },
+ {
+  "id": "osm:node/2265435522",
+  "name": "Quinta Nova",
+  "lat": 38.7997952,
+  "lng": -9.1783909
+ },
+ {
+  "id": "osm:node/3104836730",
+  "name": "Cais do Sodré",
+  "lat": 38.705681,
+  "lng": -9.1435482
+ },
+ {
+  "id": "osm:node/3304314985",
+  "name": "Santos-o-Velho",
+  "lat": 38.7073226,
+  "lng": -9.1573797
+ },
+ {
+  "id": "osm:node/3391238793",
+  "name": "Bairro da Portela",
+  "lat": 38.7216059,
+  "lng": -9.2235804
+ },
+ {
+  "id": "osm:node/3542132227",
+  "name": "Saldanha",
+  "lat": 38.7339161,
+  "lng": -9.1448374
+ },
+ {
+  "id": "osm:node/3552548669",
+  "name": "Rato",
+  "lat": 38.720085,
+  "lng": -9.1548367
+ },
+ {
+  "id": "osm:node/3884872354",
+  "name": "Sete Rios",
+  "lat": 38.7415964,
+  "lng": -9.1685139
+ },
+ {
+  "id": "osm:node/4359845883",
+  "name": "Buraca",
+  "lat": 38.7430776,
+  "lng": -9.2085676
+ },
+ {
+  "id": "osm:node/4359845888",
+  "name": "Venda Nova",
+  "lat": 38.7553422,
+  "lng": -9.2170638
+ },
+ {
+  "id": "osm:node/4360242975",
+  "name": "Anjos",
+  "lat": 38.7245059,
+  "lng": -9.1349219
+ },
+ {
+  "id": "osm:node/4360242977",
+  "name": "Charneca",
+  "lat": 38.7819735,
+  "lng": -9.1447708
+ },
+ {
+  "id": "osm:node/4360242979",
+  "name": "Coração de Jesus",
+  "lat": 38.7235766,
+  "lng": -9.1462148
+ },
+ {
+  "id": "osm:node/4360242980",
+  "name": "Encarnação",
+  "lat": 38.7105843,
+  "lng": -9.1436553
+ },
+ {
+  "id": "osm:node/4360242981",
+  "name": "Lumiar",
+  "lat": 38.7685509,
+  "lng": -9.1624841
+ },
+ {
+  "id": "osm:node/4360242983",
+  "name": "Mercês",
+  "lat": 38.7133972,
+  "lng": -9.150794
+ },
+ {
+  "id": "osm:node/4360242984",
+  "name": "Mártires",
+  "lat": 38.7089536,
+  "lng": -9.1400736
+ },
+ {
+  "id": "osm:node/4360242986",
+  "name": "Pena",
+  "lat": 38.7217834,
+  "lng": -9.1399509
+ },
+ {
+  "id": "osm:node/4360242988",
+  "name": "Prazeres",
+  "lat": 38.706319,
+  "lng": -9.1684493
+ },
+ {
+  "id": "osm:node/4360243189",
+  "name": "Sacramento",
+  "lat": 38.7118503,
+  "lng": -9.140785
+ },
+ {
+  "id": "osm:node/4360243190",
+  "name": "Santa Catarina",
+  "lat": 38.711737,
+  "lng": -9.1475948
+ },
+ {
+  "id": "osm:node/4360243191",
+  "name": "Santa Engrácia",
+  "lat": 38.7199479,
+  "lng": -9.12087
+ },
+ {
+  "id": "osm:node/4360243192",
+  "name": "Santa Isabel",
+  "lat": 38.7191866,
+  "lng": -9.1610381
+ },
+ {
+  "id": "osm:node/4360243193",
+  "name": "Santa Justa",
+  "lat": 38.7147202,
+  "lng": -9.1402861
+ },
+ {
+  "id": "osm:node/4360243194",
+  "name": "Santiago",
+  "lat": 38.712136,
+  "lng": -9.1315401
+ },
+ {
+  "id": "osm:node/4360243195",
+  "name": "Santo Condestável",
+  "lat": 38.7188013,
+  "lng": -9.1697809
+ },
+ {
+  "id": "osm:node/4360243197",
+  "name": "Socorro",
+  "lat": 38.7168797,
+  "lng": -9.1339655
+ },
+ {
+  "id": "osm:node/4360243198",
+  "name": "São Cristóvão e São Lourenço",
+  "lat": 38.7133957,
+  "lng": -9.135436
+ },
+ {
+  "id": "osm:node/4360243200",
+  "name": "São Francisco Xavier",
+  "lat": 38.7105032,
+  "lng": -9.2138076
+ },
+ {
+  "id": "osm:node/4360243201",
+  "name": "São José",
+  "lat": 38.7186337,
+  "lng": -9.1430981
+ },
+ {
+  "id": "osm:node/4360243202",
+  "name": "São João de Brito",
+  "lat": 38.755636,
+  "lng": -9.1385349
+ },
+ {
+  "id": "osm:node/4360243204",
+  "name": "São João",
+  "lat": 38.7275911,
+  "lng": -9.1176899
+ },
+ {
+  "id": "osm:node/4360243205",
+  "name": "São Mamede",
+  "lat": 38.7205496,
+  "lng": -9.1523423
+ },
+ {
+  "id": "osm:node/4360243206",
+  "name": "São Miguel",
+  "lat": 38.7115644,
+  "lng": -9.1293112
+ },
+ {
+  "id": "osm:node/4360243207",
+  "name": "São Nicolau",
+  "lat": 38.7066714,
+  "lng": -9.1388444
+ },
+ {
+  "id": "osm:node/4360243208",
+  "name": "São Paulo",
+  "lat": 38.7068687,
+  "lng": -9.1467526
+ },
+ {
+  "id": "osm:node/4360243209",
+  "name": "São Sebastião da Pedreira",
+  "lat": 38.7301501,
+  "lng": -9.1521379
+ },
+ {
+  "id": "osm:node/4360243210",
+  "name": "São Vicente de Fora",
+  "lat": 38.7161716,
+  "lng": -9.1260238
+ },
+ {
+  "id": "osm:node/4360243211",
+  "name": "Sé",
+  "lat": 38.7095436,
+  "lng": -9.1328624
+ },
+ {
+  "id": "osm:node/5063393069",
+  "name": "Bairro da Cruz Vermelha",
+  "lat": 38.7769179,
+  "lng": -9.1540129
+ },
+ {
+  "id": "osm:node/5064517447",
+  "name": "Quinta dos Alcoutins",
+  "lat": 38.7800168,
+  "lng": -9.1720812
+ },
+ {
+  "id": "osm:node/5317915506",
+  "name": "Bairro 18 de Maio",
+  "lat": 38.7246952,
+  "lng": -9.2275146
+ },
+ {
+  "id": "osm:node/5458664465",
+  "name": "Núcleo Urbano Histórico de Algés",
+  "lat": 38.7070615,
+  "lng": -9.2298555
+ },
+ {
+  "id": "osm:node/5771889559",
+  "name": "Bairro dos Cágados",
+  "lat": 38.7910718,
+  "lng": -9.1742874
+ },
+ {
+  "id": "osm:node/5806669166",
+  "name": "Amorosa",
+  "lat": 38.7940309,
+  "lng": -9.1765417
+ },
+ {
+  "id": "osm:node/6054499745",
+  "name": "Patameiras",
+  "lat": 38.784097,
+  "lng": -9.1876066
+ },
+ {
+  "id": "osm:node/6054507045",
+  "name": "Senhor Roubado",
+  "lat": 38.7860456,
+  "lng": -9.1708776
+ },
+ {
+  "id": "osm:node/6054507046",
+  "name": "Bairro Olaio",
+  "lat": 38.7890284,
+  "lng": -9.1774403
+ },
+ {
+  "id": "osm:node/6463302986",
+  "name": "Quinta de Santo António",
+  "lat": 38.7088892,
+  "lng": -9.2297542
+ },
+ {
+  "id": "osm:node/6504986080",
+  "name": "Bairro do Bosque",
+  "lat": 38.7577414,
+  "lng": -9.2269225
+ },
+ {
+  "id": "osm:node/6504986081",
+  "name": "Reboleira Velha",
+  "lat": 38.7571698,
+  "lng": -9.2233944
+ },
+ {
+  "id": "osm:node/6504986082",
+  "name": "Quinta do Puíme",
+  "lat": 38.7591375,
+  "lng": -9.2258348
+ },
+ {
+  "id": "osm:node/6504986083",
+  "name": "Porcalhota",
+  "lat": 38.7581231,
+  "lng": -9.2263857
+ },
+ {
+  "id": "osm:node/6504994588",
+  "name": "Cruzes",
+  "lat": 38.7568967,
+  "lng": -9.2208381
+ },
+ {
+  "id": "osm:node/7114383463",
+  "name": "Quinta do Lambert",
+  "lat": 38.7632449,
+  "lng": -9.152606
+ },
+ {
+  "id": "osm:node/7645325150",
+  "name": "Carriche",
+  "lat": 38.781128,
+  "lng": -9.163543
+ },
+ {
+  "id": "osm:node/7780221089",
+  "name": "Quinta do Loureiro",
+  "lat": 38.7155449,
+  "lng": -9.1752186
+ },
+ {
+  "id": "osm:node/7780221090",
+  "name": "Quinta do Cabrinha",
+  "lat": 38.7118343,
+  "lng": -9.1754815
+ },
+ {
+  "id": "osm:node/7780221091",
+  "name": "Ceuta Sul",
+  "lat": 38.7117645,
+  "lng": -9.1745979
+ },
+ {
+  "id": "osm:node/7780781963",
+  "name": "Casal Ventoso",
+  "lat": 38.7181876,
+  "lng": -9.1726667
+ },
+ {
+  "id": "osm:node/8526697925",
+  "name": "Bairro das Loureiras",
+  "lat": 38.7985518,
+  "lng": -9.1354636
+ },
+ {
+  "id": "osm:node/8526697926",
+  "name": "Bairro Angola",
+  "lat": 38.7903287,
+  "lng": -9.1423081
+ },
+ {
+  "id": "osm:node/8712057320",
+  "name": "Jardins do Cristo Rei",
+  "lat": 38.7767697,
+  "lng": -9.1080691
+ },
+ {
+  "id": "osm:node/8829649241",
+  "name": "Bairro de São Francisco",
+  "lat": 38.7913817,
+  "lng": -9.1356085
+ },
+ {
+  "id": "osm:node/9099232955",
+  "name": "Quinta da Várzea",
+  "lat": 38.7952567,
+  "lng": -9.1584816
+ },
+ {
+  "id": "osm:node/9119612007",
+  "name": "Poço do Bispo",
+  "lat": 38.7423783,
+  "lng": -9.1022809
+ },
+ {
+  "id": "osm:node/9175545313",
+  "name": "Bairro da Torre",
+  "lat": 38.796505,
+  "lng": -9.1353598
+ },
+ {
+  "id": "osm:node/9175574551",
+  "name": "Quinta da Várzea",
+  "lat": 38.7919962,
+  "lng": -9.1391296
+ },
+ {
+  "id": "osm:node/9175574564",
+  "name": "Bairro das Fontaínhas",
+  "lat": 38.7903617,
+  "lng": -9.1407629
+ },
+ {
+  "id": "osm:node/9175574581",
+  "name": "Bairro Quinta de Santa Rosa",
+  "lat": 38.7942342,
+  "lng": -9.1413504
+ },
+ {
+  "id": "osm:node/9175574605",
+  "name": "Bairro Mucharros",
+  "lat": 38.7929468,
+  "lng": -9.1414268
+ },
+ {
+  "id": "osm:node/9212104948",
+  "name": "Quinta do Olival",
+  "lat": 38.7753339,
+  "lng": -9.1781391
+ },
+ {
+  "id": "osm:node/9227672523",
+  "name": "Damaia de Baixo",
+  "lat": 38.7483769,
+  "lng": -9.2120683
+ },
+ {
+  "id": "osm:node/9227672524",
+  "name": "Damaia",
+  "lat": 38.7457746,
+  "lng": -9.2189455
+ },
+ {
+  "id": "osm:node/9244809885",
+  "name": "Bairro da Cassapia",
+  "lat": 38.7954178,
+  "lng": -9.1525045
+ },
+ {
+  "id": "osm:node/9244809886",
+  "name": "Quinta da Serra",
+  "lat": 38.7955223,
+  "lng": -9.1555504
+ },
+ {
+  "id": "osm:node/9273366684",
+  "name": "Bairro da Codivel",
+  "lat": 38.795399,
+  "lng": -9.1714972
+ },
+ {
+  "id": "osm:node/9273484669",
+  "name": "Bairro Doutor Mário Madeira",
+  "lat": 38.7691398,
+  "lng": -9.197689
+ },
+ {
+  "id": "osm:node/9273484671",
+  "name": "Bairro Novo de Santo Eloy",
+  "lat": 38.7673497,
+  "lng": -9.2005616
+ },
+ {
+  "id": "osm:node/9273484693",
+  "name": "Bairro da Milharada",
+  "lat": 38.7846866,
+  "lng": -9.2055345
+ },
+ {
+  "id": "osm:node/9273484694",
+  "name": "Bairro das Comendadeiras",
+  "lat": 38.7901851,
+  "lng": -9.2043221
+ },
+ {
+  "id": "osm:node/9273484695",
+  "name": "Quinta das Dálias",
+  "lat": 38.7926939,
+  "lng": -9.2023802
+ },
+ {
+  "id": "osm:node/9297460214",
+  "name": "Campo Grande",
+  "lat": 38.753271,
+  "lng": -9.156887
+ },
+ {
+  "id": "osm:node/9297465269",
+  "name": "Areeiro",
+  "lat": 38.7413849,
+  "lng": -9.1321846
+ },
+ {
+  "id": "osm:node/9297574852",
+  "name": "Santo António",
+  "lat": 38.7220648,
+  "lng": -9.1514289
+ },
+ {
+  "id": "osm:node/9297574853",
+  "name": "Santa Maria Maior",
+  "lat": 38.7122372,
+  "lng": -9.135738
+ },
+ {
+  "id": "osm:node/9297574857",
+  "name": "Campo Pequeno",
+  "lat": 38.7408542,
+  "lng": -9.1471696
+ },
+ {
+  "id": "osm:node/9680425649",
+  "name": "Colinas do Cruzeiro",
+  "lat": 38.7899998,
+  "lng": -9.1921652
+ },
+ {
+  "id": "osm:node/9686975651",
+  "name": "Bairro Oriente",
+  "lat": 38.7703025,
+  "lng": -9.1032591
+ },
+ {
+  "id": "osm:node/9687061097",
+  "name": "Quinta das Laranjeiras",
+  "lat": 38.7722954,
+  "lng": -9.1004294
+ },
+ {
+  "id": "osm:node/9740308865",
+  "name": "Quinta das Courelas",
+  "lat": 38.7885816,
+  "lng": -9.1416979
+ },
+ {
+  "id": "osm:node/9741587157",
+  "name": "Quinta dos Cucos",
+  "lat": 38.796415,
+  "lng": -9.1527459
+ },
+ {
+  "id": "osm:node/9742288606",
+  "name": "Quinta das Mós",
+  "lat": 38.7975752,
+  "lng": -9.1489667
+ },
+ {
+  "id": "osm:node/9746939806",
+  "name": "Fonte da Pipa",
+  "lat": 38.7956206,
+  "lng": -9.1485751
+ },
+ {
+  "id": "osm:node/9746939807",
+  "name": "Bairro Casal dos Cucos",
+  "lat": 38.7973055,
+  "lng": -9.151091
+ },
+ {
+  "id": "osm:node/9746945935",
+  "name": "Bairro da Boavista",
+  "lat": 38.796323,
+  "lng": -9.1458339
+ },
+ {
+  "id": "osm:node/9746945937",
+  "name": "Zona Antiga de Fetais",
+  "lat": 38.7977528,
+  "lng": -9.146322
+ },
+ {
+  "id": "osm:node/9762937882",
+  "name": "Urbanização Real Forte",
+  "lat": 38.7936764,
+  "lng": -9.1023392
+ },
+ {
+  "id": "osm:node/10109138455",
+  "name": "Casal dos Machados",
+  "lat": 38.772195,
+  "lng": -9.1039324
+ },
+ {
+  "id": "osm:node/10138186937",
+  "name": "Olivais Norte",
+  "lat": 38.7746338,
+  "lng": -9.1134784
+ },
+ {
+  "id": "osm:node/10138186938",
+  "name": "Bairro da Encarnação",
+  "lat": 38.7728588,
+  "lng": -9.118633
+ },
+ {
+  "id": "osm:node/10148577214",
+  "name": "Quinta do Morgado",
+  "lat": 38.7798483,
+  "lng": -9.1202617
+ },
+ {
+  "id": "osm:node/10198142165",
+  "name": "Alto da Faia",
+  "lat": 38.7682885,
+  "lng": -9.1681573
+ },
+ {
+  "id": "osm:node/10198142166",
+  "name": "Quinta do Pisany",
+  "lat": 38.7702298,
+  "lng": -9.171328
+ },
+ {
+  "id": "osm:node/10198142167",
+  "name": "Paço do Lumiar",
+  "lat": 38.7732243,
+  "lng": -9.172345
+ },
+ {
+  "id": "osm:node/10198634126",
+  "name": "Quinta do Mocho",
+  "lat": 38.7997918,
+  "lng": -9.1166905
+ },
+ {
+  "id": "osm:node/10198634127",
+  "name": "Terraços da Ponte",
+  "lat": 38.7986247,
+  "lng": -9.1122021
+ },
+ {
+  "id": "osm:node/11187537393",
+  "name": "Urbanização do Neudel",
+  "lat": 38.7441923,
+  "lng": -9.2238612
+ },
+ {
+  "id": "osm:node/11187537394",
+  "name": "Urbanização da Atalaia",
+  "lat": 38.7469596,
+  "lng": -9.2281989
+ },
+ {
+  "id": "osm:node/11187537396",
+  "name": "Urbanização da Cometna",
+  "lat": 38.7560023,
+  "lng": -9.2239458
+ },
+ {
+  "id": "osm:node/11189146157",
+  "name": "Urbanização Moinho do Guizo",
+  "lat": 38.7905472,
+  "lng": -9.2259338
+ },
+ {
+  "id": "osm:node/11292809861",
+  "name": "Bairro dos Salgados",
+  "lat": 38.7585381,
+  "lng": -9.2214984
+ },
+ {
+  "id": "osm:node/11699141784",
+  "name": "Bairro dos Alfinetes",
+  "lat": 38.7408374,
+  "lng": -9.1099929
+ },
+ {
+  "id": "osm:node/12070168294",
+  "name": "Bairro Doutor Lima Pimentel",
+  "lat": 38.7859243,
+  "lng": -9.182674
+ },
+ {
+  "id": "osm:node/12070168295",
+  "name": "Bairro Espírito Santo",
+  "lat": 38.7889161,
+  "lng": -9.181923
+ },
+ {
+  "id": "osm:node/12070168296",
+  "name": "Pombais",
+  "lat": 38.7866383,
+  "lng": -9.1842954
+ },
+ {
+  "id": "osm:node/12084088318",
+  "name": "São Sebastião Norte",
+  "lat": 38.7995359,
+  "lng": -9.2123687
+ },
+ {
+  "id": "osm:node/12084093680",
+  "name": "Bairro das Fontaínhas",
+  "lat": 38.7964359,
+  "lng": -9.207007
+ },
+ {
+  "id": "osm:node/12084093732",
+  "name": "Bairro Novo das Queimadas",
+  "lat": 38.7984155,
+  "lng": -9.2067093
+ },
+ {
+  "id": "osm:node/12084093772",
+  "name": "Bairro Novo do Trigache",
+  "lat": 38.7991848,
+  "lng": -9.2056552
+ },
+ {
+  "id": "osm:node/12084094730",
+  "name": "Pedrenais Sul",
+  "lat": 38.7998537,
+  "lng": -9.1974436
+ },
+ {
+  "id": "osm:node/12248856373",
+  "name": "Alto do Moinho",
+  "lat": 38.7301161,
+  "lng": -9.2143028
+ },
+ {
+  "id": "osm:node/12248866710",
+  "name": "Zambujal",
+  "lat": 38.736741,
+  "lng": -9.2102149
+ },
+ {
+  "id": "osm:node/12248895306",
+  "name": "Quinta Grande",
+  "lat": 38.7373247,
+  "lng": -9.2241146
+ },
+ {
+  "id": "osm:node/12248905769",
+  "name": "Alto da Boavista",
+  "lat": 38.7340945,
+  "lng": -9.2048502
+ },
+ {
+  "id": "osm:node/12814752596",
+  "name": "Moinhos do Cruzeiro",
+  "lat": 38.7980836,
+  "lng": -9.1988553
+ },
+ {
+  "id": "osm:node/13144010472",
+  "name": "Alto do Chapeleiro",
+  "lat": 38.7875437,
+  "lng": -9.1631455
+ },
+ {
+  "id": "osm:way/141196929",
+  "name": "Bairro do Rego",
+  "lat": 38.7434974,
+  "lng": -9.1567644
+ },
+ {
+  "id": "osm:way/141331582",
+  "name": "Bairro Azul",
+  "lat": 38.7350849,
+  "lng": -9.1562474
+ },
+ {
+  "id": "osm:way/146533511",
+  "name": "Bairro de Santa Cruz de Benfica",
+  "lat": 38.7477786,
+  "lng": -9.205075
+ },
+ {
+  "id": "osm:way/160929988",
+  "name": "Bairro Padre Cruz",
+  "lat": 38.770136,
+  "lng": -9.1909173
+ },
+ {
+  "id": "osm:way/180851118",
+  "name": "Real Forte",
+  "lat": 38.7939124,
+  "lng": -9.1022031
+ },
+ {
+  "id": "osm:way/214710753",
+  "name": "Olaias",
+  "lat": 38.7405665,
+  "lng": -9.1238634
+ },
+ {
+  "id": "osm:way/214765765",
+  "name": "Bairro São João de Brito",
+  "lat": 38.761754,
+  "lng": -9.1335486
+ },
+ {
+  "id": "osm:way/214778036",
+  "name": "Bairro dos Lóios",
+  "lat": 38.757982,
+  "lng": -9.123518
+ },
+ {
+  "id": "osm:way/214788315",
+  "name": "Bairro da Serra da Luz",
+  "lat": 38.7762218,
+  "lng": -9.1895261
+ },
+ {
+  "id": "osm:way/308931206",
+  "name": "Bairro 2 de Maio",
+  "lat": 38.7108708,
+  "lng": -9.1983646
+ },
+ {
+  "id": "osm:way/308988497",
+  "name": "Bairro da GNR (Ajuda)",
+  "lat": 38.7107498,
+  "lng": -9.2033149
+ },
+ {
+  "id": "osm:way/308988498",
+  "name": "Bairro do Alto da Ajuda",
+  "lat": 38.7109168,
+  "lng": -9.2007096
+ },
+ {
+  "id": "osm:way/314671617",
+  "name": "Quinta da Bela Flor",
+  "lat": 38.7239784,
+  "lng": -9.1704
+ },
+ {
+  "id": "osm:way/337101160",
+  "name": "Bairro da Esperança",
+  "lat": 38.7601387,
+  "lng": -9.1377192
+ },
+ {
+  "id": "osm:way/337199675",
+  "name": "Galinheiras",
+  "lat": 38.7928926,
+  "lng": -9.1502533
+ },
+ {
+  "id": "osm:way/341310736",
+  "name": "Bairro do Condado",
+  "lat": 38.7449062,
+  "lng": -9.1122777
+ },
+ {
+  "id": "osm:way/341316903",
+  "name": "Bairro do Armador",
+  "lat": 38.7449352,
+  "lng": -9.1200697
+ },
+ {
+  "id": "osm:way/341361854",
+  "name": "Bairro das Amendoeiras",
+  "lat": 38.7538889,
+  "lng": -9.1131922
+ },
+ {
+  "id": "osm:way/342558475",
+  "name": "Bairro de Caselas",
+  "lat": 38.7161358,
+  "lng": -9.2143399
+ },
+ {
+  "id": "osm:way/342561697",
+  "name": "Caramão da Ajuda",
+  "lat": 38.7131581,
+  "lng": -9.2067949
+ },
+ {
+  "id": "osm:way/394631209",
+  "name": "Baixa",
+  "lat": 38.7108032,
+  "lng": -9.1370757
+ },
+ {
+  "id": "osm:way/395067581",
+  "name": "Bairro do Calhau",
+  "lat": 38.7397013,
+  "lng": -9.1779455
+ },
+ {
+  "id": "osm:way/398782300",
+  "name": "Picheleira",
+  "lat": 38.7369354,
+  "lng": -9.1223243
+ },
+ {
+  "id": "osm:way/398937779",
+  "name": "Bairro dos Actores",
+  "lat": 38.7395505,
+  "lng": -9.1308659
+ },
+ {
+  "id": "osm:way/399309976",
+  "name": "Bairro do Horizonte",
+  "lat": 38.7332751,
+  "lng": -9.1261585
+ },
+ {
+  "id": "osm:way/401462093",
+  "name": "Bairro da Madre de Deus",
+  "lat": 38.7316515,
+  "lng": -9.1132063
+ },
+ {
+  "id": "osm:way/409634667",
+  "name": "Bairro de Santo António",
+  "lat": 38.7956248,
+  "lng": -9.1235014
+ },
+ {
+  "id": "osm:way/410086058",
+  "name": "Bairro Portugal Novo",
+  "lat": 38.7405758,
+  "lng": -9.1256678
+ },
+ {
+  "id": "osm:way/410597032",
+  "name": "Bairro das Estacas",
+  "lat": 38.7463302,
+  "lng": -9.1374731
+ },
+ {
+  "id": "osm:way/410646268",
+  "name": "Bairro de São Miguel",
+  "lat": 38.7473592,
+  "lng": -9.1437516
+ },
+ {
+  "id": "osm:way/416562284",
+  "name": "Bairro da Encosta da Luz",
+  "lat": 38.7803505,
+  "lng": -9.1832719
+ },
+ {
+  "id": "osm:way/416562285",
+  "name": "Bairro Vale do Forno",
+  "lat": 38.7824205,
+  "lng": -9.1771558
+ },
+ {
+  "id": "osm:way/416562287",
+  "name": "Quinta do José Luís",
+  "lat": 38.7788679,
+  "lng": -9.186873
+ },
+ {
+  "id": "osm:way/417343868",
+  "name": "Alto da Boavista",
+  "lat": 38.7340618,
+  "lng": -9.2049473
+ },
+ {
+  "id": "osm:way/417349188",
+  "name": "Alto do Moinho",
+  "lat": 38.7299885,
+  "lng": -9.2144871
+ },
+ {
+  "id": "osm:way/420355614",
+  "name": "Bairro das Calvanas",
+  "lat": 38.7852805,
+  "lng": -9.1491661
+ },
+ {
+  "id": "osm:way/420355619",
+  "name": "Bairro dos Sete Céus",
+  "lat": 38.7848551,
+  "lng": -9.1483453
+ },
+ {
+  "id": "osm:way/424014499",
+  "name": "Bairro da Calçada dos Mestres",
+  "lat": 38.7278496,
+  "lng": -9.1680275
+ },
+ {
+  "id": "osm:way/424014500",
+  "name": "Bairro da Liberdade",
+  "lat": 38.7313229,
+  "lng": -9.172479
+ },
+ {
+  "id": "osm:way/424014501",
+  "name": "Bairro da Serafina",
+  "lat": 38.7329531,
+  "lng": -9.173013
+ },
+ {
+  "id": "osm:way/424014502",
+  "name": "Bairro de Campolide",
+  "lat": 38.7282845,
+  "lng": -9.1646209
+ },
+ {
+  "id": "osm:way/424821544",
+  "name": "Casalinho da Ajuda",
+  "lat": 38.7103348,
+  "lng": -9.1918541
+ },
+ {
+  "id": "osm:way/427210028",
+  "name": "Bairro Estrela de Ouro",
+  "lat": 38.7201106,
+  "lng": -9.1308213
+ },
+ {
+  "id": "osm:way/427210030",
+  "name": "Quinta do Jacinto",
+  "lat": 38.7077914,
+  "lng": -9.1765741
+ },
+ {
+  "id": "osm:way/429477651",
+  "name": "Bairro do Alvito",
+  "lat": 38.7144801,
+  "lng": -9.1809686
+ },
+ {
+  "id": "osm:way/447549840",
+  "name": "Quinta Grande",
+  "lat": 38.737534,
+  "lng": -9.2239131
+ },
+ {
+  "id": "osm:way/464172976",
+  "name": "Bairro das Pedralvas",
+  "lat": 38.754761,
+  "lng": -9.2066587
+ },
+ {
+  "id": "osm:way/473672585",
+  "name": "Zambujal",
+  "lat": 38.7368207,
+  "lng": -9.2098293
+ },
+ {
+  "id": "osm:way/570025537",
+  "name": "Bairro da Quinta do Chalé",
+  "lat": 38.7433264,
+  "lng": -9.1077591
+ },
+ {
+  "id": "osm:way/570796002",
+  "name": "Bairro do Vale Fundão",
+  "lat": 38.7464233,
+  "lng": -9.1083393
+ },
+ {
+  "id": "osm:way/571340859",
+  "name": "Bairro Lopes",
+  "lat": 38.7267048,
+  "lng": -9.1208732
+ },
+ {
+  "id": "osm:way/571344959",
+  "name": "Bairro de São João",
+  "lat": 38.7292202,
+  "lng": -9.1267524
+ },
+ {
+  "id": "osm:way/571349060",
+  "name": "Madragoa",
+  "lat": 38.7086215,
+  "lng": -9.1555086
+ },
+ {
+  "id": "osm:way/868443751",
+  "name": "Bairro de Santo António",
+  "lat": 38.7766846,
+  "lng": -9.1971999
+ },
+ {
+  "id": "osm:way/868467824",
+  "name": "Bairro do Menino de Deus",
+  "lat": 38.7729993,
+  "lng": -9.1953783
+ },
+ {
+  "id": "osm:way/868472395",
+  "name": "Bairro Olival do Pancas",
+  "lat": 38.7697534,
+  "lng": -9.2050746
+ },
+ {
+  "id": "osm:way/868474157",
+  "name": "Bairro Doutor Mário Madeira",
+  "lat": 38.7688258,
+  "lng": -9.1979458
+ },
+ {
+  "id": "osm:way/868476662",
+  "name": "Bairro de São José",
+  "lat": 38.7759076,
+  "lng": -9.1936007
+ },
+ {
+  "id": "osm:way/945061630",
+  "name": "Alfama",
+  "lat": 38.7117754,
+  "lng": -9.1316871
+ },
+ {
+  "id": "osm:way/945072679",
+  "name": "Bairro Alto",
+  "lat": 38.7134636,
+  "lng": -9.1454166
+ },
+ {
+  "id": "osm:way/1210257045",
+  "name": "Casal da Boba",
+  "lat": 38.7707238,
+  "lng": -9.2275661
+ },
+ {
+  "id": "osm:way/1217374762",
+  "name": "Alta de Lisboa",
+  "lat": 38.7756273,
+  "lng": -9.1501361
+ },
+ {
+  "id": "osm:way/1334672954",
+  "name": "Bairro do Arco do Cego",
+  "lat": 38.7397046,
+  "lng": -9.1401527
+ },
+ {
+  "id": "osm:way/1370797526",
+  "name": "Olivais Sul",
+  "lat": 38.7627457,
+  "lng": -9.1161687
+ },
+ {
+  "id": "osm:way/1371375050",
+  "name": "Célula G",
+  "lat": 38.7625698,
+  "lng": -9.1150307
+ },
+ {
+  "id": "osm:way/1371375051",
+  "name": "Célula D",
+  "lat": 38.7609342,
+  "lng": -9.1161485
+ },
+ {
+  "id": "osm:way/1371375052",
+  "name": "Célula C",
+  "lat": 38.7650188,
+  "lng": -9.1145814
+ },
+ {
+  "id": "osm:way/1371375053",
+  "name": "Célula E",
+  "lat": 38.7594218,
+  "lng": -9.1076446
+ },
+ {
+  "id": "osm:way/1371375054",
+  "name": "Célula F",
+  "lat": 38.7655491,
+  "lng": -9.1070438
+ },
+ {
+  "id": "osm:way/1371375055",
+  "name": "Célula B",
+  "lat": 38.7654094,
+  "lng": -9.1239363
+ },
+ {
+  "id": "osm:way/1371375056",
+  "name": "Telheiras Norte",
+  "lat": 38.7669633,
+  "lng": -9.168503
+ },
+ {
+  "id": "osm:way/1371375057",
+  "name": "Telheiras Sul",
+  "lat": 38.7622397,
+  "lng": -9.1669268
+ },
+ {
+  "id": "osm:way/1424429029",
+  "name": "Bairro das Novas Nações",
+  "lat": 38.7259467,
+  "lng": -9.1324841
+ },
+ {
+  "id": "osm:way/1424656291",
+  "name": "Bairro de Inglaterra",
+  "lat": 38.7281582,
+  "lng": -9.1325095
+ },
+ {
+  "id": "osm:way/1425191829",
+  "name": "Bairro Andrade",
+  "lat": 38.7239088,
+  "lng": -9.1337287
+ },
+ {
+  "id": "osm:way/1547833592",
+  "name": "Telheiras Norte I",
+  "lat": 38.764018,
+  "lng": -9.1693681
+ },
+ {
+  "id": "osm:way/1547841057",
+  "name": "Bairro Jardim",
+  "lat": 38.7587314,
+  "lng": -9.1662451
+ },
+ {
+  "id": "osm:relation/6384111",
+  "name": "Santa Clara",
+  "lat": 38.786057,
+  "lng": -9.1539108
+ },
+ {
+  "id": "osm:relation/6384124",
+  "name": "Lumiar",
+  "lat": 38.7714055,
+  "lng": -9.1622678
+ },
+ {
+  "id": "osm:relation/6384135",
+  "name": "Olivais",
+  "lat": 38.7712719,
+  "lng": -9.1253487
+ },
+ {
+  "id": "osm:relation/6384154",
+  "name": "Carnide",
+  "lat": 38.7664197,
+  "lng": -9.187418
+ },
+ {
+  "id": "osm:relation/6384159",
+  "name": "Avenidas Novas",
+  "lat": 38.7365674,
+  "lng": -9.1540514
+ },
+ {
+  "id": "osm:relation/6384162",
+  "name": "Alvalade",
+  "lat": 38.7538524,
+  "lng": -9.1491555
+ },
+ {
+  "id": "osm:relation/6384163",
+  "name": "Areeiro",
+  "lat": 38.7419283,
+  "lng": -9.1328065
+ },
+ {
+  "id": "osm:relation/6384172",
+  "name": "Campolide",
+  "lat": 38.7319858,
+  "lng": -9.1678128
+ },
+ {
+  "id": "osm:relation/6384173",
+  "name": "São Domingos de Benfica",
+  "lat": 38.7460175,
+  "lng": -9.1738431
+ },
+ {
+  "id": "osm:relation/6384187",
+  "name": "Arroios",
+  "lat": 38.7261453,
+  "lng": -9.1391753
+ },
+ {
+  "id": "osm:relation/6385130",
+  "name": "Benfica",
+  "lat": 38.737959,
+  "lng": -9.1968688
+ },
+ {
+  "id": "osm:relation/6427486",
+  "name": "Ajuda",
+  "lat": 38.712595,
+  "lng": -9.1981081
+ },
+ {
+  "id": "osm:relation/6427487",
+  "name": "Alcântara",
+  "lat": 38.7111417,
+  "lng": -9.1839106
+ },
+ {
+  "id": "osm:relation/6427488",
+  "name": "Beato",
+  "lat": 38.7325855,
+  "lng": -9.1145676
+ },
+ {
+  "id": "osm:relation/6427489",
+  "name": "Belém",
+  "lat": 38.7055204,
+  "lng": -9.2086666
+ },
+ {
+  "id": "osm:relation/6427490",
+  "name": "Campo de Ourique",
+  "lat": 38.7181974,
+  "lng": -9.165094
+ },
+ {
+  "id": "osm:relation/6427491",
+  "name": "Estrela",
+  "lat": 38.7071239,
+  "lng": -9.1639885
+ },
+ {
+  "id": "osm:relation/6427492",
+  "name": "Marvila",
+  "lat": 38.748342,
+  "lng": -9.1117769
+ },
+ {
+  "id": "osm:relation/6427493",
+  "name": "Misericórdia",
+  "lat": 38.7107446,
+  "lng": -9.1475961
+ },
+ {
+  "id": "osm:relation/6427494",
+  "name": "Parque das Nações",
+  "lat": 38.7749957,
+  "lng": -9.0957
+ },
+ {
+  "id": "osm:relation/6427495",
+  "name": "Penha de França",
+  "lat": 38.7283633,
+  "lng": -9.1215957
+ },
+ {
+  "id": "osm:relation/6427496",
+  "name": "Santa Maria Maior",
+  "lat": 38.7127481,
+  "lng": -9.132817
+ },
+ {
+  "id": "osm:relation/6427497",
+  "name": "Santo António",
+  "lat": 38.7217457,
+  "lng": -9.1504843
+ },
+ {
+  "id": "osm:relation/6427498",
+  "name": "São Vicente",
+  "lat": 38.7183189,
+  "lng": -9.1248926
+ },
+ {
+  "id": "osm:relation/6519341",
+  "name": "Alfragide",
+  "lat": 38.7334514,
+  "lng": -9.2190332
+ },
+ {
+  "id": "osm:relation/6519342",
+  "name": "Encosta do Sol",
+  "lat": 38.7703855,
+  "lng": -9.2120491
+ },
+ {
+  "id": "osm:relation/6519343",
+  "name": "Falagueira-Venda Nova",
+  "lat": 38.7587351,
+  "lng": -9.2185384
+ },
+ {
+  "id": "osm:relation/6519344",
+  "name": "Mina de Água",
+  "lat": 38.7771436,
+  "lng": -9.2372986
+ },
+ {
+  "id": "osm:relation/6519345",
+  "name": "Venteira",
+  "lat": 38.7468911,
+  "lng": -9.2449874
+ },
+ {
+  "id": "osm:relation/6519346",
+  "name": "Águas Livres",
+  "lat": 38.7456658,
+  "lng": -9.2197716
+ },
+ {
+  "id": "osm:relation/6521241",
+  "name": "Sacavém e Prior Velho",
+  "lat": 38.7944208,
+  "lng": -9.1155254
+ },
+ {
+  "id": "osm:relation/6521242",
+  "name": "Santo António dos Cavaleiros e Frielas",
+  "lat": 38.818366,
+  "lng": -9.159012
+ },
+ {
+  "id": "osm:relation/6521243",
+  "name": "Santa Iria de Azoia, São João da Talha e Bobadela",
+  "lat": 38.8284321,
+  "lng": -9.0941976
+ },
+ {
+  "id": "osm:relation/6521244",
+  "name": "Moscavide e Portela",
+  "lat": 38.7827624,
+  "lng": -9.1105823
+ },
+ {
+  "id": "osm:relation/6521245",
+  "name": "Camarate, Unhos e Apelação",
+  "lat": 38.8108304,
+  "lng": -9.1294077
+ },
+ {
+  "id": "osm:relation/6522461",
+  "name": "Odivelas",
+  "lat": 38.7912974,
+  "lng": -9.1822487
+ },
+ {
+  "id": "osm:relation/6522468",
+  "name": "Póvoa de Santo Adrião e Olival Basto",
+  "lat": 38.7965911,
+  "lng": -9.1618599
+ },
+ {
+  "id": "osm:relation/6522469",
+  "name": "Pontinha e Famões",
+  "lat": 38.7840097,
+  "lng": -9.2039049
+ },
+ {
+  "id": "osm:relation/6522470",
+  "name": "Ramada e Caneças",
+  "lat": 38.814672,
+  "lng": -9.2079805
+ },
+ {
+  "id": "osm:relation/6523779",
+  "name": "Algés, Linda-a-Velha e Cruz Quebrada-Dafundo",
+  "lat": 38.7073498,
+  "lng": -9.2433479
+ },
+ {
+  "id": "osm:relation/6523780",
+  "name": "Carnaxide e Queijas",
+  "lat": 38.7260179,
+  "lng": -9.2426567
+ },
+ {
+  "id": "osm:relation/6528446",
+  "name": "Casal de Cambra",
+  "lat": 38.8023623,
+  "lng": -9.2318843
+ },
+ {
+  "id": "osm:relation/7096694",
+  "name": "Bairro da Flamenga",
+  "lat": 38.7523478,
+  "lng": -9.1230816
+ },
+ {
+  "id": "osm:relation/14745918",
+  "name": "Olivais Norte",
+  "lat": 38.7752624,
+  "lng": -9.1136031
+ },
+ {
+  "id": "osm:relation/14745919",
+  "name": "Bairro da Encarnação",
+  "lat": 38.7736096,
+  "lng": -9.1175415
+ },
+ {
+  "id": "osm:relation/14760193",
+  "name": "Quinta do Morgado",
+  "lat": 38.7800862,
+  "lng": -9.1196221
+ }
+]

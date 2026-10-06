@@ -1,0 +1,2516 @@
+[
+ {
+  "id": "osm:node/666",
+  "name": "Hell's Kitchen",
+  "lat": 40.7644228,
+  "lng": -73.9923918
+ },
+ {
+  "id": "osm:node/158797645",
+  "name": "Sunnyside",
+  "lat": 40.7398242,
+  "lng": -73.9354153
+ },
+ {
+  "id": "osm:node/158798303",
+  "name": "Eastchester Heights",
+  "lat": 40.8772222,
+  "lng": -73.8491667
+ },
+ {
+  "id": "osm:node/158798651",
+  "name": "Oakwood Beach",
+  "lat": 40.5526053,
+  "lng": -74.1143087
+ },
+ {
+  "id": "osm:node/158798812",
+  "name": "Rosedale",
+  "lat": 40.6620479,
+  "lng": -73.7354097
+ },
+ {
+  "id": "osm:node/158799290",
+  "name": "Flatlands",
+  "lat": 40.6212155,
+  "lng": -73.9348597
+ },
+ {
+  "id": "osm:node/158800211",
+  "name": "Brooklyn Manor",
+  "lat": 40.6948252,
+  "lng": -73.8476351
+ },
+ {
+  "id": "osm:node/158800226",
+  "name": "Canarsie",
+  "lat": 40.643715,
+  "lng": -73.9006921
+ },
+ {
+  "id": "osm:node/158800655",
+  "name": "Howard Beach",
+  "lat": 40.6578815,
+  "lng": -73.8362459
+ },
+ {
+  "id": "osm:node/158801311",
+  "name": "Alphabet City",
+  "lat": 40.7251022,
+  "lng": -73.9795833
+ },
+ {
+  "id": "osm:node/158801321",
+  "name": "Tribeca",
+  "lat": 40.7153802,
+  "lng": -74.0093063
+ },
+ {
+  "id": "osm:node/158801775",
+  "name": "East Elmhurst",
+  "lat": 40.7612123,
+  "lng": -73.8651358
+ },
+ {
+  "id": "osm:node/158802019",
+  "name": "Clinton Hill",
+  "lat": 40.6897222,
+  "lng": -73.9652778
+ },
+ {
+  "id": "osm:node/158804245",
+  "name": "Little Neck",
+  "lat": 40.7620463,
+  "lng": -73.7381874
+ },
+ {
+  "id": "osm:node/158804278",
+  "name": "South Beach",
+  "lat": 40.5903825,
+  "lng": -74.0668076
+ },
+ {
+  "id": "osm:node/158804312",
+  "name": "Sewaren",
+  "lat": 40.5520491,
+  "lng": -74.2587568
+ },
+ {
+  "id": "osm:node/158804534",
+  "name": "Hamilton Park",
+  "lat": 40.6417264,
+  "lng": -74.0900718
+ },
+ {
+  "id": "osm:node/158805148",
+  "name": "Clinton",
+  "lat": 40.7652778,
+  "lng": -73.993889
+ },
+ {
+  "id": "osm:node/158805374",
+  "name": "Morris Heights",
+  "lat": 40.8498223,
+  "lng": -73.919859
+ },
+ {
+  "id": "osm:node/158805741",
+  "name": "Singac",
+  "lat": 40.8855375,
+  "lng": -74.2453077
+ },
+ {
+  "id": "osm:node/158805801",
+  "name": "New Brighton",
+  "lat": 40.6423258,
+  "lng": -74.0929195
+ },
+ {
+  "id": "osm:node/158805869",
+  "name": "Morrisania",
+  "lat": 40.8292672,
+  "lng": -73.9065253
+ },
+ {
+  "id": "osm:node/158806204",
+  "name": "Seaside",
+  "lat": 40.5352778,
+  "lng": -74.1788889
+ },
+ {
+  "id": "osm:node/158806637",
+  "name": "College Point",
+  "lat": 40.7876014,
+  "lng": -73.8459682
+ },
+ {
+  "id": "osm:node/158807148",
+  "name": "Bellaire",
+  "lat": 40.7139917,
+  "lng": -73.7540212
+ },
+ {
+  "id": "osm:node/158807229",
+  "name": "Parkchester",
+  "lat": 40.8389893,
+  "lng": -73.8604128
+ },
+ {
+  "id": "osm:node/158807290",
+  "name": "Huguenot",
+  "lat": 40.5373275,
+  "lng": -74.1945884
+ },
+ {
+  "id": "osm:node/158807303",
+  "name": "Cedar Manor Houses",
+  "lat": 40.685,
+  "lng": -73.7847222
+ },
+ {
+  "id": "osm:node/158808479",
+  "name": "Oakwood",
+  "lat": 40.5639366,
+  "lng": -74.1163373
+ },
+ {
+  "id": "osm:node/158808490",
+  "name": "Cypress Hills",
+  "lat": 40.6770477,
+  "lng": -73.8912474
+ },
+ {
+  "id": "osm:node/158808510",
+  "name": "Hollis",
+  "lat": 40.7134361,
+  "lng": -73.7670772
+ },
+ {
+  "id": "osm:node/158808525",
+  "name": "Great Kills",
+  "lat": 40.5542718,
+  "lng": -74.1515318
+ },
+ {
+  "id": "osm:node/158808613",
+  "name": "Bergen Beach",
+  "lat": 40.6203822,
+  "lng": -73.9068033
+ },
+ {
+  "id": "osm:node/158809081",
+  "name": "Hammels",
+  "lat": 40.588822,
+  "lng": -73.8111511
+ },
+ {
+  "id": "osm:node/158809359",
+  "name": "Woodside",
+  "lat": 40.7453798,
+  "lng": -73.9054145
+ },
+ {
+  "id": "osm:node/158809480",
+  "name": "Richmond Valley",
+  "lat": 40.5201055,
+  "lng": -74.2293113
+ },
+ {
+  "id": "osm:node/158809488",
+  "name": "Van Nest",
+  "lat": 40.8484336,
+  "lng": -73.8637463
+ },
+ {
+  "id": "osm:node/158809643",
+  "name": "Stapleton",
+  "lat": 40.6264774,
+  "lng": -74.0776361
+ },
+ {
+  "id": "osm:node/158809940",
+  "name": "Edgemere",
+  "lat": 40.596365,
+  "lng": -73.767905
+ },
+ {
+  "id": "osm:node/158809984",
+  "name": "SoHo",
+  "lat": 40.72288,
+  "lng": -73.9987505
+ },
+ {
+  "id": "osm:node/158810168",
+  "name": "Corona",
+  "lat": 40.7469593,
+  "lng": -73.8601456
+ },
+ {
+  "id": "osm:node/158810593",
+  "name": "Elm Park",
+  "lat": 40.6314925,
+  "lng": -74.1487544
+ },
+ {
+  "id": "osm:node/158810776",
+  "name": "Bayside",
+  "lat": 40.7684351,
+  "lng": -73.7770774
+ },
+ {
+  "id": "osm:node/158810843",
+  "name": "Midland Beach",
+  "lat": 40.5731606,
+  "lng": -74.094586
+ },
+ {
+  "id": "osm:node/158810851",
+  "name": "Grasmere",
+  "lat": 40.6042711,
+  "lng": -74.087086
+ },
+ {
+  "id": "osm:node/158810928",
+  "name": "Fresh Pond Junction",
+  "lat": 40.7040104,
+  "lng": -73.8915251
+ },
+ {
+  "id": "osm:node/158811354",
+  "name": "Throggs Neck",
+  "lat": 40.8230305,
+  "lng": -73.8200756
+ },
+ {
+  "id": "osm:node/158811446",
+  "name": "Woodside",
+  "lat": 40.8984328,
+  "lng": -73.7898551
+ },
+ {
+  "id": "osm:node/158811504",
+  "name": "Paerdegat",
+  "lat": 40.6314931,
+  "lng": -73.9181926
+ },
+ {
+  "id": "osm:node/158811506",
+  "name": "Utopia",
+  "lat": 40.7273247,
+  "lng": -73.7865221
+ },
+ {
+  "id": "osm:node/158811842",
+  "name": "Tottenville",
+  "lat": 40.5090747,
+  "lng": -74.2468867
+ },
+ {
+  "id": "osm:node/158811979",
+  "name": "Maspeth",
+  "lat": 40.723158,
+  "lng": -73.912637
+ },
+ {
+  "id": "osm:node/158811998",
+  "name": "Gerritsen Beach",
+  "lat": 40.5929879,
+  "lng": -73.9263853
+ },
+ {
+  "id": "osm:node/158812343",
+  "name": "Schuylerville",
+  "lat": 40.8288889,
+  "lng": -73.8272222
+ },
+ {
+  "id": "osm:node/158812396",
+  "name": "Isle of San Souci",
+  "lat": 40.9009328,
+  "lng": -73.76791
+ },
+ {
+  "id": "osm:node/158812711",
+  "name": "Spencer Estates",
+  "lat": 40.8452778,
+  "lng": -73.8211111
+ },
+ {
+  "id": "osm:node/158813217",
+  "name": "Glen Oaks",
+  "lat": 40.7470463,
+  "lng": -73.7115199
+ },
+ {
+  "id": "osm:node/158813235",
+  "name": "Linden-Park",
+  "lat": 40.5923268,
+  "lng": -74.0912527
+ },
+ {
+  "id": "osm:node/158813304",
+  "name": "Unionport",
+  "lat": 40.8273229,
+  "lng": -73.8501349
+ },
+ {
+  "id": "osm:node/158813356",
+  "name": "Arverne",
+  "lat": 40.5934173,
+  "lng": -73.7895462
+ },
+ {
+  "id": "osm:node/158813419",
+  "name": "Greenpoint",
+  "lat": 40.7237134,
+  "lng": -73.9509714
+ },
+ {
+  "id": "osm:node/158813535",
+  "name": "West Mount Vernon",
+  "lat": 40.9123214,
+  "lng": -73.8479122
+ },
+ {
+  "id": "osm:node/158813854",
+  "name": "Lambert Houses",
+  "lat": 40.8427778,
+  "lng": -73.8788889
+ },
+ {
+  "id": "osm:node/158813973",
+  "name": "Richmond",
+  "lat": 40.5739937,
+  "lng": -74.1304203
+ },
+ {
+  "id": "osm:node/158814599",
+  "name": "Eltingville",
+  "lat": 40.5453831,
+  "lng": -74.1656988
+ },
+ {
+  "id": "osm:node/158814619",
+  "name": "Parkside",
+  "lat": 40.7107396,
+  "lng": -73.850947
+ },
+ {
+  "id": "osm:node/158814773",
+  "name": "Emerson Hill",
+  "lat": 40.6087154,
+  "lng": -74.0959751
+ },
+ {
+  "id": "osm:node/158814808",
+  "name": "City Line",
+  "lat": 40.6762251,
+  "lng": -73.8869623
+ },
+ {
+  "id": "osm:node/158815704",
+  "name": "Malba",
+  "lat": 40.7906569,
+  "lng": -73.8268009
+ },
+ {
+  "id": "osm:node/158816079",
+  "name": "Sunnyside",
+  "lat": 40.6162152,
+  "lng": -74.1037531
+ },
+ {
+  "id": "osm:node/158816547",
+  "name": "Kips Bay",
+  "lat": 40.7395463,
+  "lng": -73.9770832
+ },
+ {
+  "id": "osm:node/158816594",
+  "name": "New Utrecht",
+  "lat": 40.6131601,
+  "lng": -73.9959725
+ },
+ {
+  "id": "osm:node/158817277",
+  "name": "Kew Gardens",
+  "lat": 40.7139415,
+  "lng": -73.830742
+ },
+ {
+  "id": "osm:node/158817466",
+  "name": "Rossville",
+  "lat": 40.5520029,
+  "lng": -74.211993
+ },
+ {
+  "id": "osm:node/158817488",
+  "name": "Lowerre",
+  "lat": 40.9159324,
+  "lng": -73.8968025
+ },
+ {
+  "id": "osm:node/158817628",
+  "name": "Rosedale",
+  "lat": 40.8909329,
+  "lng": -73.7934663
+ },
+ {
+  "id": "osm:node/158817884",
+  "name": "Oakland Gardens",
+  "lat": 40.753991,
+  "lng": -73.765966
+ },
+ {
+  "id": "osm:node/158818104",
+  "name": "Sheepshead Bay",
+  "lat": 40.5912161,
+  "lng": -73.9445822
+ },
+ {
+  "id": "osm:node/158819060",
+  "name": "Cambria Heights",
+  "lat": 40.6945474,
+  "lng": -73.7384653
+ },
+ {
+  "id": "osm:node/158819122",
+  "name": "Port Richmond",
+  "lat": 40.6331592,
+  "lng": -74.1365318
+ },
+ {
+  "id": "osm:node/158820263",
+  "name": "Chelsea",
+  "lat": 40.6006596,
+  "lng": -74.1948665
+ },
+ {
+  "id": "osm:node/158820391",
+  "name": "New Dorp Beach",
+  "lat": 40.564356,
+  "lng": -74.1048624
+ },
+ {
+  "id": "osm:node/158820676",
+  "name": "Far Rockaway",
+  "lat": 40.6053825,
+  "lng": -73.7551326
+ },
+ {
+  "id": "osm:node/158821146",
+  "name": "Springfield Gardens",
+  "lat": 40.678159,
+  "lng": -73.746521
+ },
+ {
+  "id": "osm:node/158821482",
+  "name": "Rockaway Park",
+  "lat": 40.5805104,
+  "lng": -73.8361535
+ },
+ {
+  "id": "osm:node/158821893",
+  "name": "Blissville",
+  "lat": 40.7347214,
+  "lng": -73.9377798
+ },
+ {
+  "id": "osm:node/158821983",
+  "name": "Greenridge",
+  "lat": 40.5612236,
+  "lng": -74.1698852
+ },
+ {
+  "id": "osm:node/158822059",
+  "name": "Laurelton",
+  "lat": 40.6667703,
+  "lng": -73.7515212
+ },
+ {
+  "id": "osm:node/158822210",
+  "name": "Wakefield",
+  "lat": 40.8978772,
+  "lng": -73.8523569
+ },
+ {
+  "id": "osm:node/158822897",
+  "name": "Princes Bay",
+  "lat": 40.5289944,
+  "lng": -74.197644
+ },
+ {
+  "id": "osm:node/158823151",
+  "name": "Red Hook",
+  "lat": 40.6751032,
+  "lng": -74.0095841
+ },
+ {
+  "id": "osm:node/158823233",
+  "name": "Pelham Bay",
+  "lat": 40.8505556,
+  "lng": -73.8333333
+ },
+ {
+  "id": "osm:node/158823417",
+  "name": "Rose Hill",
+  "lat": 40.743338,
+  "lng": -73.9841594
+ },
+ {
+  "id": "osm:node/158826289",
+  "name": "Somerville",
+  "lat": 40.5982276,
+  "lng": -73.7979292
+ },
+ {
+  "id": "osm:node/158826478",
+  "name": "Saint Albans",
+  "lat": 40.6984364,
+  "lng": -73.7606881
+ },
+ {
+  "id": "osm:node/158826707",
+  "name": "City Island",
+  "lat": 40.8472968,
+  "lng": -73.7865701
+ },
+ {
+  "id": "osm:node/158827061",
+  "name": "Linden Hill",
+  "lat": 40.7744444,
+  "lng": -73.8230556
+ },
+ {
+  "id": "osm:node/158827451",
+  "name": "Broadway Junction",
+  "lat": 40.67677,
+  "lng": -73.9001366
+ },
+ {
+  "id": "osm:node/158827454",
+  "name": "University Heights",
+  "lat": 40.8601,
+  "lng": -73.909303
+ },
+ {
+  "id": "osm:node/158835244",
+  "name": "Eastchester",
+  "lat": 40.8884329,
+  "lng": -73.8281895
+ },
+ {
+  "id": "osm:node/158835606",
+  "name": "New Dorp",
+  "lat": 40.5739486,
+  "lng": -74.1162461
+ },
+ {
+  "id": "osm:node/158836361",
+  "name": "Hillside",
+  "lat": 40.7078807,
+  "lng": -73.7868
+ },
+ {
+  "id": "osm:node/158836681",
+  "name": "Meadow Village",
+  "lat": 40.8687104,
+  "lng": -74.2351465
+ },
+ {
+  "id": "osm:node/158836997",
+  "name": "Homestead Park",
+  "lat": 40.9164881,
+  "lng": -73.7729101
+ },
+ {
+  "id": "osm:node/158837052",
+  "name": "Grymes Hill",
+  "lat": 40.6187152,
+  "lng": -74.0934751
+ },
+ {
+  "id": "osm:node/158837431",
+  "name": "Borough Park",
+  "lat": 40.633993,
+  "lng": -73.9968059
+ },
+ {
+  "id": "osm:node/158837567",
+  "name": "Terrace Heights",
+  "lat": 40.7214916,
+  "lng": -73.7692994
+ },
+ {
+  "id": "osm:node/158839157",
+  "name": "Upper West Side",
+  "lat": 40.7870455,
+  "lng": -73.9754163
+ },
+ {
+  "id": "osm:node/158840066",
+  "name": "Gulfport",
+  "lat": 40.6291143,
+  "lng": -74.1965105
+ },
+ {
+  "id": "osm:node/158840166",
+  "name": "Eastern Parkway",
+  "lat": 40.66917,
+  "lng": -73.93972
+ },
+ {
+  "id": "osm:node/158842043",
+  "name": "Bensonhurst",
+  "lat": 40.6049772,
+  "lng": -73.9934061
+ },
+ {
+  "id": "osm:node/158842082",
+  "name": "Fresh Meadows",
+  "lat": 40.7348246,
+  "lng": -73.7934668
+ },
+ {
+  "id": "osm:node/158842637",
+  "name": "Cobble Hill",
+  "lat": 40.687547,
+  "lng": -73.9973352
+ },
+ {
+  "id": "osm:node/158842681",
+  "name": "Riverdale",
+  "lat": 40.90056,
+  "lng": -73.90639
+ },
+ {
+  "id": "osm:node/158842820",
+  "name": "Willowbrook",
+  "lat": 40.6031598,
+  "lng": -74.1384762
+ },
+ {
+  "id": "osm:node/158842914",
+  "name": "Long Island City",
+  "lat": 40.7455316,
+  "lng": -73.9484995
+ },
+ {
+  "id": "osm:node/158842996",
+  "name": "East Village",
+  "lat": 40.7292688,
+  "lng": -73.9873613
+ },
+ {
+  "id": "osm:node/158843260",
+  "name": "Murray Hill",
+  "lat": 40.76,
+  "lng": -73.8130556
+ },
+ {
+  "id": "osm:node/158843473",
+  "name": "Woods of Arden",
+  "lat": 40.5413889,
+  "lng": -74.1625
+ },
+ {
+  "id": "osm:node/158843504",
+  "name": "Manhattanville",
+  "lat": 40.8157775,
+  "lng": -73.951554
+ },
+ {
+  "id": "osm:node/158843513",
+  "name": "Richmond Terrace Houses",
+  "lat": 40.6475318,
+  "lng": -74.0842927
+ },
+ {
+  "id": "osm:node/158843518",
+  "name": "Rosebank",
+  "lat": 40.6139932,
+  "lng": -74.0662521
+ },
+ {
+  "id": "osm:node/158843902",
+  "name": "Heartland Village",
+  "lat": 40.5883333,
+  "lng": -74.1577778
+ },
+ {
+  "id": "osm:node/158843949",
+  "name": "Glendale",
+  "lat": 40.7014917,
+  "lng": -73.8868028
+ },
+ {
+  "id": "osm:node/158844029",
+  "name": "Rochdale Village",
+  "lat": 40.6763889,
+  "lng": -73.7738889
+ },
+ {
+  "id": "osm:node/158844044",
+  "name": "West Farms",
+  "lat": 40.8398226,
+  "lng": -73.8776356
+ },
+ {
+  "id": "osm:node/158844608",
+  "name": "Fresh Pond",
+  "lat": 40.7070471,
+  "lng": -73.90347
+ },
+ {
+  "id": "osm:node/158844828",
+  "name": "New Springville",
+  "lat": 40.5934376,
+  "lng": -74.163199
+ },
+ {
+  "id": "osm:node/158844866",
+  "name": "Washington Square Village",
+  "lat": 40.7280556,
+  "lng": -73.9977778
+ },
+ {
+  "id": "osm:node/158844946",
+  "name": "Belmont",
+  "lat": 40.8552778,
+  "lng": -73.8863889
+ },
+ {
+  "id": "osm:node/158845097",
+  "name": "Old Town Station",
+  "lat": 40.5959378,
+  "lng": -74.0870859
+ },
+ {
+  "id": "osm:node/158845118",
+  "name": "Saint George",
+  "lat": 40.644548,
+  "lng": -74.0801415
+ },
+ {
+  "id": "osm:node/158845305",
+  "name": "Tompkinsville",
+  "lat": 40.6364926,
+  "lng": -74.0854193
+ },
+ {
+  "id": "osm:node/158845600",
+  "name": "Bay Terrace",
+  "lat": 40.5552778,
+  "lng": -74.1341667
+ },
+ {
+  "id": "osm:node/158845807",
+  "name": "Kensington",
+  "lat": 40.6462149,
+  "lng": -73.970694
+ },
+ {
+  "id": "osm:node/158846270",
+  "name": "Bedford Park",
+  "lat": 40.8700999,
+  "lng": -73.8856912
+ },
+ {
+  "id": "osm:node/158846346",
+  "name": "Mariners Harbor",
+  "lat": 40.6367701,
+  "lng": -74.1587547
+ },
+ {
+  "id": "osm:node/158846355",
+  "name": "Queens Village",
+  "lat": 40.7267692,
+  "lng": -73.7415208
+ },
+ {
+  "id": "osm:node/158846693",
+  "name": "Dongan Hills",
+  "lat": 40.588438,
+  "lng": -74.0962528
+ },
+ {
+  "id": "osm:node/158846789",
+  "name": "East Flatbush",
+  "lat": 40.6537148,
+  "lng": -73.9304151
+ },
+ {
+  "id": "osm:node/158851236",
+  "name": "Parkville",
+  "lat": 40.6314281,
+  "lng": -73.9717552
+ },
+ {
+  "id": "osm:node/158851242",
+  "name": "Melrose",
+  "lat": 40.824545,
+  "lng": -73.9104143
+ },
+ {
+  "id": "osm:node/158851392",
+  "name": "Staten Island",
+  "lat": 40.5834557,
+  "lng": -74.1496048
+ },
+ {
+  "id": "osm:node/158851885",
+  "name": "Graniteville",
+  "lat": 40.625092,
+  "lng": -74.1487378
+ },
+ {
+  "id": "osm:node/158852218",
+  "name": "Castleton Corners",
+  "lat": 40.6131597,
+  "lng": -74.1223647
+ },
+ {
+  "id": "osm:node/158852466",
+  "name": "Middletown",
+  "lat": 40.8397222,
+  "lng": -73.8316667
+ },
+ {
+  "id": "osm:node/158852867",
+  "name": "Oakwood Heights Station",
+  "lat": 40.5648272,
+  "lng": -74.1270868
+ },
+ {
+  "id": "osm:node/158853178",
+  "name": "Park of Edgewater",
+  "lat": 40.8226008,
+  "lng": -73.8095781
+ },
+ {
+  "id": "osm:node/158853293",
+  "name": "Williamsbridge",
+  "lat": 40.877322,
+  "lng": -73.8662462
+ },
+ {
+  "id": "osm:node/158853384",
+  "name": "North Pelham",
+  "lat": 40.918988,
+  "lng": -73.8059666
+ },
+ {
+  "id": "osm:node/158853595",
+  "name": "Lower East Side",
+  "lat": 40.7159357,
+  "lng": -73.9868057
+ },
+ {
+  "id": "osm:node/158853603",
+  "name": "Fieldston",
+  "lat": 40.8944444,
+  "lng": -73.9033333
+ },
+ {
+  "id": "osm:node/158853967",
+  "name": "Hamilton Heights",
+  "lat": 40.8241451,
+  "lng": -73.9500618
+ },
+ {
+  "id": "osm:node/158854064",
+  "name": "Westerleigh",
+  "lat": 40.621215,
+  "lng": -74.1318094
+ },
+ {
+  "id": "osm:node/158854291",
+  "name": "East New York",
+  "lat": 40.6667702,
+  "lng": -73.8823583
+ },
+ {
+  "id": "osm:node/158854301",
+  "name": "East Tremont",
+  "lat": 40.8453781,
+  "lng": -73.8909693
+ },
+ {
+  "id": "osm:node/158854317",
+  "name": "Arlington",
+  "lat": 40.6323257,
+  "lng": -74.1651437
+ },
+ {
+  "id": "osm:node/158854728",
+  "name": "Locust Manor",
+  "lat": 40.68427,
+  "lng": -73.7792998
+ },
+ {
+  "id": "osm:node/158855491",
+  "name": "Residence Park",
+  "lat": 40.9012106,
+  "lng": -73.783466
+ },
+ {
+  "id": "osm:node/158855503",
+  "name": "Vernon Park",
+  "lat": 40.9098215,
+  "lng": -73.8181892
+ },
+ {
+  "id": "osm:node/158855562",
+  "name": "Bayswater",
+  "lat": 40.6102778,
+  "lng": -73.7672222
+ },
+ {
+  "id": "osm:node/158855791",
+  "name": "Morningside Heights",
+  "lat": 40.81,
+  "lng": -73.9625
+ },
+ {
+  "id": "osm:node/158855831",
+  "name": "Sunnyside Gardens",
+  "lat": 40.7477778,
+  "lng": -73.9183333
+ },
+ {
+  "id": "osm:node/158855960",
+  "name": "Richmond Hill",
+  "lat": 40.6994253,
+  "lng": -73.8309672
+ },
+ {
+  "id": "osm:node/158855987",
+  "name": "Kingsbridge Heights",
+  "lat": 40.8725702,
+  "lng": -73.9026619
+ },
+ {
+  "id": "osm:node/158856118",
+  "name": "Cedar Manor",
+  "lat": 40.6907608,
+  "lng": -73.7901878
+ },
+ {
+  "id": "osm:node/158856492",
+  "name": "Chinatown",
+  "lat": 40.7164913,
+  "lng": -73.9962504
+ },
+ {
+  "id": "osm:node/158856524",
+  "name": "Eastchester Bay",
+  "lat": 40.8325,
+  "lng": -73.8191667
+ },
+ {
+  "id": "osm:node/158856995",
+  "name": "Jackson Heights",
+  "lat": 40.7556561,
+  "lng": -73.8857755
+ },
+ {
+  "id": "osm:node/158857091",
+  "name": "Parkside",
+  "lat": 40.8967662,
+  "lng": -73.8251339
+ },
+ {
+  "id": "osm:node/158857284",
+  "name": "Tremont",
+  "lat": 40.8495446,
+  "lng": -73.9056919
+ },
+ {
+  "id": "osm:node/158857828",
+  "name": "Brooklyn",
+  "lat": 40.6526006,
+  "lng": -73.9497211
+ },
+ {
+  "id": "osm:node/158858046",
+  "name": "Annadale",
+  "lat": 40.5445496,
+  "lng": -74.1765324
+ },
+ {
+  "id": "osm:node/158858271",
+  "name": "Mott Haven",
+  "lat": 40.8089897,
+  "lng": -73.9229147
+ },
+ {
+  "id": "osm:node/158858414",
+  "name": "Bronxdale",
+  "lat": 40.8506558,
+  "lng": -73.8665241
+ },
+ {
+  "id": "osm:node/158858751",
+  "name": "Bulls Head",
+  "lat": 40.6070484,
+  "lng": -74.1620879
+ },
+ {
+  "id": "osm:node/158858760",
+  "name": "Midtown",
+  "lat": 40.7551169,
+  "lng": -73.98478
+ },
+ {
+  "id": "osm:node/158859324",
+  "name": "Charlotte Gardens",
+  "lat": 40.8348227,
+  "lng": -73.8923583
+ },
+ {
+  "id": "osm:node/158859327",
+  "name": "Flushing",
+  "lat": 40.7654301,
+  "lng": -73.8174291
+ },
+ {
+  "id": "osm:node/158859456",
+  "name": "West Englewood",
+  "lat": 40.9020512,
+  "lng": -74.0046211
+ },
+ {
+  "id": "osm:node/158859601",
+  "name": "Woodlawn",
+  "lat": 40.898155,
+  "lng": -73.8673573
+ },
+ {
+  "id": "osm:node/158859791",
+  "name": "Concord",
+  "lat": 40.6081599,
+  "lng": -74.0843081
+ },
+ {
+  "id": "osm:node/158860074",
+  "name": "Murray Hill",
+  "lat": 40.7481574,
+  "lng": -73.97875
+ },
+ {
+  "id": "osm:node/158860994",
+  "name": "Meadowmere Park",
+  "lat": 40.6363912,
+  "lng": -73.7419733
+ },
+ {
+  "id": "osm:node/158861011",
+  "name": "Brownsville",
+  "lat": 40.665306,
+  "lng": -73.9124755
+ },
+ {
+  "id": "osm:node/158861414",
+  "name": "Clifton",
+  "lat": 40.6201041,
+  "lng": -74.0770857
+ },
+ {
+  "id": "osm:node/158861717",
+  "name": "Greenwich Village",
+  "lat": 40.7319802,
+  "lng": -73.9965658
+ },
+ {
+  "id": "osm:node/158861876",
+  "name": "Inwood",
+  "lat": 40.8692579,
+  "lng": -73.9204949
+ },
+ {
+  "id": "osm:node/158862353",
+  "name": "Morris Park",
+  "lat": 40.6903809,
+  "lng": -73.8159675
+ },
+ {
+  "id": "osm:node/158862484",
+  "name": "Tudor City",
+  "lat": 40.7486231,
+  "lng": -73.9713889
+ },
+ {
+  "id": "osm:node/158862559",
+  "name": "Astoria",
+  "lat": 40.7720145,
+  "lng": -73.9302673
+ },
+ {
+  "id": "osm:node/158863080",
+  "name": "Pinckney Heights",
+  "lat": 40.9195435,
+  "lng": -73.8198559
+ },
+ {
+  "id": "osm:node/158863323",
+  "name": "Travis",
+  "lat": 40.5931598,
+  "lng": -74.1879218
+ },
+ {
+  "id": "osm:node/158863443",
+  "name": "Queens",
+  "lat": 40.7135078,
+  "lng": -73.8283132
+ },
+ {
+  "id": "osm:node/158863515",
+  "name": "Williamsburg",
+  "lat": 40.714622,
+  "lng": -73.95345
+ },
+ {
+  "id": "osm:node/158863810",
+  "name": "Charleston",
+  "lat": 40.5367719,
+  "lng": -74.2373672
+ },
+ {
+  "id": "osm:node/158863822",
+  "name": "Ridgewood",
+  "lat": 40.7080556,
+  "lng": -73.9141667
+ },
+ {
+  "id": "osm:node/158865684",
+  "name": "Park Slope",
+  "lat": 40.6701033,
+  "lng": -73.9859723
+ },
+ {
+  "id": "osm:node/158866133",
+  "name": "Locust Point",
+  "lat": 40.8159342,
+  "lng": -73.802078
+ },
+ {
+  "id": "osm:node/158866216",
+  "name": "Parsons Beach",
+  "lat": 40.7720462,
+  "lng": -73.7512433
+ },
+ {
+  "id": "osm:node/158866393",
+  "name": "Fort Wadsworth",
+  "lat": 40.6089933,
+  "lng": -74.0626409
+ },
+ {
+  "id": "osm:node/158866724",
+  "name": "Ozone Park",
+  "lat": 40.67677,
+  "lng": -73.8437461
+ },
+ {
+  "id": "osm:node/158867123",
+  "name": "Port Morris",
+  "lat": 40.8015147,
+  "lng": -73.9095811
+ },
+ {
+  "id": "osm:node/158867187",
+  "name": "Spuyten Duyvil",
+  "lat": 40.8811676,
+  "lng": -73.917279
+ },
+ {
+  "id": "osm:node/158868324",
+  "name": "Hunts Point",
+  "lat": 40.8126008,
+  "lng": -73.8840247
+ },
+ {
+  "id": "osm:node/158868503",
+  "name": "Whitestone",
+  "lat": 40.7945457,
+  "lng": -73.8184674
+ },
+ {
+  "id": "osm:node/158868807",
+  "name": "Douglaston",
+  "lat": 40.768713,
+  "lng": -73.7470765
+ },
+ {
+  "id": "osm:node/158868994",
+  "name": "University Village",
+  "lat": 40.7269444,
+  "lng": -73.9988889
+ },
+ {
+  "id": "osm:node/158869428",
+  "name": "Pleasant Plains",
+  "lat": 40.5239944,
+  "lng": -74.2156999
+ },
+ {
+  "id": "osm:node/158869539",
+  "name": "Chelsea",
+  "lat": 40.7464906,
+  "lng": -74.0015283
+ },
+ {
+  "id": "osm:node/158870741",
+  "name": "Kingsbridge",
+  "lat": 40.8787051,
+  "lng": -73.9051408
+ },
+ {
+  "id": "osm:node/158871955",
+  "name": "East Harlem",
+  "lat": 40.7947222,
+  "lng": -73.9425
+ },
+ {
+  "id": "osm:node/158874096",
+  "name": "Hamilton Beach",
+  "lat": 40.6523479,
+  "lng": -73.827787
+ },
+ {
+  "id": "osm:node/158874245",
+  "name": "Elmhurst",
+  "lat": 40.7365804,
+  "lng": -73.8783932
+ },
+ {
+  "id": "osm:node/158874315",
+  "name": "Battery Park City",
+  "lat": 40.7110166,
+  "lng": -74.0169369
+ },
+ {
+  "id": "osm:node/158875120",
+  "name": "Harlem",
+  "lat": 40.8078578,
+  "lng": -73.9454671
+ },
+ {
+  "id": "osm:node/158875397",
+  "name": "Flatbush",
+  "lat": 40.6520481,
+  "lng": -73.959027
+ },
+ {
+  "id": "osm:node/158875971",
+  "name": "Country Club",
+  "lat": 40.8391667,
+  "lng": -73.8197222
+ },
+ {
+  "id": "osm:node/158876393",
+  "name": "Bedford-Stuyvesant",
+  "lat": 40.6834364,
+  "lng": -73.9412488
+ },
+ {
+  "id": "osm:node/158876947",
+  "name": "Fordham",
+  "lat": 40.8592667,
+  "lng": -73.8984694
+ },
+ {
+  "id": "osm:node/158877715",
+  "name": "High Bridge",
+  "lat": 40.8367671,
+  "lng": -73.9268036
+ },
+ {
+  "id": "osm:node/158892044",
+  "name": "Fresh Kills",
+  "lat": 40.5642715,
+  "lng": -74.186255
+ },
+ {
+  "id": "osm:node/158893531",
+  "name": "Bushwick",
+  "lat": 40.6942696,
+  "lng": -73.9187482
+ },
+ {
+  "id": "osm:node/158893998",
+  "name": "Grant City",
+  "lat": 40.5820492,
+  "lng": -74.1048641
+ },
+ {
+  "id": "osm:node/158896539",
+  "name": "Wave Crest",
+  "lat": 40.597985,
+  "lng": -73.7609973
+ },
+ {
+  "id": "osm:node/158897238",
+  "name": "Woodrow",
+  "lat": 40.5434385,
+  "lng": -74.1976441
+ },
+ {
+  "id": "osm:node/158898535",
+  "name": "West New Brighton",
+  "lat": 40.6345481,
+  "lng": -74.1120867
+ },
+ {
+  "id": "osm:node/158899828",
+  "name": "Woodhaven",
+  "lat": 40.6892698,
+  "lng": -73.8579131
+ },
+ {
+  "id": "osm:node/158900763",
+  "name": "Co-Op City",
+  "lat": 40.8738889,
+  "lng": -73.8294444
+ },
+ {
+  "id": "osm:node/158902686",
+  "name": "Bloomfield",
+  "lat": 40.6125891,
+  "lng": -74.17799
+ },
+ {
+  "id": "osm:node/158902726",
+  "name": "Washington Heights",
+  "lat": 40.8401984,
+  "lng": -73.9402214
+ },
+ {
+  "id": "osm:node/158903369",
+  "name": "The Bronx",
+  "lat": 40.8466508,
+  "lng": -73.8785937
+ },
+ {
+  "id": "osm:node/158905191",
+  "name": "Fox Hills",
+  "lat": 40.6151042,
+  "lng": -74.0845859
+ },
+ {
+  "id": "osm:node/158905875",
+  "name": "Arrochar",
+  "lat": 40.5984379,
+  "lng": -74.0726412
+ },
+ {
+  "id": "osm:node/158905979",
+  "name": "Fort Hamilton",
+  "lat": 40.6187154,
+  "lng": -74.0331957
+ },
+ {
+  "id": "osm:node/158906829",
+  "name": "Clason Point",
+  "lat": 40.8147164,
+  "lng": -73.8599648
+ },
+ {
+  "id": "osm:node/158907763",
+  "name": "Old Place",
+  "lat": 40.6303813,
+  "lng": -74.1859776
+ },
+ {
+  "id": "osm:node/158908302",
+  "name": "Morris Park",
+  "lat": 40.8523224,
+  "lng": -73.8534682
+ },
+ {
+  "id": "osm:node/158908581",
+  "name": "Hutton Park",
+  "lat": 40.7792672,
+  "lng": -74.2504245
+ },
+ {
+  "id": "osm:node/158910289",
+  "name": "Little Italy",
+  "lat": 40.7192728,
+  "lng": -73.9982152
+ },
+ {
+  "id": "osm:node/158913422",
+  "name": "Linden Hill",
+  "lat": 40.7156581,
+  "lng": -73.9234706
+ },
+ {
+  "id": "osm:node/158915716",
+  "name": "Silver Beach",
+  "lat": 40.8116667,
+  "lng": -73.8063889
+ },
+ {
+  "id": "osm:node/158918368",
+  "name": "South Ozone Park",
+  "lat": 40.6701035,
+  "lng": -73.8190231
+ },
+ {
+  "id": "osm:node/158918828",
+  "name": "Port Ivory",
+  "lat": 40.6409366,
+  "lng": -74.1801442
+ },
+ {
+  "id": "osm:node/158919216",
+  "name": "Beechhurst",
+  "lat": 40.7914903,
+  "lng": -73.8045781
+ },
+ {
+  "id": "osm:node/158919369",
+  "name": "Steinway",
+  "lat": 40.7745459,
+  "lng": -73.9037477
+ },
+ {
+  "id": "osm:node/158919378",
+  "name": "Bay Ridge",
+  "lat": 40.6320062,
+  "lng": -74.0232101
+ },
+ {
+  "id": "osm:node/248606480",
+  "name": "Prospect Heights",
+  "lat": 40.6778708,
+  "lng": -73.9684725
+ },
+ {
+  "id": "osm:node/254214039",
+  "name": "Lincoln",
+  "lat": 40.9087698,
+  "lng": -73.8773028
+ },
+ {
+  "id": "osm:node/357644127",
+  "name": "Manhattan",
+  "lat": 40.7579554,
+  "lng": -73.9855319
+ },
+ {
+  "id": "osm:node/380047831",
+  "name": "Brooklyn Navy Yard",
+  "lat": 40.6993266,
+  "lng": -73.9755562
+ },
+ {
+  "id": "osm:node/418992826",
+  "name": "Todt Hill",
+  "lat": 40.5979271,
+  "lng": -74.0980274
+ },
+ {
+  "id": "osm:node/1705297068",
+  "name": "Arverne By The Sea",
+  "lat": 40.5900257,
+  "lng": -73.7964478
+ },
+ {
+  "id": "osm:node/2019020144",
+  "name": "Dumbo",
+  "lat": 40.7029052,
+  "lng": -73.990118
+ },
+ {
+  "id": "osm:node/2045637952",
+  "name": "The Dunes",
+  "lat": 40.5897739,
+  "lng": -73.7937063
+ },
+ {
+  "id": "osm:node/2045637954",
+  "name": "Palmer's Landing",
+  "lat": 40.5893908,
+  "lng": -73.8040117
+ },
+ {
+  "id": "osm:node/2045637955",
+  "name": "The Tides",
+  "lat": 40.5887512,
+  "lng": -73.7970057
+ },
+ {
+  "id": "osm:node/2045637956",
+  "name": "The Sands",
+  "lat": 40.5879691,
+  "lng": -73.8012973
+ },
+ {
+  "id": "osm:node/2045637957",
+  "name": "Ocean Breeze",
+  "lat": 40.5884292,
+  "lng": -73.8066888
+ },
+ {
+  "id": "osm:node/2095743704",
+  "name": "The Breakers",
+  "lat": 40.5888933,
+  "lng": -73.7989397
+ },
+ {
+  "id": "osm:node/2095767773",
+  "name": "Arverne View",
+  "lat": 40.5907289,
+  "lng": -73.7874734
+ },
+ {
+  "id": "osm:node/2131546597",
+  "name": "Rockaway Beach",
+  "lat": 40.5845085,
+  "lng": -73.81679
+ },
+ {
+  "id": "osm:node/2510992904",
+  "name": "Columbia Street Waterfront District",
+  "lat": 40.6872869,
+  "lng": -74.0019197
+ },
+ {
+  "id": "osm:node/2511002283",
+  "name": "Gowanus",
+  "lat": 40.6791695,
+  "lng": -73.9885041
+ },
+ {
+  "id": "osm:node/2511020426",
+  "name": "Crown Heights",
+  "lat": 40.667471,
+  "lng": -73.9435662
+ },
+ {
+  "id": "osm:node/2511022055",
+  "name": "Midwood",
+  "lat": 40.6188823,
+  "lng": -73.9654889
+ },
+ {
+  "id": "osm:node/2511053877",
+  "name": "Koreatown",
+  "lat": 40.7476419,
+  "lng": -73.9865157
+ },
+ {
+  "id": "osm:node/2517056822",
+  "name": "Flatiron District",
+  "lat": 40.7410722,
+  "lng": -73.9896534
+ },
+ {
+  "id": "osm:node/2517057358",
+  "name": "NoHo",
+  "lat": 40.7258746,
+  "lng": -73.9939566
+ },
+ {
+  "id": "osm:node/2642533054",
+  "name": "Upper East Side",
+  "lat": 40.775479,
+  "lng": -73.9550233
+ },
+ {
+  "id": "osm:node/2650886668",
+  "name": "University Heights",
+  "lat": 40.7419267,
+  "lng": -74.185791
+ },
+ {
+  "id": "osm:node/2651270418",
+  "name": "Colgate Center",
+  "lat": 40.713566,
+  "lng": -74.0348267
+ },
+ {
+  "id": "osm:node/2760923528",
+  "name": "Douglas Manor",
+  "lat": 40.7762205,
+  "lng": -73.7507289
+ },
+ {
+  "id": "osm:node/2836081095",
+  "name": "Lincoln Harbor",
+  "lat": 40.760688,
+  "lng": -74.0227285
+ },
+ {
+  "id": "osm:node/2946313743",
+  "name": "South Slope",
+  "lat": 40.6604004,
+  "lng": -73.9944088
+ },
+ {
+  "id": "osm:node/3343148003",
+  "name": "Sunset Park",
+  "lat": 40.6442221,
+  "lng": -74.0075907
+ },
+ {
+  "id": "osm:node/3453379318",
+  "name": "Carroll Gardens",
+  "lat": 40.6784201,
+  "lng": -73.9948021
+ },
+ {
+  "id": "osm:node/3932391515",
+  "name": "Castle Hill",
+  "lat": 40.8189076,
+  "lng": -73.8499209
+ },
+ {
+  "id": "osm:node/4080383997",
+  "name": "Nolan Park",
+  "lat": 40.6898707,
+  "lng": -74.0140597
+ },
+ {
+  "id": "osm:node/4120074197",
+  "name": "Academy Heights",
+  "lat": 40.7426299,
+  "lng": -74.2598646
+ },
+ {
+  "id": "osm:node/4330096221",
+  "name": "Marble Hill",
+  "lat": 40.8762983,
+  "lng": -73.9104292
+ },
+ {
+  "id": "osm:node/4354977229",
+  "name": "Ocean Hill",
+  "lat": 40.6757317,
+  "lng": -73.9124338
+ },
+ {
+  "id": "osm:node/4367197907",
+  "name": "Norwood",
+  "lat": 40.8772593,
+  "lng": -73.8768626
+ },
+ {
+  "id": "osm:node/5002391375",
+  "name": "Teachers Village",
+  "lat": 40.7344933,
+  "lng": -74.1743054
+ },
+ {
+  "id": "osm:node/5155536442",
+  "name": "Windsor Oak",
+  "lat": 40.7388956,
+  "lng": -73.7561046
+ },
+ {
+  "id": "osm:node/5491295893",
+  "name": "Silverpointe Estates",
+  "lat": 40.792513,
+  "lng": -73.8395723
+ },
+ {
+  "id": "osm:node/5706568321",
+  "name": "Manhattan Valley",
+  "lat": 40.7997764,
+  "lng": -73.9677716
+ },
+ {
+  "id": "osm:node/5706568322",
+  "name": "Fort George",
+  "lat": 40.8599472,
+  "lng": -73.9282251
+ },
+ {
+  "id": "osm:node/5706568323",
+  "name": "Hudson Heights",
+  "lat": 40.8531308,
+  "lng": -73.9393187
+ },
+ {
+  "id": "osm:node/5706568324",
+  "name": "Sugar Hill",
+  "lat": 40.8275469,
+  "lng": -73.9436102
+ },
+ {
+  "id": "osm:node/5706568325",
+  "name": "Carnegie Hill",
+  "lat": 40.7841972,
+  "lng": -73.954339
+ },
+ {
+  "id": "osm:node/5706568326",
+  "name": "Yorkville",
+  "lat": 40.7780067,
+  "lng": -73.9482022
+ },
+ {
+  "id": "osm:node/5706568327",
+  "name": "Lenox Hill",
+  "lat": 40.7664366,
+  "lng": -73.9590168
+ },
+ {
+  "id": "osm:node/5706568328",
+  "name": "Lincoln Square",
+  "lat": 40.7723194,
+  "lng": -73.9844012
+ },
+ {
+  "id": "osm:node/5706568329",
+  "name": "Columbus Circle",
+  "lat": 40.7680943,
+  "lng": -73.9818907
+ },
+ {
+  "id": "osm:node/5706568330",
+  "name": "Turtle Bay",
+  "lat": 40.7534666,
+  "lng": -73.9688659
+ },
+ {
+  "id": "osm:node/5706568331",
+  "name": "Midtown East",
+  "lat": 40.7598219,
+  "lng": -73.9724708
+ },
+ {
+  "id": "osm:node/5706568332",
+  "name": "Theater District",
+  "lat": 40.7579801,
+  "lng": -73.9855452
+ },
+ {
+  "id": "osm:node/5706568334",
+  "name": "Hudson Yards",
+  "lat": 40.7559064,
+  "lng": -74.0005322
+ },
+ {
+  "id": "osm:node/5706568335",
+  "name": "Garment District",
+  "lat": 40.7536941,
+  "lng": -73.9905167
+ },
+ {
+  "id": "osm:node/5706568337",
+  "name": "Gramercy",
+  "lat": 40.7355189,
+  "lng": -73.9840794
+ },
+ {
+  "id": "osm:node/5706568338",
+  "name": "Union Square",
+  "lat": 40.7360717,
+  "lng": -73.9901888
+ },
+ {
+  "id": "osm:node/5706568339",
+  "name": "NoMad",
+  "lat": 40.7446884,
+  "lng": -73.9882851
+ },
+ {
+  "id": "osm:node/5706568340",
+  "name": "Midtown South",
+  "lat": 40.7498417,
+  "lng": -73.984251
+ },
+ {
+  "id": "osm:node/5706568342",
+  "name": "Meatpacking District",
+  "lat": 40.7408029,
+  "lng": -74.0080691
+ },
+ {
+  "id": "osm:node/5706568343",
+  "name": "West Village",
+  "lat": 40.7341857,
+  "lng": -74.00558
+ },
+ {
+  "id": "osm:node/5706568344",
+  "name": "Hudson Square",
+  "lat": 40.7268035,
+  "lng": -74.0079833
+ },
+ {
+  "id": "osm:node/5706568345",
+  "name": "Two Bridges",
+  "lat": 40.7112884,
+  "lng": -73.9922333
+ },
+ {
+  "id": "osm:node/5706568346",
+  "name": "Civic Center",
+  "lat": 40.7136793,
+  "lng": -74.0024042
+ },
+ {
+  "id": "osm:node/5706568347",
+  "name": "Financial District",
+  "lat": 40.7076681,
+  "lng": -74.009271
+ },
+ {
+  "id": "osm:node/5740099570",
+  "name": "Dyker Heights",
+  "lat": 40.6204716,
+  "lng": -74.0116668
+ },
+ {
+  "id": "osm:node/5740099571",
+  "name": "Bath Beach",
+  "lat": 40.6018495,
+  "lng": -74.000501
+ },
+ {
+  "id": "osm:node/5740104941",
+  "name": "Gravesend",
+  "lat": 40.5961338,
+  "lng": -73.9739426
+ },
+ {
+  "id": "osm:node/5759670105",
+  "name": "Fort Greene",
+  "lat": 40.6907711,
+  "lng": -73.9766245
+ },
+ {
+  "id": "osm:node/5967645372",
+  "name": "Newport",
+  "lat": 40.7254782,
+  "lng": -74.0360143
+ },
+ {
+  "id": "osm:node/5967645373",
+  "name": "Downtown Jersey City",
+  "lat": 40.7149793,
+  "lng": -74.0358754
+ },
+ {
+  "id": "osm:node/5977044388",
+  "name": "Indian Square",
+  "lat": 40.7356637,
+  "lng": -74.0650172
+ },
+ {
+  "id": "osm:node/7385560930",
+  "name": "The Shades",
+  "lat": 40.7594656,
+  "lng": -74.0301161
+ },
+ {
+  "id": "osm:node/7443812016",
+  "name": "Koreatown",
+  "lat": 40.8475364,
+  "lng": -73.9980528
+ },
+ {
+  "id": "osm:node/7525199590",
+  "name": "Davenport",
+  "lat": 40.8945215,
+  "lng": -73.7739873
+ },
+ {
+  "id": "osm:node/7748115089",
+  "name": "Sunset Hill",
+  "lat": 40.6263406,
+  "lng": -74.1080312
+ },
+ {
+  "id": "osm:node/8680776067",
+  "name": "New Lots",
+  "lat": 40.6606524,
+  "lng": -73.891511
+ },
+ {
+  "id": "osm:node/8680776068",
+  "name": "Court Square",
+  "lat": 40.7470782,
+  "lng": -73.943181
+ },
+ {
+  "id": "osm:node/8680776069",
+  "name": "Hunters Point",
+  "lat": 40.7425425,
+  "lng": -73.956635
+ },
+ {
+  "id": "osm:node/8680776070",
+  "name": "Ravenswood",
+  "lat": 40.7610409,
+  "lng": -73.9379883
+ },
+ {
+  "id": "osm:node/8680776071",
+  "name": "Queensbridge",
+  "lat": 40.7554496,
+  "lng": -73.9433957
+ },
+ {
+  "id": "osm:node/8680776076",
+  "name": "Lower Manhattan",
+  "lat": 40.7135482,
+  "lng": -74.0054261
+ },
+ {
+  "id": "osm:node/8743899827",
+  "name": "Manordome",
+  "lat": 40.9006472,
+  "lng": -74.0215442
+ },
+ {
+  "id": "osm:node/8743899828",
+  "name": "West Englewood Manor",
+  "lat": 40.9029633,
+  "lng": -74.0137798
+ },
+ {
+  "id": "osm:node/8743899829",
+  "name": "Knickerbocker Park",
+  "lat": 40.9072329,
+  "lng": -73.9950241
+ },
+ {
+  "id": "osm:node/8743899830",
+  "name": "Tryon Park",
+  "lat": 40.9047875,
+  "lng": -73.9922559
+ },
+ {
+  "id": "osm:node/8743899831",
+  "name": "Colonial Village",
+  "lat": 40.8893132,
+  "lng": -74.0090353
+ },
+ {
+  "id": "osm:node/8743899832",
+  "name": "Copley Estates",
+  "lat": 40.8875508,
+  "lng": -74.0105375
+ },
+ {
+  "id": "osm:node/8743899833",
+  "name": "Queen Anne Park",
+  "lat": 40.891155,
+  "lng": -74.014249
+ },
+ {
+  "id": "osm:node/8744183183",
+  "name": "Pershing Circle",
+  "lat": 40.8987683,
+  "lng": -74.0140728
+ },
+ {
+  "id": "osm:node/8744183184",
+  "name": "West Englewood Park",
+  "lat": 40.9116511,
+  "lng": -74.019121
+ },
+ {
+  "id": "osm:node/8744183185",
+  "name": "Rugby Square",
+  "lat": 40.9067521,
+  "lng": -74.0086605
+ },
+ {
+  "id": "osm:node/8744183186",
+  "name": "Surrey Lane Estates",
+  "lat": 40.9158138,
+  "lng": -74.0138013
+ },
+ {
+  "id": "osm:node/9019435893",
+  "name": "Garfield Park",
+  "lat": 40.863711,
+  "lng": -74.0994604
+ },
+ {
+  "id": "osm:node/9173379599",
+  "name": "Flushing Chinatown",
+  "lat": 40.7595978,
+  "lng": -73.8301514
+ },
+ {
+  "id": "osm:node/9201426392",
+  "name": "Kings Point Estates",
+  "lat": 40.8121956,
+  "lng": -73.7404847
+ },
+ {
+  "id": "osm:node/9201426408",
+  "name": "Russell Woods",
+  "lat": 40.7822457,
+  "lng": -73.7197584
+ },
+ {
+  "id": "osm:node/9201426409",
+  "name": "Belgrave Square",
+  "lat": 40.784109,
+  "lng": -73.7249195
+ },
+ {
+  "id": "osm:node/9201435956",
+  "name": "Manhasset Isle",
+  "lat": 40.8379569,
+  "lng": -73.7090509
+ },
+ {
+  "id": "osm:node/9202945710",
+  "name": "Bayview",
+  "lat": 40.795988,
+  "lng": -73.7055923
+ },
+ {
+  "id": "osm:node/9254759596",
+  "name": "Koreatown",
+  "lat": 40.8511953,
+  "lng": -73.9701111
+ },
+ {
+  "id": "osm:node/9254774992",
+  "name": "Koreatown",
+  "lat": 40.763792,
+  "lng": -73.8082364
+ },
+ {
+  "id": "osm:node/9301228609",
+  "name": "Spinney Hill",
+  "lat": 40.7821472,
+  "lng": -73.7113923
+ },
+ {
+  "id": "osm:node/9411245687",
+  "name": "East Ferry",
+  "lat": 40.7320852,
+  "lng": -74.1399037
+ },
+ {
+  "id": "osm:node/9423354112",
+  "name": "Roosevelt Island",
+  "lat": 40.7586767,
+  "lng": -73.9526842
+ },
+ {
+  "id": "osm:node/9831481564",
+  "name": "North Lawrence",
+  "lat": 40.6242625,
+  "lng": -73.7382254
+ },
+ {
+  "id": "osm:node/9973509976",
+  "name": "Mill Basin",
+  "lat": 40.6098325,
+  "lng": -73.9075848
+ },
+ {
+  "id": "osm:node/9980140691",
+  "name": "Morewood Oaks",
+  "lat": 40.8477151,
+  "lng": -73.7089212
+ },
+ {
+  "id": "osm:node/10316226097",
+  "name": "Whitehall",
+  "lat": 40.7056227,
+  "lng": -74.0133391
+ },
+ {
+  "id": "osm:node/11676529765",
+  "name": "Sutton",
+  "lat": 40.7566109,
+  "lng": -73.9618757
+ },
+ {
+  "id": "osm:node/11676529766",
+  "name": "Beekman",
+  "lat": 40.7537176,
+  "lng": -73.9650085
+ },
+ {
+  "id": "osm:node/11872487606",
+  "name": "The Heights",
+  "lat": 40.7457649,
+  "lng": -74.0494736
+ },
+ {
+  "id": "osm:node/11872487607",
+  "name": "Hamilton Park",
+  "lat": 40.7262558,
+  "lng": -74.0453249
+ },
+ {
+  "id": "osm:node/11872487608",
+  "name": "Downtown",
+  "lat": 40.7372436,
+  "lng": -74.0313804
+ },
+ {
+  "id": "osm:node/11872487609",
+  "name": "Uptown",
+  "lat": 40.7499672,
+  "lng": -74.0274781
+ },
+ {
+  "id": "osm:node/11872487611",
+  "name": "McGinley Square",
+  "lat": 40.7245509,
+  "lng": -74.0694456
+ },
+ {
+  "id": "osm:node/11956391852",
+  "name": "Coney Island",
+  "lat": 40.5765081,
+  "lng": -73.9929419
+ },
+ {
+  "id": "osm:node/12235944511",
+  "name": "Manhattan Beach",
+  "lat": 40.5779176,
+  "lng": -73.9440833
+ },
+ {
+  "id": "osm:node/12512990274",
+  "name": "Hilltop",
+  "lat": 40.7291507,
+  "lng": -74.0576866
+ },
+ {
+  "id": "osm:node/12723542708",
+  "name": "Cedar Falls Manor",
+  "lat": 40.8783227,
+  "lng": -74.236519
+ },
+ {
+  "id": "osm:node/12839141477",
+  "name": "Sea Gate",
+  "lat": 40.5768409,
+  "lng": -74.0073409
+ },
+ {
+  "id": "osm:node/13075913036",
+  "name": "South Bronx",
+  "lat": 40.8297573,
+  "lng": -73.9074786
+ },
+ {
+  "id": "osm:node/13913426682",
+  "name": "The Hole",
+  "lat": 40.6718956,
+  "lng": -73.8595619
+ },
+ {
+  "id": "osm:node/13971119553",
+  "name": "Seaport",
+  "lat": 40.7072394,
+  "lng": -74.0027434
+ },
+ {
+  "id": "osm:node/14005231896",
+  "name": "Forest Hills",
+  "lat": 40.7214147,
+  "lng": -73.8438267
+ },
+ {
+  "id": "osm:way/220786553",
+  "name": "Breezy Point",
+  "lat": 40.5561885,
+  "lng": -73.9224127
+ },
+ {
+  "id": "osm:way/220786554",
+  "name": "Rockaway Point",
+  "lat": 40.5607186,
+  "lng": -73.9182014
+ },
+ {
+  "id": "osm:way/220786960",
+  "name": "Neponsit",
+  "lat": 40.5730825,
+  "lng": -73.8598705
+ },
+ {
+  "id": "osm:way/220788404",
+  "name": "Seaside",
+  "lat": 40.5829612,
+  "lng": -73.826026
+ },
+ {
+  "id": "osm:way/220788405",
+  "name": "Belle Harbor",
+  "lat": 40.5767455,
+  "lng": -73.847809
+ },
+ {
+  "id": "osm:way/220797934",
+  "name": "Roxbury",
+  "lat": 40.5662288,
+  "lng": -73.8904487
+ },
+ {
+  "id": "osm:way/220798925",
+  "name": "Broad Channel",
+  "lat": 40.6061969,
+  "lng": -73.8198596
+ },
+ {
+  "id": "osm:way/244581129",
+  "name": "Brooklyn Heights",
+  "lat": 40.6955775,
+  "lng": -73.9952814
+ },
+ {
+  "id": "osm:way/244585094",
+  "name": "Cobble Hill Historic District",
+  "lat": 40.6873697,
+  "lng": -73.9965045
+ },
+ {
+  "id": "osm:way/244645482",
+  "name": "Carroll Gardens Historic District",
+  "lat": 40.6800528,
+  "lng": -73.9934464
+ },
+ {
+  "id": "osm:way/244646119",
+  "name": "Boerum Hill Historic District",
+  "lat": 40.6855404,
+  "lng": -73.9859521
+ },
+ {
+  "id": "osm:way/249533411",
+  "name": "Sea Gate",
+  "lat": 40.5767475,
+  "lng": -74.0074554
+ },
+ {
+  "id": "osm:way/271286173",
+  "name": "Bushwick",
+  "lat": 40.6964385,
+  "lng": -73.9192219
+ },
+ {
+  "id": "osm:way/325838827",
+  "name": "Middle Village",
+  "lat": 40.7183976,
+  "lng": -73.8822833
+ },
+ {
+  "id": "osm:way/325838828",
+  "name": "Rego Park",
+  "lat": 40.723409,
+  "lng": -73.8627982
+ },
+ {
+  "id": "osm:way/325838830",
+  "name": "Forest Hills Gardens",
+  "lat": 40.715612,
+  "lng": -73.8426271
+ },
+ {
+  "id": "osm:way/325933623",
+  "name": "Ridgewood",
+  "lat": 40.7028453,
+  "lng": -73.9070643
+ },
+ {
+  "id": "osm:way/326004461",
+  "name": "Pomonok",
+  "lat": 40.7323476,
+  "lng": -73.8080451
+ },
+ {
+  "id": "osm:way/326004476",
+  "name": "Fresh Meadows",
+  "lat": 40.7352499,
+  "lng": -73.7793805
+ },
+ {
+  "id": "osm:way/326983525",
+  "name": "Sunset Park",
+  "lat": 40.6506714,
+  "lng": -74.0096643
+ },
+ {
+  "id": "osm:way/338075742",
+  "name": "LeFrak City",
+  "lat": 40.7363212,
+  "lng": -73.8623147
+ },
+ {
+  "id": "osm:way/351304122",
+  "name": "Park Slope",
+  "lat": 40.6707289,
+  "lng": -73.9813338
+ },
+ {
+  "id": "osm:way/399256097",
+  "name": "Chelsea District",
+  "lat": 40.7471381,
+  "lng": -73.9980827
+ },
+ {
+  "id": "osm:way/435231484",
+  "name": "Fort Greene",
+  "lat": 40.6901112,
+  "lng": -73.9747704
+ },
+ {
+  "id": "osm:way/501004935",
+  "name": "Boerum Hill",
+  "lat": 40.6857934,
+  "lng": -73.9852945
+ },
+ {
+  "id": "osm:way/501082581",
+  "name": "Downtown Brooklyn",
+  "lat": 40.6914533,
+  "lng": -73.9855931
+ },
+ {
+  "id": "osm:way/504453593",
+  "name": "Ditmas Park",
+  "lat": 40.6375991,
+  "lng": -73.9634042
+ },
+ {
+  "id": "osm:way/517502994",
+  "name": "Bath Beach",
+  "lat": 40.5966991,
+  "lng": -74.0012952
+ },
+ {
+  "id": "osm:way/517506075",
+  "name": "Gravesend",
+  "lat": 40.5951016,
+  "lng": -73.9736781
+ },
+ {
+  "id": "osm:way/531365233",
+  "name": "West Brighton",
+  "lat": 40.5784666,
+  "lng": -73.9747463
+ },
+ {
+  "id": "osm:way/570563993",
+  "name": "Brighton Beach",
+  "lat": 40.5796494,
+  "lng": -73.9613543
+ },
+ {
+  "id": "osm:way/581339815",
+  "name": "Dyker Heights",
+  "lat": 40.6215675,
+  "lng": -74.010811
+ },
+ {
+  "id": "osm:way/702492597",
+  "name": "Diamond District",
+  "lat": 40.7573718,
+  "lng": -73.9801578
+ },
+ {
+  "id": "osm:way/736935895",
+  "name": "Flower District",
+  "lat": 40.7465957,
+  "lng": -73.9920009
+ },
+ {
+  "id": "osm:way/752911539",
+  "name": "Coney Island",
+  "lat": 40.5772214,
+  "lng": -73.9937278
+ },
+ {
+  "id": "osm:way/753583267",
+  "name": "Greenpoint Landing",
+  "lat": 40.7355201,
+  "lng": -73.9604997
+ },
+ {
+  "id": "osm:way/940880817",
+  "name": "Windsor Terrace",
+  "lat": 40.6524221,
+  "lng": -73.9796415
+ },
+ {
+  "id": "osm:way/1017947714",
+  "name": "Prospect Park South",
+  "lat": 40.6464967,
+  "lng": -73.967125
+ },
+ {
+  "id": "osm:way/1017949432",
+  "name": "Albemarle-Kenmore Terraces Historic District",
+  "lat": 40.6487867,
+  "lng": -73.9592283
+ },
+ {
+  "id": "osm:way/1112122343",
+  "name": "Westchester Square",
+  "lat": 40.8391782,
+  "lng": -73.8463661
+ },
+ {
+  "id": "osm:way/1254164495",
+  "name": "Baychester",
+  "lat": 40.8707565,
+  "lng": -73.8417711
+ },
+ {
+  "id": "osm:way/1280967989",
+  "name": "Greenpoint",
+  "lat": 40.7289732,
+  "lng": -73.9460045
+ },
+ {
+  "id": "osm:way/1373161887",
+  "name": "Brownsville",
+  "lat": 40.6638219,
+  "lng": -73.9128351
+ },
+ {
+  "id": "osm:way/1374261673",
+  "name": "Parkville",
+  "lat": 40.6314328,
+  "lng": -73.9719682
+ },
+ {
+  "id": "osm:relation/8398073",
+  "name": "Fort George",
+  "lat": 40.8584003,
+  "lng": -73.9299397
+ },
+ {
+  "id": "osm:relation/8398098",
+  "name": "Herald Square",
+  "lat": 40.7495406,
+  "lng": -73.9879779
+ },
+ {
+  "id": "osm:relation/8398104",
+  "name": "Stuy Town",
+  "lat": 40.7317364,
+  "lng": -73.976883
+ },
+ {
+  "id": "osm:relation/12520114",
+  "name": "Greenwood Heights",
+  "lat": 40.6567288,
+  "lng": -73.9980719
+ },
+ {
+  "id": "osm:relation/21089477",
+  "name": "Forest Hills",
+  "lat": 40.7225351,
+  "lng": -73.8437289
+ }
+]
