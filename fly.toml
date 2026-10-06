@@ -1,0 +1,32 @@
+app = "transplant-taste"
+primary_region = "iad"
+
+[build]
+
+[env]
+  PORT = "8787"
+  STATIC_ROOT = "/app/dist/web"
+  CACHE_PATH = "/data/qloo.sqlite"
+
+[mounts]
+  source = "transplant_cache"
+  destination = "/data"
+  initial_size = "1gb"
+
+[http_service]
+  internal_port = 8787
+  force_https = true
+  auto_stop_machines = "off"
+  auto_start_machines = true
+  min_machines_running = 1
+
+  [[http_service.checks]]
+    grace_period = "30s"
+    interval = "30s"
+    method = "GET"
+    timeout = "5s"
+    path = "/api/health"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"
