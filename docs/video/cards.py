@@ -36,8 +36,8 @@ html, body {{ width: 1920px; height: 1080px; }}
 .links {{ font: 500 34px/1.7 Plex; }}
 .links span {{ color: var(--stamp); }}
 .stamp {{ justify-self: start; font: 500 30px/1 Plex; letter-spacing: 0.16em; text-transform: uppercase; color: var(--stamp); border: 3px solid var(--stamp); padding: 14px 22px; transform: rotate(-4deg); }}
-.cap {{ position: absolute; left: 50%; bottom: 64px; transform: translateX(-50%); max-width: 1500px; background: rgba(27, 26, 23, 0.9); color: var(--paper);
-  font: 400 40px/1.3 Newsreader; padding: 20px 34px; border-left: 6px solid var(--stamp); }}
+.cap {{ position: absolute; right: 56px; bottom: 60px; max-width: 820px; background: rgba(27, 26, 23, 0.92); color: var(--paper);
+  font: 400 38px/1.3 Newsreader; padding: 20px 30px; border-left: 6px solid var(--stamp); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35); }}
 """
 
 CARDS = {
