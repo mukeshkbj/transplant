@@ -32,6 +32,12 @@ function Meter({ values, labels }: { values: number[]; labels: string[] }) {
   );
 }
 
+function Thumb({ src }: { src?: string }) {
+  const [failed, setFailed] = useState(false);
+  if (!src || failed) return <span className="place__ph" />;
+  return <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setFailed(true)} />;
+}
+
 function Places({ places, hoodName, filters }: { places: Place[] | undefined; hoodName: string; filters?: string[] }) {
   return (
     <section className="reveal" style={stagger(3)}>
@@ -42,19 +48,7 @@ function Places({ places, hoodName, filters }: { places: Place[] | undefined; ho
       <ul className="places">
         {places?.map((p) => (
           <li key={p.id} className="place">
-            {p.image ? (
-              <img
-                src={p.image}
-                alt=""
-                loading="lazy"
-                referrerPolicy="no-referrer"
-                onError={(e) => {
-                  e.currentTarget.removeAttribute("src");
-                }}
-              />
-            ) : (
-              <span className="place__ph" />
-            )}
+            <Thumb src={p.image} />
             <div>
               <span className="mono">{placeLabel(p)}</span>
               <strong>{p.name}</strong>

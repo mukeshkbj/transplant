@@ -102,6 +102,23 @@ async def scroll_to(take: Take, locator, label: str, offset: int = 140):
     take.mark(f"scroll-end:{label}")
 
 
+async def map_painted(page: Page, timeout: float = 60.0):
+    """Wait until the map region shows real tiles, not the black placeholder."""
+    from io import BytesIO
+
+    from PIL import Image
+
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        shot = await page.screenshot(clip={"x": 1100, "y": 250, "width": 600, "height": 500})
+        colors = Image.open(BytesIO(shot)).convert("RGB").getcolors(maxcolors=1 << 20) or []
+        if len(colors) > 1500:
+            await asyncio.sleep(1.5)
+            return
+        await asyncio.sleep(0.5)
+    raise TimeoutError("map never painted")
+
+
 async def new_page(browser):
     context = await browser.new_context(viewport={"width": W, "height": H}, device_scale_factor=1, reduced_motion="no-preference")
     await context.add_init_script(CURSOR_JS)
@@ -142,8 +159,7 @@ async def main_take(browser):
     await click(take, page.get_by_role("button", name="Transplant my taste →"), "transplant")
     await page.get_by_label("Your taste visa").wait_for(timeout=90000)
     take.mark("results-visible")
-    await page.wait_for_function("() => !!document.querySelector('.maplibregl-canvas')", timeout=30000)
-    await asyncio.sleep(5.0)
+    await map_painted(page)
     take.mark("map-settled")
     await glide(page, W * 0.3, H * 0.55)
     await asyncio.sleep(2.0)
@@ -181,7 +197,8 @@ async def blend_take(browser):
     await click(take, page.get_by_role("button", name="Two tastes, one NYC apartment"), "demo-blend")
     await page.get_by_label("Your taste visa").wait_for(timeout=90000)
     take.mark("results-visible")
-    await asyncio.sleep(5.0)
+    await map_painted(page)
+    await asyncio.sleep(2.0)
     take.mark("map-settled")
     await scroll_to(take, page.get_by_text("What you both love"), "shared", offset=160)
     await asyncio.sleep(3.5)
