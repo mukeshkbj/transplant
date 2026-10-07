@@ -80,6 +80,19 @@ describe("reducer", () => {
     expect(toInput(s).people[1]).toMatchObject({ label: "Them", entities: ["d", "e", "f"] });
   });
 
+  it("keeps the story's places when the guide later filters the same hood", () => {
+    const hood = { id: "h1", name: "Greenpoint", lat: 0, lng: 0, score: 0.04, cellCount: 13, byType: [{}], perPerson: [0.04] };
+    const place = (id: string) => ({ id, name: id, genre: "", categories: [], lat: 0, lng: 0, affinity: 0.8, closed: false });
+    let s = reducer(initialState(), { type: "runStart" });
+    s = reducer(s, { type: "event", event: { type: "hoods", hoods: [hood], cells: [], signal: { level: "strong", topScore: 0.04, cells: 13 } } });
+    s = reducer(s, { type: "event", event: { type: "places", hoodId: "h1", places: [place("p1"), place("p2")] } });
+
+    s = reducer(s, { type: "hoodPlaces", hoodId: "h1", places: [place("quiet1")], filters: ["Quiet"] });
+
+    expect(s.placesByHood.h1!.map((p) => p.id)).toEqual(["quiet1"]);
+    expect(s.results!.storyPlaces!.map((p) => p.id)).toEqual(["p1", "p2"]);
+  });
+
   it("tracks guide turns and applies refined places with their filters", () => {
     let s = reducer(initialState(), { type: "guideAsk", text: "quieter" });
     expect(s.guide).toEqual({ busy: true, turns: [{ role: "user", text: "quieter" }] });

@@ -34,6 +34,7 @@ export interface Results {
   cells: MapCell[];
   signal: SignalStrength;
   shared?: SharedTag[];
+  storyPlaces?: Place[];
   story?: Story;
   storySource?: "llm" | "template";
 }
@@ -131,7 +132,11 @@ function applyEvent(s: State, e: TransplantEvent): State {
     case "shared":
       return s.results ? { ...s, results: { ...s.results, shared: e.tags } } : s;
     case "places":
-      return { ...s, placesByHood: { ...s.placesByHood, [e.hoodId]: e.places } };
+      return {
+        ...s,
+        placesByHood: { ...s.placesByHood, [e.hoodId]: e.places },
+        results: s.results ? { ...s.results, storyPlaces: e.places } : s.results,
+      };
     case "story":
       return s.results ? { ...s, results: { ...s.results, story: e.story, storySource: e.source } } : s;
     case "error":

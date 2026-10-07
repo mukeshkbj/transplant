@@ -1,4 +1,5 @@
-import { type GeoJSONSource, type MapLayerMouseEvent, MapLibreMap } from "maplibre-gl";
+import { type GeoJSONSource, type MapLayerMouseEvent, MapLibreMap, setWorkerUrl } from "maplibre-gl";
+import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { useEffect, useRef, useState } from "react";
 import { cellsToGeoJSON, hoodsToGeoJSON } from "../map-data.ts";
 import type { CityInfo, MapCell, RankedHood } from "../types.ts";
@@ -10,6 +11,8 @@ export interface MapViewProps {
   activeHoodId: string;
   onSelectHood: (hoodId: string) => void;
 }
+
+setWorkerUrl(workerUrl);
 
 const STYLE = "https://tiles.openfreemap.org/styles/dark";
 const EMPTY = { type: "FeatureCollection" as const, features: [] };

@@ -62,7 +62,7 @@ export function Results({ state, city, onSelectHood, onRestart, onAsk, shareUrl 
   const [top] = results.hoods as [RankedHood, ...RankedHood[]];
   const active = results.hoods.find((h) => h.id === state.activeHoodId) ?? top;
   const labels = toInput(state).people.map((p) => p.label);
-  const topPlaces = state.placesByHood[top.id] ?? [];
+  const topPlaces = results.storyPlaces ?? state.placesByHood[top.id] ?? [];
   const byId = new Map(topPlaces.map((p) => [p.id, p]));
   const { story, storySource } = results;
 
