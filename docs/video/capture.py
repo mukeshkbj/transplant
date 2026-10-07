@@ -198,10 +198,12 @@ async def blend_take(browser):
     await page.get_by_label("Your taste visa").wait_for(timeout=90000)
     take.mark("results-visible")
     await map_painted(page)
-    await asyncio.sleep(2.0)
     take.mark("map-settled")
+    await glide(page, W * 0.3, H * 0.4)
+    await asyncio.sleep(4.0)
+    take.mark("visa-hold-end")
     await scroll_to(take, page.get_by_text("What you both love"), "shared", offset=160)
-    await asyncio.sleep(3.5)
+    await asyncio.sleep(6.0)
     take.mark("shared-hold-end")
     await take.stop()
     await context.close()
@@ -211,10 +213,13 @@ async def main():
     OUT.mkdir(parents=True, exist_ok=True)
     async with async_playwright() as p:
         browser = await p.chromium.launch(args=["--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--hide-scrollbars"])
-        print("take: main", flush=True)
-        await main_take(browser)
-        print("take: blend", flush=True)
-        await blend_take(browser)
+        takes = sys.argv[3:] or ["main", "blend"]
+        if "main" in takes:
+            print("take: main", flush=True)
+            await main_take(browser)
+        if "blend" in takes:
+            print("take: blend", flush=True)
+            await blend_take(browser)
         await browser.close()
 
 

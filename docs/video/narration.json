@@ -1,0 +1,11 @@
+[
+  { "id": "s0", "voice": "Transplant. Find the neighborhood that already loves what you love." },
+  { "id": "s1", "voice": "Moving to a new city? Ask a chatbot, and everyone gets sent to the same famous neighborhoods." },
+  { "id": "s2", "voice": "Tell Transplant what you love. Qloo resolves each one, so Aesop means the skincare brand, not the ancient author." },
+  { "id": "s3", "voice": "Qloo heatmaps show where this exact taste over-indexes, adjusted for popularity. For this taste, that's Greenpoint." },
+  { "id": "s4", "voice": "Every neighborhood comes with its evidence, taste-matched spots, and a first week, written only from Qloo's data." },
+  { "id": "s5", "voice": "Want somewhere quieter? A tool-using agent searches Qloo's tags, filters the places, and shows its work." },
+  { "id": "s6", "voice": "Moving together? Blend two tastes. Khruangbin and Metallica fans meet in Sunnyside, over blues, drums and jazz." },
+  { "id": "s7", "voice": "It only works because Qloo understands taste across music, TV, brands and places, and where that taste lives." },
+  { "id": "s8", "voice": "Transplant. Try it at transplant-taste dot fly dot dev." }
+]

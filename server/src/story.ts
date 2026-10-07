@@ -46,7 +46,7 @@ const SYSTEM = `You write short, warm, specific copy for Transplant, an app that
 Use ONLY the evidence JSON in the user message. Rules:
 - hoods: one entry per evidence hood, same hoodId. headline <= 8 words. why <= 40 words: name 1-2 of the person's loves (exact names from people[].names) that fit the hood's strongestTastes, phrased as "people who love X over-index here". Never write category words in place of names; never claim a person will like it; never add facts not in evidence.
 - plan: 5 entries using only placeIds from evidence. note <= 16 words: name the place and what it is (use its label), and tie it to their taste, e.g. "Coffee at Land to Sea, a cafe-wine bar your natural-wine side will like". mode "moving": a first week ("Day 1".."Day 5") mixing a coffee spot, an evening out, and a weekend browse. mode "visiting": "Morning"/"Afternoon"/"Evening" stops.
-- If two people are present, mention what both share when sharedTastes exist.`;
+- If two people are present, each why names one love from EACH person (e.g. "people who love Fleabag and people who love Metallica both over-index here"), and mention what both share when sharedTastes exist.`;
 
 const strongest = (byType: Record<string, number>) =>
   Object.entries(byType)
