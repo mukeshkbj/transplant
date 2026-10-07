@@ -33,6 +33,21 @@ describe("writeStory", () => {
     expect(story.plan.map((p) => p.placeId)).toEqual(["p1"]);
   });
 
+  it("describes hoods with readable taste categories and never lets raw category codes through", async () => {
+    const { llm, requests } = fakeLlm(() => ({
+      hoods: [{ hoodId: "h1", headline: "Your corner", why: "People who love brand, tv_show, and artist over-index here." }],
+      plan: [],
+    }));
+
+    const { story } = await writeStory({ ...base, llm });
+
+    const evidenceHood = JSON.parse(requests[0]!.prompt).hoods[0];
+    expect(evidenceHood.strongestTastes).toEqual(["TV", "music"]);
+    expect(evidenceHood).not.toHaveProperty("byType");
+    expect(story.hoods[0]!.why).not.toMatch(/tv_show|artist/);
+    expect(story.hoods[0]!.why).toMatch(/TV and music/);
+  });
+
   it("gives the LLM place labels and uses them in template notes", async () => {
     const { llm, requests } = fakeLlm(() => {
       throw new Error("down");

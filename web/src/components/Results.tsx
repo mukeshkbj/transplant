@@ -42,7 +42,19 @@ function Places({ places, hoodName, filters }: { places: Place[] | undefined; ho
       <ul className="places">
         {places?.map((p) => (
           <li key={p.id} className="place">
-            {p.image ? <img src={p.image} alt="" loading="lazy" referrerPolicy="no-referrer" /> : <span className="place__ph" />}
+            {p.image ? (
+              <img
+                src={p.image}
+                alt=""
+                loading="lazy"
+                referrerPolicy="no-referrer"
+                onError={(e) => {
+                  e.currentTarget.removeAttribute("src");
+                }}
+              />
+            ) : (
+              <span className="place__ph" />
+            )}
             <div>
               <span className="mono">{placeLabel(p)}</span>
               <strong>{p.name}</strong>

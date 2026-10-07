@@ -44,16 +44,22 @@ const TYPE_LABELS: Record<string, string> = {
 
 const SYSTEM = `You write short, warm, specific copy for Transplant, an app that finds the neighborhood where a person's taste lives.
 Use ONLY the evidence JSON in the user message. Rules:
-- hoods: one entry per evidence hood, same hoodId. headline <= 8 words. why <= 40 words: say which of their tastes (byType: artist=music, tv_show=TV, movie=film, brand, tag=style) are strongest there, phrased as "people who love X over-index here". Never claim a person will like it; never add facts not in evidence.
+- hoods: one entry per evidence hood, same hoodId. headline <= 8 words. why <= 40 words: name 1-2 of the person's loves (exact names from people[].names) that fit the hood's strongestTastes, phrased as "people who love X over-index here". Never write category words in place of names; never claim a person will like it; never add facts not in evidence.
 - plan: 5 entries using only placeIds from evidence. note <= 16 words: name the place and what it is (use its label), and tie it to their taste, e.g. "Coffee at Land to Sea, a cafe-wine bar your natural-wine side will like". mode "moving": a first week ("Day 1".."Day 5") mixing a coffee spot, an evening out, and a weekend browse. mode "visiting": "Morning"/"Afternoon"/"Evening" stops.
 - If two people are present, mention what both share when sharedTastes exist.`;
 
-const topTypes = (byType: Record<string, number>) =>
+const strongest = (byType: Record<string, number>) =>
   Object.entries(byType)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 2)
-    .map(([type]) => TYPE_LABELS[type] ?? type)
-    .join(" and ");
+    .map(([type]) => TYPE_LABELS[type] ?? type);
+
+const topTypes = (byType: Record<string, number>) => strongest(byType).join(" and ");
+
+const RAW_CODES = new RegExp(`\\b(${Object.keys(TYPE_LABELS).join("|")}|byType)\\b`);
+
+const templateWhy = (h: RankedHood) =>
+  `Your ${topTypes(h.byType[0] ?? {}) || "overall"} taste over-indexes here more than anywhere else in the city, across ${h.cellCount} Qloo heatmap cells.`;
 
 export function templateStory(hoods: RankedHood[], places: Place[], mode: StoryInput["mode"]): Story {
   const slots = mode === "moving" ? ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"] : ["Morning", "Afternoon", "Evening", "Morning", "Evening"];
@@ -61,7 +67,7 @@ export function templateStory(hoods: RankedHood[], places: Place[], mode: StoryI
     hoods: hoods.map((h) => ({
       hoodId: h.id,
       headline: h.name,
-      why: `Your ${topTypes(h.byType[0] ?? {}) || "overall"} taste over-indexes here more than anywhere else in the city, across ${h.cellCount} Qloo heatmap cells.`,
+      why: templateWhy(h),
     })),
     plan: places.slice(0, 5).map((p, i) => ({ when: slots[i]!, placeId: p.id, note: placeLabel(p) })),
   };
@@ -72,7 +78,7 @@ export async function writeStory({ llm, city, mode, people, hoods, places, share
     city,
     mode,
     people,
-    hoods: hoods.map((h) => ({ hoodId: h.id, name: h.name, score: Number(h.score.toFixed(3)), byType: h.byType })),
+    hoods: hoods.map((h) => ({ hoodId: h.id, name: h.name, score: Number(h.score.toFixed(3)), strongestTastes: strongest(h.byType[0] ?? {}) })),
     places: places.map((p) => ({ placeId: p.id, name: p.name, label: placeLabel(p), categories: p.categories, neighborhood: p.neighborhood })),
     sharedTastes: shared.map((s) => s.name),
   };
@@ -80,7 +86,11 @@ export async function writeStory({ llm, city, mode, people, hoods, places, share
     const raw = await llm.json({ schema: StorySchema, name: "transplant_story", system: SYSTEM, prompt: JSON.stringify(evidence) });
     const hoodIds = new Set(hoods.map((h) => h.id));
     const placeIds = new Set(places.map((p) => p.id));
-    const story = { hoods: raw.hoods.filter((h) => hoodIds.has(h.hoodId)), plan: raw.plan.filter((p) => placeIds.has(p.placeId)).slice(0, 6) };
+    const byId = new Map(hoods.map((h) => [h.id, h]));
+    const story = {
+      hoods: raw.hoods.filter((h) => hoodIds.has(h.hoodId)).map((h) => (RAW_CODES.test(h.why) ? { ...h, why: templateWhy(byId.get(h.hoodId)!) } : h)),
+      plan: raw.plan.filter((p) => placeIds.has(p.placeId)).slice(0, 6),
+    };
     if (story.hoods.length > 0) return { story, source: "llm" };
   } catch {
     // LLM unavailable; template below is built from evidence only.

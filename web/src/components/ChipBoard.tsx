@@ -16,7 +16,18 @@ function Stamp({ chip, onPick, onRemove }: { chip: Chip; onPick: (id: string) =>
     const alternatives = chip.options.filter((alt) => alt.id !== o.id);
     return (
       <div className="stamp" data-kind={o.kind}>
-        {o.image && <img className="stamp__img" src={o.image} alt="" loading="lazy" />}
+        {o.image && (
+          <img
+            className="stamp__img"
+            src={o.image}
+            alt=""
+            loading="lazy"
+            referrerPolicy="no-referrer"
+            onError={(e) => {
+              e.currentTarget.style.display = "none";
+            }}
+          />
+        )}
         <div>
           <span className="stamp__type mono">{typeLabel(o)}</span>
           <strong className="stamp__name">{o.name}</strong>
