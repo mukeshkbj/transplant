@@ -34,7 +34,7 @@ describe("refine", () => {
         text: "",
         calls: [{ id: "2", name: "find_places", args: { hood_id: greenpoint.id, include_tags: ["urn:tag:ambience:qloo:quiet"], exclude_tags: [] } }],
       },
-      { text: "Try Desert Island and Tea Bar.", calls: [] },
+      { text: "Try **Desert Island** and *Tea Bar*.", calls: [] },
     ]);
 
     const out = await refine(input, { qloo: q.client, providers: [provider], hoodsFor: loadHoods });

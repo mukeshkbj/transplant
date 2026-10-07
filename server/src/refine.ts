@@ -167,5 +167,7 @@ export async function refine(input: RefineInput, deps: RefineDeps): Promise<Refi
       trace,
     };
   }
-  return { reply, actions: [...actions.values()], trace };
+  return { reply: plainText(reply), actions: [...actions.values()], trace };
 }
+
+const plainText = (text: string) => text.replace(/(\*\*|__)(.+?)\1/g, "$2").replace(/(^|[^\w*])\*(?!\s)([^*\n]+?)\*(?!\w)/g, "$1$2").trim();
