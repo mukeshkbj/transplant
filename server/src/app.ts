@@ -7,6 +7,7 @@ import { z } from "zod";
 import { CITIES } from "./cities.ts";
 import { loadDemos } from "./demos.ts";
 import { LlmError } from "./llm/llm.ts";
+import { handleMcp } from "./mcp.ts";
 import type { ToolProvider } from "./llm/tools.ts";
 import { QlooError } from "./qloo/client.ts";
 import { QuotaLowError, type QuotaState } from "./qloo/quota.ts";
@@ -108,6 +109,14 @@ export function createApp(deps: AppDeps): Hono {
       await chain;
     });
   });
+
+  app.post("/mcp", async (c) => {
+    const body = await c.req.json().catch(() => null);
+    const origin = new URL(c.req.url).origin.replace(/^http:\/\/(?!localhost)/, "https://");
+    const out = await handleMcp(body, deps, { ip: clientIp(c), origin });
+    return out.json === undefined ? c.body(null, out.status as 202) : c.json(out.json, out.status as 200);
+  });
+  app.on(["GET", "DELETE"], "/mcp", (c) => c.json({ jsonrpc: "2.0", id: null, error: { code: -32000, message: "Use POST (stateless Streamable HTTP)." } }, 405));
 
   app.all("/api/*", (c) => c.json({ code: "NOT_FOUND" }, 404));
 

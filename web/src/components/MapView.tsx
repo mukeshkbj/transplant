@@ -1,8 +1,8 @@
 import { type GeoJSONSource, type MapLayerMouseEvent, MapLibreMap, setWorkerUrl } from "maplibre-gl";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { useEffect, useRef, useState } from "react";
-import { cellsToGeoJSON, hoodsToGeoJSON } from "../map-data.ts";
-import type { CityInfo, MapCell, RankedHood } from "../types.ts";
+import { cellsToGeoJSON, hoodsToGeoJSON, placesToGeoJSON } from "../map-data.ts";
+import type { CityInfo, MapCell, Place, RankedHood } from "../types.ts";
 
 export interface MapViewProps {
   city: CityInfo;
@@ -10,6 +10,8 @@ export interface MapViewProps {
   hoods: RankedHood[];
   activeHoodId: string;
   onSelectHood: (hoodId: string) => void;
+  /** Spots for the active neighborhood, numbered in list order. */
+  places?: Place[];
 }
 
 setWorkerUrl(workerUrl);
@@ -18,7 +20,9 @@ const STYLE = "https://tiles.openfreemap.org/styles/dark";
 const EMPTY = { type: "FeatureCollection" as const, features: [] };
 const reducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-export function MapView({ city, cells, hoods, activeHoodId, onSelectHood }: MapViewProps) {
+const NO_PLACES: Place[] = [];
+
+export function MapView({ city, cells, hoods, activeHoodId, onSelectHood, places = NO_PLACES }: MapViewProps) {
   const container = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const select = useRef(onSelectHood);
@@ -67,6 +71,33 @@ export function MapView({ city, cells, hoods, activeHoodId, onSelectHood }: MapV
           ],
         },
       });
+      map.addSource("spots", { type: "geojson", data: EMPTY });
+      map.addLayer({
+        id: "spot-dots",
+        type: "circle",
+        source: "spots",
+        paint: {
+          "circle-radius": 8,
+          "circle-color": "#c2410c",
+          "circle-stroke-color": "#fde68a",
+          "circle-stroke-width": 1.5,
+        },
+      });
+      map.addLayer({
+        id: "spot-numbers",
+        type: "symbol",
+        source: "spots",
+        layout: { "text-field": ["get", "n"], "text-font": ["Noto Sans Bold"], "text-size": 10, "text-allow-overlap": true },
+        paint: { "text-color": "#fff7e6" },
+      });
+      map.addLayer({
+        id: "spot-names",
+        type: "symbol",
+        source: "spots",
+        minzoom: 14,
+        layout: { "text-field": ["get", "name"], "text-font": ["Noto Sans Regular"], "text-size": 11, "text-offset": [0, 1.1], "text-anchor": "top", "text-optional": true },
+        paint: { "text-color": "#fde68a", "text-halo-color": "#0e1015", "text-halo-width": 1.2 },
+      });
       map.addSource("hoods", { type: "geojson", data: EMPTY });
       map.addLayer({
         id: "hood-dots",
@@ -110,11 +141,12 @@ export function MapView({ city, cells, hoods, activeHoodId, onSelectHood }: MapV
     if (!ready || !map) return;
     (map.getSource("taste") as GeoJSONSource).setData(cellsToGeoJSON(cells));
     (map.getSource("hoods") as GeoJSONSource).setData(hoodsToGeoJSON(hoods, activeHoodId));
-  }, [ready, cells, hoods, activeHoodId]);
+    (map.getSource("spots") as GeoJSONSource).setData(placesToGeoJSON(places));
+  }, [ready, cells, hoods, activeHoodId, places]);
 
   useEffect(() => {
     const hood = hoods.find((h) => h.id === activeHoodId);
-    if (ready && hood) mapRef.current?.flyTo({ center: [hood.lng, hood.lat], zoom: 12.5, duration: reducedMotion() ? 0 : 1400 });
+    if (ready && hood) mapRef.current?.flyTo({ center: [hood.lng, hood.lat], zoom: 13, duration: reducedMotion() ? 0 : 1400 });
   }, [ready, hoods, activeHoodId]);
 
   return <div ref={container} className="map" role="img" aria-label={`Taste heatmap of ${city.name}`} />;

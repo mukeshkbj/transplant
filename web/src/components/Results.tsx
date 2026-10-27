@@ -32,29 +32,69 @@ function Meter({ values, labels }: { values: number[]; labels: string[] }) {
   );
 }
 
-function Thumb({ src }: { src?: string }) {
+function Thumb({ src, label, n }: { src?: string; label: string; n: number }) {
   const [failed, setFailed] = useState(false);
-  if (!src || failed) return <span className="place__ph" />;
-  return <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setFailed(true)} />;
+  return (
+    <span className="place__thumb">
+      {!src || failed ? (
+        <span className="place__ph" aria-hidden>
+          {label.charAt(0)}
+        </span>
+      ) : (
+        <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setFailed(true)} />
+      )}
+      <span className="place__n mono" aria-hidden>
+        {n}
+      </span>
+    </span>
+  );
+}
+
+const TASTE_LABELS: Record<string, string> = { artist: "Music", tv_show: "TV", movie: "Film", brand: "Brands", book: "Books", podcast: "Podcasts", place: "Venues" };
+
+/** Per-type Qloo affinity for this neighborhood: what drove the match, and which tastes have no signal here. */
+function TasteBars({ byType, types }: { byType: Record<string, number>; types: string[] }) {
+  const rows = types.filter((t) => t in TASTE_LABELS);
+  if (rows.length === 0) return null;
+  return (
+    <div className="tastebars mono" aria-label="Qloo affinity by taste type">
+      {rows.map((t) => {
+        const v = byType[t] ?? 0;
+        return (
+          <div className="tastebars__row" key={t} data-empty={v <= 0}>
+            <span>{TASTE_LABELS[t]}</span>
+            <span className="tastebars__track">
+              <span className="tastebars__fill" style={{ transform: `scaleX(${Math.min(1, Math.max(v, 0))})` }} />
+            </span>
+            <span>{v > 0 ? Math.round(v * 100) : "no signal"}</span>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
 function Places({ places, hoodName, filters }: { places: Place[] | undefined; hoodName: string; filters?: string[] }) {
   return (
     <section className="reveal" style={stagger(3)}>
       <h2 className="section-title">Your spots in {hoodName}</h2>
-      {filters && filters.length > 0 && <p className="mono">Filtered by Qloo tags: {filters.join(", ")}</p>}
+      <p className="section-dek">Places Qloo matches to your taste within about a kilometre — numbered on the map.</p>
+      {filters && filters.length > 0 && <p className="filters mono">Filtered by Qloo tags: {filters.join(", ")}</p>}
       {!places && <p className="mono">Finding spots in {hoodName}…</p>}
       {places?.length === 0 && <p>No curated spots here yet.</p>}
       <ul className="places">
-        {places?.map((p) => (
+        {places?.map((p, i) => (
           <li key={p.id} className="place">
-            <Thumb src={p.image} />
+            <Thumb src={p.image} label={placeLabel(p)} n={i + 1} />
             <div>
               <span className="mono">{placeLabel(p)}</span>
               <strong>{p.name}</strong>
               {p.address && <span className="place__addr">{p.address}</span>}
             </div>
-            <span className="badge">Qloo match {Math.round(p.affinity * 100)}</span>
+            <span className="place__meta mono">
+              {p.neighborhood && <span>{p.neighborhood}</span>}
+              {p.rating ? <span>★ {p.rating.toFixed(1)}</span> : null}
+            </span>
           </li>
         ))}
       </ul>
@@ -67,7 +107,9 @@ export function Results({ state, city, onSelectHood, onRestart, onAsk, shareUrl 
   const results = state.results!;
   const [top] = results.hoods as [RankedHood, ...RankedHood[]];
   const active = results.hoods.find((h) => h.id === state.activeHoodId) ?? top;
-  const labels = toInput(state).people.map((p) => p.label);
+  const input = toInput(state);
+  const labels = input.people.map((p) => p.label);
+  const loveTypes = [...new Set((input.people[0]?.loves ?? []).map((l) => l.type))];
   const topPlaces = results.storyPlaces ?? state.placesByHood[top.id] ?? [];
   const byId = new Map(topPlaces.map((p) => [p.id, p]));
   const { story, storySource } = results;
@@ -131,7 +173,7 @@ export function Results({ state, city, onSelectHood, onRestart, onAsk, shareUrl 
                       <dd>{hood.cellCount} Qloo cells</dd>
                     </div>
                   </dl>
-                  {hood.perPerson.length > 1 && <Meter values={hood.perPerson} labels={labels} />}
+                  {hood.perPerson.length > 1 ? <Meter values={hood.perPerson} labels={labels} /> : <TasteBars byType={hood.byType[0] ?? {}} types={loveTypes} />}
                 </article>
               </li>
             );
@@ -179,7 +221,14 @@ export function Results({ state, city, onSelectHood, onRestart, onAsk, shareUrl 
 
       <div className="results__map">
         <Suspense fallback={<div className="map" />}>
-          <MapView city={city} cells={results.cells} hoods={results.hoods} activeHoodId={active.id} onSelectHood={onSelectHood} />
+          <MapView
+            city={city}
+            cells={results.cells}
+            hoods={results.hoods}
+            activeHoodId={active.id}
+            onSelectHood={onSelectHood}
+            places={state.placesByHood[active.id]}
+          />
         </Suspense>
       </div>
     </main>

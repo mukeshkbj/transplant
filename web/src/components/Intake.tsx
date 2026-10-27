@@ -97,6 +97,21 @@ export function Intake({ state, cities, demos, dispatch, onRead, onRun, onDemo }
         )}
       </section>
 
+      <ol className="how reveal" style={stagger(2)} aria-label="How Transplant works">
+        <li>
+          <span className="mono">01 · Tell it what you love</span>
+          <p>Artists, shows, films, brands, the places you seek out. Qloo resolves each one — Aesop the brand, not the author.</p>
+        </li>
+        <li>
+          <span className="mono">02 · See where that taste lives</span>
+          <p>Qloo heatmaps, adjusted for popularity, show where your exact mix over-indexes — not just where everyone goes.</p>
+        </li>
+        <li>
+          <span className="mono">03 · Arrive with a plan</span>
+          <p>Three neighborhoods, taste-matched spots, a first week, and a guide agent that refines with live Qloo calls.</p>
+        </li>
+      </ol>
+
       <section className="ticket reveal" style={stagger(1)}>
         <div className="ticket__section">
           <p className="eyebrow">Destination</p>

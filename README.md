@@ -24,7 +24,7 @@ An LLM on its own recommends the famous tourist neighborhoods. Transplant answer
 
 ### Taste lift
 
-Raw heatmap affinity correlates 0.95–0.98 with popularity, so a naive map sends everyone downtown. Transplant regresses affinity on popularity per city and ranks neighborhoods by the residual — the **taste lift** — aggregated over Qloo cells within 1.5 km of each OpenStreetMap neighborhood, with a shrinkage prior, a minimum of 4 cells, and at least 1 km between ranked neighborhoods. Blends rank by the weaker person's lift. Validation across 12 cities is in [the design doc](docs/plans/2026-10-04-transplant-design.md).
+Raw heatmap affinity correlates 0.95–0.98 with popularity, so a naive map sends everyone downtown. Transplant regresses affinity on popularity per city and ranks neighborhoods by the residual — the **taste lift** — aggregated over Qloo cells within 1.5 km of each OpenStreetMap neighborhood, with a shrinkage prior and a minimum of 4 cells. Ranked neighborhoods are kept 1.5–2.5 km apart (scaled to the city's size), so the top three are genuinely different areas. Blends rank by the weaker person's lift. Validation across 12 cities is in [the design doc](docs/plans/2026-10-04-transplant-design.md).
 
 ## Features
 
@@ -34,6 +34,20 @@ Raw heatmap affinity correlates 0.95–0.98 with popularity, so a naive map send
 - **Blend** — two people, one neighborhood, plus shared tastes.
 - **Guide agent** — a tool-using agent (`find_tags`, `find_places`, `focus_hood`) that refines results through live Qloo calls and shows its trace. It can only use neighborhoods you were shown and tag IDs Qloo returned; if Qloo finds nothing, it says so instead of inventing places.
 - **Demos and share links** — three ready-made tastes (cached, so they work even when quota is low) and links that rerun a result.
+- **Use it from any agent (MCP)** — the same pipeline is an MCP server, so Claude or any MCP client can ask "where in Lisbon would this person feel at home?" (details below).
+- **Honest copy** — each neighborhood names the love that stands out *there*; loves with no Qloo signal in the city are never credited, and invented numbers are rejected and replaced with evidence-only text.
+
+## Use Transplant from any agent (MCP)
+
+Endpoint: `https://transplant-taste.fly.dev/mcp` (stateless Streamable HTTP, no auth).
+
+| Tool | What it does |
+| --- | --- |
+| `list_cities` | The 12 cities covered. |
+| `find_neighborhoods` | `city`, `loves` (free text), optional `partner_loves` and `mode` → top 3 neighborhoods with Qloo evidence, taste-matched spots, a first-week plan, and a link to the interactive map. |
+| `ask_local_guide` | `city`, `neighborhood`, `loves`, `request` ("quieter", "great coffee") → the guide agent's live Qloo refinement with its tool trace. |
+
+Claude Desktop / Claude Code: add a remote MCP server with that URL (Claude Code: `claude mcp add --transport http transplant https://transplant-taste.fly.dev/mcp`). Then ask, for example, *"I'm moving to London and love Radiohead, The Bear and specialty coffee — where should I look?"*
 
 ## Run it locally
 
