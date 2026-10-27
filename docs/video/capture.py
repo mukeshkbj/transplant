@@ -3,7 +3,7 @@
 Records each take with Chrome's screencast (JPEG frames + timestamps) and logs
 every scripted action, so the edit cuts on measured moments, not guesses.
 
-Usage: python docs/video/capture.py <out_dir> [base_url]
+Usage: python docs/video/capture.py <out_dir> [base_url] [take ...]   (takes: intro main blend outro)
 """
 
 import asyncio
@@ -134,12 +134,41 @@ async def ready(page: Page, url: str):
     await asyncio.sleep(1.2)
 
 
+async def slow_scroll(take: Take, dy: float, seconds: float, label: str):
+    steps = max(1, int(seconds * 60))
+    take.mark(f"scroll-start:{label}")
+    for _ in range(steps):
+        await take.page.mouse.wheel(0, dy / steps)
+        await asyncio.sleep(1 / 60)
+    take.mark(f"scroll-end:{label}")
+
+
+async def intro_take(browser):
+    context, page = await new_page(browser)
+    await ready(page, BASE)
+    take = Take(page, "intro")
+    await take.start()
+    await asyncio.sleep(1.0)
+    take.mark("intake-visible")
+    await glide(page, W * 0.3, H * 0.42, steps=60)
+    await asyncio.sleep(3.5)
+    await slow_scroll(take, 520, 2.4, "how")
+    await glide(page, W * 0.5, H * 0.8, steps=60)
+    await asyncio.sleep(6.0)
+    await slow_scroll(take, -520, 2.0, "top")
+    await glide(page, W * 0.62, H * 0.5, steps=50)
+    await asyncio.sleep(3.0)
+    take.mark("intro-end")
+    await take.stop()
+    await context.close()
+
+
 async def main_take(browser):
     context, page = await new_page(browser)
     await ready(page, BASE)
     take = Take(page, "main")
     await take.start()
-    await asyncio.sleep(1.5)
+    await asyncio.sleep(1.2)
     take.mark("intake-visible")
 
     await click(take, page.get_by_role("button", name="New York City"), "nyc")
@@ -153,7 +182,7 @@ async def main_take(browser):
     await page.get_by_text("4/3 stamps").or_(page.get_by_text("3/3 stamps")).first.wait_for(timeout=60000)
     take.mark("stamps-landed")
     await glide(page, W * 0.66, H * 0.62)
-    await asyncio.sleep(3.2)
+    await asyncio.sleep(4.0)
     take.mark("stamps-hold-end")
 
     await click(take, page.get_by_role("button", name="Transplant my taste →"), "transplant")
@@ -161,27 +190,42 @@ async def main_take(browser):
     take.mark("results-visible")
     await map_painted(page)
     take.mark("map-settled")
-    await glide(page, W * 0.3, H * 0.55)
-    await asyncio.sleep(2.0)
+    await glide(page, W * 0.3, H * 0.45, steps=50)
+    await asyncio.sleep(3.0)
+    await glide(page, W * 0.72, H * 0.5, steps=80)
+    await asyncio.sleep(4.0)
+    await glide(page, W * 0.3, H * 0.55, steps=60)
+    await asyncio.sleep(3.0)
     take.mark("visa-hold-end")
 
     await scroll_to(take, page.locator(".hoods"), "features", offset=110)
-    await asyncio.sleep(3.0)
+    await asyncio.sleep(5.5)
+    hoods = page.locator(".hoods > li")
+    if await hoods.count() > 1:
+        await scroll_to(take, hoods.nth(1), "hood2", offset=110)
+        await asyncio.sleep(5.0)
+    if await hoods.count() > 2:
+        await scroll_to(take, hoods.nth(2), "hood3", offset=110)
+        await asyncio.sleep(4.5)
+    take.mark("features-hold-end")
+
     await scroll_to(take, page.get_by_role("heading", name="Your spots in Greenpoint"), "spots", offset=110)
-    await asyncio.sleep(3.0)
+    await asyncio.sleep(4.5)
     await scroll_to(take, page.locator(".plan"), "plan", offset=200)
-    await asyncio.sleep(3.0)
+    await asyncio.sleep(4.5)
     take.mark("plan-hold-end")
 
     await scroll_to(take, page.get_by_role("heading", name="Ask your guide"), "guide", offset=120)
-    await asyncio.sleep(1.0)
+    await asyncio.sleep(1.2)
     await click(take, page.get_by_role("button", name="Quieter"), "quieter")
+    await asyncio.sleep(0.8)
+    take.mark("quieter-sent")
     await page.locator(".guide__trace").first.wait_for(timeout=90000)
     take.mark("guide-replied")
-    await asyncio.sleep(3.5)
+    await asyncio.sleep(5.5)
     take.mark("guide-hold-end")
     await scroll_to(take, page.get_by_role("heading", name="Your spots in Greenpoint"), "filtered-spots", offset=110)
-    await asyncio.sleep(3.0)
+    await asyncio.sleep(4.5)
     take.mark("filtered-hold-end")
     await take.stop()
     await context.close()
@@ -200,26 +244,55 @@ async def blend_take(browser):
     await map_painted(page)
     take.mark("map-settled")
     await glide(page, W * 0.3, H * 0.4)
-    await asyncio.sleep(4.0)
+    await asyncio.sleep(3.0)
     take.mark("visa-hold-end")
     await scroll_to(take, page.get_by_text("What you both love"), "shared", offset=160)
-    await asyncio.sleep(6.0)
-    take.mark("shared-hold-end")
+    await asyncio.sleep(3.5)
+    await scroll_to(take, page.locator(".meter").first, "meters", offset=330)
+    await asyncio.sleep(3.5)
+    take.mark("meters-hold-end")
     await take.stop()
     await context.close()
+
+
+async def outro_take(browser):
+    context, page = await new_page(browser)
+    await ready(page, BASE)
+    take = Take(page, "outro")
+    await take.start()
+    await asyncio.sleep(1.0)
+    take.mark("intake-visible")
+    await click(take, page.get_by_role("button", name="A long weekend in LA"), "demo-la")
+    await page.get_by_label("Your taste visa").wait_for(timeout=90000)
+    take.mark("results-visible")
+    await map_painted(page)
+    take.mark("map-settled")
+    await glide(page, W * 0.72, H * 0.45, steps=80)
+    await asyncio.sleep(5.0)
+    await scroll_to(take, page.locator(".hoods"), "hoods", offset=110)
+    await asyncio.sleep(4.5)
+    await scroll_to(take, page.locator(".places"), "spots", offset=220)
+    await asyncio.sleep(4.5)
+    await page.evaluate("window.scrollTo({top: 0, behavior: 'smooth'})")
+    await asyncio.sleep(1.5)
+    await glide(page, W * 0.3, H * 0.35, steps=50)
+    await asyncio.sleep(4.5)
+    take.mark("outro-end")
+    await take.stop()
+    await context.close()
+
+
+TAKES = {"intro": intro_take, "main": main_take, "blend": blend_take, "outro": outro_take}
 
 
 async def main():
     OUT.mkdir(parents=True, exist_ok=True)
     async with async_playwright() as p:
-        browser = await p.chromium.launch(args=["--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--hide-scrollbars"])
-        takes = sys.argv[3:] or ["main", "blend"]
-        if "main" in takes:
-            print("take: main", flush=True)
-            await main_take(browser)
-        if "blend" in takes:
-            print("take: blend", flush=True)
-            await blend_take(browser)
+        channel = {"channel": "msedge"} if sys.platform == "win32" else {}
+        browser = await p.chromium.launch(**channel, args=["--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--hide-scrollbars"])
+        for name in sys.argv[3:] or list(TAKES):
+            print(f"take: {name}", flush=True)
+            await TAKES[name](browser)
         await browser.close()
 
 

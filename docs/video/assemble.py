@@ -1,7 +1,9 @@
-"""Assemble the Transplant demo film from logged takes, cards, captions and narration (ffmpeg only).
+"""Assemble the Transplant demo film from logged screen takes and ElevenLabs narration (ffmpeg only).
+
+No title cards or captions: every second is the live product, with the voiceover carrying the story.
 
 Usage: python docs/video/assemble.py <work_dir> <out.mp4>
-  work_dir must contain takes/<take>/frames.json + JPEGs, cards/*.png, vo/s*.wav
+  work_dir must contain takes/<take>/frames.json + JPEGs and vo/s*.wav (from tts_elevenlabs.py)
 """
 
 import json
@@ -19,15 +21,14 @@ BUILD.mkdir(parents=True, exist_ok=True)
 
 # Footage segments are (take, start mark, start offset, end mark, end offset); waits are cut out.
 SCENES = [
-    {"id": "s0", "card": "s0"},
-    {"id": "s1", "card": "s1"},
-    {"id": "s2", "caption": "s2", "parts": [("main", "intake-visible", -0.7, "click:transplant", -0.4)]},
-    {"id": "s3", "caption": "s3", "parts": [("main", "click:transplant", -0.4, "results-visible", 0.5), ("main", "map-settled", -0.1, "scroll-start:spots", 0.0)]},
-    {"id": "s4", "caption": "s4", "parts": [("main", "scroll-start:spots", 0.0, "plan-hold-end", 0.0)]},
-    {"id": "s5", "caption": "s5", "parts": [("main", "plan-hold-end", 0.0, "filtered-hold-end", 0.0)]},
-    {"id": "s6", "caption": "s6", "parts": [("blend", "intake-visible", -0.6, "click:demo-blend", 0.9), ("blend", "map-settled", -0.1, "shared-hold-end", 0.0)]},
-    {"id": "s7", "card": "s7"},
-    {"id": "s8", "card": "s8"},
+    {"id": "s0", "fit": 1.6, "parts": [("intro", "intake-visible", -0.5, "intro-end", 0.0)]},
+    {"id": "s1", "parts": [("main", "intake-visible", -0.5, "stamps-hold-end", 0.0)]},
+    {"id": "s2", "parts": [("main", "click:transplant", -0.4, "results-visible", 0.4), ("main", "map-settled", -0.1, "visa-hold-end", 0.0)]},
+    {"id": "s3", "parts": [("main", "visa-hold-end", 0.0, "features-hold-end", 0.0)]},
+    {"id": "s4", "parts": [("main", "features-hold-end", 0.0, "plan-hold-end", 0.0)]},
+    {"id": "s5", "parts": [("main", "plan-hold-end", 0.0, "quieter-sent", 0.0), ("main", "guide-replied", -0.3, "filtered-hold-end", 0.0)]},
+    {"id": "s6", "parts": [("blend", "intake-visible", -0.6, "click:demo-blend", 0.9), ("blend", "map-settled", -0.1, "meters-hold-end", 0.0)]},
+    {"id": "s7", "fit": 1.8, "parts": [("outro", "intake-visible", -0.5, "click:demo-la", 0.9), ("outro", "map-settled", -0.1, "outro-end", 0.0)]},
 ]
 
 
@@ -61,14 +62,8 @@ def conform(take: str) -> tuple[Path, dict[str, float]]:
     return out, {label: stamp - t0 for label, stamp in data["marks"]}
 
 
-def scene_clip(scene: dict, vo_len: float) -> tuple[Path, float]:
+def scene_clip(scene: dict, vo_len: float, first: bool, last: bool) -> tuple[Path, float]:
     out = BUILD / f"{scene['id']}.mp4"
-    if "card" in scene:
-        length = vo_len + VO_LEAD + TAIL + 0.4
-        fade = f"fade=t=in:st=0:d=0.5,fade=t=out:st={length - 0.5:.2f}:d=0.5"
-        run(["-loop", "1", "-t", f"{length:.2f}", "-i", str(WORK / "cards" / f"{scene['card']}.png"), "-vf", f"scale=1920:1080,format=yuv420p,{fade}", "-r", str(FPS), "-c:v", "libx264", "-crf", "16", str(out)])
-        return out, length
-
     inputs, chains, labels, footage = [], [], [], 0.0
     for i, (take, m0, o0, m1, o1) in enumerate(scene["parts"]):
         video, marks = conform(take)
@@ -78,22 +73,26 @@ def scene_clip(scene: dict, vo_len: float) -> tuple[Path, float]:
         chains.append(f"[{i}:v]trim=start={start:.3f}:end={end:.3f},setpts=PTS-STARTPTS[p{i}]")
         labels.append(f"[p{i}]")
     length = max(footage, vo_len + VO_LEAD + TAIL)
-    hold = length - footage
-    cap = len(scene["parts"])
-    inputs += ["-loop", "1", "-t", f"{length:.2f}", "-i", str(WORK / "cards" / f"cap_{scene['caption']}.png")]
+    if "fit" in scene:  # end the scene shortly after its narration instead of playing out the take
+        length = min(length, vo_len + VO_LEAD + TAIL + scene["fit"])
+    hold = max(0.0, length - footage)
+    fades = []
+    if first:
+        fades.append("fade=t=in:st=0:d=0.6")
+    if last:
+        fades.append(f"fade=t=out:st={length - 1.2:.2f}:d=1.2")
     graph = ";".join(chains)
-    graph += f";{''.join(labels)}concat=n={len(labels)}:v=1:a=0,tpad=stop_mode=clone:stop_duration={hold + 0.05:.3f},trim=duration={length:.3f}[base]"
-    graph += f";[{cap}:v]format=rgba,fade=t=in:st=0.6:d=0.4:alpha=1,fade=t=out:st={length - 0.5:.2f}:d=0.4:alpha=1[cap]"
-    graph += ";[base][cap]overlay=0:0:shortest=1,format=yuv420p[v]"
+    graph += f";{''.join(labels)}concat=n={len(labels)}:v=1:a=0,tpad=stop_mode=clone:stop_duration={hold + 0.05:.3f},trim=duration={length:.3f}"
+    graph += "".join(f",{f}" for f in fades) + ",format=yuv420p[v]"
     run([*inputs, "-filter_complex", graph, "-map", "[v]", "-r", str(FPS), "-c:v", "libx264", "-crf", "16", str(out)])
     return out, length
 
 
 def main():
     clips, starts, t = [], [], 0.0
-    for scene in SCENES:
+    for n, scene in enumerate(SCENES):
         vo = WORK / "vo" / f"{scene['id']}.wav"
-        clip, length = scene_clip(scene, duration(vo))
+        clip, length = scene_clip(scene, duration(vo), n == 0, n == len(SCENES) - 1)
         clips.append(clip)
         starts.append((scene["id"], t, length))
         print(f"{scene['id']}: {t:6.2f}s +{length:5.2f}s")
@@ -118,7 +117,7 @@ def main():
     notes = [110.0, 164.81, 220.0, 277.18, 329.63, 440.0]
     voices = "+".join(f"0.16*sin(2*PI*{f}*t)*(0.6+0.4*sin(2*PI*{0.05 + i * 0.013:.3f}*t+{i}))" for i, f in enumerate(notes))
     run(["-f", "lavfi", "-i", f"aevalsrc='{voices}|{voices.replace('sin(2*PI*', 'sin(2*PI*1.003*')}':s=48000:d={total:.2f}",
-         "-af", f"lowpass=f=1400,aecho=0.8:0.7:120|260:0.35|0.25,afade=t=in:d=2.5,afade=t=out:st={total - 3:.2f}:d=3,volume=0.35", str(pad)])
+         "-af", f"lowpass=f=1400,aecho=0.8:0.7:120|260:0.35|0.25,afade=t=in:d=2.5,afade=t=out:st={total - 3:.2f}:d=3,volume=0.22", str(pad)])
 
     mix = BUILD / "mix.m4a"
     run(["-i", str(voice), "-i", str(pad), "-filter_complex",
