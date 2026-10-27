@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { type City, CITIES, cityLocation } from "./cities.ts";
 import { type LiftCell, tasteLift } from "./geo/heatmap.ts";
-import { blendHoods, type Hood, type HoodScore, scoreHoods } from "./geo/hoods.ts";
+import { blendHoods, type Hood, type HoodScore, scoreHoods, separationKm, spreadOut } from "./geo/hoods.ts";
 import type { Llm } from "./llm/llm.ts";
 import { curatePlaces } from "./places.ts";
 import { compareTastes, heatmap, type Place, placesNear, type SharedTag, type Signals } from "./qloo/api.ts";
@@ -19,6 +19,11 @@ export const TransplantInputSchema = z.object({
           names: z.array(z.string().max(120)).max(15),
           entities: z.array(z.string().max(80)).max(10),
           tags: z.array(z.string().max(120)).max(5),
+          /** Each love with its Qloo type, so copy can credit only the tastes that scored in a neighborhood. */
+          loves: z
+            .array(z.object({ name: z.string().max(120), type: z.string().max(80) }))
+            .max(15)
+            .optional(),
         })
         .refine((p) => p.entities.length + p.tags.length >= 3, "Pick at least 3 things you love"),
     )
@@ -135,7 +140,9 @@ export async function runTransplant(input: TransplantInput, deps: TransplantDeps
     for (const person of input.people) out.push(tasteLift(await heatmap(deps.qloo, person, cityLocation(city))));
     return out;
   });
-  const ranked = rankHoods(lifted.map((cells) => scoreHoods(cells, hoods))).slice(0, TOP_HOODS);
+  // Separation is applied after blending, so both people compete over the same candidate set.
+  const scored = lifted.map((cells) => scoreHoods(cells, hoods, { minSeparationKm: 0 }));
+  const ranked = spreadOut(rankHoods(scored), separationKm(city.bbox)).slice(0, TOP_HOODS);
   const top = ranked[0];
   if (!top) return emit({ type: "error", code: "NO_SIGNAL", message: `Not enough Qloo taste signal in ${city.name} for these picks. Try adding more.` });
   emit({ type: "hoods", hoods: ranked, cells: mapCells(lifted), signal: strength(top) });
@@ -157,7 +164,7 @@ export async function runTransplant(input: TransplantInput, deps: TransplantDeps
       llm: deps.llm,
       city: city.name,
       mode: input.mode,
-      people: input.people.map(({ label, names }) => ({ label, names })),
+      people: input.people.map(({ label, names, loves }) => ({ label, names, loves })),
       hoods: ranked,
       places,
       shared,

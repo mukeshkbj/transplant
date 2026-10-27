@@ -41,7 +41,19 @@ describe("reducer", () => {
     expect(toInput(s)).toEqual({
       cityId: "nyc",
       mode: "moving",
-      people: [{ label: "You", names: ["Khruangbin", "Natural Wine", "Aesop"], entities: ["Khruangbin", "Aesop"], tags: ["urn:tag:nw"] }],
+      people: [
+        {
+          label: "You",
+          names: ["Khruangbin", "Natural Wine", "Aesop"],
+          entities: ["Khruangbin", "Aesop"],
+          tags: ["urn:tag:nw"],
+          loves: [
+            { name: "Khruangbin", type: "artist" },
+            { name: "Natural Wine", type: "tag" },
+            { name: "Aesop", type: "artist" },
+          ],
+        },
+      ],
     });
     expect(readyToRun(s)).toBe(true);
     expect(readyToRun(reducer(s, { type: "blend", on: true }))).toBe(false);

@@ -43,6 +43,15 @@ async function resolveItem(qloo: QlooClient, item: Item): Promise<Chip> {
       ? (await searchTags(qloo, item.query)).map((t) => ({ ...t, kind: "concept" as const }))
       : (await searchEntities(qloo, item.query, item.type)).map(({ popularity: _p, ...c }) => ({ ...c, kind: "entity" as const }));
   const base = { query: item.query, kind: item.kind, options };
+  if (options.length === 0 && item.kind === "entity") {
+    // The guessed type found nothing (e.g. "Monocle" isn't a Qloo brand): widen to every type, then to tags,
+    // and let the person choose rather than guessing across types.
+    const wider = (await searchEntities(qloo, item.query, undefined, 4)).map(({ popularity: _p, ...c }) => ({ ...c, kind: "entity" as const }));
+    if (wider.length > 1) return { ...base, options: wider, status: "ambiguous" };
+    if (wider.length === 1) return { ...base, options: wider, status: "resolved", selected: wider[0] };
+    const tags = (await searchTags(qloo, item.query)).map((t) => ({ ...t, kind: "concept" as const }));
+    if (tags.length > 0) return { query: item.query, kind: "concept", options: tags, status: "ambiguous" };
+  }
   if (options.length === 0) return { ...base, status: "missing" };
   const exact = options.find((o) => norm(o.name) === norm(item.query));
   const selected = exact ?? (item.kind === "concept" || options.length === 1 ? options[0] : undefined);

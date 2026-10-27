@@ -3,7 +3,15 @@ import { fakeLlm, fakeQloo, fixture } from "../test/fakes.ts";
 import { resolveTaste } from "./resolve.ts";
 
 const qloo = fakeQloo((path, params) => {
-  if (path === "/v2/tags") return fixture("tags-natural-wine-bars.json");
+  if (path === "/v2/tags") return params["filter.query"] === "Zzyzx" ? { results: { tags: [] } } : fixture("tags-natural-wine-bars.json");
+  if (params.query === "Monocle" && params.types) return { results: [] };
+  if (params.query === "Monocle")
+    return {
+      results: [
+        { entity_id: "m1", name: "Monocle", types: ["urn:entity:place"] },
+        { entity_id: "m2", name: "Monocle", types: ["urn:entity:author"] },
+      ],
+    };
   if (params.query === "Aesop") return fixture("search-aesop-brand.json");
   if (params.query === "Lost")
     return {
@@ -39,6 +47,15 @@ describe("resolveTaste", () => {
     expect(chips[1]!.selected!.id).toMatch(/^urn:tag:/);
     expect(chips[2]!.options).toHaveLength(2);
     expect(chips[2]!.selected).toBeUndefined();
+  });
+
+  it("widens to every Qloo type when the guessed type finds nothing, and asks instead of guessing", async () => {
+    const monocle = fakeLlm(() => ({ items: [{ query: "Monocle", kind: "entity", type: "brand" }] }));
+
+    const [chip] = await resolveTaste("Monocle", { qloo: qloo.client, llm: monocle.llm });
+
+    expect(chip).toMatchObject({ query: "Monocle", status: "ambiguous" });
+    expect(chip!.options.map((o) => o.type)).toEqual(["place", "author"]);
   });
 
   it("sends the user's text only to the LLM, and only extracted names to Qloo", async () => {

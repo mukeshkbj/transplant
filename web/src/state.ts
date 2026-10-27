@@ -232,6 +232,7 @@ export function toInput(s: State): TransplantInput {
         .filter((o) => o.kind === "concept")
         .map((o) => o.id)
         .slice(0, 5),
+      loves: picks.map((o) => ({ name: o.name, type: o.kind === "concept" ? "tag" : o.type })).slice(0, 15),
     };
   });
   return { cityId: s.cityId, mode: s.mode, people };

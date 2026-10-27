@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { type AgentTool, runAgent, type TraceStep } from "./agent.ts";
 import { type City, CITIES } from "./cities.ts";
-import type { Hood } from "./geo/hoods.ts";
+import { type Hood, haversineKm } from "./geo/hoods.ts";
 import type { ToolProvider } from "./llm/tools.ts";
 import { curatePlaces, placeLabel } from "./places.ts";
 import { type Place, placesNear, searchTags } from "./qloo/api.ts";
@@ -43,7 +43,8 @@ Help them refine, e.g. "quieter", "more nightlife", "great coffee", "good for ki
 - To filter by a quality: call find_tags with a short phrase, choose the best-fitting tag ids from its results (ONLY ids it returned), then call find_places for the relevant hood.
 - Qloo tag coverage is uneven. If find_places returns no places, call find_tags again with a more concrete venue word (e.g. "night club", "cocktail bar", "live music venue") and retry once before answering.
 - Only use hoodIds from the JSON. Call focus_hood when they want to switch neighborhood.
-- Reply in at most 60 words of plain text, naming 2-3 places that find_places returned. Never invent places or facts. If nothing fits, say so and suggest another phrasing.`;
+- Reply in at most 60 words of plain text, naming 2-3 places that find_places returned. Never invent places or facts. If nothing fits, say so and suggest another phrasing.
+- find_places searches around a neighborhood's center, so places can sit in a neighboring area. Locate each place by its own "neighborhood" field, e.g. "Marina Cafe in Willesden Green, just next to Dudden Hill" — never say a place is in the searched neighborhood unless its neighborhood field says so.`;
 
 const stringArray = (value: unknown) => (Array.isArray(value) ? value.filter((v): v is string => typeof v === "string") : []);
 
@@ -130,7 +131,19 @@ export async function refine(input: RefineInput, deps: RefineDeps): Promise<Refi
         }
         placesFound += places.length;
         actions.set(`places:${hood.id}`, { type: "places", hoodId: hood.id, filters, places });
-        return { result: { places: places.map((p) => ({ placeId: p.id, name: p.name, label: placeLabel(p) })) }, summary };
+        return {
+          result: {
+            searchedAround: hood.name,
+            places: places.map((p) => ({
+              placeId: p.id,
+              name: p.name,
+              label: placeLabel(p),
+              neighborhood: p.neighborhood ?? hood.name,
+              kmFromCenter: Number(haversineKm(hood, p).toFixed(1)),
+            })),
+          },
+          summary,
+        };
       },
     },
     {

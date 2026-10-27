@@ -26,6 +26,7 @@ export const demoInput = (demo: Demo): TransplantInput => ({
     names: picks.map((o) => o.name),
     entities: picks.filter((o) => o.kind === "entity").map((o) => o.id),
     tags: picks.filter((o) => o.kind === "concept").map((o) => o.id),
+    loves: picks.map((o) => ({ name: o.name, type: o.kind === "concept" ? "tag" : o.type })),
   })),
 });
 

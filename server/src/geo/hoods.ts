@@ -68,6 +68,22 @@ export function scoreHoods(
   return kept;
 }
 
+/** Keeps the best-ranked entry of any group closer than `minKm`, so a ranking lists genuinely different areas. */
+export function spreadOut<T extends { name: string; lat: number; lng: number }>(ranked: T[], minKm: number): T[] {
+  const kept: T[] = [];
+  for (const r of ranked) {
+    if (kept.some((k) => k.name === r.name || haversineKm(k, r) < minKm)) continue;
+    kept.push(r);
+  }
+  return kept;
+}
+
+/** Separation between ranked neighborhoods: ~5% of the city's diagonal, clamped to 1.5–2.5 km. */
+export function separationKm([south, west, north, east]: [number, number, number, number]): number {
+  const diagonal = haversineKm({ lat: south, lng: west }, { lat: north, lng: east });
+  return Math.min(2.5, Math.max(1.5, diagonal * 0.05));
+}
+
 export function blendHoods(a: HoodScore[], b: HoodScore[]): BlendScore[] {
   const byId = new Map(b.map((s) => [s.hood.id, s]));
   return a
