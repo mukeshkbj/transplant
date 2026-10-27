@@ -6,6 +6,8 @@ Tell Transplant a few things you love — artists, shows, films, brands, the kin
 
 Built for the [Qloo Agentic Hackathon](https://qloo.devpost.com/).
 
+![Transplant results: Greenpoint, with per-taste Qloo evidence and spots numbered on the taste heatmap](docs/screenshots/2-results.png)
+
 - **Live demo:** https://transplant-taste.fly.dev — try a ready-made taste, or https://transplant-taste.fly.dev/?demo=nyc-blend
 - **Architecture:** [docs/architecture/transplant-architecture.html](docs/architecture/transplant-architecture.html)
 - **Why Qloo, not another API:** [docs/architecture/qloo-vs-alternatives.html](docs/architecture/qloo-vs-alternatives.html)
