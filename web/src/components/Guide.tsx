@@ -19,7 +19,7 @@ export function Guide({ hoodName, guide, onAsk }: Props) {
   return (
     <section className="guide" aria-label="Your local guide">
       <h2 className="section-title">Ask your guide</h2>
-      <p className="provenance mono">An AI agent that refines {hoodName} using live Qloo tags and places.</p>
+      <p className="provenance mono">Ask about {hoodName} in your own words. It searches Qloo live and shows you what it looked up.</p>
       <div className="guide__quick">
         {QUICK.map((q) => (
           <button key={q} type="button" className="stamp__option" disabled={guide.busy} onClick={() => ask(q)}>

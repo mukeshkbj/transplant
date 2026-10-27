@@ -51,7 +51,7 @@ describe("writeStory guards", () => {
     const whys = story.hoods.map((h) => h.why);
     expect(new Set(whys).size).toBe(3);
     expect(whys.some((w) => w.includes("The Bear"))).toBe(false);
-    expect(whys[1]).toMatch(/Aesop.*9 Qloo heatmap cells/);
+    expect(whys[1]).toMatch(/Aesop.*9 Qloo map cells/);
   });
 });
 

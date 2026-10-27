@@ -77,7 +77,7 @@ export function Intake({ state, cities, demos, dispatch, onRead, onRun, onDemo }
         <p className="eyebrow">Vol. 1 · {cities.length || 12} cities · powered by Qloo's taste graph</p>
         <h2 className="cover__headline">Find the neighborhood that already loves what you love.</h2>
         <p className="cover__dek">
-          Tell us your artists, shows, brands and haunts. We map where people with your exact taste cluster in a new city — then hand you the
+          Tell us your artists, shows, brands and haunts. We find where people who share your taste actually live in a new city, then hand you the
           spots and your first week.
         </p>
         {demos.length > 0 && (
@@ -99,16 +99,16 @@ export function Intake({ state, cities, demos, dispatch, onRead, onRun, onDemo }
 
       <ol className="how reveal" style={stagger(2)} aria-label="How Transplant works">
         <li>
-          <span className="mono">01 · Tell it what you love</span>
-          <p>Artists, shows, films, brands, the places you seek out. Qloo resolves each one — Aesop the brand, not the author.</p>
+          <span className="mono">01 · Tell us what you love</span>
+          <p>A few artists, shows, brands or kinds of places. We check each one, so Aesop means the skincare brand, not the storyteller.</p>
         </li>
         <li>
           <span className="mono">02 · See where that taste lives</span>
-          <p>Qloo heatmaps, adjusted for popularity, show where your exact mix over-indexes — not just where everyone goes.</p>
+          <p>Qloo maps where people with your mix of tastes live. We take out plain popularity, so you don’t just get sent downtown.</p>
         </li>
         <li>
           <span className="mono">03 · Arrive with a plan</span>
-          <p>Three neighborhoods, taste-matched spots, a first week, and a guide agent that refines with live Qloo calls.</p>
+          <p>Three neighborhoods, spots you’ll probably like, a first week, and a local guide you can ask for “quieter” or “more nightlife”.</p>
         </li>
       </ol>
 

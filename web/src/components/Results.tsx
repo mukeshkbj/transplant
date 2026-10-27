@@ -78,7 +78,7 @@ function Places({ places, hoodName, filters }: { places: Place[] | undefined; ho
   return (
     <section className="reveal" style={stagger(3)}>
       <h2 className="section-title">Your spots in {hoodName}</h2>
-      <p className="section-dek">Places Qloo matches to your taste within about a kilometre — numbered on the map.</p>
+      <p className="section-dek">Places within about a kilometre that people with your taste go to. The numbers match the map.</p>
       {filters && filters.length > 0 && <p className="filters mono">Filtered by Qloo tags: {filters.join(", ")}</p>}
       {!places && <p className="mono">Finding spots in {hoodName}…</p>}
       {places?.length === 0 && <p>No curated spots here yet.</p>}
@@ -199,7 +199,7 @@ export function Results({ state, city, onSelectHood, onRestart, onAsk, shareUrl 
                 ) : null;
               })}
             </ol>
-            <p className="provenance mono">{storySource === "llm" ? "Written by AI from Qloo evidence" : "Summarized from Qloo evidence"}</p>
+            <p className="provenance mono">{storySource === "llm" ? "Written with AI, using only places Qloo returned" : "Put together from Qloo data"}</p>
           </section>
         )}
 

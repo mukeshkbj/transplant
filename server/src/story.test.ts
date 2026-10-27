@@ -55,7 +55,7 @@ describe("writeStory", () => {
 
     const { story } = await writeStory({ ...base, llm });
 
-    expect(requests[0]!.system).toMatch(/name the place/i);
+    expect(requests[0]!.system).toMatch(/names the place/i);
     expect(JSON.parse(requests[0]!.prompt).places[0]).toMatchObject({ placeId: "p1", label: "Comic book store" });
     expect(story.plan[0]!.note).toBe("Comic book store");
   });

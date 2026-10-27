@@ -38,7 +38,7 @@ describe("Results", () => {
     expect(screen.getByText("Your crate-digging corner")).toBeTruthy();
     expect(screen.getByText("Comic book store")).toBeTruthy();
     expect(screen.getByText("Zines at Desert Island")).toBeTruthy();
-    expect(screen.getByText(/written by ai from qloo evidence/i)).toBeTruthy();
+    expect(screen.getByText(/written with ai, using only places qloo returned/i)).toBeTruthy();
     expect(screen.getByText(/signal strong/i)).toBeTruthy();
   });
 

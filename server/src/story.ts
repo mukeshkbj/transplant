@@ -53,12 +53,14 @@ const TYPE_LABELS: Record<string, string> = {
   tag: "style",
 };
 
-const SYSTEM = `You write short, warm, specific copy for Transplant, an app that finds the neighborhood where a person's taste lives.
-Use ONLY the evidence JSON in the user message. Rules:
-- hoods: one entry per evidence hood, same hoodId. headline <= 8 words: a concrete hook about the place and the person's taste, not a slogan (never "awaits", "discover", "home sweet home"). why <= 40 words: phrase it as "people who love X over-index here", where X is the hood's leadLoves (exact names, nothing else from people[].names). Each why must read differently: use the hood's standout fact (e.g. "the strongest match in the city"). If you cite evidence, write exactly "across N Qloo heatmap cells" with N = evidenceCells; never call them spots, places or signals, and use no other numbers. Never write category words in place of names; never claim a person will like it; never add facts not in evidence.
-- If a hood has no leadLoves, describe its strongestTastes in plain words instead of naming loves.
-- plan: 5 entries using only placeIds from evidence. note <= 16 words: name the place and what it is (use its label), and tie it to their taste, e.g. "Coffee at Land to Sea, a cafe-wine bar your natural-wine side will like". mode "moving": a first week ("Day 1".."Day 5") mixing a coffee spot, an evening out, and a weekend browse. mode "visiting": "Morning"/"Afternoon"/"Evening" stops.
-- If two people are present, leadLoves holds one love from each person; each why names both (e.g. "people who love Fleabag and people who love Metallica both over-index here"), and mention what both share when sharedTastes exist.`;
+const SYSTEM = `You write the copy for Transplant, an app that finds the neighborhood where someone's taste already lives. Write like a well-travelled friend leaving a short note: plain, warm, specific, with contractions (it's, you'll). No marketing words, no exclamation marks, no em dashes. Vary sentence shapes so the three neighborhoods don't read like a template.
+Use ONLY the evidence JSON in the user message.
+- hoods: one entry per evidence hood, same hoodId.
+  headline: at most 8 words, a concrete hook a friend might say ("Record shops, late coffee, quiet streets"). Never use "awaits", "discover", "vibe", "matches your", "fits your", "aligns with", "perfect", "suits".
+  why: 1-2 short sentences, at most 35 words. Name the hood's leadLoves exactly as written (no other names from people[].names) and say people who love them are unusually common here, in your own natural words. Work in the hood's standout fact so each of the three reads differently. If you mention evidence, say "N Qloo map cells" with N = evidenceCells, and use no other numbers. Never write category words in place of names, never promise the person will like it, never add facts that aren't in the evidence.
+- If a hood has no leadLoves, describe its strongestTastes in plain words instead.
+- plan: 5 entries using only placeIds from evidence. note: at most 16 words, says what to do there in a way that fits what the place actually is (coffee at a cafe, dinner at a restaurant, browsing at a shop), names the place, and ties it lightly to their taste. mode "moving": a first week ("Day 1".."Day 5") mixing a coffee spot, an evening out and a weekend browse. mode "visiting": "Morning"/"Afternoon"/"Evening" stops.
+- If two people are present, leadLoves holds one love from each person; each why names both, and mentions what they share when sharedTastes exist.`;
 
 const strongest = (byType: Record<string, number>) =>
   Object.entries(byType)
@@ -104,9 +106,9 @@ export function silentLoves(hoods: RankedHood[], people: StoryPerson[]): string[
 const joinNames = (names: string[]) => (names.length <= 1 ? (names[0] ?? "") : `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`);
 
 function templateWhy(h: RankedHood, leads: string[], note = ""): string {
-  const tail = `${note ? ` — ${note}` : ""}, across ${h.cellCount} Qloo heatmap cells.`;
-  if (leads.length > 0) return `People who love ${joinNames(leads)} over-index here${tail}`;
-  return `Your ${topTypes(h.byType[0] ?? {}) || "overall"} taste over-indexes here${tail}`;
+  const who = leads.length > 0 ? `People who love ${joinNames(leads)}` : `People with your ${topTypes(h.byType[0] ?? {}) || "overall"} taste`;
+  const lead = note ? `${note.charAt(0).toUpperCase()}${note.slice(1)}. ` : "";
+  return `${lead}${who} are unusually common here, across ${h.cellCount} Qloo map cells.`;
 }
 
 function leadsFor(hoods: RankedHood[], people: StoryPerson[]): string[][] {
@@ -124,15 +126,20 @@ export function templateStory(hoods: RankedHood[], places: Place[], mode: StoryI
   };
 }
 
+/** House style: no em dashes or exclamation marks, which read as machine-written. */
+const plain = (text: string) => text.trim().replace(/\s*[—–]\s*/g, ", ").replace(/!/g, ".").replace(/\s{2,}/g, " ");
+
+const sentence = (text: string) => (/[.?]$/.test(text) ? text : `${text}.`);
+
 const mentions = (text: string, name: string) => text.toLowerCase().includes(name.toLowerCase());
 
 /** One true, hood-specific fact so the three lines differ even when one love drives all of them. */
 function standout(hoods: RankedHood[], i: number): string {
   const h = hoods[i]!;
   const top = hoods[0]!;
-  if (i === 0) return "the strongest taste match in the city";
-  const denser = h.cellCount > top.cellCount ? ", backed by more evidence than the top pick" : "";
-  return `${i === 1 ? "the runner-up" : "a third option"}, in a different part of the city${denser}`;
+  if (i === 0) return "your strongest match in the city";
+  const denser = h.cellCount > top.cellCount ? ", with even more evidence behind it" : "";
+  return `${i === 1 ? "a close second in another part of town" : "worth a look if you want somewhere different"}${denser}`;
 }
 
 /** Numbers in copy must be the hood's real evidence count (or its rank); anything else is an invented figure. */
@@ -180,10 +187,11 @@ export async function writeStory({ llm, city, mode, people, hoods, places, share
           inventsNumbers(h.why, hoods[i]!, i + 1, people.flatMap((p) => p.names)) ||
           seen.has(key);
         seen.add(key);
-        const why = bad ? templateWhy(hoods[i]!, lead, standout(hoods, i)) : h.why.trim();
-        return { ...h, why: why.charAt(0).toUpperCase() + why.slice(1) };
+        const why = bad ? templateWhy(hoods[i]!, lead, standout(hoods, i)) : plain(h.why);
+        return { ...h, headline: plain(h.headline).replace(/[.!]$/, ""), why: sentence(why.charAt(0).toUpperCase() + why.slice(1)) };
       });
-    const story = { hoods: checked, plan: raw.plan.filter((p) => placeIds.has(p.placeId)).slice(0, 6) };
+    const plan = raw.plan.filter((p) => placeIds.has(p.placeId)).slice(0, 6).map((p) => ({ ...p, note: sentence(plain(p.note)) }));
+    const story = { hoods: checked, plan };
     if (story.hoods.length > 0) return { story, source: "llm" };
   } catch {
     // LLM unavailable; template below is built from evidence only.

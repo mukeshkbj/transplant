@@ -115,7 +115,7 @@ export function App() {
         <span className="masthead__issue mono">A field guide to where your taste lives</span>
       </header>
 
-      {lowQuota && <p className="banner">Live Qloo lookups are running low — the ready-made tastes always work.</p>}
+      {lowQuota && <p className="banner">Live lookups are running low right now. The ready-made tastes still work.</p>}
       {state.error && (
         <p role="alert" className="banner">
           {state.error.message}

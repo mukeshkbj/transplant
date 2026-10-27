@@ -119,7 +119,7 @@ describe("App", () => {
     render(<App />);
 
     expect(await screen.findByLabelText(/taste visa/i)).toBeTruthy();
-    expect(screen.getByText(/live qloo lookups are running low/i)).toBeTruthy();
+    expect(screen.getByText(/live lookups are running low/i)).toBeTruthy();
     window.history.replaceState(null, "", "/");
   });
 });
